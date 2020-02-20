@@ -1,0 +1,241 @@
+<Type Name="Syscall" FullName="Microsoft.Windows.EventTracing.Syscalls.Syscall">
+  <TypeSignature Language="C#" Value="public struct Syscall" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Syscall extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.Syscall" />
+  <TypeSignature Language="VB.NET" Value="Public Structure Syscall" />
+  <TypeSignature Language="F#" Value="type Syscall = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a system call.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Syscalls.Syscall Create (Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent enter, Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent exit, Nullable&lt;int&gt; threadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Syscalls.Syscall Create(valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent enter, valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent exit, valuetype System.Nullable`1&lt;int32&gt; threadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.Syscall.Create(Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent,Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (enter As SyscallEnterEvent, exit As SyscallExitEvent, threadId As Nullable(Of Integer)) As Syscall" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent * Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent * Nullable&lt;int&gt; -&gt; Microsoft.Windows.EventTracing.Syscalls.Syscall" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.Create (enter, exit, threadId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Syscalls.Syscall</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="enter" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent" />
+        <Parameter Name="exit" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent" />
+        <Parameter Name="threadId" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="enter">To be added.</param>
+        <param name="exit">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEnterOnly">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Syscalls.Syscall CreateEnterOnly (Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent enter, Nullable&lt;int&gt; threadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Syscalls.Syscall CreateEnterOnly(valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent enter, valuetype System.Nullable`1&lt;int32&gt; threadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.Syscall.CreateEnterOnly(Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateEnterOnly (enter As SyscallEnterEvent, threadId As Nullable(Of Integer)) As Syscall" />
+      <MemberSignature Language="F#" Value="static member CreateEnterOnly : Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent * Nullable&lt;int&gt; -&gt; Microsoft.Windows.EventTracing.Syscalls.Syscall" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.CreateEnterOnly (enter, threadId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Syscalls.Syscall</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="enter" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent" />
+        <Parameter Name="threadId" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="enter">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateExitOnly">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Syscalls.Syscall CreateExitOnly (Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent exit, Nullable&lt;int&gt; threadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Syscalls.Syscall CreateExitOnly(valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent exit, valuetype System.Nullable`1&lt;int32&gt; threadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.Syscall.CreateExitOnly(Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateExitOnly (exit As SyscallExitEvent, threadId As Nullable(Of Integer)) As Syscall" />
+      <MemberSignature Language="F#" Value="static member CreateExitOnly : Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent * Nullable&lt;int&gt; -&gt; Microsoft.Windows.EventTracing.Syscalls.Syscall" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.CreateExitOnly (exit, threadId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Syscalls.Syscall</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="exit" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallExitEvent" />
+        <Parameter Name="threadId" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="exit">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterProcessor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; EnterProcessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; EnterProcessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.EnterProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnterProcessor As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.EnterProcessor : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.EnterProcessor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the system call was made, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; EnterTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; EnterTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.EnterTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnterTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.EnterTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.EnterTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the syscall enter event was logged in the trace, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitProcessor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ExitProcessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ExitProcessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.ExitProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitProcessor As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ExitProcessor : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.ExitProcessor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the system call returned, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; ExitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; ExitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.ExitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.ExitTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.ExitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the syscall exit event was logged in the trace, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionAddress">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Address&gt; FunctionAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; FunctionAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.FunctionAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FunctionAddress As Nullable(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.FunctionAddress : Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.FunctionAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the system call being invoked, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnValue">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ReturnValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ReturnValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.ReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReturnValue As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ReturnValue : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.ReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the value returned by the system call function, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.Syscall.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Syscalls.Syscall.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread executing when the system call was made.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

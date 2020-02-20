@@ -1,0 +1,153 @@
+<Type Name="MemoryUsageType" FullName="Microsoft.Windows.EventTracing.Memory.MemoryUsageType">
+  <TypeSignature Language="C#" Value="public enum MemoryUsageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MemoryUsageType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.MemoryUsageType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MemoryUsageType" />
+  <TypeSignature Language="F#" Value="type MemoryUsageType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Heap">
+      <MemberSignature Language="C#" Value="Heap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType Heap = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Heap" />
+      <MemberSignature Language="VB.NET" Value="Heap" />
+      <MemberSignature Language="F#" Value="Heap = 3" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Heap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="Image" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType Image = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Image" />
+      <MemberSignature Language="VB.NET" Value="Image" />
+      <MemberSignature Language="F#" Value="Image = 1" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Image" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MappedFile">
+      <MemberSignature Language="C#" Value="MappedFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType MappedFile = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.MappedFile" />
+      <MemberSignature Language="VB.NET" Value="MappedFile" />
+      <MemberSignature Language="F#" Value="MappedFile = 4" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.MappedFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFileMappedSection">
+      <MemberSignature Language="C#" Value="PageFileMappedSection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType PageFileMappedSection = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.PageFileMappedSection" />
+      <MemberSignature Language="VB.NET" Value="PageFileMappedSection" />
+      <MemberSignature Language="F#" Value="PageFileMappedSection = 5" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.PageFileMappedSection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stack">
+      <MemberSignature Language="C#" Value="Stack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType Stack = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Stack" />
+      <MemberSignature Language="VB.NET" Value="Stack" />
+      <MemberSignature Language="F#" Value="Stack = 0" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.Stack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadEnvironmentBlock">
+      <MemberSignature Language="C#" Value="ThreadEnvironmentBlock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType ThreadEnvironmentBlock = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.ThreadEnvironmentBlock" />
+      <MemberSignature Language="VB.NET" Value="ThreadEnvironmentBlock" />
+      <MemberSignature Language="F#" Value="ThreadEnvironmentBlock = 6" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.ThreadEnvironmentBlock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMemory">
+      <MemberSignature Language="C#" Value="VirtualMemory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.MemoryUsageType VirtualMemory = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.MemoryUsageType.VirtualMemory" />
+      <MemberSignature Language="VB.NET" Value="VirtualMemory" />
+      <MemberSignature Language="F#" Value="VirtualMemory = 2" Usage="Microsoft.Windows.EventTracing.Memory.MemoryUsageType.VirtualMemory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryUsageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

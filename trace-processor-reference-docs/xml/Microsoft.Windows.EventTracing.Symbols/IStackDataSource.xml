@@ -1,0 +1,92 @@
+<Type Name="IStackDataSource" FullName="Microsoft.Windows.EventTracing.Symbols.IStackDataSource">
+  <TypeSignature Language="C#" Value="public interface IStackDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackDataSource" />
+  <TypeSignature Language="F#" Value="type IStackDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot GetStack (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int threadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot GetStack(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 threadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackDataSource.GetStack(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStack (timestamp As TraceTimestamp, threadId As Integer) As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="abstract member GetStack : Microsoft.Windows.EventTracing.TraceTimestamp * int -&gt; Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="iStackDataSource.GetStack (timestamp, threadId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="threadId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot GetStack (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int threadId, int processor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot GetStack(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 threadId, int32 processor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackDataSource.GetStack(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStack (timestamp As TraceTimestamp, threadId As Integer, processor As Integer) As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="abstract member GetStack : Microsoft.Windows.EventTracing.TraceTimestamp * int * int -&gt; Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="iStackDataSource.GetStack (timestamp, threadId, processor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="threadId" Type="System.Int32" />
+        <Parameter Name="processor" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <param name="processor">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stacks">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackSnapshot&gt; Stacks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot&gt; Stacks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackDataSource.Stacks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stacks As IReadOnlyList(Of IStackSnapshot)" />
+      <MemberSignature Language="F#" Value="member this.Stacks : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackSnapshot&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.IStackDataSource.Stacks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackSnapshot&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

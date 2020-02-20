@@ -1,0 +1,21 @@
+<Type Name="IRegistryKeyOperation" FullName="Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation">
+  <TypeSignature Language="C#" Value="public interface IRegistryKeyOperation : Microsoft.Windows.EventTracing.Registry.IRegistryActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegistryKeyOperation implements class Microsoft.Windows.EventTracing.Registry.IRegistryActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegistryKeyOperation&#xA;Implements IRegistryActivity" />
+  <TypeSignature Language="F#" Value="type IRegistryKeyOperation = interface&#xA;    interface IRegistryActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Registry.IRegistryActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

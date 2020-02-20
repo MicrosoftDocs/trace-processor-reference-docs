@@ -1,0 +1,40 @@
+<Type Name="ICompletable" FullName="Microsoft.Windows.EventTracing.ICompletable">
+  <TypeSignature Language="C#" Value="public interface ICompletable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICompletable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ICompletable" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICompletable" />
+  <TypeSignature Language="F#" Value="type ICompletable = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a completion callback.</summary>
+    <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Complete">
+      <MemberSignature Language="C#" Value="public void Complete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Complete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ICompletable.Complete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Complete ()" />
+      <MemberSignature Language="F#" Value="abstract member Complete : unit -&gt; unit" Usage="iCompletable.Complete " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Notifies the callback that the requested completion has occurred.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

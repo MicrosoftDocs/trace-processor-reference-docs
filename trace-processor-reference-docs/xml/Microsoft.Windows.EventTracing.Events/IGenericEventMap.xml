@@ -1,0 +1,98 @@
+<Type Name="IGenericEventMap" FullName="Microsoft.Windows.EventTracing.Events.IGenericEventMap">
+  <TypeSignature Language="C#" Value="public interface IGenericEventMap" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericEventMap" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IGenericEventMap" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericEventMap" />
+  <TypeSignature Language="F#" Value="type IGenericEventMap = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsEnum">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IGenericEventEnum AsEnum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IGenericEventEnum AsEnum" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventMap.AsEnum" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsEnum As IGenericEventEnum" />
+      <MemberSignature Language="F#" Value="member this.AsEnum : Microsoft.Windows.EventTracing.Events.IGenericEventEnum" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventMap.AsEnum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IGenericEventEnum</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsFlags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IGenericEventFlags AsFlags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IGenericEventFlags AsFlags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventMap.AsFlags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsFlags As IGenericEventFlags" />
+      <MemberSignature Language="F#" Value="member this.AsFlags : Microsoft.Windows.EventTracing.Events.IGenericEventFlags" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventMap.AsFlags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IGenericEventFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventMap.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventMap.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventMapType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventMapType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventMap.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As GenericEventMapType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Windows.EventTracing.Events.GenericEventMapType" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventMap.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventMapType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

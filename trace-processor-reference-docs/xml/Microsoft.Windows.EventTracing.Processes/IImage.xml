@@ -1,0 +1,719 @@
+<Type Name="IImage" FullName="Microsoft.Windows.EventTracing.Processes.IImage">
+  <TypeSignature Language="C#" Value="public interface IImage" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IImage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IImage" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IImage" />
+  <TypeSignature Language="F#" Value="type IImage = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddressRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange AddressRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange AddressRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.AddressRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.AddressRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Processes.IImage.AddressRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the <see cref="P:Microsoft.Windows.EventTracing.Processes.IImage.AddressRange" /> in the process's virtual memory into which the image was loaded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Checksum">
+      <MemberSignature Language="C#" Value="public long Checksum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Checksum" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Checksum" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Checksum As Long" />
+      <MemberSignature Language="F#" Value="member this.Checksum : int64" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Checksum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the MD5 checksum of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompanyName As String" />
+      <MemberSignature Language="F#" Value="member this.CompanyName : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.CompanyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the company name associated with the image file, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompatibilityFileId">
+      <MemberSignature Language="C#" Value="public string CompatibilityFileId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompatibilityFileId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.CompatibilityFileId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompatibilityFileId As String" />
+      <MemberSignature Language="F#" Value="member this.CompatibilityFileId : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.CompatibilityFileId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This Id is generated by AEPIC, the Application Experience Program Cache.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompatibilityProgramId">
+      <MemberSignature Language="C#" Value="public string CompatibilityProgramId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompatibilityProgramId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.CompatibilityProgramId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompatibilityProgramId As String" />
+      <MemberSignature Language="F#" Value="member this.CompatibilityProgramId : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.CompatibilityProgramId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This Id is generated by AEPIC, the Application Experience Program Cache.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultBaseAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address DefaultBaseAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address DefaultBaseAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.DefaultBaseAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultBaseAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.DefaultBaseAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Processes.IImage.DefaultBaseAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the default base address for the image.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileDescription">
+      <MemberSignature Language="C#" Value="public string FileDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.FileDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileDescription As String" />
+      <MemberSignature Language="F#" Value="member this.FileDescription : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.FileDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the file description of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileOffset">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FileOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FileOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.FileOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileOffset As Address" />
+      <MemberSignature Language="F#" Value="member this.FileOffset : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Processes.IImage.FileOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the offset of the segment of the image file that has been loaded into <see cref="P:Microsoft.Windows.EventTracing.Processes.IImage.AddressRange" /> in
+            the process's virtual memory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileVersion">
+      <MemberSignature Language="C#" Value="public string FileVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.FileVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileVersion As String" />
+      <MemberSignature Language="F#" Value="member this.FileVersion : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.FileVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the version of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileVersionNumber">
+      <MemberSignature Language="C#" Value="public Version FileVersionNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version FileVersionNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.FileVersionNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileVersionNumber As Version" />
+      <MemberSignature Language="F#" Value="member this.FileVersionNumber : Version" Usage="Microsoft.Windows.EventTracing.Processes.IImage.FileVersionNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the version number of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetImageSections">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt; GetImageSections (Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource imageSectionDataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Processes.IImageSection&gt; GetImageSections(class Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource imageSectionDataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IImage.GetImageSections(Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetImageSections (imageSectionDataSource As IImageSectionDataSource) As IReadOnlyList(Of IImageSection)" />
+      <MemberSignature Language="F#" Value="abstract member GetImageSections : Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt;" Usage="iImage.GetImageSections imageSectionDataSource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="imageSectionDataSource" Type="Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource" />
+      </Parameters>
+      <Docs>
+        <param name="imageSectionDataSource">The image section data source for this trace.</param>
+        <summary>Gets a list of the image sections for this image.</summary>
+        <returns>A list of the <see cref="T:Microsoft.Windows.EventTracing.Processes.IImageSection" />s for this image.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSymbol">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSymbol GetSymbol (Microsoft.Windows.EventTracing.Address address);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Symbols.IStackSymbol GetSymbol(valuetype Microsoft.Windows.EventTracing.Address address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IImage.GetSymbol(Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="F#" Value="abstract member GetSymbol : Microsoft.Windows.EventTracing.Address -&gt; Microsoft.Windows.EventTracing.Symbols.IStackSymbol" Usage="iImage.GetSymbol address" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSymbol</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="address">The process virtual address (not relative to the image).</param>
+        <summary>Gets a symbol corresponding to an address for this image.</summary>
+        <returns>
+            A symbol corresponding to an address for this image, if any is available; otherwise, <see langword="null" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadedDuration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; LoadedDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; LoadedDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadedDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadedDuration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.LoadedDuration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadedDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time during which the image was loaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread LoadingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread LoadingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.LoadingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Windows.EventTracing.Processes.IThread" /> that loaded the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadingThreadId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; LoadingThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; LoadingThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadingThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadingThreadId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.LoadingThreadId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadingThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread that loaded the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadReason">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Processes.ImageLoadReason&gt; LoadReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Processes.ImageLoadReason&gt; LoadReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadReason As Nullable(Of ImageLoadReason)" />
+      <MemberSignature Language="F#" Value="member this.LoadReason : Nullable&lt;Microsoft.Windows.EventTracing.Processes.ImageLoadReason&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Processes.ImageLoadReason&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the reason that the image was loaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot LoadStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot LoadStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.LoadStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the stack that resulted in the image being loaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; LoadTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; LoadTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.LoadTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoadTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.LoadTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.LoadTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the image was loaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locale">
+      <MemberSignature Language="C#" Value="public System.Globalization.CultureInfo Locale { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Globalization.CultureInfo Locale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Locale" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locale As CultureInfo" />
+      <MemberSignature Language="F#" Value="member this.Locale : System.Globalization.CultureInfo" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Locale" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Globalization.CultureInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalFileName">
+      <MemberSignature Language="C#" Value="public string OriginalFileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OriginalFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.OriginalFileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalFileName As String" />
+      <MemberSignature Language="F#" Value="member this.OriginalFileName : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.OriginalFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the original name of the image file at the time it was built.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentImage">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IImage ParentImage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IImage ParentImage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.ParentImage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentImage As IImage" />
+      <MemberSignature Language="F#" Value="member this.ParentImage : Microsoft.Windows.EventTracing.Processes.IImage" Usage="Microsoft.Windows.EventTracing.Processes.IImage.ParentImage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent of the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the path of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pdb">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IPdb Pdb { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IPdb Pdb" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Pdb" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pdb As IPdb" />
+      <MemberSignature Language="F#" Value="member this.Pdb : Microsoft.Windows.EventTracing.Symbols.IPdb" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Pdb" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IPdb</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Windows.EventTracing.Symbols.IPdb" /> associated with the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the <see cref="T:Microsoft.Windows.EventTracing.Processes.IProcess" /> into whose address space the image was loaded.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Processes.IImage.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the ID of the process into whose address space the image was loaded.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductName">
+      <MemberSignature Language="C#" Value="public string ProductName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProductName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.ProductName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProductName As String" />
+      <MemberSignature Language="F#" Value="member this.ProductName : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.ProductName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the product name associated with the image file, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductVersion">
+      <MemberSignature Language="C#" Value="public string ProductVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProductVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.ProductVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProductVersion As String" />
+      <MemberSignature Language="F#" Value="member this.ProductVersion : string" Usage="Microsoft.Windows.EventTracing.Processes.IImage.ProductVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the product version associated with the image file, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the size of the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public long Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As Long" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : int64" Usage="Microsoft.Windows.EventTracing.Processes.IImage.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the timestamp of the image.</summary>
+        <value>To be added.</value>
+        <remarks>
+            The method of computing this value varies across images, so determining the point in time represented is
+            non-trivial. This property is best used as an opaque value.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread UnloadingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread UnloadingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.UnloadingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnloadingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.UnloadingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Processes.IImage.UnloadingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the <see cref="T:Microsoft.Windows.EventTracing.Processes.IThread" /> that unloaded the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadingThreadId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; UnloadingThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; UnloadingThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.UnloadingThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnloadingThreadId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.UnloadingThreadId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.UnloadingThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread that unloaded the image, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot UnloadStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot UnloadStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.UnloadStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnloadStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.UnloadStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Processes.IImage.UnloadStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the stack that resulted in the image being unloaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; UnloadTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; UnloadTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IImage.UnloadTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnloadTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.UnloadTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IImage.UnloadTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the image was unloaded, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

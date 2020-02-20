@@ -1,0 +1,192 @@
+<Type Name="IHeapAllocation" FullName="Microsoft.Windows.EventTracing.Memory.IHeapAllocation">
+  <TypeSignature Language="C#" Value="public interface IHeapAllocation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHeapAllocation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IHeapAllocation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHeapAllocation" />
+  <TypeSignature Language="F#" Value="type IHeapAllocation = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllocationAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address AllocationAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address AllocationAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.AllocationAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocationAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.AllocationAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.AllocationAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the virtual address of the start of the allocated memory.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeapHandle">
+      <MemberSignature Language="C#" Value="public long HeapHandle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 HeapHandle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.HeapHandle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeapHandle As Long" />
+      <MemberSignature Language="F#" Value="member this.HeapHandle : int64" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.HeapHandle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a ulong representing the handle of the heap this allocation was from.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapshotReferenceCount">
+      <MemberSignature Language="C#" Value="public int SnapshotReferenceCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SnapshotReferenceCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.SnapshotReferenceCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SnapshotReferenceCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.SnapshotReferenceCount : int" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.SnapshotReferenceCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is referred to as the Ref Count column within Windows Performance Analyzer.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapshotUniqueStackId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; SnapshotUniqueStackId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; SnapshotUniqueStackId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.SnapshotUniqueStackId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SnapshotUniqueStackId As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.SnapshotUniqueStackId : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.SnapshotUniqueStackId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value which uniquely identifies the stack of this allocation within the same snapshot.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is referred to as the Stack Ref# within Windows Performance Analyzer.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IThreadStack Stack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IThreadStack Stack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.Stack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stack As IThreadStack" />
+      <MemberSignature Language="F#" Value="member this.Stack : Microsoft.Windows.EventTracing.Symbols.IThreadStack" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.Stack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IThreadStack</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StackInstructionPointers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt; StackInstructionPointers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; StackInstructionPointers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.StackInstructionPointers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StackInstructionPointers As IReadOnlyList(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.StackInstructionPointers : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.StackInstructionPointers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceUniqueStackId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; TraceUniqueStackId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; TraceUniqueStackId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapAllocation.TraceUniqueStackId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TraceUniqueStackId As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.TraceUniqueStackId : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IHeapAllocation.TraceUniqueStackId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value which uniquely identifies the stack of this allocation within the same trace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is referred to as the Stack Id within Windows Performance Analyzer.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

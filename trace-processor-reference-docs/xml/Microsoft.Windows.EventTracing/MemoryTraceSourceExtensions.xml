@@ -1,0 +1,244 @@
+<Type Name="MemoryTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class MemoryTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MemoryTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module MemoryTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type MemoryTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseHandles">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHandleDataSource&gt; UseHandles (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IHandleDataSource&gt; UseHandles(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHandles(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseHandles (trace As ITraceSource) As IPendingResult(Of IHandleDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseHandles : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHandleDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHandles trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHandleDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides partial data from a trace about active kernel handles.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides partial data from the trace about active
+            kernel handles.
+            </returns>
+        <remarks>
+          <para>This data source is not complete.</para>
+          <para>Windows Performance Analyzer provides this data via the Handles table.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseHardFaults">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHardFaultDataSource&gt; UseHardFaults (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IHardFaultDataSource&gt; UseHardFaults(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHardFaults(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseHardFaults (trace As ITraceSource) As IPendingResult(Of IHardFaultDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseHardFaults : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHardFaultDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHardFaults trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHardFaultDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about hard page faults.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about hard page faults.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Hard Faults table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseHeapSnapshots">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHeapSnapshotDataSource&gt; UseHeapSnapshots (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IHeapSnapshotDataSource&gt; UseHeapSnapshots(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHeapSnapshots(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseHeapSnapshots (trace As ITraceSource) As IPendingResult(Of IHeapSnapshotDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseHeapSnapshots : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHeapSnapshotDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseHeapSnapshots trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IHeapSnapshotDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about process heap usage.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about process heap usage.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Heap Snapshot table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseMemoryUtilizationData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationDataSource&gt; UseMemoryUtilizationData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationDataSource&gt; UseMemoryUtilizationData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseMemoryUtilizationData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseMemoryUtilizationData (trace As ITraceSource) As IPendingResult(Of IMemoryUtilizationDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseMemoryUtilizationData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseMemoryUtilizationData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about total system memory utilization.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about total system memory
+            utilization.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Memory Utilization table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePoolAllocations">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IPoolAllocationDataSource&gt; UsePoolAllocations (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IPoolAllocationDataSource&gt; UsePoolAllocations(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UsePoolAllocations(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePoolAllocations (trace As ITraceSource) As IPendingResult(Of IPoolAllocationDataSource)" />
+      <MemberSignature Language="F#" Value="static member UsePoolAllocations : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IPoolAllocationDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UsePoolAllocations trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IPoolAllocationDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about kernel pool memory usage.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about kernel pool memory
+            usage.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Pool Summary table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReferenceSetData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IReferenceSetDataSource&gt; UseReferenceSetData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IReferenceSetDataSource&gt; UseReferenceSetData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseReferenceSetData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseReferenceSetData (trace As ITraceSource) As IPendingResult(Of IReferenceSetDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseReferenceSetData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IReferenceSetDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseReferenceSetData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IReferenceSetDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about pages of virtual memory used by each process.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about pages of virtual
+            memory used by each process.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Reference Set table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseResidentSetData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IResidentSetDataSource&gt; UseResidentSetData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IResidentSetDataSource&gt; UseResidentSetData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseResidentSetData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseResidentSetData (trace As ITraceSource) As IPendingResult(Of IResidentSetDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseResidentSetData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IResidentSetDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseResidentSetData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IResidentSetDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about the pages of virtual memory for each process that were resident in physical
+            memory.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about pages of virtual
+            memory for each process that were resident in physical memory.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Resident Set table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseWorkingSetData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource&gt; UseWorkingSetData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource&gt; UseWorkingSetData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseWorkingSetData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseWorkingSetData (trace As ITraceSource) As IPendingResult(Of IWorkingSetDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseWorkingSetData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource&gt;" Usage="Microsoft.Windows.EventTracing.MemoryTraceSourceExtensions.UseWorkingSetData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about pages of virtual memory that were in the working set for each process or
+            kernel category.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the pages of virtual
+            memory that were in the working set for each process or kernel category.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Virtual Memory Snapshots table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

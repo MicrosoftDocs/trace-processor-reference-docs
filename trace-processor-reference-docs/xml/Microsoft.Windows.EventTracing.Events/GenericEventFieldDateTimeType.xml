@@ -1,0 +1,58 @@
+<Type Name="GenericEventFieldDateTimeType" FullName="Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType">
+  <TypeSignature Language="C#" Value="public enum GenericEventFieldDateTimeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GenericEventFieldDateTimeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GenericEventFieldDateTimeType" />
+  <TypeSignature Language="F#" Value="type GenericEventFieldDateTimeType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CurrentCulture">
+      <MemberSignature Language="C#" Value="CurrentCulture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType CurrentCulture = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType.CurrentCulture" />
+      <MemberSignature Language="VB.NET" Value="CurrentCulture" />
+      <MemberSignature Language="F#" Value="CurrentCulture = 0" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType.CurrentCulture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvariantCulture">
+      <MemberSignature Language="C#" Value="InvariantCulture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType InvariantCulture = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType.InvariantCulture" />
+      <MemberSignature Language="VB.NET" Value="InvariantCulture" />
+      <MemberSignature Language="F#" Value="InvariantCulture = 1" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType.InvariantCulture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

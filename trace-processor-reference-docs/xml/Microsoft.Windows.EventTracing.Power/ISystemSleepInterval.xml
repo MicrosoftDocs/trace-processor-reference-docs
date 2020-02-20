@@ -1,0 +1,128 @@
+<Type Name="ISystemSleepInterval" FullName="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval">
+  <TypeSignature Language="C#" Value="public interface ISystemSleepInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISystemSleepInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISystemSleepInterval" />
+  <TypeSignature Language="F#" Value="type ISystemSleepInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OSReadyTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp OSReadyTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp OSReadyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.OSReadyTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSReadyTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.OSReadyTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.OSReadyTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the time at which the system has fully recovered from sleep and is ready for use.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepEndTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp SleepEndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp SleepEndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepEndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepEndTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.SleepEndTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepEndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the time when the system wakes from a sleep state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepPreparationStartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp SleepPreparationStartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp SleepPreparationStartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepPreparationStartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepPreparationStartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.SleepPreparationStartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepPreparationStartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the time when the system started preparing for sleep.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This is the timestamp when the system begins stopping services, powering down devices, etc.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepStartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp SleepStartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp SleepStartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepStartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepStartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.SleepStartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepStartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the time immediately before the system instructs the hardware to enter a sleep state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepState">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Power.SleepState&gt; SleepState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Power.SleepState&gt; SleepState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepState As Nullable(Of SleepState)" />
+      <MemberSignature Language="F#" Value="member this.SleepState : Nullable&lt;Microsoft.Windows.EventTracing.Power.SleepState&gt;" Usage="Microsoft.Windows.EventTracing.Power.ISystemSleepInterval.SleepState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Power.SleepState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

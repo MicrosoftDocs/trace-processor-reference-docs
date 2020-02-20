@@ -1,0 +1,90 @@
+<Type Name="SocketAddressExtensions" FullName="Microsoft.Windows.EventTracing.Events.SocketAddressExtensions">
+  <TypeSignature Language="C#" Value="public static class SocketAddressExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SocketAddressExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.SocketAddressExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SocketAddressExtensions" />
+  <TypeSignature Language="F#" Value="type SocketAddressExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetIPv6Flow">
+      <MemberSignature Language="C#" Value="public static int GetIPv6Flow (this System.Net.SocketAddress socketAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 GetIPv6Flow(class System.Net.SocketAddress socketAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.GetIPv6Flow(System.Net.SocketAddress)" />
+      <MemberSignature Language="F#" Value="static member GetIPv6Flow : System.Net.SocketAddress -&gt; int" Usage="Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.GetIPv6Flow socketAddress" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="socketAddress" Type="System.Net.SocketAddress" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="socketAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsIPv6">
+      <MemberSignature Language="C#" Value="public static bool IsIPv6 (this System.Net.SocketAddress socketAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsIPv6(class System.Net.SocketAddress socketAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.IsIPv6(System.Net.SocketAddress)" />
+      <MemberSignature Language="F#" Value="static member IsIPv6 : System.Net.SocketAddress -&gt; bool" Usage="Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.IsIPv6 socketAddress" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="socketAddress" Type="System.Net.SocketAddress" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="socketAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToIPEndPoint">
+      <MemberSignature Language="C#" Value="public static System.Net.IPEndPoint ToIPEndPoint (this System.Net.SocketAddress socketAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.IPEndPoint ToIPEndPoint(class System.Net.SocketAddress socketAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.ToIPEndPoint(System.Net.SocketAddress)" />
+      <MemberSignature Language="F#" Value="static member ToIPEndPoint : System.Net.SocketAddress -&gt; System.Net.IPEndPoint" Usage="Microsoft.Windows.EventTracing.Events.SocketAddressExtensions.ToIPEndPoint socketAddress" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.IPEndPoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="socketAddress" Type="System.Net.SocketAddress" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="socketAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

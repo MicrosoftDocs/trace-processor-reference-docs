@@ -1,0 +1,42 @@
+<Type Name="IDeferredProcedureCallInterval" FullName="Microsoft.Windows.EventTracing.Cpu.IDeferredProcedureCallInterval">
+  <TypeSignature Language="C#" Value="public interface IDeferredProcedureCallInterval : Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeferredProcedureCallInterval implements class Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IDeferredProcedureCallInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDeferredProcedureCallInterval&#xA;Implements IInterruptHandlingInterval" />
+  <TypeSignature Language="F#" Value="type IDeferredProcedureCallInterval = interface&#xA;    interface IInterruptHandlingInterval" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CallType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.DeferredProcedureCallType CallType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Cpu.DeferredProcedureCallType CallType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IDeferredProcedureCallInterval.CallType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CallType As DeferredProcedureCallType" />
+      <MemberSignature Language="F#" Value="member this.CallType : Microsoft.Windows.EventTracing.Cpu.DeferredProcedureCallType" Usage="Microsoft.Windows.EventTracing.Cpu.IDeferredProcedureCallInterval.CallType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.DeferredProcedureCallType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

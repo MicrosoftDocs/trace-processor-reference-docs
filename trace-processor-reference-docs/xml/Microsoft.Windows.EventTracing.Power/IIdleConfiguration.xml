@@ -1,0 +1,159 @@
+<Type Name="IIdleConfiguration" FullName="Microsoft.Windows.EventTracing.Power.IIdleConfiguration">
+  <TypeSignature Language="C#" Value="public interface IIdleConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IIdleConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IIdleConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IIdleConfiguration" />
+  <TypeSignature Language="F#" Value="type IIdleConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeepestIdleState">
+      <MemberSignature Language="C#" Value="public int DeepestIdleState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DeepestIdleState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.DeepestIdleState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeepestIdleState As Integer" />
+      <MemberSignature Language="F#" Value="member this.DeepestIdleState : int" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.DeepestIdleState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the deepest idle state that should be used.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If this value is set to zero, this setting is ignored. If the value is higher than that supported by the
+            processor, this setting will also be ignored.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DemoteThreshold">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage DemoteThreshold { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage DemoteThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.DemoteThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DemoteThreshold As Percentage" />
+      <MemberSignature Language="F#" Value="member this.DemoteThreshold : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.DemoteThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the upper busy threshold that must be met before demoting the processor
+            to a shallower idle state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Enabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Enabled : bool" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether idle states should be enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If this value is <see langword="false" />, no other properties on this object have any effect.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumDurationBetweenChecks">
+      <MemberSignature Language="C#" Value="public TimeSpan MinimumDurationBetweenChecks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan MinimumDurationBetweenChecks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.MinimumDurationBetweenChecks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinimumDurationBetweenChecks As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.MinimumDurationBetweenChecks : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.MinimumDurationBetweenChecks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the time that must have elapsed since the last idle state promotion or
+            demotion before idle states may be promoted or demoted again.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PromoteThreshold">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage PromoteThreshold { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage PromoteThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.PromoteThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PromoteThreshold As Percentage" />
+      <MemberSignature Language="F#" Value="member this.PromoteThreshold : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.PromoteThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the lower busy threshold that must be met before promoting the processor
+            to a deeper idle state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScalingEnabled">
+      <MemberSignature Language="C#" Value="public bool ScalingEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ScalingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IIdleConfiguration.ScalingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScalingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.ScalingEnabled : bool" Usage="Microsoft.Windows.EventTracing.Power.IIdleConfiguration.ScalingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether idle state promotion and demotion values should be scaled based
+            on the current peformance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,45 @@
+<Type Name="AnalyzerThreadStackPattern" FullName="Microsoft.Windows.EventTracing.Symbols.AnalyzerThreadStackPattern">
+  <TypeSignature Language="C#" Value="public static class AnalyzerThreadStackPattern" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AnalyzerThreadStackPattern extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.AnalyzerThreadStackPattern" />
+  <TypeSignature Language="VB.NET" Value="Public Class AnalyzerThreadStackPattern" />
+  <TypeSignature Language="F#" Value="type AnalyzerThreadStackPattern = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern Parse (string stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern Parse(string stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.AnalyzerThreadStackPattern.Parse(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (stack As String) As IThreadStackPattern" />
+      <MemberSignature Language="F#" Value="static member Parse : string -&gt; Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern" Usage="Microsoft.Windows.EventTracing.Symbols.AnalyzerThreadStackPattern.Parse stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

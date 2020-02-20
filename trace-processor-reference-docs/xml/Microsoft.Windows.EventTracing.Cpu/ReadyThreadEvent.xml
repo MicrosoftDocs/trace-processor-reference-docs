@@ -1,0 +1,252 @@
+<Type Name="ReadyThreadEvent" FullName="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent">
+  <TypeSignature Language="C#" Value="public struct ReadyThreadEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ReadyThreadEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ReadyThreadEvent" />
+  <TypeSignature Language="F#" Value="type ReadyThreadEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a ready thread event (a thread being marked ready-to-run for the kernel CPU scheduler).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReadyThreadEvent (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int readiedThreadId, int processor, Microsoft.Windows.EventTracing.Cpu.AdjustReason adjustReason, int adjustIncrement, Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags flags);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 readiedThreadId, int32 processor, valuetype Microsoft.Windows.EventTracing.Cpu.AdjustReason adjustReason, int32 adjustIncrement, valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags flags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.#ctor(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32,System.Int32,Microsoft.Windows.EventTracing.Cpu.AdjustReason,System.Int32,Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent : Microsoft.Windows.EventTracing.TraceTimestamp * int * int * Microsoft.Windows.EventTracing.Cpu.AdjustReason * int * Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags -&gt; Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent" Usage="new Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent (timestamp, readiedThreadId, processor, adjustReason, adjustIncrement, flags)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="readiedThreadId" Type="System.Int32" />
+        <Parameter Name="processor" Type="System.Int32" />
+        <Parameter Name="adjustReason" Type="Microsoft.Windows.EventTracing.Cpu.AdjustReason" />
+        <Parameter Name="adjustIncrement" Type="System.Int32" />
+        <Parameter Name="flags" Type="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="readiedThreadId">To be added.</param>
+        <param name="processor">To be added.</param>
+        <param name="adjustReason">To be added.</param>
+        <param name="adjustIncrement">To be added.</param>
+        <param name="flags">To be added.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjustIncrement">
+      <MemberSignature Language="C#" Value="public int AdjustIncrement { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AdjustIncrement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.AdjustIncrement" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjustIncrement As Integer" />
+      <MemberSignature Language="F#" Value="member this.AdjustIncrement : int" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.AdjustIncrement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjustReason">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.AdjustReason AdjustReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Cpu.AdjustReason AdjustReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.AdjustReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjustReason As AdjustReason" />
+      <MemberSignature Language="F#" Value="member this.AdjustReason : Microsoft.Windows.EventTracing.Cpu.AdjustReason" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.AdjustReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.AdjustReason</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags Flags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flags As ReadyThreadEventFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirectSwitchAttempt">
+      <MemberSignature Language="C#" Value="public bool IsDirectSwitchAttempt { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirectSwitchAttempt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsDirectSwitchAttempt" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirectSwitchAttempt As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDirectSwitchAttempt : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsDirectSwitchAttempt" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExecutingDeferredProcedureCall">
+      <MemberSignature Language="C#" Value="public bool IsExecutingDeferredProcedureCall { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExecutingDeferredProcedureCall" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsExecutingDeferredProcedureCall" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExecutingDeferredProcedureCall As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExecutingDeferredProcedureCall : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsExecutingDeferredProcedureCall" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsKernelStackResident">
+      <MemberSignature Language="C#" Value="public bool IsKernelStackResident { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsKernelStackResident" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsKernelStackResident" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsKernelStackResident As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsKernelStackResident : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsKernelStackResident" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProcessResident">
+      <MemberSignature Language="C#" Value="public bool IsProcessResident { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsProcessResident" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsProcessResident" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsProcessResident As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsProcessResident : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.IsProcessResident" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadiedThreadId">
+      <MemberSignature Language="C#" Value="public int ReadiedThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReadiedThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.ReadiedThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadiedThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ReadiedThreadId : int" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.ReadiedThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread that was readied.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the thread was readied.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

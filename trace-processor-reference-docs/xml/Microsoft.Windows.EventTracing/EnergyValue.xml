@@ -1,0 +1,987 @@
+<Type Name="EnergyValue" FullName="Microsoft.Windows.EventTracing.EnergyValue">
+  <TypeSignature Language="C#" Value="public struct EnergyValue : IComparable, IComparable&lt;Microsoft.Windows.EventTracing.EnergyValue&gt;, IEquatable&lt;Microsoft.Windows.EventTracing.EnergyValue&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit EnergyValue extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype Microsoft.Windows.EventTracing.EnergyValue&gt;, class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.EnergyValue&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.EnergyValue" />
+  <TypeSignature Language="VB.NET" Value="Public Structure EnergyValue&#xA;Implements IComparable, IComparable(Of EnergyValue), IEquatable(Of EnergyValue)" />
+  <TypeSignature Language="F#" Value="type EnergyValue = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Windows.EventTracing.EnergyValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.EnergyValue&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnergyValue (long nanojoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 nanojoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.#ctor(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (nanojoules As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.EnergyValue : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="new Microsoft.Windows.EventTracing.EnergyValue nanojoules" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="nanojoules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="nanojoules">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.EnergyValue other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.EnergyValue other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.CompareTo(Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As EnergyValue) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Windows.EventTracing.EnergyValue -&gt; int&#xA;override this.CompareTo : Microsoft.Windows.EventTracing.EnergyValue -&gt; int" Usage="energyValue.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.CompareTo(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="energyValue.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.EnergyValue other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.EnergyValue other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.Equals(Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="energyValue.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="energyValue.Equals other" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromJoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromJoules (decimal joules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromJoules(valuetype System.Decimal joules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromJoules(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromJoules (joules As Decimal) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromJoules : decimal -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromJoules joules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="joules" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="joules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromJoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromJoules (long joules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromJoules(int64 joules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromJoules(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromJoules (joules As Long) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromJoules : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromJoules joules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="joules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="joules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilojoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromKilojoules (decimal kilojoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromKilojoules(valuetype System.Decimal kilojoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromKilojoules(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilojoules (kilojoules As Decimal) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromKilojoules : decimal -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromKilojoules kilojoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilojoules" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="kilojoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilojoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromKilojoules (long kilojoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromKilojoules(int64 kilojoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromKilojoules(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilojoules (kilojoules As Long) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromKilojoules : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromKilojoules kilojoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilojoules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="kilojoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMicrojoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromMicrojoules (decimal microjoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromMicrojoules(valuetype System.Decimal microjoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromMicrojoules(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMicrojoules (microjoules As Decimal) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromMicrojoules : decimal -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromMicrojoules microjoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="microjoules" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="microjoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMicrojoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromMicrojoules (long microjoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromMicrojoules(int64 microjoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromMicrojoules(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMicrojoules (microjoules As Long) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromMicrojoules : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromMicrojoules microjoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="microjoules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="microjoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMillijoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromMillijoules (decimal millijoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromMillijoules(valuetype System.Decimal millijoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromMillijoules(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMillijoules (millijoules As Decimal) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromMillijoules : decimal -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromMillijoules millijoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="millijoules" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="millijoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMillijoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromMillijoules (long millijoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromMillijoules(int64 millijoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromMillijoules(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMillijoules (millijoules As Long) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromMillijoules : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromMillijoules millijoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="millijoules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="millijoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromNanojoules">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue FromNanojoules (long nanojoules);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue FromNanojoules(int64 nanojoules) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.FromNanojoules(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromNanojoules (nanojoules As Long) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member FromNanojoules : int64 -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.FromNanojoules nanojoules" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nanojoules" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="nanojoules">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="energyValue.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoulesPerNanojoule">
+      <MemberSignature Language="C#" Value="public static readonly decimal JoulesPerNanojoule;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal JoulesPerNanojoule" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.JoulesPerNanojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JoulesPerNanojoule As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable JoulesPerNanojoule : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.JoulesPerNanojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KilojoulesPerNanojoule">
+      <MemberSignature Language="C#" Value="public static readonly decimal KilojoulesPerNanojoule;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal KilojoulesPerNanojoule" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.KilojoulesPerNanojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly KilojoulesPerNanojoule As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable KilojoulesPerNanojoule : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.KilojoulesPerNanojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue Max (Microsoft.Windows.EventTracing.EnergyValue first, Microsoft.Windows.EventTracing.EnergyValue second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue Max(valuetype Microsoft.Windows.EventTracing.EnergyValue first, valuetype Microsoft.Windows.EventTracing.EnergyValue second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.Max(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Max (first As EnergyValue, second As EnergyValue) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member Max : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.Max (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.EnergyValue MaxValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.EnergyValue MaxValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.MaxValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxValue As EnergyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxValue : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.MaxValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MicrojoulesPerNanojoule">
+      <MemberSignature Language="C#" Value="public static readonly decimal MicrojoulesPerNanojoule;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal MicrojoulesPerNanojoule" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.MicrojoulesPerNanojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MicrojoulesPerNanojoule As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable MicrojoulesPerNanojoule : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.MicrojoulesPerNanojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MillijoulesPerNanojoule">
+      <MemberSignature Language="C#" Value="public static readonly decimal MillijoulesPerNanojoule;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal MillijoulesPerNanojoule" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.MillijoulesPerNanojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MillijoulesPerNanojoule As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable MillijoulesPerNanojoule : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.MillijoulesPerNanojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue Min (Microsoft.Windows.EventTracing.EnergyValue first, Microsoft.Windows.EventTracing.EnergyValue second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.EnergyValue Min(valuetype Microsoft.Windows.EventTracing.EnergyValue first, valuetype Microsoft.Windows.EventTracing.EnergyValue second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.Min(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Min (first As EnergyValue, second As EnergyValue) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member Min : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.Min (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.EnergyValue MinValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.EnergyValue MinValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.MinValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinValue As EnergyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinValue : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.MinValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nanojoules">
+      <MemberSignature Language="C#" Value="public long Nanojoules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Nanojoules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.EnergyValue.Nanojoules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Nanojoules As Long" />
+      <MemberSignature Language="F#" Value="member this.Nanojoules : int64" Usage="Microsoft.Windows.EventTracing.EnergyValue.Nanojoules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NanojoulesPerJoule">
+      <MemberSignature Language="C#" Value="public const long NanojoulesPerJoule = 1000000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 NanojoulesPerJoule = (1000000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerJoule" />
+      <MemberSignature Language="VB.NET" Value="Public Const NanojoulesPerJoule As Long  = 1000000000" />
+      <MemberSignature Language="F#" Value="val mutable NanojoulesPerJoule : int64" Usage="Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerJoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NanojoulesPerKilojoule">
+      <MemberSignature Language="C#" Value="public const long NanojoulesPerKilojoule = 1000000000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 NanojoulesPerKilojoule = (1000000000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerKilojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Const NanojoulesPerKilojoule As Long  = 1000000000000" />
+      <MemberSignature Language="F#" Value="val mutable NanojoulesPerKilojoule : int64" Usage="Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerKilojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NanojoulesPerMicrojoule">
+      <MemberSignature Language="C#" Value="public const long NanojoulesPerMicrojoule = 1000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 NanojoulesPerMicrojoule = (1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerMicrojoule" />
+      <MemberSignature Language="VB.NET" Value="Public Const NanojoulesPerMicrojoule As Long  = 1000" />
+      <MemberSignature Language="F#" Value="val mutable NanojoulesPerMicrojoule : int64" Usage="Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerMicrojoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NanojoulesPerMillijoule">
+      <MemberSignature Language="C#" Value="public const long NanojoulesPerMillijoule = 1000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 NanojoulesPerMillijoule = (1000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerMillijoule" />
+      <MemberSignature Language="VB.NET" Value="Public Const NanojoulesPerMillijoule As Long  = 1000000" />
+      <MemberSignature Language="F#" Value="val mutable NanojoulesPerMillijoule : int64" Usage="Microsoft.Windows.EventTracing.EnergyValue.NanojoulesPerMillijoule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue operator + (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.EnergyValue op_Addition(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_Addition(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As EnergyValue, right As EnergyValue) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_Equality(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThan">
+      <MemberSignature Language="C#" Value="public static bool operator &gt; (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThan(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_GreaterThan(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt; (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt; ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="left &gt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &gt;= (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThanOrEqual(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_GreaterThanOrEqual(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt;= (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt;= ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="left &gt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_Inequality(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="Microsoft.Windows.EventTracing.EnergyValue.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThan">
+      <MemberSignature Language="C#" Value="public static bool operator &lt; (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThan(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_LessThan(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt; (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt; ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="left &lt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &lt;= (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThanOrEqual(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_LessThanOrEqual(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt;= (left As EnergyValue, right As EnergyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt;= ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; bool" Usage="left &lt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.EnergyValue operator - (Microsoft.Windows.EventTracing.EnergyValue left, Microsoft.Windows.EventTracing.EnergyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.EnergyValue op_Subtraction(valuetype Microsoft.Windows.EventTracing.EnergyValue left, valuetype Microsoft.Windows.EventTracing.EnergyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.op_Subtraction(Microsoft.Windows.EventTracing.EnergyValue,Microsoft.Windows.EventTracing.EnergyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As EnergyValue, right As EnergyValue) As EnergyValue" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.EnergyValue * Microsoft.Windows.EventTracing.EnergyValue -&gt; Microsoft.Windows.EventTracing.EnergyValue" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.EnergyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EnergyValue.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="energyValue.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalJoules">
+      <MemberSignature Language="C#" Value="public decimal TotalJoules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalJoules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.EnergyValue.TotalJoules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalJoules As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalJoules : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.TotalJoules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKilojoules">
+      <MemberSignature Language="C#" Value="public decimal TotalKilojoules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalKilojoules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.EnergyValue.TotalKilojoules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalKilojoules As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalKilojoules : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.TotalKilojoules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMicrojoules">
+      <MemberSignature Language="C#" Value="public decimal TotalMicrojoules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMicrojoules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.EnergyValue.TotalMicrojoules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMicrojoules As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMicrojoules : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.TotalMicrojoules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMillijoules">
+      <MemberSignature Language="C#" Value="public decimal TotalMillijoules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMillijoules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.EnergyValue.TotalMillijoules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMillijoules As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMillijoules : decimal" Usage="Microsoft.Windows.EventTracing.EnergyValue.TotalMillijoules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.EnergyValue Zero;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.EnergyValue Zero" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EnergyValue.Zero" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Zero As EnergyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable Zero : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.EnergyValue.Zero" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

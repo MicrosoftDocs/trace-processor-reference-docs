@@ -1,0 +1,81 @@
+<Type Name="ToolkitEventContextState" FullName="Microsoft.Windows.EventTracing.ToolkitEventContextState">
+  <TypeSignature Language="C#" Value="public class ToolkitEventContextState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolkitEventContextState extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ToolkitEventContextState" />
+  <TypeSignature Language="VB.NET" Value="Public Class ToolkitEventContextState" />
+  <TypeSignature Language="F#" Value="type ToolkitEventContextState = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the toolkit-specific mutable state associated with an <see cref="T:Microsoft.Windows.EventTracing.EventContext" />.</summary>
+    <remarks>
+      <para>The state in this type is specific to event processing using the Windows Performance Toolkit.</para>
+      <para>See <see cref="T:Microsoft.Windows.EventTracing.EventContextState" /> for the motivation of splitting out state from an event context.
+            </para>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ToolkitEventContextState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ToolkitEventContextState.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkHandled">
+      <MemberSignature Language="C#" Value="public void MarkHandled ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkHandled() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ToolkitEventContextState.MarkHandled" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkHandled ()" />
+      <MemberSignature Language="F#" Value="member this.MarkHandled : unit -&gt; unit" Usage="toolkitEventContextState.MarkHandled " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkWarning">
+      <MemberSignature Language="C#" Value="public void MarkWarning ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkWarning() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ToolkitEventContextState.MarkWarning" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkWarning ()" />
+      <MemberSignature Language="F#" Value="member this.MarkWarning : unit -&gt; unit" Usage="toolkitEventContextState.MarkWarning " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

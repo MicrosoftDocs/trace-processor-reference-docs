@@ -1,0 +1,41 @@
+<Type Name="IContextSwitchEventConsumer" FullName="Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IContextSwitchEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IContextSwitchEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IContextSwitchEventConsumer" />
+  <TypeSignature Language="F#" Value="type IContextSwitchEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a context switch event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer.Process(Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As ContextSwitchEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext -&gt; unit" Usage="iContextSwitchEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The context switch event to process.</param>
+        <summary>Processes a context switch event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

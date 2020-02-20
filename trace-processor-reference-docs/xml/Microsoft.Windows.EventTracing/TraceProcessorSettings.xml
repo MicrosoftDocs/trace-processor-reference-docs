@@ -1,0 +1,156 @@
+<Type Name="TraceProcessorSettings" FullName="Microsoft.Windows.EventTracing.TraceProcessorSettings">
+  <TypeSignature Language="C#" Value="public class TraceProcessorSettings : Microsoft.Windows.EventTracing.ITraceProcessorSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TraceProcessorSettings extends System.Object implements class Microsoft.Windows.EventTracing.ITraceProcessorSettings" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceProcessorSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class TraceProcessorSettings&#xA;Implements ITraceProcessorSettings" />
+  <TypeSignature Language="F#" Value="type TraceProcessorSettings = class&#xA;    interface ITraceProcessorSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ITraceProcessorSettings</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Represents settings for a <see cref="T:Microsoft.Windows.EventTracing.TraceProcessor" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TraceProcessorSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessorSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowLostEvents">
+      <MemberSignature Language="C#" Value="public bool AllowLostEvents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowLostEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessorSettings.AllowLostEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowLostEvents As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AllowLostEvents : bool with get, set" Usage="Microsoft.Windows.EventTracing.TraceProcessorSettings.AllowLostEvents" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether to continue processing a trace even if it has a known non-zero
+            number of lost events.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowTimeInversion">
+      <MemberSignature Language="C#" Value="public bool AllowTimeInversion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowTimeInversion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessorSettings.AllowTimeInversion" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowTimeInversion As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AllowTimeInversion : bool with get, set" Usage="Microsoft.Windows.EventTracing.TraceProcessorSettings.AllowTimeInversion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether to continue processing a trace even if it has time inversion, which
+            usually indicates file corruption.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CatalogPath">
+      <MemberSignature Language="C#" Value="public string CatalogPath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CatalogPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessorSettings.CatalogPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property CatalogPath As String" />
+      <MemberSignature Language="F#" Value="member this.CatalogPath : string with get, set" Usage="Microsoft.Windows.EventTracing.TraceProcessorSettings.CatalogPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the path to the Windows Performance Toolkit Catalog directory.</summary>
+        <value>To be added.</value>
+        <remarks>
+            Setting this value is not recommended. If <see langword="null" />, <see cref="T:Microsoft.Windows.EventTracing.TraceProcessor" /> will select
+            a path dynamically at runtime.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressFirstTimeSetupMessage">
+      <MemberSignature Language="C#" Value="public bool SuppressFirstTimeSetupMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuppressFirstTimeSetupMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessorSettings.SuppressFirstTimeSetupMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressFirstTimeSetupMessage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SuppressFirstTimeSetupMessage : bool with get, set" Usage="Microsoft.Windows.EventTracing.TraceProcessorSettings.SuppressFirstTimeSetupMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether to disable printing a console message when the first-time setup
+            process runs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToolkitPath">
+      <MemberSignature Language="C#" Value="public string ToolkitPath { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ToolkitPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessorSettings.ToolkitPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToolkitPath As String" />
+      <MemberSignature Language="F#" Value="member this.ToolkitPath : string with get, set" Usage="Microsoft.Windows.EventTracing.TraceProcessorSettings.ToolkitPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the path to the Windows Performance Toolkit directory.</summary>
+        <value>To be added.</value>
+        <remarks>
+            Setting this value is not recommended. If <see langword="null" />, <see cref="T:Microsoft.Windows.EventTracing.TraceProcessor" /> will select
+            a path dynamically at runtime.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

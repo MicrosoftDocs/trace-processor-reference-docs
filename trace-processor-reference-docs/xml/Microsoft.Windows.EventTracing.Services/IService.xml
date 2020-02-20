@@ -1,0 +1,118 @@
+<Type Name="IService" FullName="Microsoft.Windows.EventTracing.Services.IService">
+  <TypeSignature Language="C#" Value="public interface IService" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IService" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Services.IService" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IService" />
+  <TypeSignature Language="F#" Value="type IService = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Group">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Services.IServiceGroup Group { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Services.IServiceGroup Group" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IService.Group" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Group As IServiceGroup" />
+      <MemberSignature Language="F#" Value="member this.Group : Microsoft.Windows.EventTracing.Services.IServiceGroup" Usage="Microsoft.Windows.EventTracing.Services.IService.Group" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.IServiceGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IService.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Services.IService.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Services.ServiceStartType StartType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Services.ServiceStartType StartType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IService.StartType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartType As ServiceStartType" />
+      <MemberSignature Language="F#" Value="member this.StartType : Microsoft.Windows.EventTracing.Services.ServiceStartType" Usage="Microsoft.Windows.EventTracing.Services.IService.StartType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceStartType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateChanges">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceStateChange&gt; StateChanges { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Services.IServiceStateChange&gt; StateChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IService.StateChanges" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StateChanges As IReadOnlyList(Of IServiceStateChange)" />
+      <MemberSignature Language="F#" Value="member this.StateChanges : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceStateChange&gt;" Usage="Microsoft.Windows.EventTracing.Services.IService.StateChanges" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceStateChange&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transitions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceTransition&gt; Transitions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Services.IServiceTransition&gt; Transitions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IService.Transitions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Transitions As IReadOnlyList(Of IServiceTransition)" />
+      <MemberSignature Language="F#" Value="member this.Transitions : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceTransition&gt;" Usage="Microsoft.Windows.EventTracing.Services.IService.Transitions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceTransition&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

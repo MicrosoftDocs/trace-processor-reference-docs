@@ -1,0 +1,41 @@
+<Type Name="IFocusChangeEventConsumer" FullName="Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IFocusChangeEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFocusChangeEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFocusChangeEventConsumer" />
+  <TypeSignature Language="F#" Value="type IFocusChangeEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a FocusChange event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer.Process(Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As FocusChangeEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext -&gt; unit" Usage="iFocusChangeEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The FocusChange enter event to process.</param>
+        <summary>Processes a FocusChange event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

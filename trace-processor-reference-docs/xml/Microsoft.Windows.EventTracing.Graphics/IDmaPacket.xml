@@ -1,0 +1,278 @@
+<Type Name="IDmaPacket" FullName="Microsoft.Windows.EventTracing.Graphics.IDmaPacket">
+  <TypeSignature Language="C#" Value="public interface IDmaPacket" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDmaPacket" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Graphics.IDmaPacket" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDmaPacket" />
+  <TypeSignature Language="F#" Value="type IDmaPacket = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdapterId">
+      <MemberSignature Language="C#" Value="public int AdapterId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AdapterId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.AdapterId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdapterId As Integer" />
+      <MemberSignature Language="F#" Value="member this.AdapterId : int" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.AdapterId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionCompleteTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp ExecutionCompleteTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp ExecutionCompleteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionCompleteTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionCompleteTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.ExecutionCompleteTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionCompleteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration ExecutionDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration ExecutionDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.ExecutionDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionStartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp ExecutionStartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp ExecutionStartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionStartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionStartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.ExecutionStartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.ExecutionStartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareQueueDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration HardwareQueueDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration HardwareQueueDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.HardwareQueueDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareQueueDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.HardwareQueueDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.HardwareQueueDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareSubmitTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp HardwareSubmitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp HardwareSubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.HardwareSubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareSubmitTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.HardwareSubmitTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.HardwareSubmitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeEngineId">
+      <MemberSignature Language="C#" Value="public int NodeEngineId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NodeEngineId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.NodeEngineId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeEngineId As Integer" />
+      <MemberSignature Language="F#" Value="member this.NodeEngineId : int" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.NodeEngineId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the engine within the node.</summary>
+        <value>To be added.</value>
+        <remarks>This index is relative to the node, not global.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeId">
+      <MemberSignature Language="C#" Value="public int NodeId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NodeId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.NodeId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeId As Integer" />
+      <MemberSignature Language="F#" Value="member this.NodeId : int" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.NodeId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftwareQueueDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration SoftwareQueueDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration SoftwareQueueDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SoftwareQueueDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SoftwareQueueDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.SoftwareQueueDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SoftwareQueueDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftwareSubmitTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp SoftwareSubmitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp SoftwareSubmitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SoftwareSubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SoftwareSubmitTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.SoftwareSubmitTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SoftwareSubmitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess SubmittingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess SubmittingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SubmittingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmittingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.SubmittingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SubmittingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmittingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread SubmittingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread SubmittingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SubmittingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SubmittingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.SubmittingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.SubmittingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Graphics.DmaPacketType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Graphics.DmaPacketType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDmaPacket.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As DmaPacketType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Windows.EventTracing.Graphics.DmaPacketType" Usage="Microsoft.Windows.EventTracing.Graphics.IDmaPacket.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Graphics.DmaPacketType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

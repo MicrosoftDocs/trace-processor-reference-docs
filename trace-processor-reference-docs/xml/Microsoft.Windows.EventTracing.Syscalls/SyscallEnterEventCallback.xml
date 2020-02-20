@@ -1,0 +1,25 @@
+<Type Name="SyscallEnterEventCallback" FullName="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void SyscallEnterEventCallback(SyscallEnterEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyscallEnterEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyscallEnterEventCallback(eventContext As SyscallEnterEventContext)" />
+  <TypeSignature Language="F#" Value="type SyscallEnterEventCallback = delegate of SyscallEnterEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The syscall enter event to process.</param>
+    <summary>Processes a syscall enter event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

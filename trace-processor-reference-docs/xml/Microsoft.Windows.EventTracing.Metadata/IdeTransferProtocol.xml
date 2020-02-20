@@ -1,0 +1,58 @@
+<Type Name="IdeTransferProtocol" FullName="Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol">
+  <TypeSignature Language="C#" Value="public enum IdeTransferProtocol" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IdeTransferProtocol extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IdeTransferProtocol" />
+  <TypeSignature Language="F#" Value="type IdeTransferProtocol = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Ata">
+      <MemberSignature Language="C#" Value="Ata" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol Ata = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol.Ata" />
+      <MemberSignature Language="VB.NET" Value="Ata" />
+      <MemberSignature Language="F#" Value="Ata = 0" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol.Ata" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Atapi">
+      <MemberSignature Language="C#" Value="Atapi" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol Atapi = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol.Atapi" />
+      <MemberSignature Language="VB.NET" Value="Atapi" />
+      <MemberSignature Language="F#" Value="Atapi = 1" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol.Atapi" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

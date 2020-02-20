@@ -1,0 +1,85 @@
+<Type Name="ParkingPerformanceState" FullName="Microsoft.Windows.EventTracing.Power.ParkingPerformanceState">
+  <TypeSignature Language="C#" Value="public enum ParkingPerformanceState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ParkingPerformanceState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ParkingPerformanceState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ParkingPerformanceState" />
+  <TypeSignature Language="F#" Value="type ParkingPerformanceState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the performance state (target frequency) for parked processor cores.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deepest">
+      <MemberSignature Language="C#" Value="Deepest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ParkingPerformanceState Deepest = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.Deepest" />
+      <MemberSignature Language="VB.NET" Value="Deepest" />
+      <MemberSignature Language="F#" Value="Deepest = 1" Usage="Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.Deepest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ParkingPerformanceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Specify minimum target frequency for parked cores.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Lightest">
+      <MemberSignature Language="C#" Value="Lightest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ParkingPerformanceState Lightest = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.Lightest" />
+      <MemberSignature Language="VB.NET" Value="Lightest" />
+      <MemberSignature Language="F#" Value="Lightest = 2" Usage="Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.Lightest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ParkingPerformanceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Specify maximum target frequency for parked cores.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoPreference">
+      <MemberSignature Language="C#" Value="NoPreference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ParkingPerformanceState NoPreference = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.NoPreference" />
+      <MemberSignature Language="VB.NET" Value="NoPreference" />
+      <MemberSignature Language="F#" Value="NoPreference = 0" Usage="Microsoft.Windows.EventTracing.Power.ParkingPerformanceState.NoPreference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ParkingPerformanceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            No specified target frequency. The target frequency will be determined based on other criteria.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

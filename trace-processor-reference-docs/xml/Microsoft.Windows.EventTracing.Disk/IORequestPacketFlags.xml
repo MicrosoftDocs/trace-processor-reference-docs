@@ -1,0 +1,312 @@
+<Type Name="IORequestPacketFlags" FullName="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags">
+  <TypeSignature Language="C#" Value="public enum IORequestPacketFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IORequestPacketFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IORequestPacketFlags" />
+  <TypeSignature Language="F#" Value="type IORequestPacketFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+            See the documentation on the IRP structure's Flags field for documentation on these values.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsynchronousNameQuery">
+      <MemberSignature Language="C#" Value="AsynchronousNameQuery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags AsynchronousNameQuery = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.AsynchronousNameQuery" />
+      <MemberSignature Language="VB.NET" Value="AsynchronousNameQuery" />
+      <MemberSignature Language="F#" Value="AsynchronousNameQuery = 4096" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.AsynchronousNameQuery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Buffered">
+      <MemberSignature Language="C#" Value="Buffered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags Buffered = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Buffered" />
+      <MemberSignature Language="VB.NET" Value="Buffered" />
+      <MemberSignature Language="F#" Value="Buffered = 16" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Buffered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseOperation">
+      <MemberSignature Language="C#" Value="CloseOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags CloseOperation = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.CloseOperation" />
+      <MemberSignature Language="VB.NET" Value="CloseOperation" />
+      <MemberSignature Language="F#" Value="CloseOperation = 1024" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.CloseOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOperation">
+      <MemberSignature Language="C#" Value="CreateOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags CreateOperation = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.CreateOperation" />
+      <MemberSignature Language="VB.NET" Value="CreateOperation" />
+      <MemberSignature Language="F#" Value="CreateOperation = 128" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.CreateOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeallocateBuffer">
+      <MemberSignature Language="C#" Value="DeallocateBuffer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags DeallocateBuffer = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.DeallocateBuffer" />
+      <MemberSignature Language="VB.NET" Value="DeallocateBuffer" />
+      <MemberSignature Language="F#" Value="DeallocateBuffer = 32" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.DeallocateBuffer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeferCompletion">
+      <MemberSignature Language="C#" Value="DeferCompletion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags DeferCompletion = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.DeferCompletion" />
+      <MemberSignature Language="VB.NET" Value="DeferCompletion" />
+      <MemberSignature Language="F#" Value="DeferCompletion = 2048" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.DeferCompletion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HoldDeviceQueue">
+      <MemberSignature Language="C#" Value="HoldDeviceQueue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags HoldDeviceQueue = int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.HoldDeviceQueue" />
+      <MemberSignature Language="VB.NET" Value="HoldDeviceQueue" />
+      <MemberSignature Language="F#" Value="HoldDeviceQueue = 8192" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.HoldDeviceQueue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociatedIORequestPacket">
+      <MemberSignature Language="C#" Value="IsAssociatedIORequestPacket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags IsAssociatedIORequestPacket = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.IsAssociatedIORequestPacket" />
+      <MemberSignature Language="VB.NET" Value="IsAssociatedIORequestPacket" />
+      <MemberSignature Language="F#" Value="IsAssociatedIORequestPacket = 8" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.IsAssociatedIORequestPacket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonCached">
+      <MemberSignature Language="C#" Value="NonCached" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags NonCached = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.NonCached" />
+      <MemberSignature Language="VB.NET" Value="NonCached" />
+      <MemberSignature Language="F#" Value="NonCached = 1" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.NonCached" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Paging">
+      <MemberSignature Language="C#" Value="Paging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags Paging = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Paging" />
+      <MemberSignature Language="VB.NET" Value="Paging" />
+      <MemberSignature Language="F#" Value="Paging = 2" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Paging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOperation">
+      <MemberSignature Language="C#" Value="ReadOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags ReadOperation = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.ReadOperation" />
+      <MemberSignature Language="VB.NET" Value="ReadOperation" />
+      <MemberSignature Language="F#" Value="ReadOperation = 256" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.ReadOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Synchronous">
+      <MemberSignature Language="C#" Value="Synchronous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags Synchronous = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Synchronous" />
+      <MemberSignature Language="VB.NET" Value="Synchronous" />
+      <MemberSignature Language="F#" Value="Synchronous = 4" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.Synchronous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SynchronousPaging">
+      <MemberSignature Language="C#" Value="SynchronousPaging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags SynchronousPaging = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.SynchronousPaging" />
+      <MemberSignature Language="VB.NET" Value="SynchronousPaging" />
+      <MemberSignature Language="F#" Value="SynchronousPaging = 64" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.SynchronousPaging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteOperation">
+      <MemberSignature Language="C#" Value="WriteOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags WriteOperation = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.WriteOperation" />
+      <MemberSignature Language="VB.NET" Value="WriteOperation" />
+      <MemberSignature Language="F#" Value="WriteOperation = 512" Usage="Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags.WriteOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

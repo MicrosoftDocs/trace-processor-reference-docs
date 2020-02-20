@@ -1,0 +1,483 @@
+<Type Name="KernelFileOptions" FullName="Microsoft.Windows.EventTracing.Disk.KernelFileOptions">
+  <TypeSignature Language="C#" Value="public enum KernelFileOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed KernelFileOptions extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.KernelFileOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum KernelFileOptions" />
+  <TypeSignature Language="F#" Value="type KernelFileOptions = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+            See the documentation on NtCreateFile's CreateOptions parameter for information on most of these values.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CompleteIfOplocked">
+      <MemberSignature Language="C#" Value="CompleteIfOplocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions CompleteIfOplocked = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.CompleteIfOplocked" />
+      <MemberSignature Language="VB.NET" Value="CompleteIfOplocked" />
+      <MemberSignature Language="F#" Value="CompleteIfOplocked = 256" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.CompleteIfOplocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTreeConnection">
+      <MemberSignature Language="C#" Value="CreateTreeConnection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions CreateTreeConnection = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.CreateTreeConnection" />
+      <MemberSignature Language="VB.NET" Value="CreateTreeConnection" />
+      <MemberSignature Language="F#" Value="CreateTreeConnection = 128" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.CreateTreeConnection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOnClose">
+      <MemberSignature Language="C#" Value="DeleteOnClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions DeleteOnClose = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DeleteOnClose" />
+      <MemberSignature Language="VB.NET" Value="DeleteOnClose" />
+      <MemberSignature Language="F#" Value="DeleteOnClose = 4096" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DeleteOnClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryFile">
+      <MemberSignature Language="C#" Value="DirectoryFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions DirectoryFile = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DirectoryFile" />
+      <MemberSignature Language="VB.NET" Value="DirectoryFile" />
+      <MemberSignature Language="F#" Value="DirectoryFile = 1" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DirectoryFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisallowExclusive">
+      <MemberSignature Language="C#" Value="DisallowExclusive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions DisallowExclusive = int32(131072)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DisallowExclusive" />
+      <MemberSignature Language="VB.NET" Value="DisallowExclusive" />
+      <MemberSignature Language="F#" Value="DisallowExclusive = 131072" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.DisallowExclusive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>131072</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoCompression">
+      <MemberSignature Language="C#" Value="NoCompression" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions NoCompression = int32(32768)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoCompression" />
+      <MemberSignature Language="VB.NET" Value="NoCompression" />
+      <MemberSignature Language="F#" Value="NoCompression = 32768" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoCompression" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>32768</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoExtendedAttributeKnowledge">
+      <MemberSignature Language="C#" Value="NoExtendedAttributeKnowledge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions NoExtendedAttributeKnowledge = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoExtendedAttributeKnowledge" />
+      <MemberSignature Language="VB.NET" Value="NoExtendedAttributeKnowledge" />
+      <MemberSignature Language="F#" Value="NoExtendedAttributeKnowledge = 512" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoExtendedAttributeKnowledge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoIntermediateBuffering">
+      <MemberSignature Language="C#" Value="NoIntermediateBuffering" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions NoIntermediateBuffering = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoIntermediateBuffering" />
+      <MemberSignature Language="VB.NET" Value="NoIntermediateBuffering" />
+      <MemberSignature Language="F#" Value="NoIntermediateBuffering = 8" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NoIntermediateBuffering" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonDirectoryFile">
+      <MemberSignature Language="C#" Value="NonDirectoryFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions NonDirectoryFile = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NonDirectoryFile" />
+      <MemberSignature Language="VB.NET" Value="NonDirectoryFile" />
+      <MemberSignature Language="F#" Value="NonDirectoryFile = 64" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.NonDirectoryFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenByFileId">
+      <MemberSignature Language="C#" Value="OpenByFileId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenByFileId = int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenByFileId" />
+      <MemberSignature Language="VB.NET" Value="OpenByFileId" />
+      <MemberSignature Language="F#" Value="OpenByFileId = 8192" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenByFileId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenForBackupIntent">
+      <MemberSignature Language="C#" Value="OpenForBackupIntent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenForBackupIntent = int32(16384)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenForBackupIntent" />
+      <MemberSignature Language="VB.NET" Value="OpenForBackupIntent" />
+      <MemberSignature Language="F#" Value="OpenForBackupIntent = 16384" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenForBackupIntent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>16384</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenForFreeSpaceQuery">
+      <MemberSignature Language="C#" Value="OpenForFreeSpaceQuery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenForFreeSpaceQuery = int32(8388608)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenForFreeSpaceQuery" />
+      <MemberSignature Language="VB.NET" Value="OpenForFreeSpaceQuery" />
+      <MemberSignature Language="F#" Value="OpenForFreeSpaceQuery = 8388608" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenForFreeSpaceQuery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>8388608</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenNoRecall">
+      <MemberSignature Language="C#" Value="OpenNoRecall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenNoRecall = int32(4194304)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenNoRecall" />
+      <MemberSignature Language="VB.NET" Value="OpenNoRecall" />
+      <MemberSignature Language="F#" Value="OpenNoRecall = 4194304" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenNoRecall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>4194304</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenRemoteInstance">
+      <MemberSignature Language="C#" Value="OpenRemoteInstance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenRemoteInstance = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenRemoteInstance" />
+      <MemberSignature Language="VB.NET" Value="OpenRemoteInstance" />
+      <MemberSignature Language="F#" Value="OpenRemoteInstance = 1024" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenRemoteInstance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenReparsePoint">
+      <MemberSignature Language="C#" Value="OpenReparsePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenReparsePoint = int32(2097152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenReparsePoint" />
+      <MemberSignature Language="VB.NET" Value="OpenReparsePoint" />
+      <MemberSignature Language="F#" Value="OpenReparsePoint = 2097152" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenReparsePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2097152</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenRequiringOplock">
+      <MemberSignature Language="C#" Value="OpenRequiringOplock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions OpenRequiringOplock = int32(65536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenRequiringOplock" />
+      <MemberSignature Language="VB.NET" Value="OpenRequiringOplock" />
+      <MemberSignature Language="F#" Value="OpenRequiringOplock = 65536" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.OpenRequiringOplock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>65536</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RandomAccess">
+      <MemberSignature Language="C#" Value="RandomAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions RandomAccess = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.RandomAccess" />
+      <MemberSignature Language="VB.NET" Value="RandomAccess" />
+      <MemberSignature Language="F#" Value="RandomAccess = 2048" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.RandomAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReserveFilterOplock">
+      <MemberSignature Language="C#" Value="ReserveFilterOplock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions ReserveFilterOplock = int32(1048576)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.ReserveFilterOplock" />
+      <MemberSignature Language="VB.NET" Value="ReserveFilterOplock" />
+      <MemberSignature Language="F#" Value="ReserveFilterOplock = 1048576" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.ReserveFilterOplock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>1048576</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SequentialOnly">
+      <MemberSignature Language="C#" Value="SequentialOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions SequentialOnly = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SequentialOnly" />
+      <MemberSignature Language="VB.NET" Value="SequentialOnly" />
+      <MemberSignature Language="F#" Value="SequentialOnly = 4" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SequentialOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionAware">
+      <MemberSignature Language="C#" Value="SessionAware" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions SessionAware = int32(262144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SessionAware" />
+      <MemberSignature Language="VB.NET" Value="SessionAware" />
+      <MemberSignature Language="F#" Value="SessionAware = 262144" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SessionAware" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>262144</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SynchronousIOAlert">
+      <MemberSignature Language="C#" Value="SynchronousIOAlert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions SynchronousIOAlert = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SynchronousIOAlert" />
+      <MemberSignature Language="VB.NET" Value="SynchronousIOAlert" />
+      <MemberSignature Language="F#" Value="SynchronousIOAlert = 16" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SynchronousIOAlert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SynchronousIONonAlert">
+      <MemberSignature Language="C#" Value="SynchronousIONonAlert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions SynchronousIONonAlert = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SynchronousIONonAlert" />
+      <MemberSignature Language="VB.NET" Value="SynchronousIONonAlert" />
+      <MemberSignature Language="F#" Value="SynchronousIONonAlert = 32" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.SynchronousIONonAlert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteThrough">
+      <MemberSignature Language="C#" Value="WriteThrough" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions WriteThrough = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileOptions.WriteThrough" />
+      <MemberSignature Language="VB.NET" Value="WriteThrough" />
+      <MemberSignature Language="F#" Value="WriteThrough = 2" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileOptions.WriteThrough" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

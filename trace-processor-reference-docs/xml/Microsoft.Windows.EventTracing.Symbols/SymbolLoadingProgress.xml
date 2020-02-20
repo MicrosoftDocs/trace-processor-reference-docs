@@ -1,0 +1,105 @@
+<Type Name="SymbolLoadingProgress" FullName="Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress">
+  <TypeSignature Language="C#" Value="public struct SymbolLoadingProgress" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SymbolLoadingProgress extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress" />
+  <TypeSignature Language="VB.NET" Value="Public Structure SymbolLoadingProgress" />
+  <TypeSignature Language="F#" Value="type SymbolLoadingProgress = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SymbolLoadingProgress (int imagesProcessed, int imagesLoaded, int imagesTotal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 imagesProcessed, int32 imagesLoaded, int32 imagesTotal) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.#ctor(System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (imagesProcessed As Integer, imagesLoaded As Integer, imagesTotal As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress : int * int * int -&gt; Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress" Usage="new Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress (imagesProcessed, imagesLoaded, imagesTotal)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="imagesProcessed" Type="System.Int32" />
+        <Parameter Name="imagesLoaded" Type="System.Int32" />
+        <Parameter Name="imagesTotal" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="imagesProcessed">To be added.</param>
+        <param name="imagesLoaded">To be added.</param>
+        <param name="imagesTotal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImagesLoaded">
+      <MemberSignature Language="C#" Value="public int ImagesLoaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ImagesLoaded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesLoaded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImagesLoaded As Integer" />
+      <MemberSignature Language="F#" Value="member this.ImagesLoaded : int" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesLoaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImagesProcessed">
+      <MemberSignature Language="C#" Value="public int ImagesProcessed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ImagesProcessed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesProcessed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImagesProcessed As Integer" />
+      <MemberSignature Language="F#" Value="member this.ImagesProcessed : int" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesProcessed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImagesTotal">
+      <MemberSignature Language="C#" Value="public int ImagesTotal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ImagesTotal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesTotal" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImagesTotal As Integer" />
+      <MemberSignature Language="F#" Value="member this.ImagesTotal : int" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress.ImagesTotal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1224 @@
+<Type Name="ValueString" FullName="Microsoft.Windows.EventTracing.ValueString">
+  <TypeSignature Language="C#" Value="public struct ValueString" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ValueString extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ValueString" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ValueString" />
+  <TypeSignature Language="F#" Value="type ValueString = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents text as a sequence of UTF-16 code units that is not necessarily allocated on the managed heap.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ValueString (ReadOnlySpan&lt;char&gt; span);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;char&gt; span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.#ctor(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (span As ReadOnlySpan(Of Char))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.ValueString : ReadOnlySpan&lt;char&gt; -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="new Microsoft.Windows.EventTracing.ValueString span" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="span">The character contents of the string.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.ValueString" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareOrdinal">
+      <MemberSignature Language="C#" Value="public static int CompareOrdinal (Microsoft.Windows.EventTracing.ValueString left, Microsoft.Windows.EventTracing.ValueString right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 CompareOrdinal(valuetype Microsoft.Windows.EventTracing.ValueString left, valuetype Microsoft.Windows.EventTracing.ValueString right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.CompareOrdinal(Microsoft.Windows.EventTracing.ValueString,Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareOrdinal (left As ValueString, right As ValueString) As Integer" />
+      <MemberSignature Language="F#" Value="static member CompareOrdinal : Microsoft.Windows.EventTracing.ValueString * Microsoft.Windows.EventTracing.ValueString -&gt; int" Usage="Microsoft.Windows.EventTracing.ValueString.CompareOrdinal (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.ValueString" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="left">The left string to compare.</param>
+        <param name="right">The right string to compare.</param>
+        <summary>
+            Compares to strings by evaluating the numeric values of the corresponding characters in each string.
+            </summary>
+        <returns>
+            A signed integer that indicates the lexical relationship between the two strings.
+            <list type="table"><listheader><term>Value</term><description>Condition</description></listheader><item><term>Less than zero</term><description><paramref name="left" /> is less than <paramref name="right" />.</description></item><item><term>Zero</term><description><paramref name="left" /> and <paramref name="right" /> are equal.</description></item><item><term>Greater than zero</term><description><paramref name="left" /> is greater than <paramref name="right" />.</description></item></list></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.CompareTo(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (value As ValueString) As Integer" />
+      <MemberSignature Language="F#" Value="member this.CompareTo : Microsoft.Windows.EventTracing.ValueString -&gt; int" Usage="valueString.CompareTo value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to compare with this string.</param>
+        <summary>
+            Compares this string with a specified string by evaluating the numeric values of the corresponding
+            characters in each string.
+            </summary>
+        <returns>
+            A signed integer that indicates the lexical relationship between the two strings.
+            <list type="table"><listheader><term>Value</term><description>Condition</description></listheader><item><term>Less than zero</term><description>This string is less than <paramref name="value" />.</description></item><item><term>Zero</term><description>This string and <paramref name="value" /> are equal.</description></item><item><term>Greater than zero</term><description>This string is greater than <paramref name="value" />.</description></item></list></returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Contains(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (value As ValueString) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : Microsoft.Windows.EventTracing.ValueString -&gt; bool" Usage="valueString.Contains value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The substring to seek.</param>
+        <summary>Returns a value indicating whether the specified substring occurs within the string.</summary>
+        <returns>
+          <see langword="true" /> if the string contains the specified <paramref name="value" />, or if
+            <paramref name="value" /> is empty; otherwise, <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (char value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(char value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Contains(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (value As Char) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : char -&gt; bool" Usage="valueString.Contains value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character to seek.</param>
+        <summary>Returns a value indicating whether the specified character occurs within the string.</summary>
+        <returns>
+          <see langword="true" /> if the string contains the specified <paramref name="value" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyTo">
+      <MemberSignature Language="C#" Value="public void CopyTo (Span&lt;char&gt; destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CopyTo(valuetype System.Span`1&lt;char&gt; destination) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.CopyTo(System.Span{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (destination As Span(Of Char))" />
+      <MemberSignature Language="F#" Value="member this.CopyTo : Span&lt;char&gt; -&gt; unit" Usage="valueString.CopyTo destination" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destination" Type="System.Span&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="destination">The span into which to copy items.</param>
+        <summary>Copies the contents of this string into a destination <see cref="T:System.Span`1" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ValueString Empty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Windows.EventTracing.ValueString Empty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ValueString.Empty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Empty As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Empty : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ValueString.Empty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an empty <see cref="T:Microsoft.Windows.EventTracing.ValueString" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndsWith">
+      <MemberSignature Language="C#" Value="public bool EndsWith (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool EndsWith(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.EndsWith(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndsWith (value As ValueString) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EndsWith : Microsoft.Windows.EventTracing.ValueString -&gt; bool" Usage="valueString.EndsWith value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to compare.</param>
+        <summary>Determines whether this string ends with the specified string.</summary>
+        <returns>
+          <see langword="true" /> if this string ends with the specified <paramref name="value" /> or if
+            <paramref name="value" /> is empty; otherwise,
+            <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndsWith">
+      <MemberSignature Language="C#" Value="public bool EndsWith (char value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool EndsWith(char value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.EndsWith(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndsWith (value As Char) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EndsWith : char -&gt; bool" Usage="valueString.EndsWith value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character to compare.</param>
+        <summary>Determines whether this string ends with the specified character.</summary>
+        <returns>
+          <see langword="true" /> if this string ends with the specified <paramref name="value" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="valueString.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("Equals on ValueString will always throw an exception. Use == instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt;.Enumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlySpan`1/Enumerator&lt;char&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As ReadOnlySpan(Of Char).Enumerator" />
+      <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; ReadOnlySpan&lt;char&gt;.Enumerator" Usage="valueString.GetEnumerator " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;System.Char&gt;+Enumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets an enumerator for the characters in this string.</summary>
+        <returns>An enumerator for the characters in this string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="valueString.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("GetHashCode on ValueString will always throw an exception.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPinnableReference">
+      <MemberSignature Language="C#" Value="public ref readonly char GetPinnableReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance char GetPinnableReference() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.GetPinnableReference" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPinnableReference () As Char" />
+      <MemberSignature Language="F#" Value="member this.GetPinnableReference : unit -&gt; char" Usage="valueString.GetPinnableReference " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue RefType="Readonly">
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Get a read-only reference to a character that can be used for pinning and is required to support the use of
+            <see cref="T:Microsoft.Windows.EventTracing.ValueString" /> within a <see langword="fixed" /> statement.
+            </summary>
+        <returns>A read-only reference to a character that can be used for pinning.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexOf">
+      <MemberSignature Language="C#" Value="public int IndexOf (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 IndexOf(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.IndexOf(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOf (value As ValueString) As Integer" />
+      <MemberSignature Language="F#" Value="member this.IndexOf : Microsoft.Windows.EventTracing.ValueString -&gt; int" Usage="valueString.IndexOf value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to seek.</param>
+        <summary>
+            Reports the zero-based index of the first occurrence of the specified string in this string.
+            </summary>
+        <returns>
+            The zero-based index of the first string <paramref name="value" /> in this string if that string is found;
+            otherwise, -1.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexOf">
+      <MemberSignature Language="C#" Value="public int IndexOf (char value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 IndexOf(char value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.IndexOf(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOf (value As Char) As Integer" />
+      <MemberSignature Language="F#" Value="member this.IndexOf : char -&gt; int" Usage="valueString.IndexOf value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character to seek.</param>
+        <summary>
+            Reports the zero-based index of the first occurrence of the specified character in this string.
+            </summary>
+        <returns>
+            The zero-based index of the first character <paramref name="value" /> in this string if that character is
+            found; otherwise, -1.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexOfAny">
+      <MemberSignature Language="C#" Value="public int IndexOfAny (ReadOnlySpan&lt;char&gt; anyOf);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 IndexOfAny(valuetype System.ReadOnlySpan`1&lt;char&gt; anyOf) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.IndexOfAny(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOfAny (anyOf As ReadOnlySpan(Of Char)) As Integer" />
+      <MemberSignature Language="F#" Value="member this.IndexOfAny : ReadOnlySpan&lt;char&gt; -&gt; int" Usage="valueString.IndexOfAny anyOf" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="anyOf" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="anyOf">A list containing one or more characters to seek.</param>
+        <summary>
+            Reports the zero-based index of the first occurrence in this string of any character in the specified list.
+            </summary>
+        <returns>
+            The zero-based index of the first occurrence in this string where any character in <paramref name="anyOf" />
+            was found; otherwise, -1 if no character in <paramref name="anyOf" /> was found in this string.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEmpty">
+      <MemberSignature Language="C#" Value="public bool IsEmpty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEmpty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ValueString.IsEmpty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsEmpty As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmpty : bool" Usage="Microsoft.Windows.EventTracing.ValueString.IsEmpty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the string is empty.</summary>
+        <value>
+          <see langword="true" /> if the string is empty; otherwise, <see langword="false" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEmptyOrWhiteSpace">
+      <MemberSignature Language="C#" Value="public bool IsEmptyOrWhiteSpace ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsEmptyOrWhiteSpace() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.IsEmptyOrWhiteSpace" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsEmptyOrWhiteSpace () As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmptyOrWhiteSpace : unit -&gt; bool" Usage="valueString.IsEmptyOrWhiteSpace " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Indicates whether the string is empty or consists only of white-space characters.
+            </summary>
+        <returns>
+          <see langword="true" /> if the string is empty or if the string consists exclusively of white-space
+            characters; otherwise <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public char this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance char Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ValueString.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As Char" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : char" Usage="Microsoft.Windows.EventTracing.ValueString.Item" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the character to access.</param>
+        <summary>Gets the character at the specified zero-based index in the string.</summary>
+        <value>A character from the string.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="index" /> is less than zero or greater than or equal to <see cref="P:Microsoft.Windows.EventTracing.ValueString.Length" />.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="LastIndexOf">
+      <MemberSignature Language="C#" Value="public int LastIndexOf (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 LastIndexOf(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.LastIndexOf(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LastIndexOf (value As ValueString) As Integer" />
+      <MemberSignature Language="F#" Value="member this.LastIndexOf : Microsoft.Windows.EventTracing.ValueString -&gt; int" Usage="valueString.LastIndexOf value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to seek.</param>
+        <summary>
+            Reports the zero-based index of the last occurrence of the specified string in this string.
+            </summary>
+        <returns>
+            The zero-based index of the last string <paramref name="value" /> in this string if that string is found;
+            otherwise, -1.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastIndexOf">
+      <MemberSignature Language="C#" Value="public int LastIndexOf (char value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 LastIndexOf(char value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.LastIndexOf(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LastIndexOf (value As Char) As Integer" />
+      <MemberSignature Language="F#" Value="member this.LastIndexOf : char -&gt; int" Usage="valueString.LastIndexOf value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character to seek.</param>
+        <summary>
+            Reports the zero-based index of the last occurrence of the specified character in this string.
+            </summary>
+        <returns>
+            The zero-based index of the last character <paramref name="value" /> in this string if that character is
+            found; otherwise, -1.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastIndexOfAny">
+      <MemberSignature Language="C#" Value="public int LastIndexOfAny (ReadOnlySpan&lt;char&gt; anyOf);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 LastIndexOfAny(valuetype System.ReadOnlySpan`1&lt;char&gt; anyOf) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.LastIndexOfAny(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function LastIndexOfAny (anyOf As ReadOnlySpan(Of Char)) As Integer" />
+      <MemberSignature Language="F#" Value="member this.LastIndexOfAny : ReadOnlySpan&lt;char&gt; -&gt; int" Usage="valueString.LastIndexOfAny anyOf" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="anyOf" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="anyOf">A list containing one or more characters to seek.</param>
+        <summary>
+            Reports the zero-based index of the last occurrence in this string of any character in the specified list.
+            </summary>
+        <returns>
+            The zero-based index of the last occurrence in this string where any character in <paramref name="anyOf" />
+            was found; otherwise, -1 if no character in <paramref name="anyOf" /> was found in this string.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ValueString.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="F#" Value="member this.Length : int" Usage="Microsoft.Windows.EventTracing.ValueString.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of characters in the string.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.ValueString left, Microsoft.Windows.EventTracing.ValueString right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.ValueString left, valuetype Microsoft.Windows.EventTracing.ValueString right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.op_Equality(Microsoft.Windows.EventTracing.ValueString,Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As ValueString, right As ValueString) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.ValueString * Microsoft.Windows.EventTracing.ValueString -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.ValueString" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="left">The first value to compare.</param>
+        <param name="right">The second value to compare.</param>
+        <summary>Determines whether two <see cref="T:Microsoft.Windows.EventTracing.ValueString" />s have the same contents.</summary>
+        <returns>
+          <see langword="true" /> if the two values are equal; otherwise, <see langword="false" />.
+            </returns>
+        <remarks>
+            Unlike <see cref="T:System.ReadOnlySpan`1" />, this method does consider the contents of the character span.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Windows.EventTracing.ValueString (ReadOnlySpan&lt;char&gt; span);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.ValueString op_Implicit(valuetype System.ReadOnlySpan`1&lt;char&gt; span) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.op_Implicit(System.ReadOnlySpan{System.Char})~Microsoft.Windows.EventTracing.ValueString" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (span As ReadOnlySpan(Of Char)) As ValueString" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : ReadOnlySpan&lt;char&gt; -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ValueString.op_Implicit span" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="span">The character contents of the string.</param>
+        <summary>
+            Defines an implicit conversion of a <see cref="T:System.ReadOnlySpan`1" /> to a <see cref="T:Microsoft.Windows.EventTracing.ValueString" />.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Windows.EventTracing.ValueString (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.ValueString op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.op_Implicit(System.String)~Microsoft.Windows.EventTracing.ValueString" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As ValueString" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ValueString.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character contents of the string.</param>
+        <summary>
+            Defines an implicit conversion of a <see cref="T:System.String" /> to a <see cref="T:Microsoft.Windows.EventTracing.ValueString" />.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.ValueString left, Microsoft.Windows.EventTracing.ValueString right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.ValueString left, valuetype Microsoft.Windows.EventTracing.ValueString right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.op_Inequality(Microsoft.Windows.EventTracing.ValueString,Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As ValueString, right As ValueString) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.ValueString * Microsoft.Windows.EventTracing.ValueString -&gt; bool" Usage="Microsoft.Windows.EventTracing.ValueString.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.ValueString" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="left">The first value to compare.</param>
+        <param name="right">The second value to compare.</param>
+        <summary>Determines whether two <see cref="T:Microsoft.Windows.EventTracing.ValueString" />s have different contents.</summary>
+        <returns>
+          <see langword="true" /> if the two values are not equal; otherwise, <see langword="false" />.
+            </returns>
+        <remarks>
+            Unlike <see cref="T:System.ReadOnlySpan`1" />, this method does consider the contents of the span.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Span">
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; Span { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; Span" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ValueString.Span" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Span As ReadOnlySpan(Of Char)" />
+      <MemberSignature Language="F#" Value="member this.Span : ReadOnlySpan&lt;char&gt;" Usage="Microsoft.Windows.EventTracing.ValueString.Span" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;System.Char&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the character contents of the string.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartsWith">
+      <MemberSignature Language="C#" Value="public bool StartsWith (Microsoft.Windows.EventTracing.ValueString value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool StartsWith(valuetype Microsoft.Windows.EventTracing.ValueString value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.StartsWith(Microsoft.Windows.EventTracing.ValueString)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartsWith (value As ValueString) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.StartsWith : Microsoft.Windows.EventTracing.ValueString -&gt; bool" Usage="valueString.StartsWith value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.ValueString" />
+      </Parameters>
+      <Docs>
+        <param name="value">The string to compare.</param>
+        <summary>Determines whether this string starts with the specified string.</summary>
+        <returns>
+          <see langword="true" /> if this string starts with the specified <paramref name="value" /> or if
+            <paramref name="value" /> is empty; otherwise,
+            <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartsWith">
+      <MemberSignature Language="C#" Value="public bool StartsWith (char value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool StartsWith(char value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.StartsWith(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartsWith (value As Char) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.StartsWith : char -&gt; bool" Usage="valueString.StartsWith value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="value">The character to compare.</param>
+        <summary>Determines whether this string starts with the specified character.</summary>
+        <returns>
+          <see langword="true" /> if this string starts with the specified <paramref name="value" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Substring">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Substring (int startIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString Substring(int32 startIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Substring(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Substring (startIndex As Integer) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Substring : int -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.Substring startIndex" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startIndex">The zero-based character index of a substring in this string.</param>
+        <summary>
+            Retrieves a substring from this string. The substring starts at the specified zero-based character index and
+            continues to the end of the string.
+            </summary>
+        <returns>
+            A string that is equivalent to the substring that starts at the specified <paramref name="startIndex" /> in
+            this string, or <see cref="P:Microsoft.Windows.EventTracing.ValueString.Empty" /> if <paramref name="startIndex" /> is equal to the length of this string.
+            </returns>
+        <remarks>
+            If <paramref name="startIndex" /> is zero, the method returns the original string unchanged.
+            </remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <para>
+            <paramref name="startIndex" /> is greater than the length of this string.</para>
+          <para>-or-</para>
+          <para>
+            <paramref name="startIndex" /> is less than zero.</para>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Substring">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Substring (int startIndex, int length);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString Substring(int32 startIndex, int32 length) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Substring(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Substring (startIndex As Integer, length As Integer) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Substring : int * int -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.Substring (startIndex, length)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startIndex" Type="System.Int32" />
+        <Parameter Name="length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startIndex">The zero-based character index of a substring in this string.</param>
+        <param name="length">The number of characters in the substring.</param>
+        <summary>
+            Retrieves a substring from this string. The substring starts at the specified zero-based character index and
+            has the specified length.
+            </summary>
+        <returns>
+            A string that is equivalent to the substring of length <paramref name="length" /> that starts at the
+            specified <paramref name="startIndex" /> in this string, or <see cref="P:Microsoft.Windows.EventTracing.ValueString.Empty" /><paramref name="length" /> is
+            zero.
+            </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <para>
+            <paramref name="startIndex" /> plus <paramref name="length" /> indicates a position not within this
+            string.</para>
+          <para>-or-</para>
+          <para>
+            <paramref name="startIndex" /> or <paramref name="length" /> is less than zero.</para>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ToArray">
+      <MemberSignature Language="C#" Value="public char[] ToArray ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance char[] ToArray() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.ToArray" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToArray () As Char()" />
+      <MemberSignature Language="F#" Value="member this.ToArray : unit -&gt; char[]" Usage="valueString.ToArray " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Copies the contents of this string into a new array.</summary>
+        <returns>An array containing the contents of this string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="valueString.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Allocates a <see cref="T:System.String" /> containing the same characters as this string.</summary>
+        <returns>An allocated <see cref="T:System.String" /> containing the same characters as this string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Trim">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Trim ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString Trim() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Trim" />
+      <MemberSignature Language="VB.NET" Value="Public Function Trim () As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Trim : unit -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.Trim " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all leading and trailing white-space characters from this string.</summary>
+        <returns>
+            The string that remains after all white-space characters are removed from the start and end of the current
+            string. If no characters can be trimmed from the current string, the method returns the current string
+            unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Trim">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Trim (char trimChar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString Trim(char trimChar) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Trim(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Trim (trimChar As Char) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Trim : char -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.Trim trimChar" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChar" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="trimChar">The character to remove.</param>
+        <summary>
+            Remove all leading and trailing occurrences of a specified character from this string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of the <paramref name="trimChar" /> character are removed from
+            the start and end of the current string. If no characters can be trimmed from the current string, the method
+            returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Trim">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Trim (ReadOnlySpan&lt;char&gt; trimChars);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString Trim(valuetype System.ReadOnlySpan`1&lt;char&gt; trimChars) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.Trim(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Trim (trimChars As ReadOnlySpan(Of Char)) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Trim : ReadOnlySpan&lt;char&gt; -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.Trim trimChars" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChars" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="trimChars">The characters to remove.</param>
+        <summary>
+            Removes all leading and trailing occurrences of a set of characters from the current string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of <paramref name="trimChars" /> characters are removed from
+            the start and end of the current string. If trimChars is empty, white-space characters are removed instead.
+            If no characters can be trimmed from the current string, the method returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimEnd">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimEnd ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimEnd() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimEnd () As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimEnd : unit -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimEnd " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all the trailing white-space characters from this string.</summary>
+        <returns>
+            The string that remains after all white-space characters are removed from the end of the current string.
+            If no characters can be trimmed from the current string, the method returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimEnd">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimEnd (char trimChar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimEnd(char trimChar) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimEnd(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimEnd (trimChar As Char) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimEnd : char -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimEnd trimChar" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChar" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="trimChar">The character to remove.</param>
+        <summary>
+            Remove all trailing occurrences of a specified character from this string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of the <paramref name="trimChar" /> character are removed from
+            the end of the current string. If no characters can be trimmed from the current string, the method returns
+            the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimEnd">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimEnd (ReadOnlySpan&lt;char&gt; trimChars);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimEnd(valuetype System.ReadOnlySpan`1&lt;char&gt; trimChars) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimEnd(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimEnd (trimChars As ReadOnlySpan(Of Char)) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimEnd : ReadOnlySpan&lt;char&gt; -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimEnd trimChars" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChars" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="trimChars">The characters to remove.</param>
+        <summary>
+            Removes all the trailing occurrences of a set of characters from the current string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of <paramref name="trimChars" /> characters are removed from
+            the end of the current string. If trimChars is empty, white-space characters are removed instead. If no
+            characters can be trimmed from the current string, the method returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimStart">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimStart ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimStart() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimStart" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimStart () As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimStart : unit -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimStart " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all the leading white-space characters from this string.</summary>
+        <returns>
+            The string that remains after all white-space characters are removed from the start of the current string.
+            If no characters can be trimmed from the current string, the method returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimStart">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimStart (char trimChar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimStart(char trimChar) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimStart(System.Char)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimStart (trimChar As Char) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimStart : char -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimStart trimChar" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChar" Type="System.Char" />
+      </Parameters>
+      <Docs>
+        <param name="trimChar">The character to remove.</param>
+        <summary>
+            Remove all leading occurrences of a specified character from this string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of the <paramref name="trimChar" /> character are removed from
+            the start of the current string. If no characters can be trimmed from the current string, the method returns
+            the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimStart">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TrimStart (ReadOnlySpan&lt;char&gt; trimChars);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ValueString TrimStart(valuetype System.ReadOnlySpan`1&lt;char&gt; trimChars) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TrimStart(System.ReadOnlySpan{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimStart (trimChars As ReadOnlySpan(Of Char)) As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TrimStart : ReadOnlySpan&lt;char&gt; -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="valueString.TrimStart trimChars" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trimChars" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="trimChars">The characters to remove.</param>
+        <summary>
+            Removes all the leading occurrences of a set of characters from the current string.
+            </summary>
+        <returns>
+            The string that remains after all occurrences of <paramref name="trimChars" /> characters are removed from
+            the start of the current string. If trimChars is empty, white-space characters are removed instead. If no
+            characters can be trimmed from the current string, the method returns the current string unchanged.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryCopyTo">
+      <MemberSignature Language="C#" Value="public bool TryCopyTo (Span&lt;char&gt; destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryCopyTo(valuetype System.Span`1&lt;char&gt; destination) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ValueString.TryCopyTo(System.Span{System.Char})" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryCopyTo (destination As Span(Of Char)) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TryCopyTo : Span&lt;char&gt; -&gt; bool" Usage="valueString.TryCopyTo destination" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destination" Type="System.Span&lt;System.Char&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="destination">The span into which to copy items.</param>
+        <summary>
+            Attempts to copy the contents of this string into a <see cref="T:System.Span`1" /> and returns a value indicating
+            whether or not the operation succeeded.
+            </summary>
+        <returns>
+          <see langword="true" /> if the copy operation suceeded; otherwise, <see langword="false" />.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

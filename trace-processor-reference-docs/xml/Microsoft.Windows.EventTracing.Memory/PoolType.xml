@@ -1,0 +1,161 @@
+<Type Name="PoolType" FullName="Microsoft.Windows.EventTracing.Memory.PoolType">
+  <TypeSignature Language="C#" Value="public struct PoolType" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit PoolType extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.PoolType" />
+  <TypeSignature Language="VB.NET" Value="Public Structure PoolType" />
+  <TypeSignature Language="F#" Value="type PoolType = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsBigPool">
+      <MemberSignature Language="C#" Value="public bool IsBigPool { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBigPool" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsBigPool" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBigPool As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBigPool : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsBigPool" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCacheAligned">
+      <MemberSignature Language="C#" Value="public bool IsCacheAligned { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCacheAligned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsCacheAligned" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCacheAligned As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCacheAligned : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsCacheAligned" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMustSucceed">
+      <MemberSignature Language="C#" Value="public bool IsMustSucceed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMustSucceed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsMustSucceed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMustSucceed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMustSucceed : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsMustSucceed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNonExecutable">
+      <MemberSignature Language="C#" Value="public bool IsNonExecutable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNonExecutable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsNonExecutable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNonExecutable As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNonExecutable : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsNonExecutable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPaged">
+      <MemberSignature Language="C#" Value="public bool IsPaged { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPaged" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsPaged" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPaged As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPaged : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsPaged" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSession">
+      <MemberSignature Language="C#" Value="public bool IsSession { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSession" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.IsSession" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSession As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSession : bool" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.IsSession" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Memory.RawPoolType RawType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Memory.RawPoolType RawType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.PoolType.RawType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawType As RawPoolType" />
+      <MemberSignature Language="F#" Value="member this.RawType : Microsoft.Windows.EventTracing.Memory.RawPoolType" Usage="Microsoft.Windows.EventTracing.Memory.PoolType.RawType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.RawPoolType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

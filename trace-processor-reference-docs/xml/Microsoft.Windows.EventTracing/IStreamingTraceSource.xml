@@ -1,0 +1,40 @@
+<Type Name="IStreamingTraceSource" FullName="Microsoft.Windows.EventTracing.IStreamingTraceSource">
+  <TypeSignature Language="C#" Value="public interface IStreamingTraceSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStreamingTraceSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.IStreamingTraceSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStreamingTraceSource" />
+  <TypeSignature Language="F#" Value="type IStreamingTraceSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a trace source that provides streaming data.</summary>
+    <remarks>
+            This interface is used as a home for extension methods that provide streaming access to trace data.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Trace">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ITraceSource Trace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.ITraceSource Trace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Trace As ITraceSource" />
+      <MemberSignature Language="F#" Value="member this.Trace : Microsoft.Windows.EventTracing.ITraceSource" Usage="Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the trace source.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

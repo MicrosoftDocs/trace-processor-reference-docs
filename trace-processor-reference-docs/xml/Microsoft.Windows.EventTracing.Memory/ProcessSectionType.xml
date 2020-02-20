@@ -1,0 +1,96 @@
+<Type Name="ProcessSectionType" FullName="Microsoft.Windows.EventTracing.Memory.ProcessSectionType">
+  <TypeSignature Language="C#" Value="public enum ProcessSectionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProcessSectionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ProcessSectionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProcessSectionType" />
+  <TypeSignature Language="F#" Value="type ProcessSectionType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="Data" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ProcessSectionType Data = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ProcessSectionType.Data" />
+      <MemberSignature Language="VB.NET" Value="Data" />
+      <MemberSignature Language="F#" Value="Data = 0" Usage="Microsoft.Windows.EventTracing.Memory.ProcessSectionType.Data" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ProcessSectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="Image" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ProcessSectionType Image = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ProcessSectionType.Image" />
+      <MemberSignature Language="VB.NET" Value="Image" />
+      <MemberSignature Language="F#" Value="Image = 1" Usage="Microsoft.Windows.EventTracing.Memory.ProcessSectionType.Image" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ProcessSectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageNoExecute">
+      <MemberSignature Language="C#" Value="ImageNoExecute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ProcessSectionType ImageNoExecute = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ProcessSectionType.ImageNoExecute" />
+      <MemberSignature Language="VB.NET" Value="ImageNoExecute" />
+      <MemberSignature Language="F#" Value="ImageNoExecute = 2" Usage="Microsoft.Windows.EventTracing.Memory.ProcessSectionType.ImageNoExecute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ProcessSectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFileBacked">
+      <MemberSignature Language="C#" Value="PageFileBacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ProcessSectionType PageFileBacked = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ProcessSectionType.PageFileBacked" />
+      <MemberSignature Language="VB.NET" Value="PageFileBacked" />
+      <MemberSignature Language="F#" Value="PageFileBacked = 3" Usage="Microsoft.Windows.EventTracing.Memory.ProcessSectionType.PageFileBacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ProcessSectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

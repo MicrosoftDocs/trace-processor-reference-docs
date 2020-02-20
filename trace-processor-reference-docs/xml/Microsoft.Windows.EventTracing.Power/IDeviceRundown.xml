@@ -1,0 +1,123 @@
+<Type Name="IDeviceRundown" FullName="Microsoft.Windows.EventTracing.Power.IDeviceRundown">
+  <TypeSignature Language="C#" Value="public interface IDeviceRundown" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeviceRundown" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IDeviceRundown" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDeviceRundown" />
+  <TypeSignature Language="F#" Value="type IDeviceRundown = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BiosDeviceName">
+      <MemberSignature Language="C#" Value="public string BiosDeviceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BiosDeviceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceRundown.BiosDeviceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BiosDeviceName As String" />
+      <MemberSignature Language="F#" Value="member this.BiosDeviceName : string" Usage="Microsoft.Windows.EventTracing.Power.IDeviceRundown.BiosDeviceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComponentCount">
+      <MemberSignature Language="C#" Value="public int ComponentCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ComponentCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceRundown.ComponentCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ComponentCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ComponentCount : int" Usage="Microsoft.Windows.EventTracing.Power.IDeviceRundown.ComponentCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the number of components, or subdevices, contained on this device.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            A component, sometimes also referred to as a subdevice, is a functional hardware unit in a device that can
+            be turned on or switched to a low-power state independently of the other components in the same device.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceId">
+      <MemberSignature Language="C#" Value="public long DeviceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 DeviceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceId As Long" />
+      <MemberSignature Language="F#" Value="member this.DeviceId : int64" Usage="Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceInstancePath">
+      <MemberSignature Language="C#" Value="public string DeviceInstancePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeviceInstancePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceInstancePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceInstancePath As String" />
+      <MemberSignature Language="F#" Value="member this.DeviceInstancePath : string" Usage="Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceInstancePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceName">
+      <MemberSignature Language="C#" Value="public string DeviceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeviceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceName As String" />
+      <MemberSignature Language="F#" Value="member this.DeviceName : string" Usage="Microsoft.Windows.EventTracing.Power.IDeviceRundown.DeviceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

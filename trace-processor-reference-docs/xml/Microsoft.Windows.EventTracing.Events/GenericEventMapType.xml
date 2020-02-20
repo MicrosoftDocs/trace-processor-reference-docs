@@ -1,0 +1,58 @@
+<Type Name="GenericEventMapType" FullName="Microsoft.Windows.EventTracing.Events.GenericEventMapType">
+  <TypeSignature Language="C#" Value="public enum GenericEventMapType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GenericEventMapType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.GenericEventMapType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GenericEventMapType" />
+  <TypeSignature Language="F#" Value="type GenericEventMapType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enum">
+      <MemberSignature Language="C#" Value="Enum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventMapType Enum = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventMapType.Enum" />
+      <MemberSignature Language="VB.NET" Value="Enum" />
+      <MemberSignature Language="F#" Value="Enum = 0" Usage="Microsoft.Windows.EventTracing.Events.GenericEventMapType.Enum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventMapType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="Flags" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventMapType Flags = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventMapType.Flags" />
+      <MemberSignature Language="VB.NET" Value="Flags" />
+      <MemberSignature Language="F#" Value="Flags = 1" Usage="Microsoft.Windows.EventTracing.Events.GenericEventMapType.Flags" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventMapType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

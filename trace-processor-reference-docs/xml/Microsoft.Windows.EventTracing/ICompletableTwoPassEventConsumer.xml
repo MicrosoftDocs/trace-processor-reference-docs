@@ -1,0 +1,53 @@
+<Type Name="ICompletableTwoPassEventConsumer" FullName="Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer">
+  <TypeSignature Language="C#" Value="public interface ICompletableTwoPassEventConsumer : Microsoft.Windows.EventTracing.ICompletable, Microsoft.Windows.EventTracing.ITwoPassEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICompletableTwoPassEventConsumer implements class Microsoft.Windows.EventTracing.ICompletable, class Microsoft.Windows.EventTracing.IEventConsumer, class Microsoft.Windows.EventTracing.ITwoPassEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICompletableTwoPassEventConsumer&#xA;Implements ICompletable, ITwoPassEventConsumer" />
+  <TypeSignature Language="F#" Value="type ICompletableTwoPassEventConsumer = interface&#xA;    interface ITwoPassEventConsumer&#xA;    interface IEventConsumer&#xA;    interface ICompletable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ICompletable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.IEventConsumer</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ITwoPassEventConsumer</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Defines an <see cref="T:Microsoft.Windows.EventTracing.ITwoPassEventConsumer" /> that needs to be notified when each pass through the trace is
+            completed.
+            </summary>
+    <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CompletePreparatoryPass">
+      <MemberSignature Language="C#" Value="public void CompletePreparatoryPass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CompletePreparatoryPass() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer.CompletePreparatoryPass" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CompletePreparatoryPass ()" />
+      <MemberSignature Language="F#" Value="abstract member CompletePreparatoryPass : unit -&gt; unit" Usage="iCompletableTwoPassEventConsumer.CompletePreparatoryPass " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Notifies the event consumer that the preparatory pass is complete.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

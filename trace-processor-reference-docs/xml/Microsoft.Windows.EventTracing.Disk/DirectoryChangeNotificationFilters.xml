@@ -1,0 +1,291 @@
+<Type Name="DirectoryChangeNotificationFilters" FullName="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters">
+  <TypeSignature Language="C#" Value="public enum DirectoryChangeNotificationFilters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DirectoryChangeNotificationFilters extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DirectoryChangeNotificationFilters" />
+  <TypeSignature Language="F#" Value="type DirectoryChangeNotificationFilters = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attribute">
+      <MemberSignature Language="C#" Value="Attribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters Attribute = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Attribute" />
+      <MemberSignature Language="VB.NET" Value="Attribute" />
+      <MemberSignature Language="F#" Value="Attribute = 4" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Attribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="CreationTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters CreationTime = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="CreationTime" />
+      <MemberSignature Language="F#" Value="CreationTime = 64" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.CreationTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryName">
+      <MemberSignature Language="C#" Value="DirectoryName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters DirectoryName = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.DirectoryName" />
+      <MemberSignature Language="VB.NET" Value="DirectoryName" />
+      <MemberSignature Language="F#" Value="DirectoryName = 3" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.DirectoryName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedAttribute">
+      <MemberSignature Language="C#" Value="ExtendedAttribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters ExtendedAttribute = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.ExtendedAttribute" />
+      <MemberSignature Language="VB.NET" Value="ExtendedAttribute" />
+      <MemberSignature Language="F#" Value="ExtendedAttribute = 128" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.ExtendedAttribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileEntry">
+      <MemberSignature Language="C#" Value="FileEntry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters FileEntry = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.FileEntry" />
+      <MemberSignature Language="VB.NET" Value="FileEntry" />
+      <MemberSignature Language="F#" Value="FileEntry = 1" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.FileEntry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAccessTime">
+      <MemberSignature Language="C#" Value="LastAccessTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters LastAccessTime = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.LastAccessTime" />
+      <MemberSignature Language="VB.NET" Value="LastAccessTime" />
+      <MemberSignature Language="F#" Value="LastAccessTime = 32" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.LastAccessTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="LastModifiedTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters LastModifiedTime = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="LastModifiedTime" />
+      <MemberSignature Language="F#" Value="LastModifiedTime = 16" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.LastModifiedTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Security">
+      <MemberSignature Language="C#" Value="Security" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters Security = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Security" />
+      <MemberSignature Language="VB.NET" Value="Security" />
+      <MemberSignature Language="F#" Value="Security = 256" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Security" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="Size" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters Size = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Size" />
+      <MemberSignature Language="VB.NET" Value="Size" />
+      <MemberSignature Language="F#" Value="Size = 8" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.Size" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StreamContents">
+      <MemberSignature Language="C#" Value="StreamContents" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters StreamContents = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamContents" />
+      <MemberSignature Language="VB.NET" Value="StreamContents" />
+      <MemberSignature Language="F#" Value="StreamContents = 2048" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamContents" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StreamName">
+      <MemberSignature Language="C#" Value="StreamName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters StreamName = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamName" />
+      <MemberSignature Language="VB.NET" Value="StreamName" />
+      <MemberSignature Language="F#" Value="StreamName = 512" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StreamSize">
+      <MemberSignature Language="C#" Value="StreamSize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters StreamSize = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamSize" />
+      <MemberSignature Language="VB.NET" Value="StreamSize" />
+      <MemberSignature Language="F#" Value="StreamSize = 1024" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.StreamSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SubdirectoryEntry">
+      <MemberSignature Language="C#" Value="SubdirectoryEntry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters SubdirectoryEntry = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.SubdirectoryEntry" />
+      <MemberSignature Language="VB.NET" Value="SubdirectoryEntry" />
+      <MemberSignature Language="F#" Value="SubdirectoryEntry = 2" Usage="Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters.SubdirectoryEntry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

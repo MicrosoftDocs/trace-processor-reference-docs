@@ -1,0 +1,64 @@
+<Type Name="SystemCoolingPolicy" FullName="Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy">
+  <TypeSignature Language="C#" Value="public enum SystemCoolingPolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SystemCoolingPolicy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SystemCoolingPolicy" />
+  <TypeSignature Language="F#" Value="type SystemCoolingPolicy = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the policy that determines how system cools down the processor.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="F#" Value="Active = 0" Usage="Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy.Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The system increases the fan speed. If the temperature is still too high, it will slow down the processor.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Passive">
+      <MemberSignature Language="C#" Value="Passive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy Passive = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy.Passive" />
+      <MemberSignature Language="VB.NET" Value="Passive" />
+      <MemberSignature Language="F#" Value="Passive = 1" Usage="Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy.Passive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The system slows down the processor. If the temperature is still too high, it will increase the fan speed.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

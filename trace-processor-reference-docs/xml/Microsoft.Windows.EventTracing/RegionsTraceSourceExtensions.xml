@@ -1,0 +1,50 @@
+<Type Name="RegionsTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.RegionsTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class RegionsTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RegionsTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.RegionsTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module RegionsTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type RegionsTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseRegionsOfInterest">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Regions.IRegionDataSource&gt; UseRegionsOfInterest (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionDataSource&gt; UseRegionsOfInterest(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.RegionsTraceSourceExtensions.UseRegionsOfInterest(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseRegionsOfInterest (trace As ITraceSource) As IPendingResult(Of IRegionDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseRegionsOfInterest : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Regions.IRegionDataSource&gt;" Usage="Microsoft.Windows.EventTracing.RegionsTraceSourceExtensions.UseRegionsOfInterest trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Regions.IRegionDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides named regions of interest intervals from a trace as specified in an xml configuration file.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides named regions of interest intervals from the
+            trace as specified in an xml configuration file.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Regions of Interest table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

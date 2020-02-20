@@ -1,0 +1,386 @@
+<Type Name="IPartition" FullName="Microsoft.Windows.EventTracing.Metadata.IPartition">
+  <TypeSignature Language="C#" Value="public interface IPartition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPartition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IPartition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPartition" />
+  <TypeSignature Language="F#" Value="type IPartition = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Capacity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Capacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Capacity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.Capacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capacity As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Capacity : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.Capacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClusterCount">
+      <MemberSignature Language="C#" Value="public long ClusterCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ClusterCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.ClusterCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterCount As Long" />
+      <MemberSignature Language="F#" Value="member this.ClusterCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.ClusterCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClusterSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ClusterSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ClusterSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.ClusterSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ClusterSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.ClusterSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DriveLetter">
+      <MemberSignature Language="C#" Value="public char DriveLetter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance char DriveLetter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.DriveLetter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DriveLetter As Char" />
+      <MemberSignature Language="F#" Value="member this.DriveLetter : char" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.DriveLetter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystem">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.FileSystem FileSystem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Metadata.FileSystem FileSystem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.FileSystem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileSystem As FileSystem" />
+      <MemberSignature Language="F#" Value="member this.FileSystem : Microsoft.Windows.EventTracing.Metadata.FileSystem" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.FileSystem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.FileSystem</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeCapacity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize FreeCapacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize FreeCapacity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.FreeCapacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeCapacity As DataSize" />
+      <MemberSignature Language="F#" Value="member this.FreeCapacity : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.FreeCapacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeClusterCount">
+      <MemberSignature Language="C#" Value="public long FreeClusterCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 FreeClusterCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.FreeClusterCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeClusterCount As Long" />
+      <MemberSignature Language="F#" Value="member this.FreeClusterCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.FreeClusterCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether or not data about this partition is present.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If a partition is not mounted when the trace is recorded then no data about the partition will be present
+            in the trace, other than its existence. Attempting to access any other property when this value is false
+            will throw.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBootPartition">
+      <MemberSignature Language="C#" Value="public bool IsBootPartition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBootPartition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.IsBootPartition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBootPartition As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBootPartition : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.IsBootPartition" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LargestFreeSpaceSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.DataSize&gt; LargestFreeSpaceSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.DataSize&gt; LargestFreeSpaceSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.LargestFreeSpaceSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LargestFreeSpaceSize As Nullable(Of DataSize)" />
+      <MemberSignature Language="F#" Value="member this.LargestFreeSpaceSize : Nullable&lt;Microsoft.Windows.EventTracing.DataSize&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.LargestFreeSpaceSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.DataSize&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastRunFragmentation">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Percentage&gt; LastRunFragmentation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Percentage&gt; LastRunFragmentation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.LastRunFragmentation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastRunFragmentation As Nullable(Of Percentage)" />
+      <MemberSignature Language="F#" Value="member this.LastRunFragmentation : Nullable&lt;Microsoft.Windows.EventTracing.Percentage&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.LastRunFragmentation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Percentage&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastRunFullDefragmentationTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastRunFullDefragmentationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastRunFullDefragmentationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.LastRunFullDefragmentationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastRunFullDefragmentationTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.LastRunFullDefragmentationTime : Nullable&lt;DateTime&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.LastRunFullDefragmentationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange OffsetRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange OffsetRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.OffsetRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OffsetRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.OffsetRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.OffsetRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the range of bytes within the disk that this partition uses.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectorCount">
+      <MemberSignature Language="C#" Value="public long SectorCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 SectorCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.SectorCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectorCount As Long" />
+      <MemberSignature Language="F#" Value="member this.SectorCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.SectorCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectorSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize SectorSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize SectorSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.SectorSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectorSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.SectorSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.SectorSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectorsPerCluster">
+      <MemberSignature Language="C#" Value="public int SectorsPerCluster { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SectorsPerCluster" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.SectorsPerCluster" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectorsPerCluster As Integer" />
+      <MemberSignature Language="F#" Value="member this.SectorsPerCluster : int" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.SectorsPerCluster" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsedCapacity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize UsedCapacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize UsedCapacity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.UsedCapacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsedCapacity As DataSize" />
+      <MemberSignature Language="F#" Value="member this.UsedCapacity : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.UsedCapacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsedClusterCount">
+      <MemberSignature Language="C#" Value="public long UsedClusterCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 UsedClusterCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPartition.UsedClusterCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsedClusterCount As Long" />
+      <MemberSignature Language="F#" Value="member this.UsedClusterCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.IPartition.UsedClusterCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

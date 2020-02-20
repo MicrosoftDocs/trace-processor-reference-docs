@@ -1,0 +1,123 @@
+<Type Name="IComponentFunctionalStateInterval" FullName="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval">
+  <TypeSignature Language="C#" Value="public interface IComponentFunctionalStateInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IComponentFunctionalStateInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IComponentFunctionalStateInterval" />
+  <TypeSignature Language="F#" Value="type IComponentFunctionalStateInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an interval during which a component had a single FState.
+            </summary>
+    <remarks>
+            A component, sometimes also referred to as a subdevice, is a functional hardware unit in a device that can be
+            turned on or switched to a low-power state independently of the other components in the same device.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ComponentId">
+      <MemberSignature Language="C#" Value="public int ComponentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ComponentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.ComponentId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ComponentId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ComponentId : int" Usage="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.ComponentId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeviceId">
+      <MemberSignature Language="C#" Value="public long DeviceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 DeviceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceId As Long" />
+      <MemberSignature Language="F#" Value="member this.DeviceId : int64" Usage="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.DeviceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public int State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As Integer" />
+      <MemberSignature Language="F#" Value="member this.State : int" Usage="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.IComponentFunctionalStateInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

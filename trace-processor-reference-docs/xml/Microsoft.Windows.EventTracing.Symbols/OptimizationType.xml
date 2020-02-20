@@ -1,0 +1,58 @@
+<Type Name="OptimizationType" FullName="Microsoft.Windows.EventTracing.Symbols.OptimizationType">
+  <TypeSignature Language="C#" Value="public enum OptimizationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OptimizationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.OptimizationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OptimizationType" />
+  <TypeSignature Language="F#" Value="type OptimizationType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="Size" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.OptimizationType Size = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.OptimizationType.Size" />
+      <MemberSignature Language="VB.NET" Value="Size" />
+      <MemberSignature Language="F#" Value="Size = 0" Usage="Microsoft.Windows.EventTracing.Symbols.OptimizationType.Size" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.OptimizationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Speed">
+      <MemberSignature Language="C#" Value="Speed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.OptimizationType Speed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.OptimizationType.Speed" />
+      <MemberSignature Language="VB.NET" Value="Speed" />
+      <MemberSignature Language="F#" Value="Speed = 1" Usage="Microsoft.Windows.EventTracing.Symbols.OptimizationType.Speed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.OptimizationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

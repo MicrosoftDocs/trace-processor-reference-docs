@@ -1,0 +1,616 @@
+<Type Name="EventDataReader" FullName="Microsoft.Windows.EventTracing.EventDataReader">
+  <TypeSignature Language="C#" Value="public static class EventDataReader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EventDataReader extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.EventDataReader" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventDataReader" />
+  <TypeSignature Language="F#" Value="type EventDataReader = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnsiEncoding">
+      <MemberSignature Language="C#" Value="public static readonly System.Text.Encoding AnsiEncoding;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Text.Encoding AnsiEncoding" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.EventDataReader.AnsiEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AnsiEncoding As Encoding " />
+      <MemberSignature Language="F#" Value=" staticval mutable AnsiEncoding : System.Text.Encoding" Usage="Microsoft.Windows.EventTracing.EventDataReader.AnsiEncoding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Text.Encoding</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadArray&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;T&gt; ReadArray&lt;T&gt; (ref ReadOnlySpan&lt;byte&gt; data, int length) where T : struct;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;!!T&gt; ReadArray&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, int32 length) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadArray``1(System.ReadOnlySpan{System.Byte}@,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadArray(Of T As Structure) (ByRef data As ReadOnlySpan(Of Byte), length As Integer) As ReadOnlySpan(Of T)" />
+      <MemberSignature Language="F#" Value="static member ReadArray : ReadOnlySpan * int -&gt; ReadOnlySpan&lt;'T (requires 'T : struct)&gt; (requires 'T : struct)" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadArray (data, length)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="data">To be added.</param>
+        <param name="length">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadBooleanFromInt32">
+      <MemberSignature Language="C#" Value="public static bool ReadBooleanFromInt32 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ReadBooleanFromInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadBooleanFromInt32(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadBooleanFromInt32 (ByRef data As ReadOnlySpan(Of Byte)) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ReadBooleanFromInt32 : ReadOnlySpan -&gt; bool" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadBooleanFromInt32 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadByte">
+      <MemberSignature Language="C#" Value="public static byte ReadByte (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8 ReadByte(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadByte(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadByte (ByRef data As ReadOnlySpan(Of Byte)) As Byte" />
+      <MemberSignature Language="F#" Value="static member ReadByte : ReadOnlySpan -&gt; byte" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadByte data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadDouble">
+      <MemberSignature Language="C#" Value="public static double ReadDouble (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 ReadDouble(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadDouble(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadDouble (ByRef data As ReadOnlySpan(Of Byte)) As Double" />
+      <MemberSignature Language="F#" Value="static member ReadDouble : ReadOnlySpan -&gt; double" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadDouble data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFileTime">
+      <MemberSignature Language="C#" Value="public static DateTime ReadFileTime (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.DateTime ReadFileTime(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadFileTime(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadFileTime (ByRef data As ReadOnlySpan(Of Byte)) As DateTime" />
+      <MemberSignature Language="F#" Value="static member ReadFileTime : ReadOnlySpan -&gt; DateTime" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadFileTime data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFixedLengthAnsiString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ValueString ReadFixedLengthAnsiString (ref ReadOnlySpan&lt;byte&gt; data, int characterCount, ref byte[] buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ValueString ReadFixedLengthAnsiString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, int32 characterCount, unsigned int8[]&amp; buffer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadFixedLengthAnsiString(System.ReadOnlySpan{System.Byte}@,System.Int32,System.Byte[]@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadFixedLengthAnsiString (ByRef data As ReadOnlySpan(Of Byte), characterCount As Integer, ByRef buffer As Byte()) As ValueString" />
+      <MemberSignature Language="F#" Value="static member ReadFixedLengthAnsiString : ReadOnlySpan * int * Byte[] -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadFixedLengthAnsiString (data, characterCount, buffer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="characterCount" Type="System.Int32" />
+        <Parameter Name="buffer" Type="System.Byte[]" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <param name="characterCount">To be added.</param>
+        <param name="buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFixedLengthUnicodeString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ValueString ReadFixedLengthUnicodeString (ref ReadOnlySpan&lt;byte&gt; data, int characterCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ValueString ReadFixedLengthUnicodeString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, int32 characterCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadFixedLengthUnicodeString(System.ReadOnlySpan{System.Byte}@,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadFixedLengthUnicodeString (ByRef data As ReadOnlySpan(Of Byte), characterCount As Integer) As ValueString" />
+      <MemberSignature Language="F#" Value="static member ReadFixedLengthUnicodeString : ReadOnlySpan * int -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadFixedLengthUnicodeString (data, characterCount)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="characterCount" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <param name="characterCount">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadGuid">
+      <MemberSignature Language="C#" Value="public static Guid ReadGuid (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid ReadGuid(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadGuid(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadGuid (ByRef data As ReadOnlySpan(Of Byte)) As Guid" />
+      <MemberSignature Language="F#" Value="static member ReadGuid : ReadOnlySpan -&gt; Guid" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadGuid data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadInt16">
+      <MemberSignature Language="C#" Value="public static short ReadInt16 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int16 ReadInt16(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadInt16(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadInt16 (ByRef data As ReadOnlySpan(Of Byte)) As Short" />
+      <MemberSignature Language="F#" Value="static member ReadInt16 : ReadOnlySpan -&gt; int16" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadInt16 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadInt32">
+      <MemberSignature Language="C#" Value="public static int ReadInt32 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ReadInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadInt32(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadInt32 (ByRef data As ReadOnlySpan(Of Byte)) As Integer" />
+      <MemberSignature Language="F#" Value="static member ReadInt32 : ReadOnlySpan -&gt; int" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadInt32 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadInt64">
+      <MemberSignature Language="C#" Value="public static long ReadInt64 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ReadInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadInt64(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadInt64 (ByRef data As ReadOnlySpan(Of Byte)) As Long" />
+      <MemberSignature Language="F#" Value="static member ReadInt64 : ReadOnlySpan -&gt; int64" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadInt64 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadNullTerminatedAnsiString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ValueString ReadNullTerminatedAnsiString (ref ReadOnlySpan&lt;byte&gt; data, ref byte[] buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ValueString ReadNullTerminatedAnsiString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, unsigned int8[]&amp; buffer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadNullTerminatedAnsiString(System.ReadOnlySpan{System.Byte}@,System.Byte[]@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadNullTerminatedAnsiString (ByRef data As ReadOnlySpan(Of Byte), ByRef buffer As Byte()) As ValueString" />
+      <MemberSignature Language="F#" Value="static member ReadNullTerminatedAnsiString : ReadOnlySpan * Byte[] -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadNullTerminatedAnsiString (data, buffer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="buffer" Type="System.Byte[]" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <param name="buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadNullTerminatedUnicodeString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ValueString ReadNullTerminatedUnicodeString (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ValueString ReadNullTerminatedUnicodeString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadNullTerminatedUnicodeString(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadNullTerminatedUnicodeString (ByRef data As ReadOnlySpan(Of Byte)) As ValueString" />
+      <MemberSignature Language="F#" Value="static member ReadNullTerminatedUnicodeString : ReadOnlySpan -&gt; Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadNullTerminatedUnicodeString data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadPointer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Address ReadPointer (ref ReadOnlySpan&lt;byte&gt; data, bool is32Bit);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Address ReadPointer(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, bool is32Bit) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadPointer(System.ReadOnlySpan{System.Byte}@,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadPointer (ByRef data As ReadOnlySpan(Of Byte), is32Bit As Boolean) As Address" />
+      <MemberSignature Language="F#" Value="static member ReadPointer : ReadOnlySpan * bool -&gt; Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadPointer (data, is32Bit)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="is32Bit" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <param name="is32Bit">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadPort">
+      <MemberSignature Language="C#" Value="public static ushort ReadPort (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int16 ReadPort(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadPort(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadPort (ByRef data As ReadOnlySpan(Of Byte)) As UShort" />
+      <MemberSignature Language="F#" Value="static member ReadPort : ReadOnlySpan -&gt; uint16" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadPort data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadSByte">
+      <MemberSignature Language="C#" Value="public static sbyte ReadSByte (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int8 ReadSByte(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadSByte(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadSByte (ByRef data As ReadOnlySpan(Of Byte)) As SByte" />
+      <MemberSignature Language="F#" Value="static member ReadSByte : ReadOnlySpan -&gt; sbyte" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadSByte data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadSecurityIdentifier">
+      <MemberSignature Language="C#" Value="public static System.Security.Principal.SecurityIdentifier ReadSecurityIdentifier (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.SecurityIdentifier ReadSecurityIdentifier(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadSecurityIdentifier(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadSecurityIdentifier (ByRef data As ReadOnlySpan(Of Byte)) As SecurityIdentifier" />
+      <MemberSignature Language="F#" Value="static member ReadSecurityIdentifier : ReadOnlySpan -&gt; System.Security.Principal.SecurityIdentifier" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadSecurityIdentifier data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadSingle">
+      <MemberSignature Language="C#" Value="public static float ReadSingle (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ReadSingle(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadSingle(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadSingle (ByRef data As ReadOnlySpan(Of Byte)) As Single" />
+      <MemberSignature Language="F#" Value="static member ReadSingle : ReadOnlySpan -&gt; single" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadSingle data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadSystemTime">
+      <MemberSignature Language="C#" Value="public static DateTime ReadSystemTime (ref ReadOnlySpan&lt;byte&gt; data, DateTimeKind dateTimeKind);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.DateTime ReadSystemTime(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data, valuetype System.DateTimeKind dateTimeKind) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadSystemTime(System.ReadOnlySpan{System.Byte}@,System.DateTimeKind)" />
+      <MemberSignature Language="F#" Value="static member ReadSystemTime : ReadOnlySpan * DateTimeKind -&gt; DateTime" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadSystemTime (data, dateTimeKind)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+        <Parameter Name="dateTimeKind" Type="System.DateTimeKind" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <param name="dateTimeKind">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadUInt16">
+      <MemberSignature Language="C#" Value="public static ushort ReadUInt16 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int16 ReadUInt16(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadUInt16(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadUInt16 (ByRef data As ReadOnlySpan(Of Byte)) As UShort" />
+      <MemberSignature Language="F#" Value="static member ReadUInt16 : ReadOnlySpan -&gt; uint16" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadUInt16 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadUInt32">
+      <MemberSignature Language="C#" Value="public static uint ReadUInt32 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int32 ReadUInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadUInt32(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadUInt32 (ByRef data As ReadOnlySpan(Of Byte)) As UInteger" />
+      <MemberSignature Language="F#" Value="static member ReadUInt32 : ReadOnlySpan -&gt; uint32" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadUInt32 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadUInt64">
+      <MemberSignature Language="C#" Value="public static ulong ReadUInt64 (ref ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int64 ReadUInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; data) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ReadUInt64(System.ReadOnlySpan{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ReadUInt64 (ByRef data As ReadOnlySpan(Of Byte)) As ULong" />
+      <MemberSignature Language="F#" Value="static member ReadUInt64 : ReadOnlySpan -&gt; uint64" Usage="Microsoft.Windows.EventTracing.EventDataReader.ReadUInt64 data" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateRemainingLength">
+      <MemberSignature Language="C#" Value="public static void ValidateRemainingLength (int remainingLength, int neededLength);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateRemainingLength(int32 remainingLength, int32 neededLength) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventDataReader.ValidateRemainingLength(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ValidateRemainingLength (remainingLength As Integer, neededLength As Integer)" />
+      <MemberSignature Language="F#" Value="static member ValidateRemainingLength : int * int -&gt; unit" Usage="Microsoft.Windows.EventTracing.EventDataReader.ValidateRemainingLength (remainingLength, neededLength)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="remainingLength" Type="System.Int32" />
+        <Parameter Name="neededLength" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="remainingLength">To be added.</param>
+        <param name="neededLength">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

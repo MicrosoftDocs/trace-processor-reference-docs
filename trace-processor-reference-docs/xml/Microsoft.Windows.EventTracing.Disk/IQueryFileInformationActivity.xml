@@ -1,0 +1,62 @@
+<Type Name="IQueryFileInformationActivity" FullName="Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity">
+  <TypeSignature Language="C#" Value="public interface IQueryFileInformationActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IQueryFileInformationActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IQueryFileInformationActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type IQueryFileInformationActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OutputBytesWritten">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize OutputBytesWritten { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize OutputBytesWritten" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity.OutputBytesWritten" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputBytesWritten As DataSize" />
+      <MemberSignature Language="F#" Value="member this.OutputBytesWritten : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity.OutputBytesWritten" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.FileInformationType RequestedInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.FileInformationType RequestedInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity.RequestedInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedInformation As FileInformationType" />
+      <MemberSignature Language="F#" Value="member this.RequestedInformation : Microsoft.Windows.EventTracing.Disk.FileInformationType" Usage="Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity.RequestedInformation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileInformationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

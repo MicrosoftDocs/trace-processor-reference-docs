@@ -1,0 +1,42 @@
+<Type Name="IUtcTrigger" FullName="Microsoft.Windows.EventTracing.Utc.IUtcTrigger">
+  <TypeSignature Language="C#" Value="public interface IUtcTrigger : Microsoft.Windows.EventTracing.Utc.IUtcActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUtcTrigger implements class Microsoft.Windows.EventTracing.Utc.IUtcActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUtcTrigger&#xA;Implements IUtcActivity" />
+  <TypeSignature Language="F#" Value="type IUtcTrigger = interface&#xA;    interface IUtcActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcTrigger.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Utc.IUtcTrigger.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

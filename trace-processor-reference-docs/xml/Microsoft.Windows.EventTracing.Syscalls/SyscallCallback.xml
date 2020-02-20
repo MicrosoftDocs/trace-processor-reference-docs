@@ -1,0 +1,25 @@
+<Type Name="SyscallCallback" FullName="Microsoft.Windows.EventTracing.Syscalls.SyscallCallback">
+  <TypeSignature Language="C#" Value="public delegate void SyscallCallback(SyscallContext context);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyscallCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.SyscallCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyscallCallback(context As SyscallContext)" />
+  <TypeSignature Language="F#" Value="type SyscallCallback = delegate of SyscallContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="context" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="context">The system call data to process.</param>
+    <summary>Processes correlated system call data.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

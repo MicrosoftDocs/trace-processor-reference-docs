@@ -1,0 +1,47 @@
+<Type Name="StackSnapshotExtensions" FullName="Microsoft.Windows.EventTracing.Events.StackSnapshotExtensions">
+  <TypeSignature Language="C#" Value="public static class StackSnapshotExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StackSnapshotExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.StackSnapshotExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module StackSnapshotExtensions" />
+  <TypeSignature Language="F#" Value="type StackSnapshotExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEvent">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Events.IStackEvent GetEvent (this Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack, Microsoft.Windows.EventTracing.Events.IStackEventDataSource eventDataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.Events.IStackEvent GetEvent(class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack, class Microsoft.Windows.EventTracing.Events.IStackEventDataSource eventDataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.StackSnapshotExtensions.GetEvent(Microsoft.Windows.EventTracing.Symbols.IStackSnapshot,Microsoft.Windows.EventTracing.Events.IStackEventDataSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEvent (stack As IStackSnapshot, eventDataSource As IStackEventDataSource) As IStackEvent" />
+      <MemberSignature Language="F#" Value="static member GetEvent : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot * Microsoft.Windows.EventTracing.Events.IStackEventDataSource -&gt; Microsoft.Windows.EventTracing.Events.IStackEvent" Usage="Microsoft.Windows.EventTracing.Events.StackSnapshotExtensions.GetEvent (stack, eventDataSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IStackEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" RefType="this" />
+        <Parameter Name="eventDataSource" Type="Microsoft.Windows.EventTracing.Events.IStackEventDataSource" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <param name="eventDataSource">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

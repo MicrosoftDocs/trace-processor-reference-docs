@@ -1,0 +1,78 @@
+<Type Name="IConnectedStandbyDataSource" FullName="Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource">
+  <TypeSignature Language="C#" Value="public interface IConnectedStandbyDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConnectedStandbyDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConnectedStandbyDataSource" />
+  <TypeSignature Language="F#" Value="type IConnectedStandbyDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exits">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyExit&gt; Exits { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Power.IConnectedStandbyExit&gt; Exits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.Exits" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exits As IReadOnlyList(Of IConnectedStandbyExit)" />
+      <MemberSignature Language="F#" Value="member this.Exits : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyExit&gt;" Usage="Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.Exits" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyExit&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NonIdleResiliencyTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Duration NonIdleResiliencyTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Duration NonIdleResiliencyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.NonIdleResiliencyTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NonIdleResiliencyTime As Duration" />
+      <MemberSignature Language="F#" Value="member this.NonIdleResiliencyTime : Microsoft.Windows.EventTracing.Duration" Usage="Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.NonIdleResiliencyTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Duration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sessions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbySession&gt; Sessions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Power.IConnectedStandbySession&gt; Sessions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.Sessions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sessions As IReadOnlyList(Of IConnectedStandbySession)" />
+      <MemberSignature Language="F#" Value="member this.Sessions : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbySession&gt;" Usage="Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource.Sessions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbySession&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

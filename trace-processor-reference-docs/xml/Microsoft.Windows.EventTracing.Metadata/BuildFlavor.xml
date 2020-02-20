@@ -1,0 +1,39 @@
+<Type Name="BuildFlavor" FullName="Microsoft.Windows.EventTracing.Metadata.BuildFlavor">
+  <TypeSignature Language="C#" Value="public enum BuildFlavor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BuildFlavor extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.BuildFlavor" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BuildFlavor" />
+  <TypeSignature Language="F#" Value="type BuildFlavor = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Retail">
+      <MemberSignature Language="C#" Value="Retail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.BuildFlavor Retail = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.BuildFlavor.Retail" />
+      <MemberSignature Language="VB.NET" Value="Retail" />
+      <MemberSignature Language="F#" Value="Retail = 0" Usage="Microsoft.Windows.EventTracing.Metadata.BuildFlavor.Retail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.BuildFlavor</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

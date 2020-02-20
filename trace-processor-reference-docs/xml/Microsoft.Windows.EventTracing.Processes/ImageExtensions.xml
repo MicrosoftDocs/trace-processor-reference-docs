@@ -1,0 +1,47 @@
+<Type Name="ImageExtensions" FullName="Microsoft.Windows.EventTracing.Processes.ImageExtensions">
+  <TypeSignature Language="C#" Value="public static class ImageExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImageExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.ImageExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ImageExtensions" />
+  <TypeSignature Language="F#" Value="type ImageExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetProcessAddress">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Address GetProcessAddress (this Microsoft.Windows.EventTracing.Processes.IImage image, Microsoft.Windows.EventTracing.Address relativeVirtualAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Address GetProcessAddress(class Microsoft.Windows.EventTracing.Processes.IImage image, valuetype Microsoft.Windows.EventTracing.Address relativeVirtualAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.ImageExtensions.GetProcessAddress(Microsoft.Windows.EventTracing.Processes.IImage,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetProcessAddress (image As IImage, relativeVirtualAddress As Address) As Address" />
+      <MemberSignature Language="F#" Value="static member GetProcessAddress : Microsoft.Windows.EventTracing.Processes.IImage * Microsoft.Windows.EventTracing.Address -&gt; Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Processes.ImageExtensions.GetProcessAddress (image, relativeVirtualAddress)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="Microsoft.Windows.EventTracing.Processes.IImage" RefType="this" />
+        <Parameter Name="relativeVirtualAddress" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="image">The image in which the relative virtual address occurs.</param>
+        <param name="relativeVirtualAddress">The relative virtual address.</param>
+        <summary>Gets the process virtual address from a relative virtual address for the image.</summary>
+        <returns>The process virtual address from a relative virtual address for the image.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

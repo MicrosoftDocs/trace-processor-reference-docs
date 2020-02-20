@@ -1,0 +1,133 @@
+<Type Name="SymCachePath" FullName="Microsoft.Windows.EventTracing.Symbols.SymCachePath">
+  <TypeSignature Language="C#" Value="public class SymCachePath : Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SymCachePath extends System.Object implements class Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.SymCachePath" />
+  <TypeSignature Language="VB.NET" Value="Public Class SymCachePath&#xA;Implements ISymCachePath" />
+  <TypeSignature Language="F#" Value="type SymCachePath = class&#xA;    interface ISymCachePath" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Symbols.ISymCachePath</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerDisplay("{Value}")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SymCachePath (string mainPath, params string[] otherPaths);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mainPath, string[] otherPaths) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.SymCachePath.#ctor(System.String,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mainPath As String, ParamArray otherPaths As String())" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Symbols.SymCachePath : string * string[] -&gt; Microsoft.Windows.EventTracing.Symbols.SymCachePath" Usage="new Microsoft.Windows.EventTracing.Symbols.SymCachePath (mainPath, otherPaths)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mainPath" Type="System.String" />
+        <Parameter Name="otherPaths" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="mainPath">To be added.</param>
+        <param name="otherPaths">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>
+            All paths are treated as one pipe (paths are joined by *). Entries such as D:\SymCache and http://symcache
+            should be passed as separate arguments or separate entries in the array. This class does not support a path
+            consisting of multiple pipelines; to create such a path, use <see cref="T:Microsoft.Windows.EventTracing.Symbols.RawSymCachePath" /> directly.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Symbols.ISymCachePath Automatic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Windows.EventTracing.Symbols.ISymCachePath Automatic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymCachePath.Automatic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Automatic As ISymCachePath" />
+      <MemberSignature Language="F#" Value="member this.Automatic : Microsoft.Windows.EventTracing.Symbols.ISymCachePath" Usage="Microsoft.Windows.EventTracing.Symbols.SymCachePath.Automatic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.ISymCachePath</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an automatic SymCache path for the current environment and process.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Uses the environment variable _NT_SYMCACHE_PATH when set; otherwise, uses a local top-level directory.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromEnvironment">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Symbols.ISymCachePath FromEnvironment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Windows.EventTracing.Symbols.ISymCachePath FromEnvironment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymCachePath.FromEnvironment" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FromEnvironment As ISymCachePath" />
+      <MemberSignature Language="F#" Value="member this.FromEnvironment : Microsoft.Windows.EventTracing.Symbols.ISymCachePath" Usage="Microsoft.Windows.EventTracing.Symbols.SymCachePath.FromEnvironment" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.ISymCachePath</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a SymCache path from the environment variable _NT_SYMCACHE_PATH.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Returns null if the environment variable is not found.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.SymCachePath.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Microsoft.Windows.EventTracing.Symbols.SymCachePath.Value" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Windows.EventTracing.Symbols.ISymCachePath.Value</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

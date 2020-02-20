@@ -1,0 +1,700 @@
+<Type Name="TraceTimestamp" FullName="Microsoft.Windows.EventTracing.TraceTimestamp">
+  <TypeSignature Language="C#" Value="public struct TraceTimestamp : IComparable, IComparable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;, IEquatable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit TraceTimestamp extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt;, class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceTimestamp" />
+  <TypeSignature Language="VB.NET" Value="Public Structure TraceTimestamp&#xA;Implements IComparable, IComparable(Of TraceTimestamp), IEquatable(Of TraceTimestamp)" />
+  <TypeSignature Language="F#" Value="type TraceTimestamp = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerDisplay("{RelativeTimestamp}")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a timestamp in a trace.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TraceTimestamp (Microsoft.Windows.EventTracing.ITraceTimestampContext context, Microsoft.Windows.EventTracing.TraceTimestampValue value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype Microsoft.Windows.EventTracing.TraceTimestampValue value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.#ctor(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.TraceTimestampValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (context As ITraceTimestampContext, value As TraceTimestampValue)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.TraceTimestamp : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.TraceTimestampValue -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="new Microsoft.Windows.EventTracing.TraceTimestamp (context, value)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" />
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.TraceTimestamp other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.TraceTimestamp other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.CompareTo(Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As TraceTimestamp) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Windows.EventTracing.TraceTimestamp -&gt; int&#xA;override this.CompareTo : Microsoft.Windows.EventTracing.TraceTimestamp -&gt; int" Usage="traceTimestamp.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.CompareTo(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="traceTimestamp.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ITraceTimestampContext Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.ITraceTimestampContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As ITraceTimestampContext" />
+      <MemberSignature Language="F#" Value="member this.Context : Microsoft.Windows.EventTracing.ITraceTimestampContext" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.Context" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceTimestampContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the context used to interpret the trace timestamp.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeOffset">
+      <MemberSignature Language="C#" Value="public DateTimeOffset DateTimeOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset DateTimeOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.DateTimeOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeOffset As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.DateTimeOffset : DateTimeOffset" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.DateTimeOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the absolute (clock) time represented by the trace timestamp.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.TraceTimestamp other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.TraceTimestamp other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.Equals(Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="traceTimestamp.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="traceTimestamp.Equals other" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="traceTimestamp.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasValue">
+      <MemberSignature Language="C#" Value="public bool HasValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.HasValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasValue : bool" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.HasValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value indicating whether the duration has been initialized.</summary>
+        <value>To be added.</value>
+        <remarks>
+            Note that this property is not the correct one to check before accessing <see cref="P:Microsoft.Windows.EventTracing.TraceTimestamp.Value" />. Use
+            !<see cref="P:Microsoft.Windows.EventTracing.TraceTimestamp.IsPartial" /> instead.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartial">
+      <MemberSignature Language="C#" Value="public bool IsPartial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartial" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.IsPartial" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPartial As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPartial : bool" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.IsPartial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether this trace timestamp only represents partial data, and the full
+            <see cref="P:Microsoft.Windows.EventTracing.TraceTimestamp.Value" /> is unavailable.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp Max (Microsoft.Windows.EventTracing.TraceTimestamp first, Microsoft.Windows.EventTracing.TraceTimestamp second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp Max(valuetype Microsoft.Windows.EventTracing.TraceTimestamp first, valuetype Microsoft.Windows.EventTracing.TraceTimestamp second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.Max(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Max (first As TraceTimestamp, second As TraceTimestamp) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member Max : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.Max (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp Min (Microsoft.Windows.EventTracing.TraceTimestamp first, Microsoft.Windows.EventTracing.TraceTimestamp second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp Min(valuetype Microsoft.Windows.EventTracing.TraceTimestamp first, valuetype Microsoft.Windows.EventTracing.TraceTimestamp second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.Min(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Min (first As TraceTimestamp, second As TraceTimestamp) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member Min : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.Min (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nanoseconds">
+      <MemberSignature Language="C#" Value="public long Nanoseconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Nanoseconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.Nanoseconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Nanoseconds As Long" />
+      <MemberSignature Language="F#" Value="member this.Nanoseconds : int64" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.Nanoseconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp operator + (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceDuration right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.TraceTimestamp op_Addition(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceDuration right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Addition(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceDuration)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As TraceTimestamp, right As TraceDuration) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceDuration -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceDuration" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Equality(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThan">
+      <MemberSignature Language="C#" Value="public static bool operator &gt; (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThan(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_GreaterThan(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt; (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt; ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="left &gt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &gt;= (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThanOrEqual(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_GreaterThanOrEqual(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt;= (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt;= ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="left &gt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Windows.EventTracing.Timestamp (Microsoft.Windows.EventTracing.TraceTimestamp value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.Timestamp op_Implicit(valuetype Microsoft.Windows.EventTracing.TraceTimestamp value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Implicit(Microsoft.Windows.EventTracing.TraceTimestamp)~Microsoft.Windows.EventTracing.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As TraceTimestamp) As Timestamp" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Microsoft.Windows.EventTracing.TraceTimestamp -&gt; Microsoft.Windows.EventTracing.Timestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Timestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Inequality(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThan">
+      <MemberSignature Language="C#" Value="public static bool operator &lt; (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThan(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_LessThan(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt; (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt; ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="left &lt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &lt;= (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThanOrEqual(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_LessThanOrEqual(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt;= (left As TraceTimestamp, right As TraceTimestamp) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt;= ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; bool" Usage="left &lt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp operator - (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceDuration right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.TraceTimestamp op_Subtraction(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceDuration right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Subtraction(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceDuration)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As TraceTimestamp, right As TraceDuration) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceDuration -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceDuration" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration operator - (Microsoft.Windows.EventTracing.TraceTimestamp left, Microsoft.Windows.EventTracing.TraceTimestamp right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.TraceDuration op_Subtraction(valuetype Microsoft.Windows.EventTracing.TraceTimestamp left, valuetype Microsoft.Windows.EventTracing.TraceTimestamp right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestamp.op_Subtraction(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As TraceTimestamp, right As TraceTimestamp) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeTimestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Timestamp RelativeTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Timestamp RelativeTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.RelativeTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelativeTimestamp As Timestamp" />
+      <MemberSignature Language="F#" Value="member this.RelativeTimestamp : Microsoft.Windows.EventTracing.Timestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.RelativeTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Timestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the relative time since the start of the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMicroseconds">
+      <MemberSignature Language="C#" Value="public decimal TotalMicroseconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMicroseconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.TotalMicroseconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMicroseconds As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMicroseconds : decimal" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.TotalMicroseconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMilliseconds">
+      <MemberSignature Language="C#" Value="public decimal TotalMilliseconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMilliseconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.TotalMilliseconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMilliseconds As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMilliseconds : decimal" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.TotalMilliseconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalSeconds">
+      <MemberSignature Language="C#" Value="public decimal TotalSeconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalSeconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.TotalSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalSeconds As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalSeconds : decimal" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.TotalSeconds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestampValue Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestampValue Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceTimestamp.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As TraceTimestampValue" />
+      <MemberSignature Language="F#" Value="member this.Value : Microsoft.Windows.EventTracing.TraceTimestampValue" Usage="Microsoft.Windows.EventTracing.TraceTimestamp.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestampValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the raw trace timestamp value.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not available if <see cref="P:Microsoft.Windows.EventTracing.TraceTimestamp.IsPartial" /> is <see langword="true" />.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

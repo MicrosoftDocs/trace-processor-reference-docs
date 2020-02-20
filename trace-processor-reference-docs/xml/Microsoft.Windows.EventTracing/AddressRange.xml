@@ -1,0 +1,129 @@
+<Type Name="AddressRange" FullName="Microsoft.Windows.EventTracing.AddressRange">
+  <TypeSignature Language="C#" Value="public struct AddressRange" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit AddressRange extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.AddressRange" />
+  <TypeSignature Language="VB.NET" Value="Public Structure AddressRange" />
+  <TypeSignature Language="F#" Value="type AddressRange = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddressRange (Microsoft.Windows.EventTracing.Address baseAddress, Microsoft.Windows.EventTracing.Address limitAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Windows.EventTracing.Address baseAddress, valuetype Microsoft.Windows.EventTracing.Address limitAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.AddressRange.#ctor(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (baseAddress As Address, limitAddress As Address)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.AddressRange : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; Microsoft.Windows.EventTracing.AddressRange" Usage="new Microsoft.Windows.EventTracing.AddressRange (baseAddress, limitAddress)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="baseAddress" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="limitAddress" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="baseAddress">To be added.</param>
+        <param name="limitAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddressRange (Microsoft.Windows.EventTracing.Address baseAddress, long size);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Windows.EventTracing.Address baseAddress, int64 size) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.AddressRange.#ctor(Microsoft.Windows.EventTracing.Address,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (baseAddress As Address, size As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.AddressRange : Microsoft.Windows.EventTracing.Address * int64 -&gt; Microsoft.Windows.EventTracing.AddressRange" Usage="new Microsoft.Windows.EventTracing.AddressRange (baseAddress, size)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="baseAddress" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="size" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="baseAddress">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address BaseAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address BaseAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.AddressRange.BaseAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BaseAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.BaseAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.AddressRange.BaseAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the base address, which may be above or below the limit address.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LimitAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address LimitAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address LimitAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.AddressRange.LimitAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LimitAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.LimitAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.AddressRange.LimitAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the limit address, which may be above or below the base address.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.AddressRange.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.AddressRange.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

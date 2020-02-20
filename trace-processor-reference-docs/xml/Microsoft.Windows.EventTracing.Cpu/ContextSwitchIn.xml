@@ -1,0 +1,243 @@
+<Type Name="ContextSwitchIn" FullName="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn">
+  <TypeSignature Language="C#" Value="public struct ContextSwitchIn" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ContextSwitchIn extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ContextSwitchIn" />
+  <TypeSignature Language="F#" Value="type ContextSwitchIn = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the thread switching in during a context switch.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsKnownActualValue">
+      <MemberSignature Language="C#" Value="public bool IsKnownActualValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsKnownActualValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsKnownActualValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsKnownActualValue : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether data about the thread switching in is based on an actual value rather
+            than a planned value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When this value is <see langword="true" />, data in this structure is is based on the thread that
+            actually switched in.</para>
+          <para>When this value is <see langword="false" />, data in this structure is based on the thread that is
+            planned to be switched in at the time the event is logged, but occasionally a last-moment change results in
+            another thread actually switching in instead, in which case other property values are not accurate.</para>
+          <para>Specifically, the following property values may not be accurate when this property is
+            <see langword="false" />:
+            <list type="bullet"><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadId" /></description></item><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Priority" /></description></item><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadPriorityDecrement" /></description></item><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" /></description></item><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadQualityOfService" /></description></item><item><description><see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Quantum" /></description></item></list></para>
+          <para>When this value is <see langword="false" />, <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsWaitTimeKnownActualValue" /> will also be
+            <see langword="false" />.</para>
+          <para>This value is <see langword="false" /> for the last compact context switch event from a processor (and
+            <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadId" /> is not present).</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWaitTimeKnownActualValue">
+      <MemberSignature Language="C#" Value="public bool IsWaitTimeKnownActualValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWaitTimeKnownActualValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsWaitTimeKnownActualValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWaitTimeKnownActualValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsWaitTimeKnownActualValue : bool" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsWaitTimeKnownActualValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" /> based on an actual value rather than a planned
+            value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When this value is <see langword="true" />, the <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" /> provided by this event is known
+            to be based on the thread that actually switched in.</para>
+          <para>When this value is <see langword="false" />, <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" /> is based on the thread that is
+            planned to be switched in at the time the event is logged, but occasionally a last-moment change results in
+            another thread actually switching in instead, in which case <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" /> is not accurate.
+            </para>
+          <para>When using compact context switch events, this property is always <see langword="false" />.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the priority of the thread switching in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present if the thread that was planned to be switched in when the event was logged
+            was not the thread actually switched in by the scheduler.</para>
+          <para>This value is not present when the thread switching in is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" /> for additional context for interpreting this value.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quantum">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Quantum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Quantum" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Quantum" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Quantum As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Quantum : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.Quantum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the quantum for the thread switching in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is only present in the oldest version of the context switch event.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" /> for additional context for interpreting this value.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread switching in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present on the last context switch per processor when using compact context switch
+            events.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" /> for additional context for interpreting this value.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadPriorityDecrement">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ThreadPriorityDecrement { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ThreadPriorityDecrement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadPriorityDecrement" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadPriorityDecrement As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ThreadPriorityDecrement : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadPriorityDecrement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present if the thread that was planned to be switched in when the event was logged
+            was not the thread actually switched in by the scheduler.</para>
+          <para>This value is not present when the thread switching in is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>This value is not present some older versions of the context switch event.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" /> for additional context for interpreting this value.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadQualityOfService">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt; ThreadQualityOfService { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt; ThreadQualityOfService" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadQualityOfService" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadQualityOfService As Nullable(Of QualityOfServiceLevel)" />
+      <MemberSignature Language="F#" Value="member this.ThreadQualityOfService : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.ThreadQualityOfService" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the quality of service level for the thread currently planned to be switched in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present if the thread that was planned to be switched in when the event was logged
+            was not the thread actually switched in by the scheduler.</para>
+          <para>This value is not present when the thread switching in is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>This value is not present some older versions of the context switch event.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsKnownActualValue" /> for additional context for interpreting this value.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; WaitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; WaitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WaitTime As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.WaitTime : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.WaitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the wait time for the thread currently planned to be switched in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present if the thread that was planned to be switched in when the event was logged
+            was not the thread actually switched in by the scheduler.</para>
+          <para>This value is not present when the thread switching in is the idle thread.</para>
+          <para>This value is not present some older versions of the context switch event.</para>
+          <para>See <see cref="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchIn.IsWaitTimeKnownActualValue" /> for additional context for interpreting this value.
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

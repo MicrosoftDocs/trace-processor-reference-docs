@@ -1,0 +1,62 @@
+<Type Name="IRegionDataSource" FullName="Microsoft.Windows.EventTracing.Regions.IRegionDataSource">
+  <TypeSignature Language="C#" Value="public interface IRegionDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegionDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Regions.IRegionDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegionDataSource" />
+  <TypeSignature Language="F#" Value="type IRegionDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CatalogPath">
+      <MemberSignature Language="C#" Value="public string CatalogPath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CatalogPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegionDataSource.CatalogPath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CatalogPath As String" />
+      <MemberSignature Language="F#" Value="member this.CatalogPath : string" Usage="Microsoft.Windows.EventTracing.Regions.IRegionDataSource.CatalogPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateRegions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt; CreateRegions (string manifestPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegion&gt; CreateRegions(string manifestPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Regions.IRegionDataSource.CreateRegions(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateRegions (manifestPath As String) As IReadOnlyList(Of IRegion)" />
+      <MemberSignature Language="F#" Value="abstract member CreateRegions : string -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt;" Usage="iRegionDataSource.CreateRegions manifestPath" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="manifestPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="manifestPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

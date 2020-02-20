@@ -1,0 +1,355 @@
+<Type Name="ScheduledTaskStreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class ScheduledTaskStreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ScheduledTaskStreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ScheduledTaskStreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type ScheduledTaskStreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseScheduledTasks">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTasks (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTasks(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTasks (streamingTrace As IStreamingTraceSource, consumer As IScheduledTaskConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTasks : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the result.</param>
+        <summary>Registers a consumer to receive scheduled task data when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTasks">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTasks (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTasks(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTasks (streamingTrace As IStreamingTraceSource, process As ScheduledTaskCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTasks : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a consumer to receive scheduled task data when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTasks">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTasks (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTasks(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTasks (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ScheduledTaskCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTasks : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTasks (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a consumer to receive scheduled task data when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStartEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStartEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStartEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStartEvents (streamingTrace As IStreamingTraceSource, consumer As IScheduledTaskStartEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStartEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStartEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task start events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStartEvents (streamingTrace As IStreamingTraceSource, process As ScheduledTaskStartEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task start events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStartEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ScheduledTaskStartEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStartEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task start events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStopEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStopEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStopEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStopEvents (streamingTrace As IStreamingTraceSource, consumer As IScheduledTaskStopEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStopEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskStopEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task stop events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStopEvents (streamingTrace As IStreamingTraceSource, process As ScheduledTaskStopEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task stop events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskStopEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ScheduledTaskStopEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskStopEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task stop events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskTriggerEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskTriggerEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskTriggerEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskTriggerEvents (streamingTrace As IStreamingTraceSource, consumer As IScheduledTaskTriggerEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskTriggerEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task trigger events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskTriggerEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskTriggerEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskTriggerEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskTriggerEvents (streamingTrace As IStreamingTraceSource, process As ScheduledTaskTriggerEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskTriggerEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task trigger events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseScheduledTaskTriggerEvents">
+      <MemberSignature Language="C#" Value="public static void UseScheduledTaskTriggerEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseScheduledTaskTriggerEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseScheduledTaskTriggerEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ScheduledTaskTriggerEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTaskTriggerEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ScheduledTaskStreamingTraceSourceExtensions.UseScheduledTaskTriggerEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed scheduled task trigger events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

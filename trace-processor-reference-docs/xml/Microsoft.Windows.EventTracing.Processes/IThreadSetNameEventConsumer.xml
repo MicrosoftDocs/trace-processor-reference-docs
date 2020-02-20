@@ -1,0 +1,41 @@
+<Type Name="IThreadSetNameEventConsumer" FullName="Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IThreadSetNameEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IThreadSetNameEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IThreadSetNameEventConsumer" />
+  <TypeSignature Language="F#" Value="type IThreadSetNameEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a thread set name event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer.Process(Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As ThreadSetNameEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventContext -&gt; unit" Usage="iThreadSetNameEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The thread set name event to process.</param>
+        <summary>Processes a thread set name event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

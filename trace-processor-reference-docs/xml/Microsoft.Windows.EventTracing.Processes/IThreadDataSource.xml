@@ -1,0 +1,65 @@
+<Type Name="IThreadDataSource" FullName="Microsoft.Windows.EventTracing.Processes.IThreadDataSource">
+  <TypeSignature Language="C#" Value="public interface IThreadDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IThreadDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IThreadDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IThreadDataSource" />
+  <TypeSignature Language="F#" Value="type IThreadDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread GetThread (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int threadId, Microsoft.Windows.EventTracing.Proximity proximity = Microsoft.Windows.EventTracing.Proximity.Exact);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Processes.IThread GetThread(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 threadId, valuetype Microsoft.Windows.EventTracing.Proximity proximity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IThreadDataSource.GetThread(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32,Microsoft.Windows.EventTracing.Proximity)" />
+      <MemberSignature Language="F#" Value="abstract member GetThread : Microsoft.Windows.EventTracing.TraceTimestamp * int * Microsoft.Windows.EventTracing.Proximity -&gt; Microsoft.Windows.EventTracing.Processes.IThread" Usage="iThreadDataSource.GetThread (timestamp, threadId, proximity)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="threadId" Type="System.Int32" />
+        <Parameter Name="proximity" Type="Microsoft.Windows.EventTracing.Proximity" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="threadId">To be added.</param>
+        <param name="proximity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Threads">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IThread&gt; Threads { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Processes.IThread&gt; Threads" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThreadDataSource.Threads" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Threads As IReadOnlyList(Of IThread)" />
+      <MemberSignature Language="F#" Value="member this.Threads : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IThread&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThreadDataSource.Threads" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IThread&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

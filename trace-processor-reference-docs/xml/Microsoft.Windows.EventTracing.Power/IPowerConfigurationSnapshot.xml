@@ -1,0 +1,186 @@
+<Type Name="IPowerConfigurationSnapshot" FullName="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot">
+  <TypeSignature Language="C#" Value="public interface IPowerConfigurationSnapshot" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPowerConfigurationSnapshot" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPowerConfigurationSnapshot" />
+  <TypeSignature Language="F#" Value="type IPowerConfigurationSnapshot = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BatteryConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.IBatteryConfiguration BatteryConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.IBatteryConfiguration BatteryConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.BatteryConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BatteryConfiguration As IBatteryConfiguration" />
+      <MemberSignature Language="F#" Value="member this.BatteryConfiguration : Microsoft.Windows.EventTracing.Power.IBatteryConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.BatteryConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.IBatteryConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ButtonActionConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration ButtonActionConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration ButtonActionConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ButtonActionConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ButtonActionConfiguration As IButtonActionConfiguration" />
+      <MemberSignature Language="F#" Value="member this.ButtonActionConfiguration : Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ButtonActionConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.IDiskConfiguration DiskConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.IDiskConfiguration DiskConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.DiskConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiskConfiguration As IDiskConfiguration" />
+      <MemberSignature Language="F#" Value="member this.DiskConfiguration : Microsoft.Windows.EventTracing.Power.IDiskConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.DiskConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.IDiskConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.IDisplayConfiguration DisplayConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.IDisplayConfiguration DisplayConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.DisplayConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayConfiguration As IDisplayConfiguration" />
+      <MemberSignature Language="F#" Value="member this.DisplayConfiguration : Microsoft.Windows.EventTracing.Power.IDisplayConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.DisplayConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.IDisplayConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionRequiredPowerRequestTimeout">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; ExecutionRequiredPowerRequestTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; ExecutionRequiredPowerRequestTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ExecutionRequiredPowerRequestTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExecutionRequiredPowerRequestTimeout As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.ExecutionRequiredPowerRequestTimeout : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ExecutionRequiredPowerRequestTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the maximum amount of time to wait when there are execution required
+            power requests during the Desktop Activity Moderator (DAM) phase of modern standby.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            In the DAM phase of modern standby, software applications can prevent the system from going to the deepest
+            power state by having power requests. The system will wait for the application to drop power requests
+            until this timeout before proceeding to the next phase of standby.
+            <list type="bullet"><listheader><term>Value</term><description>Description</description></listheader><item><term>0</term><description>Execution power requests are disabled and have no effect.</description></item><item><term>-1</term><description>The system will wait for execution power requests to be dropped by the application
+            indefinitely.</description></item></list></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.IProcessorConfiguration ProcessorConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.IProcessorConfiguration ProcessorConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ProcessorConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorConfiguration As IProcessorConfiguration" />
+      <MemberSignature Language="F#" Value="member this.ProcessorConfiguration : Microsoft.Windows.EventTracing.Power.IProcessorConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.ProcessorConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.IProcessorConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ISleepConfiguration SleepConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.ISleepConfiguration SleepConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.SleepConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepConfiguration As ISleepConfiguration" />
+      <MemberSignature Language="F#" Value="member this.SleepConfiguration : Microsoft.Windows.EventTracing.Power.ISleepConfiguration" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.SleepConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ISleepConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.IPowerConfigurationSnapshot.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,218 @@
+<Type Name="IWorkingSetEntry" FullName="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry">
+  <TypeSignature Language="C#" Value="public interface IWorkingSetEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWorkingSetEntry" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWorkingSetEntry" />
+  <TypeSignature Language="F#" Value="type IWorkingSetEntry = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CommitDebtSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize CommitDebtSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize CommitDebtSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CommitDebtSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommitDebtSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.CommitDebtSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CommitDebtSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize CommitSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize CommitSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CommitSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommitSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.CommitSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CommitSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompressedMemoryOriginalSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize CompressedMemoryOriginalSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize CompressedMemoryOriginalSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CompressedMemoryOriginalSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompressedMemoryOriginalSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.CompressedMemoryOriginalSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.CompressedMemoryOriginalSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemoryCompressionStoreSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize MemoryCompressionStoreSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize MemoryCompressionStoreSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.MemoryCompressionStoreSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemoryCompressionStoreSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.MemoryCompressionStoreSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.MemoryCompressionStoreSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateWorkingSetSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize PrivateWorkingSetSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize PrivateWorkingSetSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.PrivateWorkingSetSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrivateWorkingSetSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.PrivateWorkingSetSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.PrivateWorkingSetSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedCommitSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize SharedCommitSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize SharedCommitSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.SharedCommitSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SharedCommitSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.SharedCommitSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.SharedCommitSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemCategoryName">
+      <MemberSignature Language="C#" Value="public string SystemCategoryName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SystemCategoryName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.SystemCategoryName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemCategoryName As String" />
+      <MemberSignature Language="F#" Value="member this.SystemCategoryName : string" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.SystemCategoryName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMemorySize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize VirtualMemorySize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize VirtualMemorySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.VirtualMemorySize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualMemorySize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.VirtualMemorySize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.VirtualMemorySize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingSetSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize WorkingSetSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize WorkingSetSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.WorkingSetSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WorkingSetSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.WorkingSetSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetEntry.WorkingSetSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

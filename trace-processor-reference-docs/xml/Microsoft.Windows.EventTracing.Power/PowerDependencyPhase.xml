@@ -1,0 +1,172 @@
+<Type Name="PowerDependencyPhase" FullName="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase">
+  <TypeSignature Language="C#" Value="public enum PowerDependencyPhase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PowerDependencyPhase extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PowerDependencyPhase" />
+  <TypeSignature Language="F#" Value="type PowerDependencyPhase = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConnectedSessionsCheck">
+      <MemberSignature Language="C#" Value="ConnectedSessionsCheck" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase ConnectedSessionsCheck = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ConnectedSessionsCheck" />
+      <MemberSignature Language="VB.NET" Value="ConnectedSessionsCheck" />
+      <MemberSignature Language="F#" Value="ConnectedSessionsCheck = 0" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ConnectedSessionsCheck" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DesktopActivityModerator">
+      <MemberSignature Language="C#" Value="DesktopActivityModerator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase DesktopActivityModerator = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.DesktopActivityModerator" />
+      <MemberSignature Language="VB.NET" Value="DesktopActivityModerator" />
+      <MemberSignature Language="F#" Value="DesktopActivityModerator = 4" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.DesktopActivityModerator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LowPowerEpoch">
+      <MemberSignature Language="C#" Value="LowPowerEpoch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase LowPowerEpoch = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.LowPowerEpoch" />
+      <MemberSignature Language="VB.NET" Value="LowPowerEpoch" />
+      <MemberSignature Language="F#" Value="LowPowerEpoch = 5" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.LowPowerEpoch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Maintenance">
+      <MemberSignature Language="C#" Value="Maintenance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase Maintenance = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Maintenance" />
+      <MemberSignature Language="VB.NET" Value="Maintenance" />
+      <MemberSignature Language="F#" Value="Maintenance = 3" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Maintenance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Presence">
+      <MemberSignature Language="C#" Value="Presence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase Presence = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Presence" />
+      <MemberSignature Language="VB.NET" Value="Presence" />
+      <MemberSignature Language="F#" Value="Presence = 1" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Presence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessLifetimeManager">
+      <MemberSignature Language="C#" Value="ProcessLifetimeManager" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase ProcessLifetimeManager = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ProcessLifetimeManager" />
+      <MemberSignature Language="VB.NET" Value="ProcessLifetimeManager" />
+      <MemberSignature Language="F#" Value="ProcessLifetimeManager = 2" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ProcessLifetimeManager" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Resiliency">
+      <MemberSignature Language="C#" Value="Resiliency" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase Resiliency = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Resiliency" />
+      <MemberSignature Language="VB.NET" Value="Resiliency" />
+      <MemberSignature Language="F#" Value="Resiliency = 7" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.Resiliency" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ResiliencyNotification">
+      <MemberSignature Language="C#" Value="ResiliencyNotification" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase ResiliencyNotification = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ResiliencyNotification" />
+      <MemberSignature Language="VB.NET" Value="ResiliencyNotification" />
+      <MemberSignature Language="F#" Value="ResiliencyNotification = 6" Usage="Microsoft.Windows.EventTracing.Power.PowerDependencyPhase.ResiliencyNotification" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

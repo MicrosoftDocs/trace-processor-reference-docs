@@ -1,0 +1,172 @@
+<Type Name="ReferenceSetReferenceReason" FullName="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason">
+  <TypeSignature Language="C#" Value="public enum ReferenceSetReferenceReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReferenceSetReferenceReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReferenceSetReferenceReason" />
+  <TypeSignature Language="F#" Value="type ReferenceSetReferenceReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveRundown">
+      <MemberSignature Language="C#" Value="ActiveRundown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason ActiveRundown = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.ActiveRundown" />
+      <MemberSignature Language="VB.NET" Value="ActiveRundown" />
+      <MemberSignature Language="F#" Value="ActiveRundown = 3" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.ActiveRundown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageCombine">
+      <MemberSignature Language="C#" Value="PageCombine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason PageCombine = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PageCombine" />
+      <MemberSignature Language="VB.NET" Value="PageCombine" />
+      <MemberSignature Language="F#" Value="PageCombine = 6" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PageCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRangeAccess">
+      <MemberSignature Language="C#" Value="PageRangeAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason PageRangeAccess = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PageRangeAccess" />
+      <MemberSignature Language="VB.NET" Value="PageRangeAccess" />
+      <MemberSignature Language="F#" Value="PageRangeAccess = 2" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PageRangeAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolAllocate">
+      <MemberSignature Language="C#" Value="PoolAllocate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason PoolAllocate = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PoolAllocate" />
+      <MemberSignature Language="VB.NET" Value="PoolAllocate" />
+      <MemberSignature Language="F#" Value="PoolAllocate = 4" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PoolAllocate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolFree">
+      <MemberSignature Language="C#" Value="PoolFree" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason PoolFree = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PoolFree" />
+      <MemberSignature Language="VB.NET" Value="PoolFree" />
+      <MemberSignature Language="F#" Value="PoolFree = 5" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PoolFree" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivatePageAccess">
+      <MemberSignature Language="C#" Value="PrivatePageAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason PrivatePageAccess = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PrivatePageAccess" />
+      <MemberSignature Language="VB.NET" Value="PrivatePageAccess" />
+      <MemberSignature Language="F#" Value="PrivatePageAccess = 0" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.PrivatePageAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reclaim">
+      <MemberSignature Language="C#" Value="Reclaim" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason Reclaim = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.Reclaim" />
+      <MemberSignature Language="VB.NET" Value="Reclaim" />
+      <MemberSignature Language="F#" Value="Reclaim = 7" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.Reclaim" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharablePageAccess">
+      <MemberSignature Language="C#" Value="SharablePageAccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason SharablePageAccess = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.SharablePageAccess" />
+      <MemberSignature Language="VB.NET" Value="SharablePageAccess" />
+      <MemberSignature Language="F#" Value="SharablePageAccess = 1" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason.SharablePageAccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReferenceReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

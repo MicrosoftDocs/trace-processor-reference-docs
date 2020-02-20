@@ -1,0 +1,627 @@
+<Type Name="IDiskActivity" FullName="Microsoft.Windows.EventTracing.Disk.IDiskActivity">
+  <TypeSignature Language="C#" Value="public interface IDiskActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDiskActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IDiskActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDiskActivity" />
+  <TypeSignature Language="F#" Value="type IDiskActivity = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a disk activity that occurred as a result of an IO request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ByteOffset">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address ByteOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address ByteOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.ByteOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ByteOffset As Address" />
+      <MemberSignature Language="F#" Value="member this.ByteOffset : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.ByteOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the first byte offset within the file that was accessed by the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp CompleteTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp CompleteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.CompleteTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompleteTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.CompleteTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.CompleteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the activity was completed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextSwitchStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ContextSwitchStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ContextSwitchStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.ContextSwitchStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextSwitchStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.ContextSwitchStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.ContextSwitchStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the stack first executed by the thread that initiated the disk activity when it switched in during the
+            quantum when the disk activity began, if available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NotSupportedException">
+            Thrown when this property is accessed using the publicly avilable NuGet packages. This property will be
+            supported when package dependencies update their versions.
+            </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Disk">
+      <MemberSignature Language="C#" Value="public int Disk { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Disk" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Disk" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Disk As Integer" />
+      <MemberSignature Language="F#" Value="member this.Disk : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Disk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the disk that was accessed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskServiceDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration DiskServiceDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration DiskServiceDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.DiskServiceDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiskServiceDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.DiskServiceDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.DiskServiceDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the subset of the activity duration that involved accessing the disk.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the file that was accessed by the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileObject">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FileObject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FileObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.FileObject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileObject As Address" />
+      <MemberSignature Language="F#" Value="member this.FileObject : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.FileObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the kernel file object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.DiskIOFlags Flags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flags As DiskIOFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Windows.EventTracing.Disk.DiskIOFlags" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets flags associated with the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot InitializeStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot InitializeStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.InitializeStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializeStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.InitializeStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.InitializeStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread call stack that resulted in the IO request being created, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp InitializeTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp InitializeTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.InitializeTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializeTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.InitializeTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.InitializeTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the activity was initialized.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IODuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration IODuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration IODuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IODuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IODuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.IODuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IODuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the duration of the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IORateData">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.IDiskActivityIORateData IORateData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Disk.IDiskActivityIORateData IORateData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IORateData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IORateData As IDiskActivityIORateData" />
+      <MemberSignature Language="F#" Value="member this.IORateData : Microsoft.Windows.EventTracing.Disk.IDiskActivityIORateData" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IORateData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IDiskActivityIORateData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets data about how the IORate.sys driver handled this disk activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IOType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.DiskIOType IOType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.DiskIOType IOType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IOType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IOType As DiskIOType" />
+      <MemberSignature Language="F#" Value="member this.IOType : Microsoft.Windows.EventTracing.Disk.DiskIOType" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IOType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of the IO request.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBoostedFromLowPriority">
+      <MemberSignature Language="C#" Value="public bool IsBoostedFromLowPriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBoostedFromLowPriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IsBoostedFromLowPriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBoostedFromLowPriority As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBoostedFromLowPriority : bool" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IsBoostedFromLowPriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether this activity was issued at low priority but then boosted due to CPU
+            thread scheduling policies.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOverlayFilterCompressed">
+      <MemberSignature Language="C#" Value="public bool IsOverlayFilterCompressed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOverlayFilterCompressed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IsOverlayFilterCompressed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOverlayFilterCompressed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOverlayFilterCompressed : bool" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IsOverlayFilterCompressed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the file is compressed by the Windows Overlay Filter.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess IssuingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess IssuingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IssuingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IssuingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.IssuingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IssuingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process that issued the IO request, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread IssuingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread IssuingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.IssuingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IssuingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.IssuingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.IssuingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread that issued the IO request, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PacketAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address PacketAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address PacketAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.PacketAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PacketAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.PacketAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.PacketAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The address in virtual memory on the machine that logged the trace where the I/O Request Packet (IRP) was
+            stored.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the path of the file that was accessed by the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IOPriority Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Processes.IOPriority Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As IOPriority" />
+      <MemberSignature Language="F#" Value="member this.Priority : Microsoft.Windows.EventTracing.Processes.IOPriority" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IOPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the IO priority of the activity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueCountInitializedAfterCompletedAfter">
+      <MemberSignature Language="C#" Value="public int QueueCountInitializedAfterCompletedAfter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueCountInitializedAfterCompletedAfter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedAfterCompletedAfter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueCountInitializedAfterCompletedAfter As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueCountInitializedAfterCompletedAfter : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedAfterCompletedAfter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating how many of the items in the IO request queue that were added after the request was
+            created, completed after the request completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueCountInitializedAfterCompletedBefore">
+      <MemberSignature Language="C#" Value="public int QueueCountInitializedAfterCompletedBefore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueCountInitializedAfterCompletedBefore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedAfterCompletedBefore" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueCountInitializedAfterCompletedBefore As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueCountInitializedAfterCompletedBefore : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedAfterCompletedBefore" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating how many of the items in the IO request queue that were added after the request was
+            created, completed before the request completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueCountInitializedBeforeCompletedAfter">
+      <MemberSignature Language="C#" Value="public int QueueCountInitializedBeforeCompletedAfter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueCountInitializedBeforeCompletedAfter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedBeforeCompletedAfter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueCountInitializedBeforeCompletedAfter As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueCountInitializedBeforeCompletedAfter : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedBeforeCompletedAfter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating how many of the items in the IO request queue that were present when the request was
+            created, completed after the request completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueCountInitializedBeforeCompletedBefore">
+      <MemberSignature Language="C#" Value="public int QueueCountInitializedBeforeCompletedBefore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueCountInitializedBeforeCompletedBefore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedBeforeCompletedBefore" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueCountInitializedBeforeCompletedBefore As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueCountInitializedBeforeCompletedBefore : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueCountInitializedBeforeCompletedBefore" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating how many of the items in the IO request queue that were present when the request was
+            created, completed before the request completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueDepthAtCompleteTime">
+      <MemberSignature Language="C#" Value="public int QueueDepthAtCompleteTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueDepthAtCompleteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueDepthAtCompleteTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueDepthAtCompleteTime As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueDepthAtCompleteTime : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueDepthAtCompleteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating the size of the IO request queue at the time that the request was completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueDepthAtInitializeTime">
+      <MemberSignature Language="C#" Value="public int QueueDepthAtInitializeTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 QueueDepthAtInitializeTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueDepthAtInitializeTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueDepthAtInitializeTime As Integer" />
+      <MemberSignature Language="F#" Value="member this.QueueDepthAtInitializeTime : int" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.QueueDepthAtInitializeTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating the size of the IO request queue at the time that the request was created.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the size of the IO request.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.DiskIOSource Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.DiskIOSource Source" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.Source" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As DiskIOSource" />
+      <MemberSignature Language="F#" Value="member this.Source : Microsoft.Windows.EventTracing.Disk.DiskIOSource" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.Source" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the source the IO request.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorportDriverDiskServiceDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration StorportDriverDiskServiceDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration StorportDriverDiskServiceDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDiskActivity.StorportDriverDiskServiceDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorportDriverDiskServiceDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.StorportDriverDiskServiceDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Disk.IDiskActivity.StorportDriverDiskServiceDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time spent accessing the disk according to the storport.sys driver.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

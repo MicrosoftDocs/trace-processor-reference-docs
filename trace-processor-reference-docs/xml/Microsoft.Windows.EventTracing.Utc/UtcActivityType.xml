@@ -1,0 +1,77 @@
+<Type Name="UtcActivityType" FullName="Microsoft.Windows.EventTracing.Utc.UtcActivityType">
+  <TypeSignature Language="C#" Value="public enum UtcActivityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UtcActivityType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.UtcActivityType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UtcActivityType" />
+  <TypeSignature Language="F#" Value="type UtcActivityType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EventTrigger">
+      <MemberSignature Language="C#" Value="EventTrigger" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcActivityType EventTrigger = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcActivityType.EventTrigger" />
+      <MemberSignature Language="VB.NET" Value="EventTrigger" />
+      <MemberSignature Language="F#" Value="EventTrigger = 1" Usage="Microsoft.Windows.EventTracing.Utc.UtcActivityType.EventTrigger" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Scenario">
+      <MemberSignature Language="C#" Value="Scenario" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcActivityType Scenario = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcActivityType.Scenario" />
+      <MemberSignature Language="VB.NET" Value="Scenario" />
+      <MemberSignature Language="F#" Value="Scenario = 0" Usage="Microsoft.Windows.EventTracing.Utc.UtcActivityType.Scenario" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeTrigger">
+      <MemberSignature Language="C#" Value="TimeTrigger" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcActivityType TimeTrigger = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcActivityType.TimeTrigger" />
+      <MemberSignature Language="VB.NET" Value="TimeTrigger" />
+      <MemberSignature Language="F#" Value="TimeTrigger = 2" Usage="Microsoft.Windows.EventTracing.Utc.UtcActivityType.TimeTrigger" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

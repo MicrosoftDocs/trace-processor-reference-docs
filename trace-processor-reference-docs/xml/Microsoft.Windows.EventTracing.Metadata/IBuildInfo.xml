@@ -1,0 +1,198 @@
+<Type Name="IBuildInfo" FullName="Microsoft.Windows.EventTracing.Metadata.IBuildInfo">
+  <TypeSignature Language="C#" Value="public interface IBuildInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBuildInfo" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IBuildInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBuildInfo" />
+  <TypeSignature Language="F#" Value="type IBuildInfo = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Architecture">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Metadata.Architecture&gt; Architecture { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Metadata.Architecture&gt; Architecture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.Architecture" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Architecture As Nullable(Of Architecture)" />
+      <MemberSignature Language="F#" Value="member this.Architecture : Nullable&lt;Microsoft.Windows.EventTracing.Metadata.Architecture&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.Architecture" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Metadata.Architecture&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Branch">
+      <MemberSignature Language="C#" Value="public string Branch { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Branch" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.Branch" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Branch As String" />
+      <MemberSignature Language="F#" Value="member this.Branch : string" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.Branch" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildFlavor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Metadata.BuildFlavor&gt; BuildFlavor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Metadata.BuildFlavor&gt; BuildFlavor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildFlavor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildFlavor As Nullable(Of BuildFlavor)" />
+      <MemberSignature Language="F#" Value="member this.BuildFlavor : Nullable&lt;Microsoft.Windows.EventTracing.Metadata.BuildFlavor&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildFlavor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Metadata.BuildFlavor&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildLab">
+      <MemberSignature Language="C#" Value="public string BuildLab { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BuildLab" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildLab" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildLab As String" />
+      <MemberSignature Language="F#" Value="member this.BuildLab : string" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildLab" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; BuildNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; BuildNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildNumber As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.BuildNumber : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildRevision">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; BuildRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; BuildRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildRevision As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.BuildRevision : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; BuildTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; BuildTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.BuildTime : Nullable&lt;DateTime&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.BuildTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstallTime">
+      <MemberSignature Language="C#" Value="public DateTime InstallTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime InstallTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.InstallTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstallTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.InstallTime : DateTime" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.InstallTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProductName">
+      <MemberSignature Language="C#" Value="public string ProductName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProductName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IBuildInfo.ProductName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProductName As String" />
+      <MemberSignature Language="F#" Value="member this.ProductName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IBuildInfo.ProductName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

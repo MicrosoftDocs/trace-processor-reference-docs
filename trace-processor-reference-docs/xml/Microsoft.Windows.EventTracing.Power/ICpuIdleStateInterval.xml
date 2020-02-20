@@ -1,0 +1,178 @@
+<Type Name="ICpuIdleStateInterval" FullName="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval">
+  <TypeSignature Language="C#" Value="public interface ICpuIdleStateInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICpuIdleStateInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICpuIdleStateInterval" />
+  <TypeSignature Language="F#" Value="type ICpuIdleStateInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExpectedDuration">
+      <MemberSignature Language="C#" Value="public TimeSpan ExpectedDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan ExpectedDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.ExpectedDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpectedDuration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.ExpectedDuration : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.ExpectedDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpectedDurationReason">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason ExpectedDurationReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason ExpectedDurationReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.ExpectedDurationReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpectedDurationReason As CpuIdleStateExpectedDurationReason" />
+      <MemberSignature Language="F#" Value="member this.ExpectedDurationReason : Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.ExpectedDurationReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMinimumExpectedDuration">
+      <MemberSignature Language="C#" Value="public bool IsMinimumExpectedDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMinimumExpectedDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.IsMinimumExpectedDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMinimumExpectedDuration As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMinimumExpectedDuration : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.IsMinimumExpectedDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.CpuIdleState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As CpuIdleState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Windows.EventTracing.Power.CpuIdleState" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transition">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition Transition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition Transition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.Transition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Transition As ICpuIdleStateTransition" />
+      <MemberSignature Language="F#" Value="member this.Transition : Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateInterval.Transition" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

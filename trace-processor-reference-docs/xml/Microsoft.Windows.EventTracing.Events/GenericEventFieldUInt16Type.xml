@@ -1,0 +1,77 @@
+<Type Name="GenericEventFieldUInt16Type" FullName="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type">
+  <TypeSignature Language="C#" Value="public enum GenericEventFieldUInt16Type" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GenericEventFieldUInt16Type extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GenericEventFieldUInt16Type" />
+  <TypeSignature Language="F#" Value="type GenericEventFieldUInt16Type = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Hexadecimal">
+      <MemberSignature Language="C#" Value="Hexadecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type Hexadecimal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Hexadecimal" />
+      <MemberSignature Language="VB.NET" Value="Hexadecimal" />
+      <MemberSignature Language="F#" Value="Hexadecimal = 1" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Hexadecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Port">
+      <MemberSignature Language="C#" Value="Port" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type Port = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Port" />
+      <MemberSignature Language="VB.NET" Value="Port" />
+      <MemberSignature Language="F#" Value="Port = 2" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Port" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type Standard = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
+      <MemberSignature Language="F#" Value="Standard = 0" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

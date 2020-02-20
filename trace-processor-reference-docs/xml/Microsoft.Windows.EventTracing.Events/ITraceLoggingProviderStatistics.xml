@@ -1,0 +1,42 @@
+<Type Name="ITraceLoggingProviderStatistics" FullName="Microsoft.Windows.EventTracing.Events.ITraceLoggingProviderStatistics">
+  <TypeSignature Language="C#" Value="public interface ITraceLoggingProviderStatistics : Microsoft.Windows.EventTracing.Events.IProviderStatistics" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITraceLoggingProviderStatistics implements class Microsoft.Windows.EventTracing.Events.IProviderStatistics" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.ITraceLoggingProviderStatistics" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITraceLoggingProviderStatistics&#xA;Implements IProviderStatistics" />
+  <TypeSignature Language="F#" Value="type ITraceLoggingProviderStatistics = interface&#xA;    interface IProviderStatistics" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Events.IProviderStatistics</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Events">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.ITraceLoggingEventStatistics&gt; Events { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Events.ITraceLoggingEventStatistics&gt; Events" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.ITraceLoggingProviderStatistics.Events" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Events As IReadOnlyList(Of ITraceLoggingEventStatistics)" />
+      <MemberSignature Language="F#" Value="member this.Events : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.ITraceLoggingEventStatistics&gt;" Usage="Microsoft.Windows.EventTracing.Events.ITraceLoggingProviderStatistics.Events" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.ITraceLoggingEventStatistics&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

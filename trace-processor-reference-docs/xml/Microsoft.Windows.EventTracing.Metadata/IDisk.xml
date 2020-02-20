@@ -1,0 +1,204 @@
+<Type Name="IDisk" FullName="Microsoft.Windows.EventTracing.Metadata.IDisk">
+  <TypeSignature Language="C#" Value="public interface IDisk" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDisk" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IDisk" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDisk" />
+  <TypeSignature Language="F#" Value="type IDisk = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Capacity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Capacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Capacity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.Capacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capacity As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Capacity : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.Capacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CylinderCount">
+      <MemberSignature Language="C#" Value="public long CylinderCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 CylinderCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.CylinderCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CylinderCount As Long" />
+      <MemberSignature Language="F#" Value="member this.CylinderCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.CylinderCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether or not data about this disk is present.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If a disk is not mounted when the trace is recorded then no data about the disk will be present
+            in the trace, other than its existence. Attempting to access any other property when this value is false
+            will throw.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWriteCachingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsWriteCachingEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWriteCachingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.IsWriteCachingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWriteCachingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsWriteCachingEnabled : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.IsWriteCachingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Model">
+      <MemberSignature Language="C#" Value="public string Model { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Model" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.Model" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Model As String" />
+      <MemberSignature Language="F#" Value="member this.Model : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.Model" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Partitions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IPartition&gt; Partitions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Metadata.IPartition&gt; Partitions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.Partitions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Partitions As IReadOnlyList(Of IPartition)" />
+      <MemberSignature Language="F#" Value="member this.Partitions : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IPartition&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.Partitions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IPartition&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectorSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize SectorSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize SectorSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.SectorSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectorSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.SectorSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.SectorSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectorsPerTrack">
+      <MemberSignature Language="C#" Value="public int SectorsPerTrack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SectorsPerTrack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.SectorsPerTrack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectorsPerTrack As Integer" />
+      <MemberSignature Language="F#" Value="member this.SectorsPerTrack : int" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.SectorsPerTrack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TracksPerCylinder">
+      <MemberSignature Language="C#" Value="public int TracksPerCylinder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TracksPerCylinder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisk.TracksPerCylinder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TracksPerCylinder As Integer" />
+      <MemberSignature Language="F#" Value="member this.TracksPerCylinder : int" Usage="Microsoft.Windows.EventTracing.Metadata.IDisk.TracksPerCylinder" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

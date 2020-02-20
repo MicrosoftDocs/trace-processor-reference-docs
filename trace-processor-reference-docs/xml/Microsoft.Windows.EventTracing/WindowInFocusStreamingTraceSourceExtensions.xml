@@ -1,0 +1,276 @@
+<Type Name="WindowInFocusStreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class WindowInFocusStreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WindowInFocusStreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module WindowInFocusStreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type WindowInFocusStreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseFocusChangeEvents">
+      <MemberSignature Language="C#" Value="public static void UseFocusChangeEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseFocusChangeEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseFocusChangeEvents (streamingTrace As IStreamingTraceSource, process As FocusChangeEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseFocusChangeEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed FocusChange events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseFocusChangeEvents">
+      <MemberSignature Language="C#" Value="public static void UseFocusChangeEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseFocusChangeEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseFocusChangeEvents (streamingTrace As IStreamingTraceSource, consumer As IFocusChangeEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseFocusChangeEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.WindowInFocus.IFocusChangeEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed FocusChange events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseFocusChangeEvents">
+      <MemberSignature Language="C#" Value="public static void UseFocusChangeEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseFocusChangeEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseFocusChangeEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As FocusChangeEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseFocusChangeEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseFocusChangeEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed FocusChange events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSessionLayerSetActiveWindowEvents">
+      <MemberSignature Language="C#" Value="public static void UseSessionLayerSetActiveWindowEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.ISessionLayerSetActiveWindowEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSessionLayerSetActiveWindowEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.ISessionLayerSetActiveWindowEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.ISessionLayerSetActiveWindowEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSessionLayerSetActiveWindowEvents (streamingTrace As IStreamingTraceSource, consumer As ISessionLayerSetActiveWindowEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseSessionLayerSetActiveWindowEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.ISessionLayerSetActiveWindowEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.WindowInFocus.ISessionLayerSetActiveWindowEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed SessionLayerSetActiveWindow events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSessionLayerSetActiveWindowEvents">
+      <MemberSignature Language="C#" Value="public static void UseSessionLayerSetActiveWindowEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSessionLayerSetActiveWindowEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSessionLayerSetActiveWindowEvents (streamingTrace As IStreamingTraceSource, process As SessionLayerSetActiveWindowEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSessionLayerSetActiveWindowEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed SessionLayerSetActiveWindow events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSessionLayerSetActiveWindowEvents">
+      <MemberSignature Language="C#" Value="public static void UseSessionLayerSetActiveWindowEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSessionLayerSetActiveWindowEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSessionLayerSetActiveWindowEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As SessionLayerSetActiveWindowEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSessionLayerSetActiveWindowEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseSessionLayerSetActiveWindowEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.SessionLayerSetActiveWindowEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive parsed SessionLayerSetActiveWindow events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseWindowInFocus">
+      <MemberSignature Language="C#" Value="public static void UseWindowInFocus (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseWindowInFocus(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseWindowInFocus (streamingTrace As IStreamingTraceSource, consumer As IWindowInFocusIntervalConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseWindowInFocus : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive window-in-focus data when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseWindowInFocus">
+      <MemberSignature Language="C#" Value="public static void UseWindowInFocus (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseWindowInFocus(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseWindowInFocus (streamingTrace As IStreamingTraceSource, process As WindowInFocusIntervalCallback)" />
+      <MemberSignature Language="F#" Value="static member UseWindowInFocus : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive window-in-focus data when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseWindowInFocus">
+      <MemberSignature Language="C#" Value="public static void UseWindowInFocus (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseWindowInFocus(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseWindowInFocus (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As WindowInFocusIntervalCallback)" />
+      <MemberSignature Language="F#" Value="static member UseWindowInFocus : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.WindowInFocusStreamingTraceSourceExtensions.UseWindowInFocus (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a consumer to receive window-in-focus data when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

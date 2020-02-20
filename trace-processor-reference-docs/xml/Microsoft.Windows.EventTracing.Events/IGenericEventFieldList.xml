@@ -1,0 +1,48 @@
+<Type Name="IGenericEventFieldList" FullName="Microsoft.Windows.EventTracing.Events.IGenericEventFieldList">
+  <TypeSignature Language="C#" Value="public interface IGenericEventFieldList : Microsoft.Windows.EventTracing.IReadOnlyKeyedList&lt;string,Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericEventFieldList implements class Microsoft.Windows.EventTracing.IReadOnlyKeyedList`2&lt;string, class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IGenericEventFieldList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericEventFieldList&#xA;Implements IEnumerable(Of IGenericEventField), IReadOnlyCollection(Of IGenericEventField), IReadOnlyKeyedList(Of String, IGenericEventField), IReadOnlyList(Of IGenericEventField)" />
+  <TypeSignature Language="F#" Value="type IGenericEventFieldList = interface&#xA;    interface IReadOnlyKeyedList&lt;string, IGenericEventField&gt;&#xA;    interface IReadOnlyList&lt;IGenericEventField&gt;&#xA;    interface seq&lt;IGenericEventField&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;IGenericEventField&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.IReadOnlyKeyedList&lt;System.String,Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

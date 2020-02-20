@@ -1,0 +1,198 @@
+<Type Name="IClassicEventStatistics" FullName="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics">
+  <TypeSignature Language="C#" Value="public interface IClassicEventStatistics" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClassicEventStatistics" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClassicEventStatistics" />
+  <TypeSignature Language="F#" Value="type IClassicEventStatistics = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EventCount">
+      <MemberSignature Language="C#" Value="public int EventCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EventCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.EventCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.EventCount : int" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.EventCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalDataSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize TotalDataSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize TotalDataSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalDataSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalDataSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.TotalDataSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalDataSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalEventSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize TotalEventSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize TotalEventSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalEventSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalEventSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.TotalEventSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalEventSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalExtendedDataSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize TotalExtendedDataSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize TotalExtendedDataSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalExtendedDataSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalExtendedDataSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.TotalExtendedDataSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalExtendedDataSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalHeaderSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize TotalHeaderSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize TotalHeaderSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalHeaderSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalHeaderSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.TotalHeaderSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.TotalHeaderSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public int Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As Integer" />
+      <MemberSignature Language="F#" Value="member this.Version : int" Usage="Microsoft.Windows.EventTracing.Events.IClassicEventStatistics.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

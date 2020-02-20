@@ -1,0 +1,25 @@
+<Type Name="CompactContextSwitchEventCallback" FullName="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void CompactContextSwitchEventCallback(CompactContextSwitchEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CompactContextSwitchEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub CompactContextSwitchEventCallback(eventContext As CompactContextSwitchEventContext)" />
+  <TypeSignature Language="F#" Value="type CompactContextSwitchEventCallback = delegate of CompactContextSwitchEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The compact context switch event to process.</param>
+    <summary>Processes a compact context switch event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

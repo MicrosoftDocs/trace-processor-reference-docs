@@ -1,0 +1,754 @@
+<Type Name="TraceEvent" FullName="Microsoft.Windows.EventTracing.TraceEvent">
+  <TypeSignature Language="C#" Value="public struct TraceEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit TraceEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure TraceEvent" />
+  <TypeSignature Language="F#" Value="type TraceEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an event from an ETW trace.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivityId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; ActivityId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ActivityId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ActivityId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.ActivityId : Nullable&lt;Guid&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.ActivityId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsClassicEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ClassicEvent AsClassicEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ClassicEvent AsClassicEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.AsClassicEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsClassicEvent As ClassicEvent" />
+      <MemberSignature Language="F#" Value="member this.AsClassicEvent : Microsoft.Windows.EventTracing.ClassicEvent" Usage="Microsoft.Windows.EventTracing.TraceEvent.AsClassicEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ClassicEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsGenericEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.UnparsedGenericEvent AsGenericEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.UnparsedGenericEvent AsGenericEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.AsGenericEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsGenericEvent As UnparsedGenericEvent" />
+      <MemberSignature Language="F#" Value="member this.AsGenericEvent : Microsoft.Windows.EventTracing.UnparsedGenericEvent" Usage="Microsoft.Windows.EventTracing.TraceEvent.AsGenericEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.UnparsedGenericEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsTraceMessageEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceMessageEvent AsTraceMessageEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceMessageEvent AsTraceMessageEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.AsTraceMessageEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsTraceMessageEvent As TraceMessageEvent" />
+      <MemberSignature Language="F#" Value="member this.AsTraceMessageEvent : Microsoft.Windows.EventTracing.TraceMessageEvent" Usage="Microsoft.Windows.EventTracing.TraceEvent.AsTraceMessageEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceMessageEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channel">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Channel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Channel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Channel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Channel As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Channel : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Channel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComponentId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ComponentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ComponentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ComponentId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ComponentId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ComponentId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.ComponentId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is only present for some events where <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />.</para>
+          <para>
+            <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.ProviderId" /> and <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.ComponentId" /> are mutually exclusive.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;byte&gt; Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; Data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Data" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As ReadOnlySpan(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.Data : ReadOnlySpan&lt;byte&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedData">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ExtendedDataItemReadOnlySpan ExtendedData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ExtendedDataItemReadOnlySpan ExtendedData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ExtendedData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedData As ExtendedDataItemReadOnlySpan" />
+      <MemberSignature Language="F#" Value="member this.ExtendedData : Microsoft.Windows.EventTracing.ExtendedDataItemReadOnlySpan" Usage="Microsoft.Windows.EventTracing.TraceEvent.ExtendedData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataItemReadOnlySpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceEventHeaderFlags Flags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceEventHeaderFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flags As TraceEventHeaderFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Windows.EventTracing.TraceEventHeaderFlags" Usage="Microsoft.Windows.EventTracing.TraceEvent.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasValue">
+      <MemberSignature Language="C#" Value="public bool HasValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.HasValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasValue : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.HasValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceEventHeaderProperties HeaderProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceEventHeaderProperties HeaderProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderProperties As TraceEventHeaderProperties" />
+      <MemberSignature Language="F#" Value="member this.HeaderProperties : Microsoft.Windows.EventTracing.TraceEventHeaderProperties" Usage="Microsoft.Windows.EventTracing.TraceEvent.HeaderProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceEventHeaderType HeaderType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType HeaderType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderType As TraceEventHeaderType" />
+      <MemberSignature Language="F#" Value="member this.HeaderType : Microsoft.Windows.EventTracing.TraceEventHeaderType" Usage="Microsoft.Windows.EventTracing.TraceEvent.HeaderType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of header used to log the event.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.TraceEvent.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the event.</summary>
+        <value>To be added.</value>
+        <remarks>
+            For Classic events, this field is known as Type in EVENT_TRACE and Opcode in EVENT_RECORD.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Is32Bit">
+      <MemberSignature Language="C#" Value="public bool Is32Bit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Is32Bit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Is32Bit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Is32Bit As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Is32Bit : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.Is32Bit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClassic">
+      <MemberSignature Language="C#" Value="public bool IsClassic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsClassic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.IsClassic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsClassic As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsClassic : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.IsClassic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsGeneric">
+      <MemberSignature Language="C#" Value="public bool IsGeneric { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsGeneric" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.IsGeneric" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGeneric As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsGeneric : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.IsGeneric" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTraceLogging">
+      <MemberSignature Language="C#" Value="public bool IsTraceLogging { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTraceLogging" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.IsTraceLogging" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTraceLogging As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTraceLogging : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.IsTraceLogging" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTraceMessage">
+      <MemberSignature Language="C#" Value="public bool IsTraceMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTraceMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.IsTraceMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTraceMessage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTraceMessage : bool" Usage="Microsoft.Windows.EventTracing.TraceEvent.IsTraceMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; KernelTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; KernelTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.KernelTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KernelTime As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.KernelTime : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.KernelTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keyword">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; Keyword { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; Keyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Keyword" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Keyword As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.Keyword : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Keyword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="F#" Value="member this.Length : int" Usage="Microsoft.Windows.EventTracing.TraceEvent.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" /> or
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicFull" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerId">
+      <MemberSignature Language="C#" Value="public int LoggerId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LoggerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.LoggerId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoggerId As Integer" />
+      <MemberSignature Language="F#" Value="member this.LoggerId : int" Usage="Microsoft.Windows.EventTracing.TraceEvent.LoggerId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Opcode">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Opcode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Opcode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Opcode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Opcode As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Opcode : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Opcode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Unlike EVENT_RECORD, this type exposes EVENT_TRACE.Type as Id rather than as Opcode.</para>
+          <para>This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is absent when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicPerformance" /> and may be absent when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.TraceEvent.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; ProcessorTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; ProcessorTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ProcessorTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorTime As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.ProcessorTime : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.ProcessorTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderId">
+      <MemberSignature Language="C#" Value="public Guid ProviderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid ProviderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ProviderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderId As Guid" />
+      <MemberSignature Language="F#" Value="member this.ProviderId : Guid" Usage="Microsoft.Windows.EventTracing.TraceEvent.ProviderId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the provider that logged the event.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawPointer">
+      <MemberSignature Language="C#" Value="public IntPtr RawPointer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int RawPointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.RawPointer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawPointer As IntPtr" />
+      <MemberSignature Language="F#" Value="member this.RawPointer : nativeint" Usage="Microsoft.Windows.EventTracing.TraceEvent.RawPointer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SequenceNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; SequenceNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SequenceNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.SequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SequenceNumber As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.SequenceNumber : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.SequenceNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present for some events where <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Task">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Task { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Task" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Task" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Task As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Task : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.Task" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is only present when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is absent when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicPerformance" /> and may be absent when <see cref="P:Microsoft.Windows.EventTracing.TraceEvent.HeaderType" /> is
+            <see cref="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time at which the event was logged in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; UserTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; UserTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.UserTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserTime As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.UserTime : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.TraceEvent.UserTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public int Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceEvent.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As Integer" />
+      <MemberSignature Language="F#" Value="member this.Version : int" Usage="Microsoft.Windows.EventTracing.TraceEvent.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<Type Name="IReadyThreadDataSource" FullName="Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource">
+  <TypeSignature Language="C#" Value="public interface IReadyThreadDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IReadyThreadDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IReadyThreadDataSource" />
+  <TypeSignature Language="F#" Value="type IReadyThreadDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ReadyThreadEvents">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent&gt; ReadyThreadEvents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent&gt; ReadyThreadEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource.ReadyThreadEvents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyThreadEvents As IReadOnlyList(Of IReadyThreadEvent)" />
+      <MemberSignature Language="F#" Value="member this.ReadyThreadEvents : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource.ReadyThreadEvents" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a list of every ready thread event contained in the trace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            A ready thread event occurs when a previously blocked thread is unblocked by the actions of another thread.
+            This previously blocked thread is said to have been 'readied' by this other thread.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,880 @@
+<Type Name="FrequencyValue" FullName="Microsoft.Windows.EventTracing.FrequencyValue">
+  <TypeSignature Language="C#" Value="public struct FrequencyValue : IComparable, IComparable&lt;Microsoft.Windows.EventTracing.FrequencyValue&gt;, IEquatable&lt;Microsoft.Windows.EventTracing.FrequencyValue&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit FrequencyValue extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype Microsoft.Windows.EventTracing.FrequencyValue&gt;, class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.FrequencyValue&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.FrequencyValue" />
+  <TypeSignature Language="VB.NET" Value="Public Structure FrequencyValue&#xA;Implements IComparable, IComparable(Of FrequencyValue), IEquatable(Of FrequencyValue)" />
+  <TypeSignature Language="F#" Value="type FrequencyValue = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Windows.EventTracing.FrequencyValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.FrequencyValue&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FrequencyValue (long hertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 hertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.#ctor(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (hertz As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.FrequencyValue : int64 -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="new Microsoft.Windows.EventTracing.FrequencyValue hertz" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="hertz" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="hertz">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.FrequencyValue other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.FrequencyValue other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.CompareTo(Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As FrequencyValue) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Windows.EventTracing.FrequencyValue -&gt; int&#xA;override this.CompareTo : Microsoft.Windows.EventTracing.FrequencyValue -&gt; int" Usage="frequencyValue.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.CompareTo(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="frequencyValue.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.FrequencyValue other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.FrequencyValue other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.Equals(Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="frequencyValue.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="frequencyValue.Equals other" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGigahertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromGigahertz (decimal gigahertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromGigahertz(valuetype System.Decimal gigahertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromGigahertz(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGigahertz (gigahertz As Decimal) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromGigahertz : decimal -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromGigahertz gigahertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gigahertz" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="gigahertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGigahertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromGigahertz (long gigahertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromGigahertz(int64 gigahertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromGigahertz(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGigahertz (gigahertz As Long) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromGigahertz : int64 -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromGigahertz gigahertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gigahertz" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="gigahertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromHertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromHertz (long hertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromHertz(int64 hertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromHertz(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromHertz (hertz As Long) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromHertz : int64 -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromHertz hertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hertz" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="hertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilohertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromKilohertz (decimal kilohertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromKilohertz(valuetype System.Decimal kilohertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromKilohertz(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilohertz (kilohertz As Decimal) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromKilohertz : decimal -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromKilohertz kilohertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilohertz" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="kilohertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilohertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromKilohertz (long kilohertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromKilohertz(int64 kilohertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromKilohertz(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilohertz (kilohertz As Long) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromKilohertz : int64 -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromKilohertz kilohertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilohertz" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="kilohertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMegahertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromMegahertz (decimal kilohertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromMegahertz(valuetype System.Decimal kilohertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromMegahertz(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMegahertz (kilohertz As Decimal) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromMegahertz : decimal -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromMegahertz kilohertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilohertz" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="kilohertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMegahertz">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue FromMegahertz (long megahertz);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue FromMegahertz(int64 megahertz) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.FromMegahertz(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMegahertz (megahertz As Long) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member FromMegahertz : int64 -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.FromMegahertz megahertz" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="megahertz" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="megahertz">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="frequencyValue.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GigahertzPerHertz">
+      <MemberSignature Language="C#" Value="public static readonly decimal GigahertzPerHertz;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal GigahertzPerHertz" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.GigahertzPerHertz" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GigahertzPerHertz As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable GigahertzPerHertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.GigahertzPerHertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hertz">
+      <MemberSignature Language="C#" Value="public long Hertz { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Hertz" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.FrequencyValue.Hertz" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hertz As Long" />
+      <MemberSignature Language="F#" Value="member this.Hertz : int64" Usage="Microsoft.Windows.EventTracing.FrequencyValue.Hertz" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HertzPerGigahertz">
+      <MemberSignature Language="C#" Value="public const long HertzPerGigahertz = 1000000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 HertzPerGigahertz = (1000000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.HertzPerGigahertz" />
+      <MemberSignature Language="VB.NET" Value="Public Const HertzPerGigahertz As Long  = 1000000000" />
+      <MemberSignature Language="F#" Value="val mutable HertzPerGigahertz : int64" Usage="Microsoft.Windows.EventTracing.FrequencyValue.HertzPerGigahertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HertzPerKilohertz">
+      <MemberSignature Language="C#" Value="public const long HertzPerKilohertz = 1000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 HertzPerKilohertz = (1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.HertzPerKilohertz" />
+      <MemberSignature Language="VB.NET" Value="Public Const HertzPerKilohertz As Long  = 1000" />
+      <MemberSignature Language="F#" Value="val mutable HertzPerKilohertz : int64" Usage="Microsoft.Windows.EventTracing.FrequencyValue.HertzPerKilohertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HertzPerMegahertz">
+      <MemberSignature Language="C#" Value="public const long HertzPerMegahertz = 1000000;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int64 HertzPerMegahertz = (1000000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.HertzPerMegahertz" />
+      <MemberSignature Language="VB.NET" Value="Public Const HertzPerMegahertz As Long  = 1000000" />
+      <MemberSignature Language="F#" Value="val mutable HertzPerMegahertz : int64" Usage="Microsoft.Windows.EventTracing.FrequencyValue.HertzPerMegahertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000000</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KilohertzPerHertz">
+      <MemberSignature Language="C#" Value="public static readonly decimal KilohertzPerHertz;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal KilohertzPerHertz" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.KilohertzPerHertz" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly KilohertzPerHertz As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable KilohertzPerHertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.KilohertzPerHertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue Max (Microsoft.Windows.EventTracing.FrequencyValue first, Microsoft.Windows.EventTracing.FrequencyValue second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue Max(valuetype Microsoft.Windows.EventTracing.FrequencyValue first, valuetype Microsoft.Windows.EventTracing.FrequencyValue second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.Max(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Max (first As FrequencyValue, second As FrequencyValue) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member Max : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.Max (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.FrequencyValue MaxValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.FrequencyValue MaxValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.MaxValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxValue As FrequencyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxValue : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.MaxValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MegahertzPerHertz">
+      <MemberSignature Language="C#" Value="public static readonly decimal MegahertzPerHertz;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.Decimal MegahertzPerHertz" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.MegahertzPerHertz" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MegahertzPerHertz As Decimal " />
+      <MemberSignature Language="F#" Value=" staticval mutable MegahertzPerHertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.MegahertzPerHertz" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue Min (Microsoft.Windows.EventTracing.FrequencyValue first, Microsoft.Windows.EventTracing.FrequencyValue second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.FrequencyValue Min(valuetype Microsoft.Windows.EventTracing.FrequencyValue first, valuetype Microsoft.Windows.EventTracing.FrequencyValue second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.Min(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Min (first As FrequencyValue, second As FrequencyValue) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member Min : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.Min (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.FrequencyValue MinValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.FrequencyValue MinValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.MinValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinValue As FrequencyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinValue : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.MinValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue operator + (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.FrequencyValue op_Addition(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_Addition(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As FrequencyValue, right As FrequencyValue) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_Equality(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThan">
+      <MemberSignature Language="C#" Value="public static bool operator &gt; (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThan(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_GreaterThan(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt; (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt; ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="left &gt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &gt;= (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThanOrEqual(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_GreaterThanOrEqual(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt;= (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt;= ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="left &gt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_Inequality(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="Microsoft.Windows.EventTracing.FrequencyValue.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThan">
+      <MemberSignature Language="C#" Value="public static bool operator &lt; (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThan(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_LessThan(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt; (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt; ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="left &lt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &lt;= (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThanOrEqual(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_LessThanOrEqual(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt;= (left As FrequencyValue, right As FrequencyValue) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt;= ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; bool" Usage="left &lt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.FrequencyValue operator - (Microsoft.Windows.EventTracing.FrequencyValue left, Microsoft.Windows.EventTracing.FrequencyValue right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.FrequencyValue op_Subtraction(valuetype Microsoft.Windows.EventTracing.FrequencyValue left, valuetype Microsoft.Windows.EventTracing.FrequencyValue right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.op_Subtraction(Microsoft.Windows.EventTracing.FrequencyValue,Microsoft.Windows.EventTracing.FrequencyValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As FrequencyValue, right As FrequencyValue) As FrequencyValue" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.FrequencyValue * Microsoft.Windows.EventTracing.FrequencyValue -&gt; Microsoft.Windows.EventTracing.FrequencyValue" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.FrequencyValue" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.FrequencyValue.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="frequencyValue.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalGigahertz">
+      <MemberSignature Language="C#" Value="public decimal TotalGigahertz { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalGigahertz" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.FrequencyValue.TotalGigahertz" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalGigahertz As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalGigahertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.TotalGigahertz" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKilohertz">
+      <MemberSignature Language="C#" Value="public decimal TotalKilohertz { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalKilohertz" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.FrequencyValue.TotalKilohertz" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalKilohertz As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalKilohertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.TotalKilohertz" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMegahertz">
+      <MemberSignature Language="C#" Value="public decimal TotalMegahertz { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMegahertz" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.FrequencyValue.TotalMegahertz" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMegahertz As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMegahertz : decimal" Usage="Microsoft.Windows.EventTracing.FrequencyValue.TotalMegahertz" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.FrequencyValue Zero;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.FrequencyValue Zero" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.FrequencyValue.Zero" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Zero As FrequencyValue " />
+      <MemberSignature Language="F#" Value=" staticval mutable Zero : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.FrequencyValue.Zero" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

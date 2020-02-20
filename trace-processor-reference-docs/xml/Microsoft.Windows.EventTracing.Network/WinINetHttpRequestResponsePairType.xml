@@ -1,0 +1,58 @@
+<Type Name="WinINetHttpRequestResponsePairType" FullName="Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType">
+  <TypeSignature Language="C#" Value="public enum WinINetHttpRequestResponsePairType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WinINetHttpRequestResponsePairType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WinINetHttpRequestResponsePairType" />
+  <TypeSignature Language="F#" Value="type WinINetHttpRequestResponsePairType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CacheHit">
+      <MemberSignature Language="C#" Value="CacheHit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType CacheHit = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType.CacheHit" />
+      <MemberSignature Language="VB.NET" Value="CacheHit" />
+      <MemberSignature Language="F#" Value="CacheHit = 1" Usage="Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType.CacheHit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Roundtrip">
+      <MemberSignature Language="C#" Value="Roundtrip" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType Roundtrip = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType.Roundtrip" />
+      <MemberSignature Language="VB.NET" Value="Roundtrip" />
+      <MemberSignature Language="F#" Value="Roundtrip = 0" Usage="Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType.Roundtrip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpRequestResponsePairType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

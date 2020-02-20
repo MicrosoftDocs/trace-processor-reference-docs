@@ -1,0 +1,158 @@
+<Type Name="IDisplayAdapter" FullName="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter">
+  <TypeSignature Language="C#" Value="public interface IDisplayAdapter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDisplayAdapter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDisplayAdapter" />
+  <TypeSignature Language="F#" Value="type IDisplayAdapter = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BiosInformation">
+      <MemberSignature Language="C#" Value="public string BiosInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BiosInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.BiosInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BiosInformation As String" />
+      <MemberSignature Language="F#" Value="member this.BiosInformation : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.BiosInformation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChipName">
+      <MemberSignature Language="C#" Value="public string ChipName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChipName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.ChipName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChipName As String" />
+      <MemberSignature Language="F#" Value="member this.ChipName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.ChipName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DigitalAnalogConverterChipName">
+      <MemberSignature Language="C#" Value="public string DigitalAnalogConverterChipName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DigitalAnalogConverterChipName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.DigitalAnalogConverterChipName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DigitalAnalogConverterChipName As String" />
+      <MemberSignature Language="F#" Value="member this.DigitalAnalogConverterChipName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.DigitalAnalogConverterChipName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IDisplay Display { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IDisplay Display" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.Display" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Display As IDisplay" />
+      <MemberSignature Language="F#" Value="member this.Display : Microsoft.Windows.EventTracing.Metadata.IDisplay" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.Display" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IDisplay</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemorySize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize MemorySize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize MemorySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.MemorySize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemorySize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.MemorySize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.MemorySize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

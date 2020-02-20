@@ -1,0 +1,500 @@
+<Type Name="DiskIOFlags" FullName="Microsoft.Windows.EventTracing.Disk.DiskIOFlags">
+  <TypeSignature Language="C#" Value="public enum DiskIOFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskIOFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.DiskIOFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskIOFlags" />
+  <TypeSignature Language="F#" Value="type DiskIOFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllNamedFlags">
+      <MemberSignature Language="C#" Value="AllNamedFlags" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags AllNamedFlags = int32(-1069416449)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.AllNamedFlags" />
+      <MemberSignature Language="VB.NET" Value="AllNamedFlags" />
+      <MemberSignature Language="F#" Value="AllNamedFlags = -1069416449" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.AllNamedFlags" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1069416449</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AssociatedIrp">
+      <MemberSignature Language="C#" Value="AssociatedIrp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags AssociatedIrp = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.AssociatedIrp" />
+      <MemberSignature Language="VB.NET" Value="AssociatedIrp" />
+      <MemberSignature Language="F#" Value="AssociatedIrp = 8" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.AssociatedIrp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BufferedIO">
+      <MemberSignature Language="C#" Value="BufferedIO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags BufferedIO = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.BufferedIO" />
+      <MemberSignature Language="VB.NET" Value="BufferedIO" />
+      <MemberSignature Language="F#" Value="BufferedIO = 16" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.BufferedIO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseOperation">
+      <MemberSignature Language="C#" Value="CloseOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags CloseOperation = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.CloseOperation" />
+      <MemberSignature Language="VB.NET" Value="CloseOperation" />
+      <MemberSignature Language="F#" Value="CloseOperation = 1024" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.CloseOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOperation">
+      <MemberSignature Language="C#" Value="CreateOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags CreateOperation = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.CreateOperation" />
+      <MemberSignature Language="VB.NET" Value="CreateOperation" />
+      <MemberSignature Language="F#" Value="CreateOperation = 128" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.CreateOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeallocateBuffer">
+      <MemberSignature Language="C#" Value="DeallocateBuffer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags DeallocateBuffer = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.DeallocateBuffer" />
+      <MemberSignature Language="VB.NET" Value="DeallocateBuffer" />
+      <MemberSignature Language="F#" Value="DeallocateBuffer = 32" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.DeallocateBuffer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeferIOCompletion">
+      <MemberSignature Language="C#" Value="DeferIOCompletion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags DeferIOCompletion = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.DeferIOCompletion" />
+      <MemberSignature Language="VB.NET" Value="DeferIOCompletion" />
+      <MemberSignature Language="F#" Value="DeferIOCompletion = 2048" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.DeferIOCompletion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InCompletionQueue">
+      <MemberSignature Language="C#" Value="InCompletionQueue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags InCompletionQueue = int32(65536)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InCompletionQueue" />
+      <MemberSignature Language="VB.NET" Value="InCompletionQueue" />
+      <MemberSignature Language="F#" Value="InCompletionQueue = 65536" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InCompletionQueue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>65536</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InFileObjectList">
+      <MemberSignature Language="C#" Value="InFileObjectList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags InFileObjectList = int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InFileObjectList" />
+      <MemberSignature Language="VB.NET" Value="InFileObjectList" />
+      <MemberSignature Language="F#" Value="InFileObjectList = 8192" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InFileObjectList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InputOperation">
+      <MemberSignature Language="C#" Value="InputOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags InputOperation = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InputOperation" />
+      <MemberSignature Language="VB.NET" Value="InputOperation" />
+      <MemberSignature Language="F#" Value="InputOperation = 64" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.InputOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MountCompletion">
+      <MemberSignature Language="C#" Value="MountCompletion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags MountCompletion = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.MountCompletion" />
+      <MemberSignature Language="VB.NET" Value="MountCompletion" />
+      <MemberSignature Language="F#" Value="MountCompletion = 2" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.MountCompletion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoCache">
+      <MemberSignature Language="C#" Value="NoCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags NoCache = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.NoCache" />
+      <MemberSignature Language="VB.NET" Value="NoCache" />
+      <MemberSignature Language="F#" Value="NoCache = 1" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.NoCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectQueryName">
+      <MemberSignature Language="C#" Value="ObjectQueryName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags ObjectQueryName = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.ObjectQueryName" />
+      <MemberSignature Language="VB.NET" Value="ObjectQueryName" />
+      <MemberSignature Language="F#" Value="ObjectQueryName = 4096" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.ObjectQueryName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PagingIO">
+      <MemberSignature Language="C#" Value="PagingIO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags PagingIO = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.PagingIO" />
+      <MemberSignature Language="VB.NET" Value="PagingIO" />
+      <MemberSignature Language="F#" Value="PagingIO = 2" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.PagingIO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PriorityHintMask">
+      <MemberSignature Language="C#" Value="PriorityHintMask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags PriorityHintMask = int32(917504)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.PriorityHintMask" />
+      <MemberSignature Language="VB.NET" Value="PriorityHintMask" />
+      <MemberSignature Language="F#" Value="PriorityHintMask = 917504" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.PriorityHintMask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>917504</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOperation">
+      <MemberSignature Language="C#" Value="ReadOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags ReadOperation = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.ReadOperation" />
+      <MemberSignature Language="VB.NET" Value="ReadOperation" />
+      <MemberSignature Language="F#" Value="ReadOperation = 256" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.ReadOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryIOCompletion">
+      <MemberSignature Language="C#" Value="RetryIOCompletion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags RetryIOCompletion = int32(16384)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.RetryIOCompletion" />
+      <MemberSignature Language="VB.NET" Value="RetryIOCompletion" />
+      <MemberSignature Language="F#" Value="RetryIOCompletion = 16384" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.RetryIOCompletion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16384</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StillHasReference">
+      <MemberSignature Language="C#" Value="StillHasReference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags StillHasReference = int32(32768)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.StillHasReference" />
+      <MemberSignature Language="VB.NET" Value="StillHasReference" />
+      <MemberSignature Language="F#" Value="StillHasReference = 32768" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.StillHasReference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>32768</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SynchronousApi">
+      <MemberSignature Language="C#" Value="SynchronousApi" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags SynchronousApi = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.SynchronousApi" />
+      <MemberSignature Language="VB.NET" Value="SynchronousApi" />
+      <MemberSignature Language="F#" Value="SynchronousApi = 4" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.SynchronousApi" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SynchronousPagingIO">
+      <MemberSignature Language="C#" Value="SynchronousPagingIO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags SynchronousPagingIO = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.SynchronousPagingIO" />
+      <MemberSignature Language="VB.NET" Value="SynchronousPagingIO" />
+      <MemberSignature Language="F#" Value="SynchronousPagingIO = 64" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.SynchronousPagingIO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserModeDriverInitiatedIO">
+      <MemberSignature Language="C#" Value="UserModeDriverInitiatedIO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags UserModeDriverInitiatedIO = int32(4194304)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.UserModeDriverInitiatedIO" />
+      <MemberSignature Language="VB.NET" Value="UserModeDriverInitiatedIO" />
+      <MemberSignature Language="F#" Value="UserModeDriverInitiatedIO = 4194304" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.UserModeDriverInitiatedIO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4194304</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifierNotTracked">
+      <MemberSignature Language="C#" Value="VerifierNotTracked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags VerifierNotTracked = int32(-2147483648)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.VerifierNotTracked" />
+      <MemberSignature Language="VB.NET" Value="VerifierNotTracked" />
+      <MemberSignature Language="F#" Value="VerifierNotTracked = -2147483648" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.VerifierNotTracked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2147483648</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifierTracked">
+      <MemberSignature Language="C#" Value="VerifierTracked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags VerifierTracked = int32(1073741824)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.VerifierTracked" />
+      <MemberSignature Language="VB.NET" Value="VerifierTracked" />
+      <MemberSignature Language="F#" Value="VerifierTracked = 1073741824" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.VerifierTracked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1073741824</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteOperation">
+      <MemberSignature Language="C#" Value="WriteOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIOFlags WriteOperation = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIOFlags.WriteOperation" />
+      <MemberSignature Language="VB.NET" Value="WriteOperation" />
+      <MemberSignature Language="F#" Value="WriteOperation = 512" Usage="Microsoft.Windows.EventTracing.Disk.DiskIOFlags.WriteOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIOFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

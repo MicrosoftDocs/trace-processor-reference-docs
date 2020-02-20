@@ -1,0 +1,418 @@
+<Type Name="IStackEvent" FullName="Microsoft.Windows.EventTracing.Events.IStackEvent">
+  <TypeSignature Language="C#" Value="public interface IStackEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IStackEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackEvent" />
+  <TypeSignature Language="F#" Value="type IStackEvent = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivityName">
+      <MemberSignature Language="C#" Value="public string ActivityName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActivityName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.ActivityName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityName As String" />
+      <MemberSignature Language="F#" Value="member this.ActivityName : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.ActivityName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsClassicEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IClassicStackEvent AsClassicEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IClassicStackEvent AsClassicEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.AsClassicEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsClassicEvent As IClassicStackEvent" />
+      <MemberSignature Language="F#" Value="member this.AsClassicEvent : Microsoft.Windows.EventTracing.Events.IClassicStackEvent" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.AsClassicEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IClassicStackEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsGenericEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IGenericStackEvent AsGenericEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IGenericStackEvent AsGenericEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.AsGenericEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsGenericEvent As IGenericStackEvent" />
+      <MemberSignature Language="F#" Value="member this.AsGenericEvent : Microsoft.Windows.EventTracing.Events.IGenericStackEvent" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.AsGenericEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IGenericStackEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsTraceMessageEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.ITraceMessageStackEvent AsTraceMessageEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.ITraceMessageStackEvent AsTraceMessageEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.AsTraceMessageEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsTraceMessageEvent As ITraceMessageStackEvent" />
+      <MemberSignature Language="F#" Value="member this.AsTraceMessageEvent : Microsoft.Windows.EventTracing.Events.ITraceMessageStackEvent" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.AsTraceMessageEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.ITraceMessageStackEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channel">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Channel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Channel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Channel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Channel As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Channel : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Channel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsClassic">
+      <MemberSignature Language="C#" Value="public bool IsClassic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsClassic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.IsClassic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsClassic As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsClassic : bool" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.IsClassic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsGeneric">
+      <MemberSignature Language="C#" Value="public bool IsGeneric { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsGeneric" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.IsGeneric" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsGeneric As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsGeneric : bool" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.IsGeneric" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTraceMessage">
+      <MemberSignature Language="C#" Value="public bool IsTraceMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTraceMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.IsTraceMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTraceMessage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTraceMessage : bool" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.IsTraceMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keyword">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; Keyword { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; Keyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Keyword" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Keyword As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.Keyword : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Keyword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Opcode">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Opcode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Opcode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Opcode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Opcode As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Opcode : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Opcode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpcodeName">
+      <MemberSignature Language="C#" Value="public string OpcodeName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OpcodeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.OpcodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OpcodeName As String" />
+      <MemberSignature Language="F#" Value="member this.OpcodeName : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.OpcodeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderId">
+      <MemberSignature Language="C#" Value="public Guid ProviderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid ProviderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderId As Guid" />
+      <MemberSignature Language="F#" Value="member this.ProviderId : Guid" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderMessage">
+      <MemberSignature Language="C#" Value="public string ProviderMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProviderMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderMessage As String" />
+      <MemberSignature Language="F#" Value="member this.ProviderMessage : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderName">
+      <MemberSignature Language="C#" Value="public string ProviderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProviderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderName As String" />
+      <MemberSignature Language="F#" Value="member this.ProviderName : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.ProviderName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Task">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Task { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Task" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Task" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Task As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Task : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Task" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskName">
+      <MemberSignature Language="C#" Value="public string TaskName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaskName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.TaskName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskName As String" />
+      <MemberSignature Language="F#" Value="member this.TaskName : string" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.TaskName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public int Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IStackEvent.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As Integer" />
+      <MemberSignature Language="F#" Value="member this.Version : int" Usage="Microsoft.Windows.EventTracing.Events.IStackEvent.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

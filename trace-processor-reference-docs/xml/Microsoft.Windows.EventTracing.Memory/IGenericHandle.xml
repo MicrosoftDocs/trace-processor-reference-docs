@@ -1,0 +1,21 @@
+<Type Name="IGenericHandle" FullName="Microsoft.Windows.EventTracing.Memory.IGenericHandle">
+  <TypeSignature Language="C#" Value="public interface IGenericHandle : Microsoft.Windows.EventTracing.Memory.IHandle" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericHandle implements class Microsoft.Windows.EventTracing.Memory.IHandle" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IGenericHandle" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericHandle&#xA;Implements IHandle" />
+  <TypeSignature Language="F#" Value="type IGenericHandle = interface&#xA;    interface IHandle" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Memory.IHandle</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

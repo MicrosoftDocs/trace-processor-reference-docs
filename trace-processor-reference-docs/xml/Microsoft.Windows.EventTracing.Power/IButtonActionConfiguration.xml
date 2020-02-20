@@ -1,0 +1,84 @@
+<Type Name="IButtonActionConfiguration" FullName="Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration">
+  <TypeSignature Language="C#" Value="public interface IButtonActionConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IButtonActionConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IButtonActionConfiguration" />
+  <TypeSignature Language="F#" Value="type IButtonActionConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LidCloseAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerAction LidCloseAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerAction LidCloseAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.LidCloseAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LidCloseAction As PowerAction" />
+      <MemberSignature Language="F#" Value="member this.LidCloseAction : Microsoft.Windows.EventTracing.Power.PowerAction" Usage="Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.LidCloseAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the action to take when the system lid is closed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PowerButtonAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerAction PowerButtonAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerAction PowerButtonAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.PowerButtonAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PowerButtonAction As PowerAction" />
+      <MemberSignature Language="F#" Value="member this.PowerButtonAction : Microsoft.Windows.EventTracing.Power.PowerAction" Usage="Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.PowerButtonAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the action to take when the system power button is pressed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SleepButtonAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerAction SleepButtonAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerAction SleepButtonAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.SleepButtonAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SleepButtonAction As PowerAction" />
+      <MemberSignature Language="F#" Value="member this.SleepButtonAction : Microsoft.Windows.EventTracing.Power.PowerAction" Usage="Microsoft.Windows.EventTracing.Power.IButtonActionConfiguration.SleepButtonAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the action to take when system sleep button is pressed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,119 @@
+<Type Name="ThreadStackExtensions" FullName="Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions">
+  <TypeSignature Language="C#" Value="public static class ThreadStackExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ThreadStackExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ThreadStackExtensions" />
+  <TypeSignature Language="F#" Value="type ThreadStackExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAnalyzerString">
+      <MemberSignature Language="C#" Value="public static string GetAnalyzerString (this Microsoft.Windows.EventTracing.Symbols.IThreadStack stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAnalyzerString(class Microsoft.Windows.EventTracing.Symbols.IThreadStack stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetAnalyzerString(Microsoft.Windows.EventTracing.Symbols.IThreadStack)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAnalyzerString (stack As IThreadStack) As String" />
+      <MemberSignature Language="F#" Value="static member GetAnalyzerString : Microsoft.Windows.EventTracing.Symbols.IThreadStack -&gt; string" Usage="Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetAnalyzerString stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IThreadStack" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDebuggerString">
+      <MemberSignature Language="C#" Value="public static string GetDebuggerString (this Microsoft.Windows.EventTracing.Symbols.IThreadStack stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetDebuggerString(class Microsoft.Windows.EventTracing.Symbols.IThreadStack stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetDebuggerString(Microsoft.Windows.EventTracing.Symbols.IThreadStack)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDebuggerString (stack As IThreadStack) As String" />
+      <MemberSignature Language="F#" Value="static member GetDebuggerString : Microsoft.Windows.EventTracing.Symbols.IThreadStack -&gt; string" Usage="Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetDebuggerString stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IThreadStack" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDebuggerStringList">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IReadOnlyList&lt;string&gt; GetDebuggerStringList (this Microsoft.Windows.EventTracing.Symbols.IThreadStack stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; GetDebuggerStringList(class Microsoft.Windows.EventTracing.Symbols.IThreadStack stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetDebuggerStringList(Microsoft.Windows.EventTracing.Symbols.IThreadStack)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDebuggerStringList (stack As IThreadStack) As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="static member GetDebuggerStringList : Microsoft.Windows.EventTracing.Symbols.IThreadStack -&gt; System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.GetDebuggerStringList stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IThreadStack" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Matches">
+      <MemberSignature Language="C#" Value="public static bool Matches (this Microsoft.Windows.EventTracing.Symbols.IThreadStack threadStack, Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern threadStackPattern);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Matches(class Microsoft.Windows.EventTracing.Symbols.IThreadStack threadStack, class Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern threadStackPattern) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.Matches(Microsoft.Windows.EventTracing.Symbols.IThreadStack,Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Matches (threadStack As IThreadStack, threadStackPattern As IThreadStackPattern) As Boolean" />
+      <MemberSignature Language="F#" Value="static member Matches : Microsoft.Windows.EventTracing.Symbols.IThreadStack * Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern -&gt; bool" Usage="Microsoft.Windows.EventTracing.Symbols.ThreadStackExtensions.Matches (threadStack, threadStackPattern)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="threadStack" Type="Microsoft.Windows.EventTracing.Symbols.IThreadStack" RefType="this" />
+        <Parameter Name="threadStackPattern" Type="Microsoft.Windows.EventTracing.Symbols.IThreadStackPattern" />
+      </Parameters>
+      <Docs>
+        <param name="threadStack">To be added.</param>
+        <param name="threadStackPattern">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

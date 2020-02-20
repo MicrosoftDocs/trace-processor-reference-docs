@@ -1,0 +1,41 @@
+<Type Name="ILastBranchRecordEventConsumer" FullName="Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer">
+  <TypeSignature Language="C#" Value="public interface ILastBranchRecordEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILastBranchRecordEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILastBranchRecordEventConsumer" />
+  <TypeSignature Language="F#" Value="type ILastBranchRecordEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a last branch record event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer.Process(Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As LastBranchRecordEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext -&gt; unit" Usage="iLastBranchRecordEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The last branch record event to process.</param>
+        <summary>Processes a last branch record event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

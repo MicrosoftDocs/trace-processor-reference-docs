@@ -1,0 +1,76 @@
+<Type Name="ICpuSchedulingDataSource" FullName="Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource">
+  <TypeSignature Language="C#" Value="public interface ICpuSchedulingDataSource : Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource, Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICpuSchedulingDataSource implements class Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource, class Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICpuSchedulingDataSource&#xA;Implements IContextSwitchDataSource, IReadyThreadDataSource" />
+  <TypeSignature Language="F#" Value="type ICpuSchedulingDataSource = interface&#xA;    interface IContextSwitchDataSource&#xA;    interface IReadyThreadDataSource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CpuTimeSlices">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice&gt; CpuTimeSlices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice&gt; CpuTimeSlices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.CpuTimeSlices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CpuTimeSlices As IReadOnlyList(Of ICpuTimeSlice)" />
+      <MemberSignature Language="F#" Value="member this.CpuTimeSlices : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.CpuTimeSlices" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a list of periods of time where a thread was running.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            A time slice is bounded on either end by a context switch. A thread switches onto the CPU, runs for some
+            time, and then switches out.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity&gt; ThreadActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity&gt; ThreadActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.ThreadActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadActivity As IReadOnlyList(Of ICpuThreadActivity)" />
+      <MemberSignature Language="F#" Value="member this.ThreadActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.ThreadActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a list of merged <see cref="P:Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.CpuTimeSlices" /> and
+            <see cref="P:Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource.ReadyThreadEvents" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If either <see cref="P:Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource.CpuTimeSlices" /> or <see cref="P:Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource.ReadyThreadEvents" /> is empty
+            then this list will also be empty.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,25 @@
+<Type Name="FocusChangeEventCallback" FullName="Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void FocusChangeEventCallback(FocusChangeEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FocusChangeEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub FocusChangeEventCallback(eventContext As FocusChangeEventContext)" />
+  <TypeSignature Language="F#" Value="type FocusChangeEventCallback = delegate of FocusChangeEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.WindowInFocus.FocusChangeEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The FocusChange event to process.</param>
+    <summary>Processes a FocusChange event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

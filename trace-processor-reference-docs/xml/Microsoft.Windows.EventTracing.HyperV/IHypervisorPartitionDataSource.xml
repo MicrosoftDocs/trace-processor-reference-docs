@@ -1,0 +1,69 @@
+<Type Name="IHypervisorPartitionDataSource" FullName="Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource">
+  <TypeSignature Language="C#" Value="public interface IHypervisorPartitionDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHypervisorPartitionDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHypervisorPartitionDataSource" />
+  <TypeSignature Language="F#" Value="type IHypervisorPartitionDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HostPartitionId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; HostPartitionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; HostPartitionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource.HostPartitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HostPartitionId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.HostPartitionId : Nullable&lt;Guid&gt;" Usage="Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource.HostPartitionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ID of the partition hosting the partition the trace was recorded inside of, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If this trace was recorded in the root partition this value will be null. If this trace was
+            recorded in a partition being hosted by the root partition this value will be
+            <see cref="P:Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId.Root" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PartitionId">
+      <MemberSignature Language="C#" Value="public Guid PartitionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid PartitionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource.PartitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartitionId As Guid" />
+      <MemberSignature Language="F#" Value="member this.PartitionId : Guid" Usage="Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource.PartitionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ID of the partition the trace was recorded inside of.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            If this trace was recorded in the root partition this value will be
+            <see cref="P:Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId.Root" />.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,240 @@
+<Type Name="EventsTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class EventsTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EventsTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module EventsTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type EventsTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseClassicEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IClassicEventDataSource&gt; UseClassicEvents (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IClassicEventDataSource&gt; UseClassicEvents(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseClassicEvents(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseClassicEvents (trace As ITraceSource) As IPendingResult(Of IClassicEventDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseClassicEvents : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IClassicEventDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseClassicEvents trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IClassicEventDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides classic ETW events from a trace, which do not include schema information.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides classic ETW events from the trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Generic Events table (when Event Type is Classic or
+            WPP and the event data is not provided via another table).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseGenericEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseGenericEvents (trace As ITraceSource) As IPendingResult(Of IGenericEventDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseGenericEvents : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides manifested and TraceLogging events from a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides manifested and TraceLogging events from the
+            trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Generic Events table (when Event Type is Manifested
+            or TraceLogging).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseGenericEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents (this Microsoft.Windows.EventTracing.ITraceSource trace, Microsoft.Windows.EventTracing.Events.GenericEventSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents(class Microsoft.Windows.EventTracing.ITraceSource trace, class Microsoft.Windows.EventTracing.Events.GenericEventSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents(Microsoft.Windows.EventTracing.ITraceSource,Microsoft.Windows.EventTracing.Events.GenericEventSettings)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseGenericEvents (trace As ITraceSource, settings As GenericEventSettings) As IPendingResult(Of IGenericEventDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseGenericEvents : Microsoft.Windows.EventTracing.ITraceSource * Microsoft.Windows.EventTracing.Events.GenericEventSettings -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents (trace, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="settings" Type="Microsoft.Windows.EventTracing.Events.GenericEventSettings" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="settings">Settings that indicate which events to process and how to process them.</param>
+        <summary>Provides a subset of manifested or TraceLogging events from a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides a subset of manifested or TraceLogging events
+            from the trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Generic Events table (when Event Type is Manifested
+            or TraceLogging).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseGenericEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents (this Microsoft.Windows.EventTracing.ITraceSource trace, params Guid[] providerIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt; UseGenericEvents(class Microsoft.Windows.EventTracing.ITraceSource trace, valuetype System.Guid[] providerIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents(Microsoft.Windows.EventTracing.ITraceSource,System.Guid[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseGenericEvents (trace As ITraceSource, ParamArray providerIds As Guid()) As IPendingResult(Of IGenericEventDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseGenericEvents : Microsoft.Windows.EventTracing.ITraceSource * Guid[] -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseGenericEvents (trace, providerIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IGenericEventDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="providerIds" Type="System.Guid[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="providerIds">A list of provider IDs to filter which events to process.</param>
+        <summary>Provides a subset of manifested or TraceLogging events from a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides a subset of manifested or TraceLogging events
+            from the trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Generic Events table (when Event Type is Manifested
+            or TraceLogging).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseStackEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IStackEventDataSource&gt; UseStackEvents (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IStackEventDataSource&gt; UseStackEvents(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseStackEvents(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseStackEvents (trace As ITraceSource) As IPendingResult(Of IStackEventDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseStackEvents : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IStackEventDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseStackEvents trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IStackEventDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data about events associated with stacks recorded during a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about events associated with stacks
+            recorded during the trace.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Stacks table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTraceStatistics">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.ITraceStatisticsDataSource&gt; UseTraceStatistics (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.ITraceStatisticsDataSource&gt; UseTraceStatistics(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseTraceStatistics(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseTraceStatistics (trace As ITraceSource) As IPendingResult(Of ITraceStatisticsDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseTraceStatistics : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.ITraceStatisticsDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseTraceStatistics trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.ITraceStatisticsDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides statistics about the events in a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides statistics about the events in a trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via System Configuration, Trace Statistics.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseWindowsTracePreprocessorEvents">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IWindowsTracePreprocessorDataSource&gt; UseWindowsTracePreprocessorEvents (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Events.IWindowsTracePreprocessorDataSource&gt; UseWindowsTracePreprocessorEvents(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseWindowsTracePreprocessorEvents(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseWindowsTracePreprocessorEvents (trace As ITraceSource) As IPendingResult(Of IWindowsTracePreprocessorDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseWindowsTracePreprocessorEvents : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IWindowsTracePreprocessorDataSource&gt;" Usage="Microsoft.Windows.EventTracing.EventsTraceSourceExtensions.UseWindowsTracePreprocessorEvents trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Events.IWindowsTracePreprocessorDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides Windows software trace preprocessor (WPP) events from a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides Windows software trace preprocessor (WPP)
+            events from the trace.
+            </returns>
+        <remarks>
+          <para>Symbols must be loaded in order to decode WPP events.</para>
+          <para>
+            Windows Performance Analyzer provides this data via the WPP Trace table as well as the Generic Events table
+            (when Event Type is WPP).
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,362 @@
+<Type Name="OSFamily" FullName="Microsoft.Windows.EventTracing.Metadata.OSFamily">
+  <TypeSignature Language="C#" Value="public enum OSFamily" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OSFamily extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.OSFamily" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OSFamily" />
+  <TypeSignature Language="F#" Value="type OSFamily = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Code7067329">
+      <MemberSignature Language="C#" Value="Code7067329" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Code7067329 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Code7067329" />
+      <MemberSignature Language="VB.NET" Value="Code7067329" />
+      <MemberSignature Language="F#" Value="Code7067329 = 0" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Code7067329" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Code8828080">
+      <MemberSignature Language="C#" Value="Code8828080" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Code8828080 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Code8828080" />
+      <MemberSignature Language="VB.NET" Value="Code8828080" />
+      <MemberSignature Language="F#" Value="Code8828080 = 1" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Code8828080" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Core">
+      <MemberSignature Language="C#" Value="Core" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Core = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Core" />
+      <MemberSignature Language="VB.NET" Value="Core" />
+      <MemberSignature Language="F#" Value="Core = 2" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Core" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CoreHeadless">
+      <MemberSignature Language="C#" Value="CoreHeadless" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily CoreHeadless = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.CoreHeadless" />
+      <MemberSignature Language="VB.NET" Value="CoreHeadless" />
+      <MemberSignature Language="F#" Value="CoreHeadless = 3" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.CoreHeadless" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Desktop">
+      <MemberSignature Language="C#" Value="Desktop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Desktop = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Desktop" />
+      <MemberSignature Language="VB.NET" Value="Desktop" />
+      <MemberSignature Language="F#" Value="Desktop = 4" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Desktop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Holographic">
+      <MemberSignature Language="C#" Value="Holographic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Holographic = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Holographic" />
+      <MemberSignature Language="VB.NET" Value="Holographic" />
+      <MemberSignature Language="F#" Value="Holographic = 5" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Holographic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IoT">
+      <MemberSignature Language="C#" Value="IoT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily IoT = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.IoT" />
+      <MemberSignature Language="VB.NET" Value="IoT" />
+      <MemberSignature Language="F#" Value="IoT = 6" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.IoT" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IoTHeadless">
+      <MemberSignature Language="C#" Value="IoTHeadless" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily IoTHeadless = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.IoTHeadless" />
+      <MemberSignature Language="VB.NET" Value="IoTHeadless" />
+      <MemberSignature Language="F#" Value="IoTHeadless = 7" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.IoTHeadless" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mobile">
+      <MemberSignature Language="C#" Value="Mobile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Mobile = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Mobile" />
+      <MemberSignature Language="VB.NET" Value="Mobile" />
+      <MemberSignature Language="F#" Value="Mobile = 8" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Mobile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="Server" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Server = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Server" />
+      <MemberSignature Language="VB.NET" Value="Server" />
+      <MemberSignature Language="F#" Value="Server = 9" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Server" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerNano">
+      <MemberSignature Language="C#" Value="ServerNano" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily ServerNano = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.ServerNano" />
+      <MemberSignature Language="VB.NET" Value="ServerNano" />
+      <MemberSignature Language="F#" Value="ServerNano = 10" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.ServerNano" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Team">
+      <MemberSignature Language="C#" Value="Team" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Team = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Team" />
+      <MemberSignature Language="VB.NET" Value="Team" />
+      <MemberSignature Language="F#" Value="Team = 11" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Team" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Universal">
+      <MemberSignature Language="C#" Value="Universal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Universal = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Universal" />
+      <MemberSignature Language="VB.NET" Value="Universal" />
+      <MemberSignature Language="F#" Value="Universal = 12" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Universal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Windows8">
+      <MemberSignature Language="C#" Value="Windows8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Windows8 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Windows8" />
+      <MemberSignature Language="VB.NET" Value="Windows8" />
+      <MemberSignature Language="F#" Value="Windows8 = 13" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Windows8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsPhone8">
+      <MemberSignature Language="C#" Value="WindowsPhone8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily WindowsPhone8 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.WindowsPhone8" />
+      <MemberSignature Language="VB.NET" Value="WindowsPhone8" />
+      <MemberSignature Language="F#" Value="WindowsPhone8 = 14" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.WindowsPhone8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Xbox">
+      <MemberSignature Language="C#" Value="Xbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily Xbox = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.Xbox" />
+      <MemberSignature Language="VB.NET" Value="Xbox" />
+      <MemberSignature Language="F#" Value="Xbox = 15" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.Xbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="XboxExclusiveResourceAllocation">
+      <MemberSignature Language="C#" Value="XboxExclusiveResourceAllocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily XboxExclusiveResourceAllocation = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.XboxExclusiveResourceAllocation" />
+      <MemberSignature Language="VB.NET" Value="XboxExclusiveResourceAllocation" />
+      <MemberSignature Language="F#" Value="XboxExclusiveResourceAllocation = 16" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.XboxExclusiveResourceAllocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="XboxSharedResourceAllocation">
+      <MemberSignature Language="C#" Value="XboxSharedResourceAllocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily XboxSharedResourceAllocation = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.OSFamily.XboxSharedResourceAllocation" />
+      <MemberSignature Language="VB.NET" Value="XboxSharedResourceAllocation" />
+      <MemberSignature Language="F#" Value="XboxSharedResourceAllocation = 17" Usage="Microsoft.Windows.EventTracing.Metadata.OSFamily.XboxSharedResourceAllocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

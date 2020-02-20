@@ -1,0 +1,48 @@
+<Type Name="ITwoPassEventConsumer" FullName="Microsoft.Windows.EventTracing.ITwoPassEventConsumer">
+  <TypeSignature Language="C#" Value="public interface ITwoPassEventConsumer : Microsoft.Windows.EventTracing.IEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITwoPassEventConsumer implements class Microsoft.Windows.EventTracing.IEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ITwoPassEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITwoPassEventConsumer&#xA;Implements IEventConsumer" />
+  <TypeSignature Language="F#" Value="type ITwoPassEventConsumer = interface&#xA;    interface IEventConsumer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.IEventConsumer</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Defines an event consumer that runs in two passes through the trace.</summary>
+    <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ProcessPreparatoryPass">
+      <MemberSignature Language="C#" Value="public void ProcessPreparatoryPass (Microsoft.Windows.EventTracing.EventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProcessPreparatoryPass(valuetype Microsoft.Windows.EventTracing.EventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITwoPassEventConsumer.ProcessPreparatoryPass(Microsoft.Windows.EventTracing.EventContext)" />
+      <MemberSignature Language="F#" Value="abstract member ProcessPreparatoryPass : Microsoft.Windows.EventTracing.EventContext -&gt; unit" Usage="iTwoPassEventConsumer.ProcessPreparatoryPass eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.EventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The event to process.</param>
+        <summary>
+            Processes an event from a preparatory pass (before the main pass through the trace).
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

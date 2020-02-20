@@ -1,0 +1,78 @@
+<Type Name="IVirtualizationConfiguration" FullName="Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration">
+  <TypeSignature Language="C#" Value="public interface IVirtualizationConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVirtualizationConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IVirtualizationConfiguration" />
+  <TypeSignature Language="F#" Value="type IVirtualizationConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsHypervisorEnabled">
+      <MemberSignature Language="C#" Value="public bool IsHypervisorEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHypervisorEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsHypervisorEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHypervisorEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsHypervisorEnabled : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsHypervisorEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHypervisorEnforcedCodeIntegrityEnabled">
+      <MemberSignature Language="C#" Value="public bool IsHypervisorEnforcedCodeIntegrityEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsHypervisorEnforcedCodeIntegrityEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsHypervisorEnforcedCodeIntegrityEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsHypervisorEnforcedCodeIntegrityEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsHypervisorEnforcedCodeIntegrityEnabled : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsHypervisorEnforcedCodeIntegrityEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVirtualizationBasedSecurityEnabled">
+      <MemberSignature Language="C#" Value="public bool IsVirtualizationBasedSecurityEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVirtualizationBasedSecurityEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsVirtualizationBasedSecurityEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsVirtualizationBasedSecurityEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVirtualizationBasedSecurityEnabled : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration.IsVirtualizationBasedSecurityEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

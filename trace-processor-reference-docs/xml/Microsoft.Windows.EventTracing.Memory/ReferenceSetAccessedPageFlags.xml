@@ -1,0 +1,253 @@
+<Type Name="ReferenceSetAccessedPageFlags" FullName="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags">
+  <TypeSignature Language="C#" Value="public enum ReferenceSetAccessedPageFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReferenceSetAccessedPageFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReferenceSetAccessedPageFlags" />
+  <TypeSignature Language="F#" Value="type ReferenceSetAccessedPageFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllocatedInsideInterval">
+      <MemberSignature Language="C#" Value="AllocatedInsideInterval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags AllocatedInsideInterval = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.AllocatedInsideInterval" />
+      <MemberSignature Language="VB.NET" Value="AllocatedInsideInterval" />
+      <MemberSignature Language="F#" Value="AllocatedInsideInterval = 1024" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.AllocatedInsideInterval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocateVirtualAddressRangeIsCommit">
+      <MemberSignature Language="C#" Value="AllocateVirtualAddressRangeIsCommit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags AllocateVirtualAddressRangeIsCommit = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.AllocateVirtualAddressRangeIsCommit" />
+      <MemberSignature Language="VB.NET" Value="AllocateVirtualAddressRangeIsCommit" />
+      <MemberSignature Language="F#" Value="AllocateVirtualAddressRangeIsCommit = 16" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.AllocateVirtualAddressRangeIsCommit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DynamicPage">
+      <MemberSignature Language="C#" Value="DynamicPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags DynamicPage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.DynamicPage" />
+      <MemberSignature Language="VB.NET" Value="DynamicPage" />
+      <MemberSignature Language="F#" Value="DynamicPage = 1" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.DynamicPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeFromOfferReclaimGraph">
+      <MemberSignature Language="C#" Value="ExcludeFromOfferReclaimGraph" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags ExcludeFromOfferReclaimGraph = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ExcludeFromOfferReclaimGraph" />
+      <MemberSignature Language="VB.NET" Value="ExcludeFromOfferReclaimGraph" />
+      <MemberSignature Language="F#" Value="ExcludeFromOfferReclaimGraph = 64" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ExcludeFromOfferReclaimGraph" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeFromReferenceSetGraph">
+      <MemberSignature Language="C#" Value="ExcludeFromReferenceSetGraph" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags ExcludeFromReferenceSetGraph = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ExcludeFromReferenceSetGraph" />
+      <MemberSignature Language="VB.NET" Value="ExcludeFromReferenceSetGraph" />
+      <MemberSignature Language="F#" Value="ExcludeFromReferenceSetGraph = 32" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ExcludeFromReferenceSetGraph" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreedInsideInterval">
+      <MemberSignature Language="C#" Value="FreedInsideInterval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags FreedInsideInterval = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.FreedInsideInterval" />
+      <MemberSignature Language="VB.NET" Value="FreedInsideInterval" />
+      <MemberSignature Language="F#" Value="FreedInsideInterval = 512" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.FreedInsideInterval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCore">
+      <MemberSignature Language="C#" Value="IsCore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags IsCore = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.IsCore" />
+      <MemberSignature Language="VB.NET" Value="IsCore" />
+      <MemberSignature Language="F#" Value="IsCore = 256" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.IsCore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessReaccess">
+      <MemberSignature Language="C#" Value="ProcessReaccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags ProcessReaccess = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ProcessReaccess" />
+      <MemberSignature Language="VB.NET" Value="ProcessReaccess" />
+      <MemberSignature Language="F#" Value="ProcessReaccess = 8" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.ProcessReaccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reaccess">
+      <MemberSignature Language="C#" Value="Reaccess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags Reaccess = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.Reaccess" />
+      <MemberSignature Language="VB.NET" Value="Reaccess" />
+      <MemberSignature Language="F#" Value="Reaccess = 4" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.Reaccess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedPage">
+      <MemberSignature Language="C#" Value="SharedPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags SharedPage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.SharedPage" />
+      <MemberSignature Language="VB.NET" Value="SharedPage" />
+      <MemberSignature Language="F#" Value="SharedPage = 2" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.SharedPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VideoMemory">
+      <MemberSignature Language="C#" Value="VideoMemory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags VideoMemory = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.VideoMemory" />
+      <MemberSignature Language="VB.NET" Value="VideoMemory" />
+      <MemberSignature Language="F#" Value="VideoMemory = 128" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags.VideoMemory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetAccessedPageFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

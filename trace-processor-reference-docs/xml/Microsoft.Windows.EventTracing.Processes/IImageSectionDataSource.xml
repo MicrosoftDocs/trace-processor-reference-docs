@@ -1,0 +1,42 @@
+<Type Name="IImageSectionDataSource" FullName="Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource">
+  <TypeSignature Language="C#" Value="public interface IImageSectionDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IImageSectionDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IImageSectionDataSource" />
+  <TypeSignature Language="F#" Value="type IImageSectionDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetImageSections">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt; GetImageSections (Microsoft.Windows.EventTracing.Processes.IImage image);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Processes.IImageSection&gt; GetImageSections(class Microsoft.Windows.EventTracing.Processes.IImage image) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IImageSectionDataSource.GetImageSections(Microsoft.Windows.EventTracing.Processes.IImage)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetImageSections (image As IImage) As IReadOnlyList(Of IImageSection)" />
+      <MemberSignature Language="F#" Value="abstract member GetImageSections : Microsoft.Windows.EventTracing.Processes.IImage -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt;" Usage="iImageSectionDataSource.GetImageSections image" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IImageSection&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="Microsoft.Windows.EventTracing.Processes.IImage" />
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,519 @@
+<Type Name="ISystemMetadata" FullName="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata">
+  <TypeSignature Language="C#" Value="public interface ISystemMetadata" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISystemMetadata" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISystemMetadata" />
+  <TypeSignature Language="F#" Value="type ISystemMetadata = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllocationGranularity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize AllocationGranularity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize AllocationGranularity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.AllocationGranularity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocationGranularity As DataSize" />
+      <MemberSignature Language="F#" Value="member this.AllocationGranularity : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.AllocationGranularity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the smallest amount of memory that can be allocated via VirtualAlloc.</summary>
+        <value>To be added.</value>
+        <remarks>Calls to VirtualAlloc that are not a multiple of this size will be rounded up to the next value.
+            This value is normally a multiple of <see cref="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.PageSize" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BiosDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; BiosDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; BiosDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BiosDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BiosDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.BiosDate : Nullable&lt;DateTime&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BiosDate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BiosVersion">
+      <MemberSignature Language="C#" Value="public string BiosVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BiosVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BiosVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BiosVersion As String" />
+      <MemberSignature Language="F#" Value="member this.BiosVersion : string" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BiosVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BootConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IBootConfiguration BootConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IBootConfiguration BootConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BootConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BootConfiguration As IBootConfiguration" />
+      <MemberSignature Language="F#" Value="member this.BootConfiguration : Microsoft.Windows.EventTracing.Metadata.IBootConfiguration" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BootConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IBootConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IBuildInfo BuildInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IBuildInfo BuildInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BuildInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildInfo As IBuildInfo" />
+      <MemberSignature Language="F#" Value="member this.BuildInfo : Microsoft.Windows.EventTracing.Metadata.IBuildInfo" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.BuildInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IBuildInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disks">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisk&gt; Disks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Metadata.IDisk&gt; Disks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Disks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Disks As IReadOnlyList(Of IDisk)" />
+      <MemberSignature Language="F#" Value="member this.Disks : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisk&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Disks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisk&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayAdapters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter&gt; DisplayAdapters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter&gt; DisplayAdapters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.DisplayAdapters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayAdapters As IReadOnlyList(Of IDisplayAdapter)" />
+      <MemberSignature Language="F#" Value="member this.DisplayAdapters : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.DisplayAdapters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IDisplayAdapter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainName">
+      <MemberSignature Language="C#" Value="public string DomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.DomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DomainName As String" />
+      <MemberSignature Language="F#" Value="member this.DomainName : string" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.DomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlightConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IFlightConfiguration FlightConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IFlightConfiguration FlightConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.FlightConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlightConfiguration As IFlightConfiguration" />
+      <MemberSignature Language="F#" Value="member this.FlightConfiguration : Microsoft.Windows.EventTracing.Metadata.IFlightConfiguration" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.FlightConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IFlightConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdeDevices">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IIdeDevice&gt; IdeDevices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Metadata.IIdeDevice&gt; IdeDevices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.IdeDevices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdeDevices As IReadOnlyList(Of IIdeDevice)" />
+      <MemberSignature Language="F#" Value="member this.IdeDevices : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IIdeDevice&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.IdeDevices" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IIdeDevice&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDomainJoined">
+      <MemberSignature Language="C#" Value="public bool IsDomainJoined { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDomainJoined" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.IsDomainJoined" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDomainJoined As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDomainJoined : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.IsDomainJoined" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manufacturer">
+      <MemberSignature Language="C#" Value="public string Manufacturer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Manufacturer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Manufacturer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Manufacturer As String" />
+      <MemberSignature Language="F#" Value="member this.Manufacturer : string" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Manufacturer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManufacturerFormFactor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Metadata.ManufacturerFormFactor&gt; ManufacturerFormFactor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Metadata.ManufacturerFormFactor&gt; ManufacturerFormFactor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ManufacturerFormFactor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManufacturerFormFactor As Nullable(Of ManufacturerFormFactor)" />
+      <MemberSignature Language="F#" Value="member this.ManufacturerFormFactor : Nullable&lt;Microsoft.Windows.EventTracing.Metadata.ManufacturerFormFactor&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ManufacturerFormFactor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Metadata.ManufacturerFormFactor&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Model">
+      <MemberSignature Language="C#" Value="public string Model { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Model" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Model" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Model As String" />
+      <MemberSignature Language="F#" Value="member this.Model : string" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Model" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSFamily">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.OSFamily OSFamily { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Metadata.OSFamily OSFamily" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.OSFamily" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSFamily As OSFamily" />
+      <MemberSignature Language="F#" Value="member this.OSFamily : Microsoft.Windows.EventTracing.Metadata.OSFamily" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.OSFamily" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.OSFamily</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSVersion">
+      <MemberSignature Language="C#" Value="public Version OSVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version OSVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.OSVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.OSVersion : Version" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.OSVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize PageSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.PageSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.PageSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IPhoneInfo PhoneInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IPhoneInfo PhoneInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.PhoneInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneInfo As IPhoneInfo" />
+      <MemberSignature Language="F#" Value="member this.PhoneInfo : Microsoft.Windows.EventTracing.Metadata.IPhoneInfo" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.PhoneInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IPhoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorCount">
+      <MemberSignature Language="C#" Value="public int ProcessorCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessorCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ProcessorCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessorCount : int" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ProcessorCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processors">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IProcessor&gt; Processors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Metadata.IProcessor&gt; Processors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Processors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processors As IReadOnlyList(Of IProcessor)" />
+      <MemberSignature Language="F#" Value="member this.Processors : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IProcessor&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.Processors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Metadata.IProcessor&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorSpeed">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue ProcessorSpeed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue ProcessorSpeed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ProcessorSpeed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorSpeed As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.ProcessorSpeed : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.ProcessorSpeed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedSleepStates">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport SupportedSleepStates { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport SupportedSleepStates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.SupportedSleepStates" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedSleepStates As ISleepStateSupport" />
+      <MemberSignature Language="F#" Value="member this.SupportedSleepStates : Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.SupportedSleepStates" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsableMemorySize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize UsableMemorySize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize UsableMemorySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.UsableMemorySize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UsableMemorySize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.UsableMemorySize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.UsableMemorySize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualizationConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration VirtualizationConfiguration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration VirtualizationConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.VirtualizationConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualizationConfiguration As IVirtualizationConfiguration" />
+      <MemberSignature Language="F#" Value="member this.VirtualizationConfiguration : Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration" Usage="Microsoft.Windows.EventTracing.Metadata.ISystemMetadata.VirtualizationConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IVirtualizationConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

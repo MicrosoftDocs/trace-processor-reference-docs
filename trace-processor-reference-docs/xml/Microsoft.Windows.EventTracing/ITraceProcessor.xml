@@ -1,0 +1,68 @@
+<Type Name="ITraceProcessor" FullName="Microsoft.Windows.EventTracing.ITraceProcessor">
+  <TypeSignature Language="C#" Value="public interface ITraceProcessor : IDisposable, Microsoft.Windows.EventTracing.ITraceSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITraceProcessor implements class Microsoft.Windows.EventTracing.ITraceSource, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ITraceProcessor" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITraceProcessor&#xA;Implements IDisposable, ITraceSource" />
+  <TypeSignature Language="F#" Value="type ITraceProcessor = interface&#xA;    interface ITraceSource&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ITraceSource</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITraceProcessor.Process" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process ()" />
+      <MemberSignature Language="F#" Value="abstract member Process : unit -&gt; unit" Usage="iTraceProcessor.Process " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(class System.IProgress`1&lt;valuetype Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITraceProcessor.Process(System.IProgress{Microsoft.Windows.EventTracing.TraceProcessingProgress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (Optional progressCallback As IProgress(Of TraceProcessingProgress) = null)" />
+      <MemberSignature Language="F#" Value="abstract member Process : IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; -&gt; unit" Usage="iTraceProcessor.Process progressCallback" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="progressCallback" Type="System.IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="progressCallback">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

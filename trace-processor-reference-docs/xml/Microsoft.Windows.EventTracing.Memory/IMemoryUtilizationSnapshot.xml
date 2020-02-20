@@ -1,0 +1,400 @@
+<Type Name="IMemoryUtilizationSnapshot" FullName="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot">
+  <TypeSignature Language="C#" Value="public interface IMemoryUtilizationSnapshot" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMemoryUtilizationSnapshot" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMemoryUtilizationSnapshot" />
+  <TypeSignature Language="F#" Value="type IMemoryUtilizationSnapshot = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BadListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize BadListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize BadListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.BadListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BadListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.BadListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.BadListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the memory in the list of the physical memory pages that are known to be bad due to
+            hardware faults.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize CommitSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize CommitSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.CommitSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommitSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.CommitSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.CommitSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of all committed pages in the system in both kernel-space and user-space.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize FreeListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize FreeListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.FreeListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.FreeListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.FreeListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the memory in the list of pages that are free, but have not yet been zeroed out.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InUseListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize InUseListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize InUseListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.InUseListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InUseListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.InUseListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.InUseListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the the memory in list of pages that are currently part of a process or system working
+            set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemoryDescriptorListAllocationsSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize MemoryDescriptorListAllocationsSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize MemoryDescriptorListAllocationsSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.MemoryDescriptorListAllocationsSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemoryDescriptorListAllocationsSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.MemoryDescriptorListAllocationsSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.MemoryDescriptorListAllocationsSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of all memory descriptor lists (MDLs) that have been allocated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ModifiedListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ModifiedListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ModifiedListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the memory in the list of pages that have been removed from a working set, and which
+            have been modified since last being flushed to disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedNoWriteListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ModifiedNoWriteListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ModifiedNoWriteListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedNoWriteListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedNoWriteListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ModifiedNoWriteListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedNoWriteListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the memory in the list of pages that have been removed from a working set, and which
+            have been modified since last being flushed to disk, but which cannot currently be flushed to disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedPageFileDataSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ModifiedPageFileDataSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ModifiedPageFileDataSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedPageFileDataSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedPageFileDataSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ModifiedPageFileDataSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ModifiedPageFileDataSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the page files that have been modified since last being flushed to disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NonPagedPoolSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize NonPagedPoolSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize NonPagedPoolSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.NonPagedPoolSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NonPagedPoolSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.NonPagedPoolSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.NonPagedPoolSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the kernel's commit space that are guaranteed not be paged.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NonSuperfetchStandbyListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize NonSuperfetchStandbyListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize NonSuperfetchStandbyListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.NonSuperfetchStandbyListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NonSuperfetchStandbyListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.NonSuperfetchStandbyListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.NonSuperfetchStandbyListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            For priorities lower than superfetch (priorities 0-5), the sum in bytes of the sizes of the memory in each
+            per-priority list of pages that have been removed from a working set, and which have not been modified
+            since last being flushed to disk (for priorities lower than superfetch).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PagedPoolCommitSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize PagedPoolCommitSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize PagedPoolCommitSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.PagedPoolCommitSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PagedPoolCommitSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.PagedPoolCommitSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.PagedPoolCommitSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the kernel's commit space that might or might not be paged.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepurposedListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize RepurposedListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize RepurposedListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.RepurposedListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RepurposedListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.RepurposedListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.RepurposedListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The sum in bytes of the sizes of the memory in each per-priority list of pages that were previously in the
+            standby state, but which have been repurposed by the memory manager.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepurposedSubListSizes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt; RepurposedSubListSizes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype Microsoft.Windows.EventTracing.DataSize&gt; RepurposedSubListSizes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.RepurposedSubListSizes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RepurposedSubListSizes As IReadOnlyList(Of DataSize)" />
+      <MemberSignature Language="F#" Value="member this.RepurposedSubListSizes : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.RepurposedSubListSizes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The sizes in bytes of memory in the per-priority lists of pages that were previously in the standby state,
+            but which have been repurposed by the memory manager.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandbyListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize StandbyListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize StandbyListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.StandbyListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandbyListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.StandbyListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.StandbyListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The sum in bytes of the sizes of the memory in each per-priority list of pages that have been removed from a
+            working set, and which have not been modified since last being flushed to disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandbySubListSizes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt; StandbySubListSizes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype Microsoft.Windows.EventTracing.DataSize&gt; StandbySubListSizes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.StandbySubListSizes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandbySubListSizes As IReadOnlyList(Of DataSize)" />
+      <MemberSignature Language="F#" Value="member this.StandbySubListSizes : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.StandbySubListSizes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.DataSize&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The sizes in bytes of the memory in the per-priority lists of pages that have been removed from a working
+            set, and which have not been modified since last being flushed to disk.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ZeroListSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ZeroListSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ZeroListSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ZeroListSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ZeroListSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ZeroListSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IMemoryUtilizationSnapshot.ZeroListSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The size in bytes of the memory in the list of pages that have been zeroed out.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

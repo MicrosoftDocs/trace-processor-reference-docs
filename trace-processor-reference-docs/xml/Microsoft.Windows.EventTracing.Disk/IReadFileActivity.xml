@@ -1,0 +1,102 @@
+<Type Name="IReadFileActivity" FullName="Microsoft.Windows.EventTracing.Disk.IReadFileActivity">
+  <TypeSignature Language="C#" Value="public interface IReadFileActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IReadFileActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IReadFileActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IReadFileActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type IReadFileActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActualSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ActualSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ActualSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IReadFileActivity.ActualSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActualSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ActualSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IReadFileActivity.ActualSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Offset">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address Offset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address Offset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IReadFileActivity.Offset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Address" />
+      <MemberSignature Language="F#" Value="member this.Offset : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Disk.IReadFileActivity.Offset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PacketFlags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags PacketFlags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags PacketFlags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IReadFileActivity.PacketFlags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PacketFlags As IORequestPacketFlags" />
+      <MemberSignature Language="F#" Value="member this.PacketFlags : Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags" Usage="Microsoft.Windows.EventTracing.Disk.IReadFileActivity.PacketFlags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.IORequestPacketFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize RequestedSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize RequestedSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IReadFileActivity.RequestedSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.RequestedSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IReadFileActivity.RequestedSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

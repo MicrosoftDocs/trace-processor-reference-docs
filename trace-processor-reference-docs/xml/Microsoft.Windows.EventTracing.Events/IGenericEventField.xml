@@ -1,0 +1,1314 @@
+<Type Name="IGenericEventField" FullName="Microsoft.Windows.EventTracing.Events.IGenericEventField">
+  <TypeSignature Language="C#" Value="public interface IGenericEventField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericEventField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IGenericEventField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericEventField" />
+  <TypeSignature Language="F#" Value="type IGenericEventField = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address AsAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address AsAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.AsAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsAddressList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt; AsAddressList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; AsAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsAddressList As IReadOnlyList(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.AsAddressList : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsAddressList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsBinary">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;byte&gt; AsBinary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int8&gt; AsBinary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBinary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsBinary As IReadOnlyList(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.AsBinary : System.Collections.Generic.IReadOnlyList&lt;byte&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBinary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsBinaryList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;byte&gt;&gt; AsBinaryList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int8&gt;&gt; AsBinaryList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBinaryList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsBinaryList As IReadOnlyList(Of IReadOnlyList(Of Byte))" />
+      <MemberSignature Language="F#" Value="member this.AsBinaryList : System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;byte&gt;&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBinaryList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;System.Byte&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsBoolean">
+      <MemberSignature Language="C#" Value="public bool AsBoolean { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AsBoolean" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBoolean" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsBoolean As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AsBoolean : bool" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBoolean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsBooleanList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;bool&gt; AsBooleanList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;bool&gt; AsBooleanList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBooleanList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsBooleanList As IReadOnlyList(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AsBooleanList : System.Collections.Generic.IReadOnlyList&lt;bool&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsBooleanList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsByte">
+      <MemberSignature Language="C#" Value="public byte AsByte { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8 AsByte" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsByte" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsByte As Byte" />
+      <MemberSignature Language="F#" Value="member this.AsByte : byte" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsByte" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsByteList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;byte&gt; AsByteList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int8&gt; AsByteList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsByteList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsByteList As IReadOnlyList(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.AsByteList : System.Collections.Generic.IReadOnlyList&lt;byte&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsByteList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsChar">
+      <MemberSignature Language="C#" Value="public char AsChar { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance char AsChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsChar" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsChar As Char" />
+      <MemberSignature Language="F#" Value="member this.AsChar : char" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsChar" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsCharList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;char&gt; AsCharList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;char&gt; AsCharList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsCharList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsCharList As IReadOnlyList(Of Char)" />
+      <MemberSignature Language="F#" Value="member this.AsCharList : System.Collections.Generic.IReadOnlyList&lt;char&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsCharList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Char&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsDateTime">
+      <MemberSignature Language="C#" Value="public DateTime AsDateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AsDateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDateTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsDateTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.AsDateTime : DateTime" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsDateTimeList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;DateTime&gt; AsDateTimeList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.DateTime&gt; AsDateTimeList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDateTimeList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsDateTimeList As IReadOnlyList(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.AsDateTimeList : System.Collections.Generic.IReadOnlyList&lt;DateTime&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDateTimeList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsDouble">
+      <MemberSignature Language="C#" Value="public double AsDouble { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 AsDouble" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDouble" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsDouble As Double" />
+      <MemberSignature Language="F#" Value="member this.AsDouble : double" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDouble" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsDoubleList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;double&gt; AsDoubleList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;float64&gt; AsDoubleList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDoubleList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsDoubleList As IReadOnlyList(Of Double)" />
+      <MemberSignature Language="F#" Value="member this.AsDoubleList : System.Collections.Generic.IReadOnlyList&lt;double&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsDoubleList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsGuid">
+      <MemberSignature Language="C#" Value="public Guid AsGuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid AsGuid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsGuid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsGuid As Guid" />
+      <MemberSignature Language="F#" Value="member this.AsGuid : Guid" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsGuid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsGuidList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Guid&gt; AsGuidList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Guid&gt; AsGuidList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsGuidList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsGuidList As IReadOnlyList(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.AsGuidList : System.Collections.Generic.IReadOnlyList&lt;Guid&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsGuidList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt16">
+      <MemberSignature Language="C#" Value="public short AsInt16 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int16 AsInt16" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt16" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt16 As Short" />
+      <MemberSignature Language="F#" Value="member this.AsInt16 : int16" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt16" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt16List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;short&gt; AsInt16List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;int16&gt; AsInt16List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt16List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt16List As IReadOnlyList(Of Short)" />
+      <MemberSignature Language="F#" Value="member this.AsInt16List : System.Collections.Generic.IReadOnlyList&lt;int16&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt16List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Int16&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt32">
+      <MemberSignature Language="C#" Value="public int AsInt32 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AsInt32" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt32" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt32 As Integer" />
+      <MemberSignature Language="F#" Value="member this.AsInt32 : int" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt32" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt32List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;int&gt; AsInt32List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;int32&gt; AsInt32List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt32List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt32List As IReadOnlyList(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.AsInt32List : System.Collections.Generic.IReadOnlyList&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt32List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt64">
+      <MemberSignature Language="C#" Value="public long AsInt64 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 AsInt64" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt64" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt64 As Long" />
+      <MemberSignature Language="F#" Value="member this.AsInt64 : int64" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt64" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsInt64List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;long&gt; AsInt64List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;int64&gt; AsInt64List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt64List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsInt64List As IReadOnlyList(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.AsInt64List : System.Collections.Generic.IReadOnlyList&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsInt64List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsIPAddress">
+      <MemberSignature Language="C#" Value="public System.Net.IPAddress AsIPAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IPAddress AsIPAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsIPAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsIPAddress As IPAddress" />
+      <MemberSignature Language="F#" Value="member this.AsIPAddress : System.Net.IPAddress" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsIPAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.IPAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsIPAddressList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;System.Net.IPAddress&gt; AsIPAddressList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class System.Net.IPAddress&gt; AsIPAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsIPAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsIPAddressList As IReadOnlyList(Of IPAddress)" />
+      <MemberSignature Language="F#" Value="member this.AsIPAddressList : System.Collections.Generic.IReadOnlyList&lt;System.Net.IPAddress&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsIPAddressList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Net.IPAddress&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSByte">
+      <MemberSignature Language="C#" Value="public sbyte AsSByte { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 AsSByte" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSByte" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSByte As SByte" />
+      <MemberSignature Language="F#" Value="member this.AsSByte : sbyte" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSByte" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSByteList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;sbyte&gt; AsSByteList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;int8&gt; AsSByteList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSByteList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSByteList As IReadOnlyList(Of SByte)" />
+      <MemberSignature Language="F#" Value="member this.AsSByteList : System.Collections.Generic.IReadOnlyList&lt;sbyte&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSByteList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.SByte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSecurityIdentifier">
+      <MemberSignature Language="C#" Value="public System.Security.Principal.SecurityIdentifier AsSecurityIdentifier { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Principal.SecurityIdentifier AsSecurityIdentifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSecurityIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSecurityIdentifier As SecurityIdentifier" />
+      <MemberSignature Language="F#" Value="member this.AsSecurityIdentifier : System.Security.Principal.SecurityIdentifier" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSecurityIdentifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSecurityIdentifierList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;System.Security.Principal.SecurityIdentifier&gt; AsSecurityIdentifierList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class System.Security.Principal.SecurityIdentifier&gt; AsSecurityIdentifierList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSecurityIdentifierList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSecurityIdentifierList As IReadOnlyList(Of SecurityIdentifier)" />
+      <MemberSignature Language="F#" Value="member this.AsSecurityIdentifierList : System.Collections.Generic.IReadOnlyList&lt;System.Security.Principal.SecurityIdentifier&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSecurityIdentifierList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Security.Principal.SecurityIdentifier&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSingle">
+      <MemberSignature Language="C#" Value="public float AsSingle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 AsSingle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSingle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSingle As Single" />
+      <MemberSignature Language="F#" Value="member this.AsSingle : single" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSingle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSingleList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;float&gt; AsSingleList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;float32&gt; AsSingleList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSingleList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSingleList As IReadOnlyList(Of Single)" />
+      <MemberSignature Language="F#" Value="member this.AsSingleList : System.Collections.Generic.IReadOnlyList&lt;single&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSingleList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSocketAddress">
+      <MemberSignature Language="C#" Value="public System.Net.SocketAddress AsSocketAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.SocketAddress AsSocketAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSocketAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSocketAddress As SocketAddress" />
+      <MemberSignature Language="F#" Value="member this.AsSocketAddress : System.Net.SocketAddress" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSocketAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.SocketAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsSocketAddressList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;System.Net.SocketAddress&gt; AsSocketAddressList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class System.Net.SocketAddress&gt; AsSocketAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSocketAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsSocketAddressList As IReadOnlyList(Of SocketAddress)" />
+      <MemberSignature Language="F#" Value="member this.AsSocketAddressList : System.Collections.Generic.IReadOnlyList&lt;System.Net.SocketAddress&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsSocketAddressList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Net.SocketAddress&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public string AsString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AsString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsString As String" />
+      <MemberSignature Language="F#" Value="member this.AsString : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsStringList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; AsStringList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; AsStringList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStringList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsStringList As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.AsStringList : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStringList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsStructure">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt; AsStructure { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt; AsStructure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStructure" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsStructure As IReadOnlyList(Of IGenericEventField)" />
+      <MemberSignature Language="F#" Value="member this.AsStructure : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStructure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsStructureList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;&gt; AsStructureList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;&gt; AsStructureList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStructureList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsStructureList As IReadOnlyList(Of IReadOnlyList(Of IGenericEventField))" />
+      <MemberSignature Language="F#" Value="member this.AsStructureList : System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsStructureList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Events.IGenericEventField&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsTimeSpan">
+      <MemberSignature Language="C#" Value="public TimeSpan AsTimeSpan { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan AsTimeSpan" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsTimeSpan" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsTimeSpan As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.AsTimeSpan : TimeSpan" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsTimeSpan" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsTimeSpanList">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;TimeSpan&gt; AsTimeSpanList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.TimeSpan&gt; AsTimeSpanList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsTimeSpanList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsTimeSpanList As IReadOnlyList(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.AsTimeSpanList : System.Collections.Generic.IReadOnlyList&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsTimeSpanList" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt16">
+      <MemberSignature Language="C#" Value="public ushort AsUInt16 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int16 AsUInt16" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt16" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt16 As UShort" />
+      <MemberSignature Language="F#" Value="member this.AsUInt16 : uint16" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt16" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt16</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt16List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;ushort&gt; AsUInt16List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int16&gt; AsUInt16List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt16List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt16List As IReadOnlyList(Of UShort)" />
+      <MemberSignature Language="F#" Value="member this.AsUInt16List : System.Collections.Generic.IReadOnlyList&lt;uint16&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt16List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.UInt16&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt32">
+      <MemberSignature Language="C#" Value="public uint AsUInt32 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 AsUInt32" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt32" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt32 As UInteger" />
+      <MemberSignature Language="F#" Value="member this.AsUInt32 : uint32" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt32" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt32List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;uint&gt; AsUInt32List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int32&gt; AsUInt32List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt32List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt32List As IReadOnlyList(Of UInteger)" />
+      <MemberSignature Language="F#" Value="member this.AsUInt32List : System.Collections.Generic.IReadOnlyList&lt;uint32&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt32List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.UInt32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt64">
+      <MemberSignature Language="C#" Value="public ulong AsUInt64 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 AsUInt64" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt64" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt64 As ULong" />
+      <MemberSignature Language="F#" Value="member this.AsUInt64 : uint64" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt64" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsUInt64List">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;ulong&gt; AsUInt64List { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;unsigned int64&gt; AsUInt64List" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt64List" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsUInt64List As IReadOnlyList(Of ULong)" />
+      <MemberSignature Language="F#" Value="member this.AsUInt64List : System.Collections.Generic.IReadOnlyList&lt;uint64&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.AsUInt64List" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.UInt64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ByteType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldByteType ByteType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldByteType ByteType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.ByteType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ByteType As GenericEventFieldByteType" />
+      <MemberSignature Language="F#" Value="member this.ByteType : Microsoft.Windows.EventTracing.Events.GenericEventFieldByteType" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.ByteType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldByteType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType DateTimeType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType DateTimeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.DateTimeType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeType As GenericEventFieldDateTimeType" />
+      <MemberSignature Language="F#" Value="member this.DateTimeType : Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.DateTimeType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldDateTimeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumKey">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; EnumKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; EnumKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnumKey As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.EnumKey : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IGenericEventEnum EnumType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IGenericEventEnum EnumType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnumType As IGenericEventEnum" />
+      <MemberSignature Language="F#" Value="member this.EnumType : Microsoft.Windows.EventTracing.Events.IGenericEventEnum" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IGenericEventEnum</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumValue">
+      <MemberSignature Language="C#" Value="public string EnumValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EnumValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnumValue As String" />
+      <MemberSignature Language="F#" Value="member this.EnumValue : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.EnumValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagMatches">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; FlagMatches { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; FlagMatches" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagMatches" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlagMatches As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.FlagMatches : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagMatches" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagsKey">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; FlagsKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; FlagsKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagsKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlagsKey As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.FlagsKey : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagsKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagsType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IGenericEventFlags FlagsType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Events.IGenericEventFlags FlagsType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagsType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlagsType As IGenericEventFlags" />
+      <MemberSignature Language="F#" Value="member this.FlagsType : Microsoft.Windows.EventTracing.Events.IGenericEventFlags" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.FlagsType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IGenericEventFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatFlagMatches">
+      <MemberSignature Language="C#" Value="public string FormatFlagMatches (string separator = &quot;, &quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string FormatFlagMatches(string separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventField.FormatFlagMatches(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FormatFlagMatches (Optional separator As String = &quot;, &quot;) As String" />
+      <MemberSignature Language="F#" Value="abstract member FormatFlagMatches : string -&gt; string" Usage="iGenericEventField.FormatFlagMatches separator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="separator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int32Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldInt32Type Int32Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldInt32Type Int32Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.Int32Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Int32Type As GenericEventFieldInt32Type" />
+      <MemberSignature Language="F#" Value="member this.Int32Type : Microsoft.Windows.EventTracing.Events.GenericEventFieldInt32Type" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.Int32Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldInt32Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Is32BitAddress">
+      <MemberSignature Language="C#" Value="public bool Is32BitAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Is32BitAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.Is32BitAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Is32BitAddress As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Is32BitAddress : bool" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.Is32BitAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapName">
+      <MemberSignature Language="C#" Value="public string MapName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MapName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.MapName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MapName As String" />
+      <MemberSignature Language="F#" Value="member this.MapName : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.MapName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldStringType StringType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldStringType StringType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.StringType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StringType As GenericEventFieldStringType" />
+      <MemberSignature Language="F#" Value="member this.StringType : Microsoft.Windows.EventTracing.Events.GenericEventFieldStringType" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.StringType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldStringType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider formatProvider, string flagsSeparator = &quot;, &quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(class System.IFormatProvider formatProvider, string flagsSeparator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventField.ToString(System.IFormatProvider,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToString (formatProvider As IFormatProvider, Optional flagsSeparator As String = &quot;, &quot;) As String" />
+      <MemberSignature Language="F#" Value="abstract member ToString : IFormatProvider * string -&gt; string" Usage="iGenericEventField.ToString (formatProvider, flagsSeparator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="formatProvider" Type="System.IFormatProvider" />
+        <Parameter Name="flagsSeparator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="formatProvider">To be added.</param>
+        <param name="flagsSeparator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryFormatFlagMatches">
+      <MemberSignature Language="C#" Value="public bool TryFormatFlagMatches (out string value, string separator = &quot;, &quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryFormatFlagMatches([out] string&amp; value, string separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventField.TryFormatFlagMatches(System.String@,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryFormatFlagMatches (ByRef value As String, Optional separator As String = &quot;, &quot;) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TryFormatFlagMatches : string * string -&gt; bool" Usage="iGenericEventField.TryFormatFlagMatches (value, separator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" RefType="out" />
+        <Parameter Name="separator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As GenericEventFieldType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Windows.EventTracing.Events.GenericEventFieldType" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UInt16Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type UInt16Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type UInt16Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt16Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UInt16Type As GenericEventFieldUInt16Type" />
+      <MemberSignature Language="F#" Value="member this.UInt16Type : Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt16Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt16Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UInt32Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type UInt32Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type UInt32Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt32Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UInt32Type As GenericEventFieldUInt32Type" />
+      <MemberSignature Language="F#" Value="member this.UInt32Type : Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt32Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UInt64Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt64Type UInt64Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt64Type UInt64Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt64Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UInt64Type As GenericEventFieldUInt64Type" />
+      <MemberSignature Language="F#" Value="member this.UInt64Type : Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt64Type" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventField.UInt64Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt64Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,134 @@
+<Type Name="BootPrefetchActivityType" FullName="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType">
+  <TypeSignature Language="C#" Value="public enum BootPrefetchActivityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BootPrefetchActivityType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BootPrefetchActivityType" />
+  <TypeSignature Language="F#" Value="type BootPrefetchActivityType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Prefetch">
+      <MemberSignature Language="C#" Value="Prefetch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType Prefetch = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.Prefetch" />
+      <MemberSignature Language="VB.NET" Value="Prefetch" />
+      <MemberSignature Language="F#" Value="Prefetch = 4" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.Prefetch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadHit">
+      <MemberSignature Language="C#" Value="ReadHit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ReadHit = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadHit" />
+      <MemberSignature Language="VB.NET" Value="ReadHit" />
+      <MemberSignature Language="F#" Value="ReadHit = 0" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadHit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadMiss">
+      <MemberSignature Language="C#" Value="ReadMiss" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ReadMiss = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadMiss" />
+      <MemberSignature Language="VB.NET" Value="ReadMiss" />
+      <MemberSignature Language="F#" Value="ReadMiss = 1" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadMiss" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadMissRadiusExceeded">
+      <MemberSignature Language="C#" Value="ReadMissRadiusExceeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ReadMissRadiusExceeded = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadMissRadiusExceeded" />
+      <MemberSignature Language="VB.NET" Value="ReadMissRadiusExceeded" />
+      <MemberSignature Language="F#" Value="ReadMissRadiusExceeded = 5" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadMissRadiusExceeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadPending">
+      <MemberSignature Language="C#" Value="ReadPending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ReadPending = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadPending" />
+      <MemberSignature Language="VB.NET" Value="ReadPending" />
+      <MemberSignature Language="F#" Value="ReadPending = 3" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.ReadPending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="Write" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType Write = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.Write" />
+      <MemberSignature Language="VB.NET" Value="Write" />
+      <MemberSignature Language="F#" Value="Write = 2" Usage="Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType.Write" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

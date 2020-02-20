@@ -1,0 +1,25 @@
+<Type Name="ThreadExitEventCallback" FullName="Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void ThreadExitEventCallback(ThreadExitEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ThreadExitEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ThreadExitEventCallback(eventContext As ThreadExitEventContext)" />
+  <TypeSignature Language="F#" Value="type ThreadExitEventCallback = delegate of ThreadExitEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The thread exit event to process.</param>
+    <summary>Processes a thread exit event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

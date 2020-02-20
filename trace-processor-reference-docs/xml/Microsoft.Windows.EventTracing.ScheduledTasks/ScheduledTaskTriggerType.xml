@@ -1,0 +1,248 @@
+<Type Name="ScheduledTaskTriggerType" FullName="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType">
+  <TypeSignature Language="C#" Value="public enum ScheduledTaskTriggerType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScheduledTaskTriggerType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ScheduledTaskTriggerType" />
+  <TypeSignature Language="F#" Value="type ScheduledTaskTriggerType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Boot">
+      <MemberSignature Language="C#" Value="Boot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Boot = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Boot" />
+      <MemberSignature Language="VB.NET" Value="Boot" />
+      <MemberSignature Language="F#" Value="Boot = 4" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Boot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsoleConnect">
+      <MemberSignature Language="C#" Value="ConsoleConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType ConsoleConnect = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.ConsoleConnect" />
+      <MemberSignature Language="VB.NET" Value="ConsoleConnect" />
+      <MemberSignature Language="F#" Value="ConsoleConnect = 6" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.ConsoleConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsoleDisconnect">
+      <MemberSignature Language="C#" Value="ConsoleDisconnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType ConsoleDisconnect = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.ConsoleDisconnect" />
+      <MemberSignature Language="VB.NET" Value="ConsoleDisconnect" />
+      <MemberSignature Language="F#" Value="ConsoleDisconnect = 7" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.ConsoleDisconnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Event">
+      <MemberSignature Language="C#" Value="Event" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Event = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Event" />
+      <MemberSignature Language="VB.NET" Value="Event" />
+      <MemberSignature Language="F#" Value="Event = 1" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Event" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Idle">
+      <MemberSignature Language="C#" Value="Idle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Idle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
+      <MemberSignature Language="F#" Value="Idle = 3" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Idle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Immediate">
+      <MemberSignature Language="C#" Value="Immediate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Immediate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Immediate" />
+      <MemberSignature Language="VB.NET" Value="Immediate" />
+      <MemberSignature Language="F#" Value="Immediate = 2" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Immediate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Logon">
+      <MemberSignature Language="C#" Value="Logon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Logon = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Logon" />
+      <MemberSignature Language="VB.NET" Value="Logon" />
+      <MemberSignature Language="F#" Value="Logon = 5" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Logon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoteConnect">
+      <MemberSignature Language="C#" Value="RemoteConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType RemoteConnect = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.RemoteConnect" />
+      <MemberSignature Language="VB.NET" Value="RemoteConnect" />
+      <MemberSignature Language="F#" Value="RemoteConnect = 8" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.RemoteConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoteDisconnect">
+      <MemberSignature Language="C#" Value="RemoteDisconnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType RemoteDisconnect = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.RemoteDisconnect" />
+      <MemberSignature Language="VB.NET" Value="RemoteDisconnect" />
+      <MemberSignature Language="F#" Value="RemoteDisconnect = 9" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.RemoteDisconnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionLock">
+      <MemberSignature Language="C#" Value="SessionLock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType SessionLock = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.SessionLock" />
+      <MemberSignature Language="VB.NET" Value="SessionLock" />
+      <MemberSignature Language="F#" Value="SessionLock = 10" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.SessionLock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionUnlock">
+      <MemberSignature Language="C#" Value="SessionUnlock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType SessionUnlock = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.SessionUnlock" />
+      <MemberSignature Language="VB.NET" Value="SessionUnlock" />
+      <MemberSignature Language="F#" Value="SessionUnlock = 11" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.SessionUnlock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Time">
+      <MemberSignature Language="C#" Value="Time" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType Time = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Time" />
+      <MemberSignature Language="VB.NET" Value="Time" />
+      <MemberSignature Language="F#" Value="Time = 0" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType.Time" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

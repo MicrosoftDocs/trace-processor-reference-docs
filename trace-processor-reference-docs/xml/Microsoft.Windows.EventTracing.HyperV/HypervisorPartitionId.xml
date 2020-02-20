@@ -1,0 +1,41 @@
+<Type Name="HypervisorPartitionId" FullName="Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId">
+  <TypeSignature Language="C#" Value="public static class HypervisorPartitionId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HypervisorPartitionId extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId" />
+  <TypeSignature Language="VB.NET" Value="Public Class HypervisorPartitionId" />
+  <TypeSignature Language="F#" Value="type HypervisorPartitionId = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Root">
+      <MemberSignature Language="C#" Value="public static Guid Root { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.Guid Root" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId.Root" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Root As Guid" />
+      <MemberSignature Language="F#" Value="member this.Root : Guid" Usage="Microsoft.Windows.EventTracing.HyperV.HypervisorPartitionId.Root" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

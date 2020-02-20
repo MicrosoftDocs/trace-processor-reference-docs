@@ -1,0 +1,82 @@
+<Type Name="TraceClockType" FullName="Microsoft.Windows.EventTracing.TraceClockType">
+  <TypeSignature Language="C#" Value="public enum TraceClockType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TraceClockType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceClockType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TraceClockType" />
+  <TypeSignature Language="F#" Value="type TraceClockType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the types of clocks used for timestamps in a trace.</summary>
+    <remarks>
+            For more information on these clock types see the ClientContext section on the
+            <a href="https://docs.microsoft.com/en-us/windows/desktop/ETW/wnode-header">WNODE_HEADER documentation</a>.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PerformanceCounter">
+      <MemberSignature Language="C#" Value="PerformanceCounter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceClockType PerformanceCounter = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceClockType.PerformanceCounter" />
+      <MemberSignature Language="VB.NET" Value="PerformanceCounter" />
+      <MemberSignature Language="F#" Value="PerformanceCounter = 0" Usage="Microsoft.Windows.EventTracing.TraceClockType.PerformanceCounter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceClockType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Represents a clock that uses high-resolution timestamps from the QueryPerformanceCounter API.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorCycleCounter">
+      <MemberSignature Language="C#" Value="ProcessorCycleCounter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceClockType ProcessorCycleCounter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceClockType.ProcessorCycleCounter" />
+      <MemberSignature Language="VB.NET" Value="ProcessorCycleCounter" />
+      <MemberSignature Language="F#" Value="ProcessorCycleCounter = 2" Usage="Microsoft.Windows.EventTracing.TraceClockType.ProcessorCycleCounter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceClockType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Represents a clock that uses the processor cycle counter.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemTime">
+      <MemberSignature Language="C#" Value="SystemTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceClockType SystemTime = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceClockType.SystemTime" />
+      <MemberSignature Language="VB.NET" Value="SystemTime" />
+      <MemberSignature Language="F#" Value="SystemTime = 1" Usage="Microsoft.Windows.EventTracing.TraceClockType.SystemTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceClockType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Represents a clock that uses the system time.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

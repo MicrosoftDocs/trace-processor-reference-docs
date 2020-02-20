@@ -1,0 +1,58 @@
+<Type Name="IServiceDataSource" FullName="Microsoft.Windows.EventTracing.Services.IServiceDataSource">
+  <TypeSignature Language="C#" Value="public interface IServiceDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Services.IServiceDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServiceDataSource" />
+  <TypeSignature Language="F#" Value="type IServiceDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Services">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IService&gt; Services { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Services.IService&gt; Services" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceDataSource.Services" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Services As IReadOnlyList(Of IService)" />
+      <MemberSignature Language="F#" Value="member this.Services : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IService&gt;" Usage="Microsoft.Windows.EventTracing.Services.IServiceDataSource.Services" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IService&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Snapshots">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceSnapshot&gt; Snapshots { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Services.IServiceSnapshot&gt; Snapshots" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceDataSource.Snapshots" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Snapshots As IReadOnlyList(Of IServiceSnapshot)" />
+      <MemberSignature Language="F#" Value="member this.Snapshots : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceSnapshot&gt;" Usage="Microsoft.Windows.EventTracing.Services.IServiceDataSource.Snapshots" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Services.IServiceSnapshot&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
