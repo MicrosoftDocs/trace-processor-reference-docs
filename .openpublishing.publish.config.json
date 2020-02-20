@@ -32,17 +32,17 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "trace-processor-reference-docs/xml",
+        "OutputYamlFolder": "trace-processor-reference-docs/api",
         "Flatten": true,
-        "id": "dotnet-template",
+        "id": "trace-processor-reference-docs",
         "SDPMode": true
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "trace-processor-reference-docs/api/trace-processor-reference-docs/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "trace-processor-reference-docs/api"
       ]
     }
   ],
