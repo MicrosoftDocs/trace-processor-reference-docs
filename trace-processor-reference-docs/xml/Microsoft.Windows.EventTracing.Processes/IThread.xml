@@ -1,0 +1,398 @@
+<Type Name="IThread" FullName="Microsoft.Windows.EventTracing.Processes.IThread">
+  <TypeSignature Language="C#" Value="public interface IThread" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IThread" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IThread" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IThread" />
+  <TypeSignature Language="F#" Value="type IThread = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a thread in a trace.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BasePriority">
+      <MemberSignature Language="C#" Value="public int BasePriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BasePriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.BasePriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BasePriority As Integer" />
+      <MemberSignature Language="F#" Value="member this.BasePriority : int" Usage="Microsoft.Windows.EventTracing.Processes.IThread.BasePriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the base priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot CreateStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot CreateStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.CreateStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.CreateStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Processes.IThread.CreateStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the stack that resulted in the thread being created.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; CreateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThread.CreateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the thread was created, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.Duration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThread.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time during which the thread existed, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ExitStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ExitStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ExitStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.ExitStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ExitStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the stack that resulted in the thread exiting.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; ExitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; ExitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ExitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.ExitTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ExitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the thread exited, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.Processes.IThread.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IoPriority">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IOPriority IoPriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Processes.IOPriority IoPriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.IoPriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IoPriority As IOPriority" />
+      <MemberSignature Language="F#" Value="member this.IoPriority : Microsoft.Windows.EventTracing.Processes.IOPriority" Usage="Microsoft.Windows.EventTracing.Processes.IThread.IoPriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IOPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the IO priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelStackRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange KernelStackRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange KernelStackRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.KernelStackRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KernelStackRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.KernelStackRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Processes.IThread.KernelStackRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address range of the kernel-mode stack for the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Processes.IThread.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the thread being created, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PagePriority">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.MemoryPriority PagePriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Processes.MemoryPriority PagePriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.PagePriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PagePriority As MemoryPriority" />
+      <MemberSignature Language="F#" Value="member this.PagePriority : Microsoft.Windows.EventTracing.Processes.MemoryPriority" Usage="Microsoft.Windows.EventTracing.Processes.IThread.PagePriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.MemoryPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the memory page priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Processes.IThread.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process that owns the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the process that owns the thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorAffinity">
+      <MemberSignature Language="C#" Value="public long ProcessorAffinity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ProcessorAffinity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ProcessorAffinity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorAffinity As Long" />
+      <MemberSignature Language="F#" Value="member this.ProcessorAffinity : int64" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ProcessorAffinity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the mask indicating on which processors the thread may run.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ServiceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ServiceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ServiceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ServiceId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ServiceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the service that owns this thread, if any.</summary>
+        <value>To be added.</value>
+        <remarks>This value is also known as SubProcessTag.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address StartAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address StartAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.StartAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.StartAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Processes.IThread.StartAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address at which the Win32 thread started executing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartFrame">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.StackFrame StartFrame { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame StartFrame" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.StartFrame" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartFrame As StackFrame" />
+      <MemberSignature Language="F#" Value="member this.StartFrame : Microsoft.Windows.EventTracing.Symbols.StackFrame" Usage="Microsoft.Windows.EventTracing.Processes.IThread.StartFrame" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.StackFrame</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the frame at which the thread starts execution after being created</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadEnviromentBlockAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address ThreadEnviromentBlockAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address ThreadEnviromentBlockAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.ThreadEnviromentBlockAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadEnviromentBlockAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.ThreadEnviromentBlockAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Processes.IThread.ThreadEnviromentBlockAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the Thread Environment Block (TEB).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserStackRange">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt; UserStackRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.AddressRange&gt; UserStackRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.IThread.UserStackRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserStackRange As Nullable(Of AddressRange)" />
+      <MemberSignature Language="F#" Value="member this.UserStackRange : Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;" Usage="Microsoft.Windows.EventTracing.Processes.IThread.UserStackRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address range of the user-mode stack for the thread, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

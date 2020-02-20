@@ -1,0 +1,324 @@
+<Type Name="ExtendedDataType" FullName="Microsoft.Windows.EventTracing.ExtendedDataType">
+  <TypeSignature Language="C#" Value="public enum ExtendedDataType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExtendedDataType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ExtendedDataType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExtendedDataType" />
+  <TypeSignature Language="F#" Value="type ExtendedDataType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContainerId">
+      <MemberSignature Language="C#" Value="ContainerId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType ContainerId = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.ContainerId" />
+      <MemberSignature Language="VB.NET" Value="ContainerId" />
+      <MemberSignature Language="F#" Value="ContainerId = 15" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.ContainerId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlGuid">
+      <MemberSignature Language="C#" Value="ControlGuid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType ControlGuid = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.ControlGuid" />
+      <MemberSignature Language="VB.NET" Value="ControlGuid" />
+      <MemberSignature Language="F#" Value="ControlGuid = 13" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.ControlGuid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EventKey">
+      <MemberSignature Language="C#" Value="EventKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType EventKey = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.EventKey" />
+      <MemberSignature Language="VB.NET" Value="EventKey" />
+      <MemberSignature Language="F#" Value="EventKey = 9" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.EventKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EventSchemaTraceLogging">
+      <MemberSignature Language="C#" Value="EventSchemaTraceLogging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType EventSchemaTraceLogging = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.EventSchemaTraceLogging" />
+      <MemberSignature Language="VB.NET" Value="EventSchemaTraceLogging" />
+      <MemberSignature Language="F#" Value="EventSchemaTraceLogging = 10" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.EventSchemaTraceLogging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceInfo">
+      <MemberSignature Language="C#" Value="InstanceInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType InstanceInfo = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.InstanceInfo" />
+      <MemberSignature Language="VB.NET" Value="InstanceInfo" />
+      <MemberSignature Language="F#" Value="InstanceInfo = 3" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.InstanceInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PebsIndex">
+      <MemberSignature Language="C#" Value="PebsIndex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType PebsIndex = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.PebsIndex" />
+      <MemberSignature Language="VB.NET" Value="PebsIndex" />
+      <MemberSignature Language="F#" Value="PebsIndex = 6" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.PebsIndex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformanceCounterDelta">
+      <MemberSignature Language="C#" Value="PerformanceCounterDelta" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType PerformanceCounterDelta = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.PerformanceCounterDelta" />
+      <MemberSignature Language="VB.NET" Value="PerformanceCounterDelta" />
+      <MemberSignature Language="F#" Value="PerformanceCounterDelta = 14" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.PerformanceCounterDelta" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PmcCounters">
+      <MemberSignature Language="C#" Value="PmcCounters" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType PmcCounters = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.PmcCounters" />
+      <MemberSignature Language="VB.NET" Value="PmcCounters" />
+      <MemberSignature Language="F#" Value="PmcCounters = 7" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.PmcCounters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessStartKey">
+      <MemberSignature Language="C#" Value="ProcessStartKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType ProcessStartKey = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.ProcessStartKey" />
+      <MemberSignature Language="VB.NET" Value="ProcessStartKey" />
+      <MemberSignature Language="F#" Value="ProcessStartKey = 12" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.ProcessStartKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvTraits">
+      <MemberSignature Language="C#" Value="ProvTraits" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType ProvTraits = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.ProvTraits" />
+      <MemberSignature Language="VB.NET" Value="ProvTraits" />
+      <MemberSignature Language="F#" Value="ProvTraits = 11" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.ProvTraits" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PsmKey">
+      <MemberSignature Language="C#" Value="PsmKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType PsmKey = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.PsmKey" />
+      <MemberSignature Language="VB.NET" Value="PsmKey" />
+      <MemberSignature Language="F#" Value="PsmKey = 8" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.PsmKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RelatedActivityId">
+      <MemberSignature Language="C#" Value="RelatedActivityId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType RelatedActivityId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.RelatedActivityId" />
+      <MemberSignature Language="VB.NET" Value="RelatedActivityId" />
+      <MemberSignature Language="F#" Value="RelatedActivityId = 0" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.RelatedActivityId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionId">
+      <MemberSignature Language="C#" Value="SessionId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType SessionId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.SessionId" />
+      <MemberSignature Language="VB.NET" Value="SessionId" />
+      <MemberSignature Language="F#" Value="SessionId = 2" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.SessionId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StackTrace32">
+      <MemberSignature Language="C#" Value="StackTrace32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType StackTrace32 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.StackTrace32" />
+      <MemberSignature Language="VB.NET" Value="StackTrace32" />
+      <MemberSignature Language="F#" Value="StackTrace32 = 4" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.StackTrace32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StackTrace64">
+      <MemberSignature Language="C#" Value="StackTrace64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType StackTrace64 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.StackTrace64" />
+      <MemberSignature Language="VB.NET" Value="StackTrace64" />
+      <MemberSignature Language="F#" Value="StackTrace64 = 5" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.StackTrace64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSecurityIdentifier">
+      <MemberSignature Language="C#" Value="UserSecurityIdentifier" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ExtendedDataType UserSecurityIdentifier = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ExtendedDataType.UserSecurityIdentifier" />
+      <MemberSignature Language="VB.NET" Value="UserSecurityIdentifier" />
+      <MemberSignature Language="F#" Value="UserSecurityIdentifier = 1" Usage="Microsoft.Windows.EventTracing.ExtendedDataType.UserSecurityIdentifier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,85 @@
+<Type Name="ProcessorThrottlePolicy" FullName="Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy">
+  <TypeSignature Language="C#" Value="public enum ProcessorThrottlePolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProcessorThrottlePolicy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProcessorThrottlePolicy" />
+  <TypeSignature Language="F#" Value="type ProcessorThrottlePolicy = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the policy the system uses to throttle a processor's frequency.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="Automatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy Automatic = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Automatic" />
+      <MemberSignature Language="VB.NET" Value="Automatic" />
+      <MemberSignature Language="F#" Value="Automatic = 2" Usage="Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Automatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Processor throttling is enabled based on other factors.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="F#" Value="Disabled = 0" Usage="Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Processor throttling is disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="Enabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy Enabled = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Enabled" />
+      <MemberSignature Language="F#" Value="Enabled = 1" Usage="Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy.Enabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Processor throttling is enabled.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

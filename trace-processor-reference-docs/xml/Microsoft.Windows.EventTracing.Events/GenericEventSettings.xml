@@ -1,0 +1,59 @@
+<Type Name="GenericEventSettings" FullName="Microsoft.Windows.EventTracing.Events.GenericEventSettings">
+  <TypeSignature Language="C#" Value="public class GenericEventSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GenericEventSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.GenericEventSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class GenericEventSettings" />
+  <TypeSignature Language="F#" Value="type GenericEventSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents settings for a <see cref="T:Microsoft.Windows.EventTracing.Events.IGenericEventDataSource" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GenericEventSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.GenericEventSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderIds">
+      <MemberSignature Language="C#" Value="public Guid[] ProviderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid[] ProviderIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.GenericEventSettings.ProviderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProviderIds As Guid()" />
+      <MemberSignature Language="F#" Value="member this.ProviderIds : Guid[] with get, set" Usage="Microsoft.Windows.EventTracing.Events.GenericEventSettings.ProviderIds" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating which ETW providers this data source will collect events from.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

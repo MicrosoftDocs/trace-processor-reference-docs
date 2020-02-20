@@ -1,0 +1,41 @@
+<Type Name="IWindowInFocusIntervalConsumer" FullName="Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer">
+  <TypeSignature Language="C#" Value="public interface IWindowInFocusIntervalConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWindowInFocusIntervalConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWindowInFocusIntervalConsumer" />
+  <TypeSignature Language="F#" Value="type IWindowInFocusIntervalConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a consumer for window-in-focus data.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocus.IWindowInFocusIntervalConsumer.Process(Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (context As WindowInFocusIntervalContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext -&gt; unit" Usage="iWindowInFocusIntervalConsumer.Process context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">The window-in-focus data to process.</param>
+        <summary>Processes window-in-focus data.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

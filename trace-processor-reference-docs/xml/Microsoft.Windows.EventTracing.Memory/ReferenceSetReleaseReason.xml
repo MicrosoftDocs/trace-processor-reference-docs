@@ -1,0 +1,250 @@
+<Type Name="ReferenceSetReleaseReason" FullName="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason">
+  <TypeSignature Language="C#" Value="public enum ReferenceSetReleaseReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReferenceSetReleaseReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReferenceSetReleaseReason" />
+  <TypeSignature Language="F#" Value="type ReferenceSetReleaseReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Offer">
+      <MemberSignature Language="C#" Value="Offer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason Offer = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.Offer" />
+      <MemberSignature Language="VB.NET" Value="Offer" />
+      <MemberSignature Language="F#" Value="Offer = 11" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.Offer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageCombine">
+      <MemberSignature Language="C#" Value="PageCombine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PageCombine = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageCombine" />
+      <MemberSignature Language="VB.NET" Value="PageCombine" />
+      <MemberSignature Language="F#" Value="PageCombine = 4" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFileMappedSectionDelete">
+      <MemberSignature Language="C#" Value="PageFileMappedSectionDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PageFileMappedSectionDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageFileMappedSectionDelete" />
+      <MemberSignature Language="VB.NET" Value="PageFileMappedSectionDelete" />
+      <MemberSignature Language="F#" Value="PageFileMappedSectionDelete = 3" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageFileMappedSectionDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRangeRelease">
+      <MemberSignature Language="C#" Value="PageRangeRelease" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PageRangeRelease = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageRangeRelease" />
+      <MemberSignature Language="VB.NET" Value="PageRangeRelease" />
+      <MemberSignature Language="F#" Value="PageRangeRelease = 1" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageRangeRelease" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRelease">
+      <MemberSignature Language="C#" Value="PageRelease" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PageRelease = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageRelease" />
+      <MemberSignature Language="VB.NET" Value="PageRelease" />
+      <MemberSignature Language="F#" Value="PageRelease = 0" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PageRelease" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolAllocate">
+      <MemberSignature Language="C#" Value="PoolAllocate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PoolAllocate = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PoolAllocate" />
+      <MemberSignature Language="VB.NET" Value="PoolAllocate" />
+      <MemberSignature Language="F#" Value="PoolAllocate = 7" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PoolAllocate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolFree">
+      <MemberSignature Language="C#" Value="PoolFree" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason PoolFree = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PoolFree" />
+      <MemberSignature Language="VB.NET" Value="PoolFree" />
+      <MemberSignature Language="F#" Value="PoolFree = 6" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.PoolFree" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessEnd">
+      <MemberSignature Language="C#" Value="ProcessEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason ProcessEnd = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.ProcessEnd" />
+      <MemberSignature Language="VB.NET" Value="ProcessEnd" />
+      <MemberSignature Language="F#" Value="ProcessEnd = 8" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.ProcessEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RangeEnd">
+      <MemberSignature Language="C#" Value="RangeEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason RangeEnd = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.RangeEnd" />
+      <MemberSignature Language="VB.NET" Value="RangeEnd" />
+      <MemberSignature Language="F#" Value="RangeEnd = 2" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.RangeEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The end of a Heap, Image or Virtual Address range.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovedFromWorkingSet">
+      <MemberSignature Language="C#" Value="RemovedFromWorkingSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason RemovedFromWorkingSet = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.RemovedFromWorkingSet" />
+      <MemberSignature Language="VB.NET" Value="RemovedFromWorkingSet" />
+      <MemberSignature Language="F#" Value="RemovedFromWorkingSet = 10" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.RemovedFromWorkingSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadEnd">
+      <MemberSignature Language="C#" Value="ThreadEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason ThreadEnd = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.ThreadEnd" />
+      <MemberSignature Language="VB.NET" Value="ThreadEnd" />
+      <MemberSignature Language="F#" Value="ThreadEnd = 9" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.ThreadEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualAddressRangeDecommit">
+      <MemberSignature Language="C#" Value="VirtualAddressRangeDecommit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason VirtualAddressRangeDecommit = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.VirtualAddressRangeDecommit" />
+      <MemberSignature Language="VB.NET" Value="VirtualAddressRangeDecommit" />
+      <MemberSignature Language="F#" Value="VirtualAddressRangeDecommit = 5" Usage="Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason.VirtualAddressRangeDecommit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ReferenceSetReleaseReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

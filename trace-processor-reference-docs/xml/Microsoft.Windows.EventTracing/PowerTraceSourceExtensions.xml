@@ -1,0 +1,549 @@
+<Type Name="PowerTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class PowerTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PowerTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PowerTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type PowerTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseConnectedStandbyData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource&gt; UseConnectedStandbyData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource&gt; UseConnectedStandbyData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseConnectedStandbyData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseConnectedStandbyData (trace As ITraceSource) As IPendingResult(Of IConnectedStandbyDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseConnectedStandbyData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseConnectedStandbyData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IConnectedStandbyDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about the system entering and exiting connected standby.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the system entering
+            and exiting connected standby.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CS Summary table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCpuIdleStates">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ICpuIdleStateDataSource&gt; UseCpuIdleStates (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.ICpuIdleStateDataSource&gt; UseCpuIdleStates(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseCpuIdleStates(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseCpuIdleStates (trace As ITraceSource) As IPendingResult(Of ICpuIdleStateDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseCpuIdleStates : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ICpuIdleStateDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseCpuIdleStates trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ICpuIdleStateDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about CPU C-states.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about CPU C-states.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the CPU Idle States table (when Type is Actual).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDevicePowerData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IDevicePowerDataSource&gt; UseDevicePowerData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IDevicePowerDataSource&gt; UseDevicePowerData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseDevicePowerData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseDevicePowerData (trace As ITraceSource) As IPendingResult(Of IDevicePowerDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseDevicePowerData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IDevicePowerDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseDevicePowerData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IDevicePowerDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about device D-states.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about device D-states.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Device DState table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseEnergyEstimationData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyEstimationDataSource&gt; UseEnergyEstimationData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IEnergyEstimationDataSource&gt; UseEnergyEstimationData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseEnergyEstimationData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseEnergyEstimationData (trace As ITraceSource) As IPendingResult(Of IEnergyEstimationDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseEnergyEstimationData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyEstimationDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseEnergyEstimationData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyEstimationDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about estimated per-process energy usage from Energy Estimation Engine.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about estimated
+            per-process energy usage from Energy Estimation Engine.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Energy Estimation Engine Summary (by Process)
+            table.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseEnergyMeterData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyMeterDataSource&gt; UseEnergyMeterData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IEnergyMeterDataSource&gt; UseEnergyMeterData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseEnergyMeterData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseEnergyMeterData (trace As ITraceSource) As IPendingResult(Of IEnergyMeterDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseEnergyMeterData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyMeterDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseEnergyMeterData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IEnergyMeterDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about measured energy usage from Energy Meter Interface (EMI).
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about measured energy
+            usage from Energy Meter Interface (EMI).
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Energy Estimation Engine (by Emi) table.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePlatformIdleStates">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPlatformIdleStateDataSource&gt; UsePlatformIdleStates (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IPlatformIdleStateDataSource&gt; UsePlatformIdleStates(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePlatformIdleStates(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePlatformIdleStates (trace As ITraceSource) As IPendingResult(Of IPlatformIdleStateDataSource)" />
+      <MemberSignature Language="F#" Value="static member UsePlatformIdleStates : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPlatformIdleStateDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePlatformIdleStates trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPlatformIdleStateDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the target and actual platform idle states of a system.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the target and
+            actual platform idle states of the system.
+            </returns>
+        <remarks>
+          <para>
+            Target platform idle states are decided by the operating system software, while actual platform idle states
+            are determined by hardware, and the two values may not always match.
+            </para>
+          <para>Windows Performance Analyzer provides this data via the Platform Idle State table.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePowerConfigurationData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerConfigurationDataSource&gt; UsePowerConfigurationData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IPowerConfigurationDataSource&gt; UsePowerConfigurationData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePowerConfigurationData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePowerConfigurationData (trace As ITraceSource) As IPendingResult(Of IPowerConfigurationDataSource)" />
+      <MemberSignature Language="F#" Value="static member UsePowerConfigurationData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerConfigurationDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePowerConfigurationData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerConfigurationDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about system power configuration.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about system power
+            configuration.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via System Configuration, Power Settings.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePowerDependencyCoordinatorData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerDependencyCoordinatorDataSource&gt; UsePowerDependencyCoordinatorData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IPowerDependencyCoordinatorDataSource&gt; UsePowerDependencyCoordinatorData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePowerDependencyCoordinatorData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePowerDependencyCoordinatorData (trace As ITraceSource) As IPendingResult(Of IPowerDependencyCoordinatorDataSource)" />
+      <MemberSignature Language="F#" Value="static member UsePowerDependencyCoordinatorData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerDependencyCoordinatorDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UsePowerDependencyCoordinatorData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IPowerDependencyCoordinatorDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about active power dependency coordinator phases.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about active power
+            dependency coordinator phases.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Notification Phase Summary table.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorFrequencyData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorFrequencyDataSource&gt; UseProcessorFrequencyData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorFrequencyDataSource&gt; UseProcessorFrequencyData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorFrequencyData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorFrequencyData (trace As ITraceSource) As IPendingResult(Of IProcessorFrequencyDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorFrequencyData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorFrequencyDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorFrequencyData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorFrequencyDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the frequency at which processors ran.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the frequency at
+            which processors ran.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via the Processor Frequency table (when Type is Actual).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorParkingData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingDataSource&gt; UseProcessorParkingData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorParkingDataSource&gt; UseProcessorParkingData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorParkingData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorParkingData (trace As ITraceSource) As IPendingResult(Of IProcessorParkingDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorParkingData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorParkingData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about which processors were parked or unparked.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about which processors
+            were parked or unparked.
+            </returns>
+        <remarks>
+          <para>Processor parking removes a processor from active usage to save power.</para>
+          <para>Windows Performance Analyzer provides this data via the Processor Parking State table.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorParkingLimits">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingLimitDataSource&gt; UseProcessorParkingLimits (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorParkingLimitDataSource&gt; UseProcessorParkingLimits(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorParkingLimits(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorParkingLimits (trace As ITraceSource) As IPendingResult(Of IProcessorParkingLimitDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorParkingLimits : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingLimitDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorParkingLimits trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorParkingLimitDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the maximum allowed number of unparked processors.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the maximum allowed
+            number of unparked processors.
+            </returns>
+        <remarks>
+          <para>Processor parking removes a processor from active usage to save power.</para>
+          <para>Windows Performance Analyzer provides this data via the Core Parking Cap State table.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorProfileData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource&gt; UseProcessorProfileData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource&gt; UseProcessorProfileData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorProfileData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorProfileData (trace As ITraceSource) As IPendingResult(Of IProcessorProfileDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorProfileData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorProfileData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the active processor power profile.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the active processor
+            power profile.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Processor Profiles table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorQualityOfServiceData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorQualityOfServiceDataSource&gt; UseProcessorQualityOfServiceData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorQualityOfServiceDataSource&gt; UseProcessorQualityOfServiceData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorQualityOfServiceData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorQualityOfServiceData (trace As ITraceSource) As IPendingResult(Of IProcessorQualityOfServiceDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorQualityOfServiceData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorQualityOfServiceDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorQualityOfServiceData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorQualityOfServiceDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the quality of service level for each processor.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the quality of
+            service level for each processor.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Processor Qos Class table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorThrottlingData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorThrottlingDataSource&gt; UseProcessorThrottlingData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorThrottlingDataSource&gt; UseProcessorThrottlingData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorThrottlingData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorThrottlingData (trace As ITraceSource) As IPendingResult(Of IProcessorThrottlingDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorThrottlingData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorThrottlingDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseProcessorThrottlingData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.IProcessorThrottlingDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about processor maximum frequency throttling.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about processor maximum
+            frequency throttling.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Processor Constraints table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSystemPowerSourceData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemPowerSourceDataSource&gt; UseSystemPowerSourceData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.ISystemPowerSourceDataSource&gt; UseSystemPowerSourceData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseSystemPowerSourceData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseSystemPowerSourceData (trace As ITraceSource) As IPendingResult(Of ISystemPowerSourceDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseSystemPowerSourceData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemPowerSourceDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseSystemPowerSourceData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemPowerSourceDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about the active system power source (AC vs DC).</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about the active system
+            power source (AC vs DC).
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the System Power Source table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSystemSleepData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemSleepDataSource&gt; UseSystemSleepData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.ISystemSleepDataSource&gt; UseSystemSleepData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseSystemSleepData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseSystemSleepData (trace As ITraceSource) As IPendingResult(Of ISystemSleepDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseSystemSleepData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemSleepDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseSystemSleepData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ISystemSleepDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about overall system power state.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about overall system power
+            state.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Power Transition table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTargetCpuIdleStates">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetCpuIdleStateDataSource&gt; UseTargetCpuIdleStates (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.ITargetCpuIdleStateDataSource&gt; UseTargetCpuIdleStates(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseTargetCpuIdleStates(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseTargetCpuIdleStates (trace As ITraceSource) As IPendingResult(Of ITargetCpuIdleStateDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseTargetCpuIdleStates : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetCpuIdleStateDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseTargetCpuIdleStates trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetCpuIdleStateDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about target CPU C-states.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about target CPU C-states.
+            </returns>
+        <remarks>
+          <para>
+            Target CPU Idle states are decided by the operating system software, while actual CPU Idle states are
+            determined by hardware, and the two values may not always match.
+            </para>
+          <para>
+            Windows Performance Analyzer provides this data via the CPU Idle States table (when Type is Target).
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTargetProcessorFrequencyData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyDataSource&gt; UseTargetProcessorFrequencyData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyDataSource&gt; UseTargetProcessorFrequencyData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseTargetProcessorFrequencyData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseTargetProcessorFrequencyData (trace As ITraceSource) As IPendingResult(Of ITargetProcessorFrequencyDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseTargetProcessorFrequencyData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyDataSource&gt;" Usage="Microsoft.Windows.EventTracing.PowerTraceSourceExtensions.UseTargetProcessorFrequencyData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about target processor frequencies.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about target processor
+            frequencies.
+            </returns>
+        <remarks>
+          <para>
+            Target processor frequencies are decided by the operating system software, while processor frequencies are
+            determined by hardware, and the two values may not always match.
+            </para>
+          <para>
+            Windows Performance Analyzer provides this data via the Processor Frequency table (when Type is Target).
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

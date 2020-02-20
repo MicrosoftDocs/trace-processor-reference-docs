@@ -1,0 +1,115 @@
+<Type Name="SymbolLoadStatus" FullName="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus">
+  <TypeSignature Language="C#" Value="public enum SymbolLoadStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SymbolLoadStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SymbolLoadStatus" />
+  <TypeSignature Language="F#" Value="type SymbolLoadStatus = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus Failed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="F#" Value="Failed = 4" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Loaded">
+      <MemberSignature Language="C#" Value="Loaded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus Loaded = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.Loaded" />
+      <MemberSignature Language="VB.NET" Value="Loaded" />
+      <MemberSignature Language="F#" Value="Loaded = 1" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.Loaded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotFound">
+      <MemberSignature Language="C#" Value="NotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus NotFound = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.NotFound" />
+      <MemberSignature Language="VB.NET" Value="NotFound" />
+      <MemberSignature Language="F#" Value="NotFound = 2" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.NotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotLoaded">
+      <MemberSignature Language="C#" Value="NotLoaded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus NotLoaded = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.NotLoaded" />
+      <MemberSignature Language="VB.NET" Value="NotLoaded" />
+      <MemberSignature Language="F#" Value="NotLoaded = 0" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.NotLoaded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SymbolImageNotFound">
+      <MemberSignature Language="C#" Value="SymbolImageNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus SymbolImageNotFound = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.SymbolImageNotFound" />
+      <MemberSignature Language="VB.NET" Value="SymbolImageNotFound" />
+      <MemberSignature Language="F#" Value="SymbolImageNotFound = 3" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus.SymbolImageNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.SymbolLoadStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

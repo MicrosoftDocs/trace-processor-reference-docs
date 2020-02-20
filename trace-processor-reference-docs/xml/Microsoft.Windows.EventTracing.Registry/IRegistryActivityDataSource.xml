@@ -1,0 +1,78 @@
+<Type Name="IRegistryActivityDataSource" FullName="Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource">
+  <TypeSignature Language="C#" Value="public interface IRegistryActivityDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegistryActivityDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegistryActivityDataSource" />
+  <TypeSignature Language="F#" Value="type IRegistryActivityDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EnumerationOperations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryEnumerationOperation&gt; EnumerationOperations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Registry.IRegistryEnumerationOperation&gt; EnumerationOperations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.EnumerationOperations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnumerationOperations As IReadOnlyList(Of IRegistryEnumerationOperation)" />
+      <MemberSignature Language="F#" Value="member this.EnumerationOperations : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryEnumerationOperation&gt;" Usage="Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.EnumerationOperations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryEnumerationOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyOperations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation&gt; KeyOperations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation&gt; KeyOperations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.KeyOperations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyOperations As IReadOnlyList(Of IRegistryKeyOperation)" />
+      <MemberSignature Language="F#" Value="member this.KeyOperations : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation&gt;" Usage="Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.KeyOperations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryKeyOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueOperations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryValueOperation&gt; ValueOperations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Registry.IRegistryValueOperation&gt; ValueOperations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.ValueOperations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueOperations As IReadOnlyList(Of IRegistryValueOperation)" />
+      <MemberSignature Language="F#" Value="member this.ValueOperations : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryValueOperation&gt;" Usage="Microsoft.Windows.EventTracing.Registry.IRegistryActivityDataSource.ValueOperations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Registry.IRegistryValueOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

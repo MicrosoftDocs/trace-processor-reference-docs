@@ -1,0 +1,41 @@
+<Type Name="ISyscallEnterEventConsumer" FullName="Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer">
+  <TypeSignature Language="C#" Value="public interface ISyscallEnterEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISyscallEnterEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISyscallEnterEventConsumer" />
+  <TypeSignature Language="F#" Value="type ISyscallEnterEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a syscall enter event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer.Process(Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As SyscallEnterEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext -&gt; unit" Usage="iSyscallEnterEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The syscall enter event to process.</param>
+        <summary>Processes a syscall enter event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,229 @@
+<Type Name="CpuIdleState" FullName="Microsoft.Windows.EventTracing.Power.CpuIdleState">
+  <TypeSignature Language="C#" Value="public enum CpuIdleState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CpuIdleState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.CpuIdleState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CpuIdleState" />
+  <TypeSignature Language="F#" Value="type CpuIdleState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="C0">
+      <MemberSignature Language="C#" Value="C0" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C0 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C0" />
+      <MemberSignature Language="VB.NET" Value="C0" />
+      <MemberSignature Language="F#" Value="C0 = 0" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C0" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C1">
+      <MemberSignature Language="C#" Value="C1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C1" />
+      <MemberSignature Language="VB.NET" Value="C1" />
+      <MemberSignature Language="F#" Value="C1 = 1" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C10">
+      <MemberSignature Language="C#" Value="C10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C10 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C10" />
+      <MemberSignature Language="VB.NET" Value="C10" />
+      <MemberSignature Language="F#" Value="C10 = 10" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C2">
+      <MemberSignature Language="C#" Value="C2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C2" />
+      <MemberSignature Language="VB.NET" Value="C2" />
+      <MemberSignature Language="F#" Value="C2 = 2" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C3">
+      <MemberSignature Language="C#" Value="C3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C3" />
+      <MemberSignature Language="VB.NET" Value="C3" />
+      <MemberSignature Language="F#" Value="C3 = 3" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C4">
+      <MemberSignature Language="C#" Value="C4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C4" />
+      <MemberSignature Language="VB.NET" Value="C4" />
+      <MemberSignature Language="F#" Value="C4 = 4" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C5">
+      <MemberSignature Language="C#" Value="C5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C5" />
+      <MemberSignature Language="VB.NET" Value="C5" />
+      <MemberSignature Language="F#" Value="C5 = 5" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C6">
+      <MemberSignature Language="C#" Value="C6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C6" />
+      <MemberSignature Language="VB.NET" Value="C6" />
+      <MemberSignature Language="F#" Value="C6 = 6" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C7">
+      <MemberSignature Language="C#" Value="C7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C7 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C7" />
+      <MemberSignature Language="VB.NET" Value="C7" />
+      <MemberSignature Language="F#" Value="C7 = 7" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C8">
+      <MemberSignature Language="C#" Value="C8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C8 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C8" />
+      <MemberSignature Language="VB.NET" Value="C8" />
+      <MemberSignature Language="F#" Value="C8 = 8" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="C9">
+      <MemberSignature Language="C#" Value="C9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleState C9 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleState.C9" />
+      <MemberSignature Language="VB.NET" Value="C9" />
+      <MemberSignature Language="F#" Value="C9 = 9" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleState.C9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

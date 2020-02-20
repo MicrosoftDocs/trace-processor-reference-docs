@@ -1,0 +1,73 @@
+<Type Name="UtcScenarioActivityExtensions" FullName="Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions">
+  <TypeSignature Language="C#" Value="public static class UtcScenarioActivityExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit UtcScenarioActivityExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module UtcScenarioActivityExtensions" />
+  <TypeSignature Language="F#" Value="type UtcScenarioActivityExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEventTriggers">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger&gt; GetEventTriggers (this Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity scenario, Microsoft.Windows.EventTracing.Utc.IUtcDataSource dataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger&gt; GetEventTriggers(class Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity scenario, class Microsoft.Windows.EventTracing.Utc.IUtcDataSource dataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions.GetEventTriggers(Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity,Microsoft.Windows.EventTracing.Utc.IUtcDataSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEventTriggers (scenario As IUtcScenarioActivity, dataSource As IUtcDataSource) As IReadOnlyList(Of IUtcEventTrigger)" />
+      <MemberSignature Language="F#" Value="static member GetEventTriggers : Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity * Microsoft.Windows.EventTracing.Utc.IUtcDataSource -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger&gt;" Usage="Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions.GetEventTriggers (scenario, dataSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scenario" Type="Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity" RefType="this" />
+        <Parameter Name="dataSource" Type="Microsoft.Windows.EventTracing.Utc.IUtcDataSource" />
+      </Parameters>
+      <Docs>
+        <param name="scenario">To be added.</param>
+        <param name="dataSource">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTimeTriggers">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger&gt; GetTimeTriggers (this Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity scenario, Microsoft.Windows.EventTracing.Utc.IUtcDataSource dataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger&gt; GetTimeTriggers(class Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity scenario, class Microsoft.Windows.EventTracing.Utc.IUtcDataSource dataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions.GetTimeTriggers(Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity,Microsoft.Windows.EventTracing.Utc.IUtcDataSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTimeTriggers (scenario As IUtcScenarioActivity, dataSource As IUtcDataSource) As IReadOnlyList(Of IUtcTimeTrigger)" />
+      <MemberSignature Language="F#" Value="static member GetTimeTriggers : Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity * Microsoft.Windows.EventTracing.Utc.IUtcDataSource -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger&gt;" Usage="Microsoft.Windows.EventTracing.Utc.UtcScenarioActivityExtensions.GetTimeTriggers (scenario, dataSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scenario" Type="Microsoft.Windows.EventTracing.Utc.IUtcScenarioActivity" RefType="this" />
+        <Parameter Name="dataSource" Type="Microsoft.Windows.EventTracing.Utc.IUtcDataSource" />
+      </Parameters>
+      <Docs>
+        <param name="scenario">To be added.</param>
+        <param name="dataSource">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

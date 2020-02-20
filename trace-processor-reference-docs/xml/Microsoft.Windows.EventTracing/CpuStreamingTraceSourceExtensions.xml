@@ -1,0 +1,437 @@
+<Type Name="CpuStreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class CpuStreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CpuStreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module CpuStreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type CpuStreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseCompactContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseCompactContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseCompactContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseCompactContextSwitchEvents (streamingTrace As IStreamingTraceSource, process As CompactContextSwitchEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseCompactContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed compact context switch events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCompactContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseCompactContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.ICompactContextSwitchEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseCompactContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.ICompactContextSwitchEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.ICompactContextSwitchEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseCompactContextSwitchEvents (streamingTrace As IStreamingTraceSource, consumer As ICompactContextSwitchEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseCompactContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.ICompactContextSwitchEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Cpu.ICompactContextSwitchEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed compact context switch events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCompactContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseCompactContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseCompactContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseCompactContextSwitchEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As CompactContextSwitchEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseCompactContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseCompactContextSwitchEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed compact context switch events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchData">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchData (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchData(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchData (streamingTrace As IStreamingTraceSource, process As ContextSwitchCallback)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchData : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive context switch data when the trace is processed.</summary>
+        <remarks>
+            Data from each processor is provided in time order, but data across processors may not be in time order due
+            to limitations in the underlying events.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchData">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchData (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.IContextSwitchConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchData(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.IContextSwitchConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.IContextSwitchConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchData (streamingTrace As IStreamingTraceSource, consumer As IContextSwitchConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchData : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.IContextSwitchConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Cpu.IContextSwitchConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the result.</param>
+        <summary>Registers a consumer to receive context switch data when the trace is processed.</summary>
+        <remarks>
+          <para>Data from each processor is provided in time order, but data across processors may not be in time
+            order due to limitations in the underlying events.</para>
+          <para>Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchData">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchData (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchData(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchData (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ContextSwitchCallback)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchData : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchData (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive context switch data when the trace is processed.</summary>
+        <remarks>
+            Data from each processor is provided in time order, but data across processors may not be in time order due
+            to limitations in the underlying events.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchEvents (streamingTrace As IStreamingTraceSource, process As ContextSwitchEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed context switch events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchEvents (streamingTrace As IStreamingTraceSource, consumer As IContextSwitchEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Cpu.IContextSwitchEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed context switch events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchEvents">
+      <MemberSignature Language="C#" Value="public static void UseContextSwitchEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseContextSwitchEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseContextSwitchEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ContextSwitchEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseContextSwitchEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed context switch events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLastBranchRecordEvents">
+      <MemberSignature Language="C#" Value="public static void UseLastBranchRecordEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseLastBranchRecordEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseLastBranchRecordEvents (streamingTrace As IStreamingTraceSource, consumer As ILastBranchRecordEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseLastBranchRecordEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed last branch record (LBR) events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLastBranchRecordEvents">
+      <MemberSignature Language="C#" Value="public static void UseLastBranchRecordEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseLastBranchRecordEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseLastBranchRecordEvents (streamingTrace As IStreamingTraceSource, process As LastBranchRecordEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseLastBranchRecordEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed last branch record (LBR) events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLastBranchRecordEvents">
+      <MemberSignature Language="C#" Value="public static void UseLastBranchRecordEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseLastBranchRecordEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseLastBranchRecordEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As LastBranchRecordEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseLastBranchRecordEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseLastBranchRecordEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed last branch record (LBR) events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReadyThreadEvents">
+      <MemberSignature Language="C#" Value="public static void UseReadyThreadEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.IReadyThreadEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseReadyThreadEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.IReadyThreadEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.IReadyThreadEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseReadyThreadEvents (streamingTrace As IStreamingTraceSource, consumer As IReadyThreadEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseReadyThreadEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.IReadyThreadEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Cpu.IReadyThreadEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed ready thread events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReadyThreadEvents">
+      <MemberSignature Language="C#" Value="public static void UseReadyThreadEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseReadyThreadEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseReadyThreadEvents (streamingTrace As IStreamingTraceSource, process As ReadyThreadEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseReadyThreadEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed ready thread events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReadyThreadEvents">
+      <MemberSignature Language="C#" Value="public static void UseReadyThreadEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseReadyThreadEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseReadyThreadEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ReadyThreadEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseReadyThreadEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.CpuStreamingTraceSourceExtensions.UseReadyThreadEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed ready thread events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

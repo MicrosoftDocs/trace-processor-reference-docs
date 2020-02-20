@@ -1,0 +1,333 @@
+<Type Name="ICpuSample" FullName="Microsoft.Windows.EventTracing.Cpu.ICpuSample">
+  <TypeSignature Language="C#" Value="public interface ICpuSample" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICpuSample" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ICpuSample" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICpuSample" />
+  <TypeSignature Language="F#" Value="type ICpuSample = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a snapshot of an instruction executing on a processor at a given point in time.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IImage Image { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IImage Image" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Image" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Image As IImage" />
+      <MemberSignature Language="F#" Value="member this.Image : Microsoft.Windows.EventTracing.Processes.IImage" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Image" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the image of the instruction that was executing when the sample was collected, if available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstructionPointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address InstructionPointer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address InstructionPointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.InstructionPointer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstructionPointer As Address" />
+      <MemberSignature Language="F#" Value="member this.InstructionPointer : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.InstructionPointer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the instruction being executed as the sample was collected.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExecutingDeferredProcedureCall">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsExecutingDeferredProcedureCall { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsExecutingDeferredProcedureCall" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.IsExecutingDeferredProcedureCall" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExecutingDeferredProcedureCall As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsExecutingDeferredProcedureCall : Nullable&lt;bool&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.IsExecutingDeferredProcedureCall" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the thread was executing a deferred procedure call when the sample was
+            collected, if that data is available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExecutingInterruptServicingRoutine">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsExecutingInterruptServicingRoutine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsExecutingInterruptServicingRoutine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.IsExecutingInterruptServicingRoutine" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExecutingInterruptServicingRoutine As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsExecutingInterruptServicingRoutine : Nullable&lt;bool&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.IsExecutingInterruptServicingRoutine" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the thread was executing an interrupt service routine when the sample was
+            collected, if that data is available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the priority of the thread at the time the sample was collected, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the process whose thread that was running when the sample was collected, if available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the sample was collected.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rank">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Rank { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Rank" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Rank" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rank As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Rank : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Rank" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the rank of the thread at the time the sample was collected, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot Stack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot Stack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Stack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.Stack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Stack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread call stack being executed as the sample was collected, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread Thread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread Thread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Thread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Thread As IThread" />
+      <MemberSignature Language="F#" Value="member this.Thread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Thread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread that was running when the sample was collected, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the sample was collected in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TopStackFrame">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.StackFrame TopStackFrame { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame TopStackFrame" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.TopStackFrame" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TopStackFrame As StackFrame" />
+      <MemberSignature Language="F#" Value="member this.TopStackFrame : Microsoft.Windows.EventTracing.Symbols.StackFrame" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.TopStackFrame" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.StackFrame</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the top frame of the thread call stack that was executing when the sample was collected.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Weight">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration Weight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration Weight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.Weight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Weight As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.Weight : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.Weight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the estimated duration between this sample and the next sample.</summary>
+        <value>To be added.</value>
+        <remarks>
+            Because CPU samples are collected periodically, the weight is often used heuristically as the estimated
+            duration that the call stack was running on the CPU.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkOnBehalfProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess WorkOnBehalfProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess WorkOnBehalfProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.WorkOnBehalfProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WorkOnBehalfProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.WorkOnBehalfProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.WorkOnBehalfProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process on whose behalf the running thread was working.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkOnBehalfThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread WorkOnBehalfThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread WorkOnBehalfThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuSample.WorkOnBehalfThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WorkOnBehalfThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.WorkOnBehalfThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuSample.WorkOnBehalfThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread on whose behalf the running thread was working.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+<Type Name="AdjustReason" FullName="Microsoft.Windows.EventTracing.Cpu.AdjustReason">
+  <TypeSignature Language="C#" Value="public enum AdjustReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AdjustReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.AdjustReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AdjustReason" />
+  <TypeSignature Language="F#" Value="type AdjustReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Boost">
+      <MemberSignature Language="C#" Value="Boost" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.AdjustReason Boost = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.AdjustReason.Boost" />
+      <MemberSignature Language="VB.NET" Value="Boost" />
+      <MemberSignature Language="F#" Value="Boost = 2" Usage="Microsoft.Windows.EventTracing.Cpu.AdjustReason.Boost" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.AdjustReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.AdjustReason None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.AdjustReason.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Cpu.AdjustReason.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.AdjustReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unwait">
+      <MemberSignature Language="C#" Value="Unwait" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.AdjustReason Unwait = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.AdjustReason.Unwait" />
+      <MemberSignature Language="VB.NET" Value="Unwait" />
+      <MemberSignature Language="F#" Value="Unwait = 1" Usage="Microsoft.Windows.EventTracing.Cpu.AdjustReason.Unwait" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.AdjustReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

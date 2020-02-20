@@ -1,0 +1,46 @@
+<Type Name="SyscallExtensions" FullName="Microsoft.Windows.EventTracing.Syscalls.SyscallExtensions">
+  <TypeSignature Language="C#" Value="public static class SyscallExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SyscallExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.SyscallExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SyscallExtensions" />
+  <TypeSignature Language="F#" Value="type SyscallExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetThread">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Processes.IThread GetThread (this Microsoft.Windows.EventTracing.Syscalls.Syscall syscall, Microsoft.Windows.EventTracing.Processes.IThreadDataSource threadDataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.Processes.IThread GetThread(valuetype Microsoft.Windows.EventTracing.Syscalls.Syscall syscall, class Microsoft.Windows.EventTracing.Processes.IThreadDataSource threadDataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.SyscallExtensions.GetThread(Microsoft.Windows.EventTracing.Syscalls.Syscall,Microsoft.Windows.EventTracing.Processes.IThreadDataSource)" />
+      <MemberSignature Language="F#" Value="static member GetThread : Microsoft.Windows.EventTracing.Syscalls.Syscall * Microsoft.Windows.EventTracing.Processes.IThreadDataSource -&gt; Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Syscalls.SyscallExtensions.GetThread (syscall, threadDataSource)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="syscall" Type="Microsoft.Windows.EventTracing.Syscalls.Syscall" RefType="this" />
+        <Parameter Name="threadDataSource" Type="Microsoft.Windows.EventTracing.Processes.IThreadDataSource" />
+      </Parameters>
+      <Docs>
+        <param name="syscall">To be added.</param>
+        <param name="threadDataSource">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

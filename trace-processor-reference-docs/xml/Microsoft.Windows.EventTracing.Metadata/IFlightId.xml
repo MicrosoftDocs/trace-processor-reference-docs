@@ -1,0 +1,87 @@
+<Type Name="IFlightId" FullName="Microsoft.Windows.EventTracing.Metadata.IFlightId">
+  <TypeSignature Language="C#" Value="public interface IFlightId" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFlightId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IFlightId" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFlightId" />
+  <TypeSignature Language="F#" Value="type IFlightId = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Namespace">
+      <MemberSignature Language="C#" Value="public string Namespace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Namespace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IFlightId.Namespace" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Namespace As String" />
+      <MemberSignature Language="F#" Value="member this.Namespace : string" Usage="Microsoft.Windows.EventTracing.Metadata.IFlightId.Namespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the shortened namespace identifier for the flight ID.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This value will not be longer than three characters. An example is "FX" (short for Feature eXperiment).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootId">
+      <MemberSignature Language="C#" Value="public int RootId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RootId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IFlightId.RootId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootId As Integer" />
+      <MemberSignature Language="F#" Value="member this.RootId : int" Usage="Microsoft.Windows.EventTracing.Metadata.IFlightId.RootId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the number of the flight ID within its namespace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Metadata.IFlightId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToString () As String" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string" Usage="iFlightId.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the full flight ID string, in the standard format "{Namespace}:{RootId}".
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

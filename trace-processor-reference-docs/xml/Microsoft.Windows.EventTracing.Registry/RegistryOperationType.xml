@@ -1,0 +1,77 @@
+<Type Name="RegistryOperationType" FullName="Microsoft.Windows.EventTracing.Registry.RegistryOperationType">
+  <TypeSignature Language="C#" Value="public enum RegistryOperationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RegistryOperationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Registry.RegistryOperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RegistryOperationType" />
+  <TypeSignature Language="F#" Value="type RegistryOperationType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enumeration">
+      <MemberSignature Language="C#" Value="Enumeration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperationType Enumeration = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Enumeration" />
+      <MemberSignature Language="VB.NET" Value="Enumeration" />
+      <MemberSignature Language="F#" Value="Enumeration = 2" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Enumeration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="Key" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperationType Key = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Key" />
+      <MemberSignature Language="VB.NET" Value="Key" />
+      <MemberSignature Language="F#" Value="Key = 1" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Key" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="Value" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperationType Value = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Value" />
+      <MemberSignature Language="VB.NET" Value="Value" />
+      <MemberSignature Language="F#" Value="Value = 0" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperationType.Value" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

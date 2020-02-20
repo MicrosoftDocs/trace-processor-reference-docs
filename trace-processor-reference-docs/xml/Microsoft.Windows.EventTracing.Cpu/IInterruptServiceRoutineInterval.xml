@@ -1,0 +1,102 @@
+<Type Name="IInterruptServiceRoutineInterval" FullName="Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval">
+  <TypeSignature Language="C#" Value="public interface IInterruptServiceRoutineInterval : Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInterruptServiceRoutineInterval implements class Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IInterruptServiceRoutineInterval&#xA;Implements IInterruptHandlingInterval" />
+  <TypeSignature Language="F#" Value="type IInterruptServiceRoutineInterval = interface&#xA;    interface IInterruptHandlingInterval" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsMessageSignaled">
+      <MemberSignature Language="C#" Value="public bool IsMessageSignaled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMessageSignaled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.IsMessageSignaled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMessageSignaled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMessageSignaled : bool" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.IsMessageSignaled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageIndex">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MessageIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MessageIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.MessageIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageIndex As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MessageIndex : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.MessageIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnValue">
+      <MemberSignature Language="C#" Value="public byte ReturnValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8 ReturnValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.ReturnValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReturnValue As Byte" />
+      <MemberSignature Language="F#" Value="member this.ReturnValue : byte" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.ReturnValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Vector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Vector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.Vector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Vector As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Vector : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptServiceRoutineInterval.Vector" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

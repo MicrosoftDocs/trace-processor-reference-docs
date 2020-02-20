@@ -1,0 +1,38 @@
+<Type Name="IWorkingSetDataSource" FullName="Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource">
+  <TypeSignature Language="C#" Value="public interface IWorkingSetDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWorkingSetDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWorkingSetDataSource" />
+  <TypeSignature Language="F#" Value="type IWorkingSetDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Snapshots">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetSnapshot&gt; Snapshots { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Memory.IWorkingSetSnapshot&gt; Snapshots" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource.Snapshots" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Snapshots As IReadOnlyList(Of IWorkingSetSnapshot)" />
+      <MemberSignature Language="F#" Value="member this.Snapshots : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetSnapshot&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IWorkingSetDataSource.Snapshots" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IWorkingSetSnapshot&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

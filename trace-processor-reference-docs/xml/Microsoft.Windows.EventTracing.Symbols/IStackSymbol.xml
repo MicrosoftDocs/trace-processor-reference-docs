@@ -1,0 +1,378 @@
+<Type Name="IStackSymbol" FullName="Microsoft.Windows.EventTracing.Symbols.IStackSymbol">
+  <TypeSignature Language="C#" Value="public interface IStackSymbol" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackSymbol" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackSymbol" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackSymbol" />
+  <TypeSignature Language="F#" Value="type IStackSymbol = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddressRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange AddressRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange AddressRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.AddressRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.AddressRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.AddressRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanBeTrained">
+      <MemberSignature Language="C#" Value="public bool CanBeTrained { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanBeTrained" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.CanBeTrained" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanBeTrained As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanBeTrained : bool" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.CanBeTrained" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionName">
+      <MemberSignature Language="C#" Value="public string FunctionName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FunctionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.FunctionName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FunctionName As String" />
+      <MemberSignature Language="F#" Value="member this.FunctionName : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.FunctionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize FunctionSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize FunctionSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.FunctionSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FunctionSize As DataSize" />
+      <MemberSignature Language="F#" Value="member this.FunctionSize : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.FunctionSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IImage Image { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IImage Image" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.Image" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Image As IImage" />
+      <MemberSignature Language="F#" Value="member this.Image : Microsoft.Windows.EventTracing.Processes.IImage" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.Image" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlinedFunctionNames">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; InlinedFunctionNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; InlinedFunctionNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.InlinedFunctionNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InlinedFunctionNames As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.InlinedFunctionNames : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.InlinedFunctionNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsImageTrainingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsImageTrainingEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsImageTrainingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.IsImageTrainingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsImageTrainingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsImageTrainingEnabled : bool" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.IsImageTrainingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTrainingValid">
+      <MemberSignature Language="C#" Value="public bool IsTrainingValid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTrainingValid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.IsTrainingValid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTrainingValid As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTrainingValid : bool" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.IsTrainingValid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptimizationDynamicInstructionCount">
+      <MemberSignature Language="C#" Value="public long OptimizationDynamicInstructionCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 OptimizationDynamicInstructionCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.OptimizationDynamicInstructionCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OptimizationDynamicInstructionCount As Long" />
+      <MemberSignature Language="F#" Value="member this.OptimizationDynamicInstructionCount : int64" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.OptimizationDynamicInstructionCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptimizationType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.OptimizationType OptimizationType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Symbols.OptimizationType OptimizationType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.OptimizationType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OptimizationType As OptimizationType" />
+      <MemberSignature Language="F#" Value="member this.OptimizationType : Microsoft.Windows.EventTracing.Symbols.OptimizationType" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.OptimizationType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.OptimizationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PseudoSectionName">
+      <MemberSignature Language="C#" Value="public string PseudoSectionName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PseudoSectionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.PseudoSectionName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PseudoSectionName As String" />
+      <MemberSignature Language="F#" Value="member this.PseudoSectionName : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.PseudoSectionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SectionName">
+      <MemberSignature Language="C#" Value="public string SectionName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SectionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SectionName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SectionName As String" />
+      <MemberSignature Language="F#" Value="member this.SectionName : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SectionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceFileName">
+      <MemberSignature Language="C#" Value="public string SourceFileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SourceFileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceFileName As String" />
+      <MemberSignature Language="F#" Value="member this.SourceFileName : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SourceFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceLineNumber">
+      <MemberSignature Language="C#" Value="public int SourceLineNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SourceLineNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SourceLineNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceLineNumber As Integer" />
+      <MemberSignature Language="F#" Value="member this.SourceLineNumber : int" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.SourceLineNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrainingImageName">
+      <MemberSignature Language="C#" Value="public string TrainingImageName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TrainingImageName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingImageName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TrainingImageName As String" />
+      <MemberSignature Language="F#" Value="member this.TrainingImageName : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingImageName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrainingPhaseMarker">
+      <MemberSignature Language="C#" Value="public string TrainingPhaseMarker { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TrainingPhaseMarker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingPhaseMarker" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TrainingPhaseMarker As String" />
+      <MemberSignature Language="F#" Value="member this.TrainingPhaseMarker : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingPhaseMarker" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrainingPhaseNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TrainingPhaseNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TrainingPhaseNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingPhaseNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TrainingPhaseNumber As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.TrainingPhaseNumber : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingPhaseNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrainingResult">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Symbols.TrainingResult&gt; TrainingResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Symbols.TrainingResult&gt; TrainingResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TrainingResult As Nullable(Of TrainingResult)" />
+      <MemberSignature Language="F#" Value="member this.TrainingResult : Nullable&lt;Microsoft.Windows.EventTracing.Symbols.TrainingResult&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.IStackSymbol.TrainingResult" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Symbols.TrainingResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

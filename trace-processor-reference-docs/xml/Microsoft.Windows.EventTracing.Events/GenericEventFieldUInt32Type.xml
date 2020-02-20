@@ -1,0 +1,153 @@
+<Type Name="GenericEventFieldUInt32Type" FullName="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type">
+  <TypeSignature Language="C#" Value="public enum GenericEventFieldUInt32Type" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GenericEventFieldUInt32Type extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type" />
+  <TypeSignature Language="VB.NET" Value="Public Enum GenericEventFieldUInt32Type" />
+  <TypeSignature Language="F#" Value="type GenericEventFieldUInt32Type = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="ErrorCode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type ErrorCode = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="ErrorCode" />
+      <MemberSignature Language="F#" Value="ErrorCode = 2" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ErrorCode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hexadecimal">
+      <MemberSignature Language="C#" Value="Hexadecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type Hexadecimal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Hexadecimal" />
+      <MemberSignature Language="VB.NET" Value="Hexadecimal" />
+      <MemberSignature Language="F#" Value="Hexadecimal = 1" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Hexadecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtStatus">
+      <MemberSignature Language="C#" Value="NtStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type NtStatus = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.NtStatus" />
+      <MemberSignature Language="VB.NET" Value="NtStatus" />
+      <MemberSignature Language="F#" Value="NtStatus = 4" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.NtStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="ProcessId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type ProcessId = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="ProcessId" />
+      <MemberSignature Language="F#" Value="ProcessId = 5" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ProcessId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type Standard = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
+      <MemberSignature Language="F#" Value="Standard = 0" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="ThreadId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type ThreadId = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="ThreadId" />
+      <MemberSignature Language="F#" Value="ThreadId = 6" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.ThreadId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Win32ErrorCode">
+      <MemberSignature Language="C#" Value="Win32ErrorCode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type Win32ErrorCode = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Win32ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Win32ErrorCode" />
+      <MemberSignature Language="F#" Value="Win32ErrorCode = 3" Usage="Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type.Win32ErrorCode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.GenericEventFieldUInt32Type</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

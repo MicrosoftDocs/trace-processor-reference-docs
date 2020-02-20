@@ -1,0 +1,153 @@
+<Type Name="ServiceState" FullName="Microsoft.Windows.EventTracing.Services.ServiceState">
+  <TypeSignature Language="C#" Value="public enum ServiceState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Services.ServiceState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceState" />
+  <TypeSignature Language="F#" Value="type ServiceState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContinuePending">
+      <MemberSignature Language="C#" Value="ContinuePending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState ContinuePending = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.ContinuePending" />
+      <MemberSignature Language="VB.NET" Value="ContinuePending" />
+      <MemberSignature Language="F#" Value="ContinuePending = 4" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.ContinuePending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Paused">
+      <MemberSignature Language="C#" Value="Paused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState Paused = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.Paused" />
+      <MemberSignature Language="VB.NET" Value="Paused" />
+      <MemberSignature Language="F#" Value="Paused = 6" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.Paused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PausePending">
+      <MemberSignature Language="C#" Value="PausePending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState PausePending = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.PausePending" />
+      <MemberSignature Language="VB.NET" Value="PausePending" />
+      <MemberSignature Language="F#" Value="PausePending = 5" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.PausePending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="Running" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState Running = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.Running" />
+      <MemberSignature Language="VB.NET" Value="Running" />
+      <MemberSignature Language="F#" Value="Running = 3" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.Running" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StartPending">
+      <MemberSignature Language="C#" Value="StartPending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState StartPending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.StartPending" />
+      <MemberSignature Language="VB.NET" Value="StartPending" />
+      <MemberSignature Language="F#" Value="StartPending = 1" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.StartPending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stopped">
+      <MemberSignature Language="C#" Value="Stopped" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState Stopped = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.Stopped" />
+      <MemberSignature Language="VB.NET" Value="Stopped" />
+      <MemberSignature Language="F#" Value="Stopped = 0" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.Stopped" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StopPending">
+      <MemberSignature Language="C#" Value="StopPending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Services.ServiceState StopPending = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Services.ServiceState.StopPending" />
+      <MemberSignature Language="VB.NET" Value="StopPending" />
+      <MemberSignature Language="F#" Value="StopPending = 2" Usage="Microsoft.Windows.EventTracing.Services.ServiceState.StopPending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

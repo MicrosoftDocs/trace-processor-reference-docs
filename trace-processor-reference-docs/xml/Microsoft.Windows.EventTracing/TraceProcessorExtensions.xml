@@ -1,0 +1,77 @@
+<Type Name="TraceProcessorExtensions" FullName="Microsoft.Windows.EventTracing.TraceProcessorExtensions">
+  <TypeSignature Language="C#" Value="public static class TraceProcessorExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TraceProcessorExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceProcessorExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TraceProcessorExtensions" />
+  <TypeSignature Language="F#" Value="type TraceProcessorExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.OutputRedirection</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public static void Process (this Microsoft.Windows.EventTracing.ITraceProcessor traceProcessor, System.IO.Stream outputStream, System.IO.Stream errorStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Process(class Microsoft.Windows.EventTracing.ITraceProcessor traceProcessor, class System.IO.Stream outputStream, class System.IO.Stream errorStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessorExtensions.Process(Microsoft.Windows.EventTracing.ITraceProcessor,System.IO.Stream,System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Process (traceProcessor As ITraceProcessor, outputStream As Stream, errorStream As Stream)" />
+      <MemberSignature Language="F#" Value="static member Process : Microsoft.Windows.EventTracing.ITraceProcessor * System.IO.Stream * System.IO.Stream -&gt; unit" Usage="Microsoft.Windows.EventTracing.TraceProcessorExtensions.Process (traceProcessor, outputStream, errorStream)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.OutputRedirection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="traceProcessor" Type="Microsoft.Windows.EventTracing.ITraceProcessor" RefType="this" />
+        <Parameter Name="outputStream" Type="System.IO.Stream" />
+        <Parameter Name="errorStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="traceProcessor">To be added.</param>
+        <param name="outputStream">To be added.</param>
+        <param name="errorStream">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public static void Process (this Microsoft.Windows.EventTracing.ITraceProcessor traceProcessor, System.IO.Stream outputStream, System.IO.Stream errorStream, IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Process(class Microsoft.Windows.EventTracing.ITraceProcessor traceProcessor, class System.IO.Stream outputStream, class System.IO.Stream errorStream, class System.IProgress`1&lt;valuetype Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessorExtensions.Process(Microsoft.Windows.EventTracing.ITraceProcessor,System.IO.Stream,System.IO.Stream,System.IProgress{Microsoft.Windows.EventTracing.TraceProcessingProgress})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Process (traceProcessor As ITraceProcessor, outputStream As Stream, errorStream As Stream, Optional progressCallback As IProgress(Of TraceProcessingProgress) = null)" />
+      <MemberSignature Language="F#" Value="static member Process : Microsoft.Windows.EventTracing.ITraceProcessor * System.IO.Stream * System.IO.Stream * IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; -&gt; unit" Usage="Microsoft.Windows.EventTracing.TraceProcessorExtensions.Process (traceProcessor, outputStream, errorStream, progressCallback)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.OutputRedirection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="traceProcessor" Type="Microsoft.Windows.EventTracing.ITraceProcessor" RefType="this" />
+        <Parameter Name="outputStream" Type="System.IO.Stream" />
+        <Parameter Name="errorStream" Type="System.IO.Stream" />
+        <Parameter Name="progressCallback" Type="System.IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="traceProcessor">To be added.</param>
+        <param name="outputStream">To be added.</param>
+        <param name="errorStream">To be added.</param>
+        <param name="progressCallback">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

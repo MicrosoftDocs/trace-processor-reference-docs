@@ -1,0 +1,77 @@
+<Type Name="WinINetHttpProtocol" FullName="Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol">
+  <TypeSignature Language="C#" Value="public enum WinINetHttpProtocol" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WinINetHttpProtocol extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WinINetHttpProtocol" />
+  <TypeSignature Language="F#" Value="type WinINetHttpProtocol = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HttpV1">
+      <MemberSignature Language="C#" Value="HttpV1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol HttpV1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.HttpV1" />
+      <MemberSignature Language="VB.NET" Value="HttpV1" />
+      <MemberSignature Language="F#" Value="HttpV1 = 0" Usage="Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.HttpV1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpV2">
+      <MemberSignature Language="C#" Value="HttpV2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol HttpV2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.HttpV2" />
+      <MemberSignature Language="VB.NET" Value="HttpV2" />
+      <MemberSignature Language="F#" Value="HttpV2 = 2" Usage="Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.HttpV2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SpdyV3">
+      <MemberSignature Language="C#" Value="SpdyV3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol SpdyV3 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.SpdyV3" />
+      <MemberSignature Language="VB.NET" Value="SpdyV3" />
+      <MemberSignature Language="F#" Value="SpdyV3 = 1" Usage="Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol.SpdyV3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,134 @@
+<Type Name="ConnectedStandbyExitReason" FullName="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason">
+  <TypeSignature Language="C#" Value="public enum ConnectedStandbyExitReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectedStandbyExitReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConnectedStandbyExitReason" />
+  <TypeSignature Language="F#" Value="type ConnectedStandbyExitReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationDisplayBurst">
+      <MemberSignature Language="C#" Value="ApplicationDisplayBurst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason ApplicationDisplayBurst = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.ApplicationDisplayBurst" />
+      <MemberSignature Language="VB.NET" Value="ApplicationDisplayBurst" />
+      <MemberSignature Language="F#" Value="ApplicationDisplayBurst = 2" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.ApplicationDisplayBurst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HibernateResumeDisplayBurst">
+      <MemberSignature Language="C#" Value="HibernateResumeDisplayBurst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason HibernateResumeDisplayBurst = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.HibernateResumeDisplayBurst" />
+      <MemberSignature Language="VB.NET" Value="HibernateResumeDisplayBurst" />
+      <MemberSignature Language="F#" Value="HibernateResumeDisplayBurst = 3" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.HibernateResumeDisplayBurst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyboardInput">
+      <MemberSignature Language="C#" Value="KeyboardInput" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason KeyboardInput = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.KeyboardInput" />
+      <MemberSignature Language="VB.NET" Value="KeyboardInput" />
+      <MemberSignature Language="F#" Value="KeyboardInput = 4" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.KeyboardInput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseInput">
+      <MemberSignature Language="C#" Value="MouseInput" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason MouseInput = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.MouseInput" />
+      <MemberSignature Language="VB.NET" Value="MouseInput" />
+      <MemberSignature Language="F#" Value="MouseInput = 5" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.MouseInput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherInput">
+      <MemberSignature Language="C#" Value="OtherInput" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason OtherInput = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.OtherInput" />
+      <MemberSignature Language="VB.NET" Value="OtherInput" />
+      <MemberSignature Language="F#" Value="OtherInput = 1" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.OtherInput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PowerButton">
+      <MemberSignature Language="C#" Value="PowerButton" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason PowerButton = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.PowerButton" />
+      <MemberSignature Language="VB.NET" Value="PowerButton" />
+      <MemberSignature Language="F#" Value="PowerButton = 0" Usage="Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason.PowerButton" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ConnectedStandbyExitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

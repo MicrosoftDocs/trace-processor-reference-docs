@@ -1,0 +1,122 @@
+<Type Name="ICreateFileObjectActivity" FullName="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity">
+  <TypeSignature Language="C#" Value="public interface ICreateFileObjectActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICreateFileObjectActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICreateFileObjectActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type ICreateFileObjectActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attributes">
+      <MemberSignature Language="C#" Value="public System.IO.FileAttributes Attributes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IO.FileAttributes Attributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Attributes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attributes As FileAttributes" />
+      <MemberSignature Language="F#" Value="member this.Attributes : System.IO.FileAttributes" Usage="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Attributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.FileAttributes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.KernelFileMode Mode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode Mode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mode As KernelFileMode" />
+      <MemberSignature Language="F#" Value="member this.Mode : Microsoft.Windows.EventTracing.Disk.KernelFileMode" Usage="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Mode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModeResult">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Disk.FileModeResult&gt; ModeResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Disk.FileModeResult&gt; ModeResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.ModeResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModeResult As Nullable(Of FileModeResult)" />
+      <MemberSignature Language="F#" Value="member this.ModeResult : Nullable&lt;Microsoft.Windows.EventTracing.Disk.FileModeResult&gt;" Usage="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.ModeResult" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Disk.FileModeResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Options">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.KernelFileOptions Options { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.KernelFileOptions Options" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Options" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Options As KernelFileOptions" />
+      <MemberSignature Language="F#" Value="member this.Options : Microsoft.Windows.EventTracing.Disk.KernelFileOptions" Usage="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Options" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Share">
+      <MemberSignature Language="C#" Value="public System.IO.FileShare Share { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IO.FileShare Share" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Share" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Share As FileShare" />
+      <MemberSignature Language="F#" Value="member this.Share : System.IO.FileShare" Usage="Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity.Share" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.FileShare</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

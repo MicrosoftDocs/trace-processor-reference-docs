@@ -1,0 +1,48 @@
+<Type Name="IRegionFieldList" FullName="Microsoft.Windows.EventTracing.Regions.IRegionFieldList">
+  <TypeSignature Language="C#" Value="public interface IRegionFieldList : Microsoft.Windows.EventTracing.IReadOnlyKeyedList&lt;string,Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, System.Collections.Generic.IEnumerable&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegionFieldList implements class Microsoft.Windows.EventTracing.IReadOnlyKeyedList`2&lt;string, class Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionField&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Regions.IRegionFieldList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegionFieldList&#xA;Implements IEnumerable(Of IRegionField), IReadOnlyCollection(Of IRegionField), IReadOnlyKeyedList(Of String, IRegionField), IReadOnlyList(Of IRegionField)" />
+  <TypeSignature Language="F#" Value="type IRegionFieldList = interface&#xA;    interface IReadOnlyKeyedList&lt;string, IRegionField&gt;&#xA;    interface IReadOnlyList&lt;IRegionField&gt;&#xA;    interface seq&lt;IRegionField&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;IRegionField&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.IReadOnlyKeyedList&lt;System.String,Microsoft.Windows.EventTracing.Regions.IRegionField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;TValue&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

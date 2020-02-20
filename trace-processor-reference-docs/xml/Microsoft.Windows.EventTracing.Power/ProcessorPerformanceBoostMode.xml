@@ -1,0 +1,209 @@
+<Type Name="ProcessorPerformanceBoostMode" FullName="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode">
+  <TypeSignature Language="C#" Value="public enum ProcessorPerformanceBoostMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProcessorPerformanceBoostMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProcessorPerformanceBoostMode" />
+  <TypeSignature Language="F#" Value="type ProcessorPerformanceBoostMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the boost mode for processors to achieve additional performance when they are at high system loads.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Aggressive">
+      <MemberSignature Language="C#" Value="Aggressive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode Aggressive = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Aggressive" />
+      <MemberSignature Language="VB.NET" Value="Aggressive" />
+      <MemberSignature Language="F#" Value="Aggressive = 2" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Aggressive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            The corresponding P-state-based behaviour is Enabled. Collaborative Processor Performance Control (CPPC)
+            behaviour is Aggressive.
+            </summary>
+        <remarks>
+            Please see <see href="https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/hardware/power/power-performance-tuning">Power and performance tuning</see>
+            for more information.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggressiveAtGuaranteed">
+      <MemberSignature Language="C#" Value="AggressiveAtGuaranteed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode AggressiveAtGuaranteed = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.AggressiveAtGuaranteed" />
+      <MemberSignature Language="VB.NET" Value="AggressiveAtGuaranteed" />
+      <MemberSignature Language="F#" Value="AggressiveAtGuaranteed = 5" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.AggressiveAtGuaranteed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Windows calculates the desired extra performance above the guaranteed performance level, and asks the
+            processor to deliver that specific performance level.
+            </summary>
+        <remarks>
+            Intel processors can guarantee that the CPU runs at certain frequency. Usually, guaranteed frequency is
+            the same as the nominal one, but in some cases such as in the presence of thermal limits, the guaranteed
+            one will drop below the nominal. The amount of boost is a bias that is added on top of a certain
+            threshold. Normally, the amount of turbo boost starts from a nominal threshold. In this mode, the boost
+            starts from a guaranteed threshold.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="F#" Value="Disabled = 0" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            The Corresponding P-state-based behaviour is Disabled. Collaborative Processor Performance Control (CPPC)
+            behaviour is Disabled.
+            </summary>
+        <remarks>
+            Please see <see href="https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/hardware/power/power-performance-tuning">Power and performance tuning</see>
+            for more information.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EfficientAggressive">
+      <MemberSignature Language="C#" Value="EfficientAggressive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode EfficientAggressive = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientAggressive" />
+      <MemberSignature Language="VB.NET" Value="EfficientAggressive" />
+      <MemberSignature Language="F#" Value="EfficientAggressive = 4" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientAggressive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            The corresponding P-state-based behaviour is Efficient. Collaborative Processor Performance Control (CPPC)
+            behaviour is Aggressive.
+            </summary>
+        <remarks>
+            Please see <see href="https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/hardware/power/power-performance-tuning">Power and performance tuning</see>
+            for more information.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EfficientAggressiveAtGuaranteed">
+      <MemberSignature Language="C#" Value="EfficientAggressiveAtGuaranteed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode EfficientAggressiveAtGuaranteed = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientAggressiveAtGuaranteed" />
+      <MemberSignature Language="VB.NET" Value="EfficientAggressiveAtGuaranteed" />
+      <MemberSignature Language="F#" Value="EfficientAggressiveAtGuaranteed = 6" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientAggressiveAtGuaranteed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Windows always asks the processor to deliver the highest possible above the guaranteed performance level.
+            </summary>
+        <remarks>
+            Intel processors can guarantee that the CPU runs at certain frequency. Usually, guaranteed frequency is
+            the same as the nominal one, but in some cases such as in the presence of thermal limits, the guaranteed
+            one will drop below the nominal. The amount of boost is a bias that is added on top of a certain
+            threshold. Normally, the amount of turbo boost starts from a nominal threshold. In this mode, the boost
+            starts from a guaranteed threshold.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EfficientEnabled">
+      <MemberSignature Language="C#" Value="EfficientEnabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode EfficientEnabled = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientEnabled" />
+      <MemberSignature Language="VB.NET" Value="EfficientEnabled" />
+      <MemberSignature Language="F#" Value="EfficientEnabled = 3" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.EfficientEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            The corresponding P-state-based behaviour is Efficient. Collaborative Processor Performance Control (CPPC)
+            behaviour is Efficient Enabled.
+            </summary>
+        <remarks>
+            Please see <see href="https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/hardware/power/power-performance-tuning">Power and performance tuning</see>
+            for more information.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="Enabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode Enabled = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Enabled" />
+      <MemberSignature Language="F#" Value="Enabled = 1" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode.Enabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            The corresponding P-state-based behaviour is Enabled. Collaborative Processor Performance Control (CPPC)
+            behaviour is Efficient Enabled.
+            </summary>
+        <remarks>
+            Please see <see href="https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/hardware/power/power-performance-tuning">Power and performance tuning</see>
+            for more information.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

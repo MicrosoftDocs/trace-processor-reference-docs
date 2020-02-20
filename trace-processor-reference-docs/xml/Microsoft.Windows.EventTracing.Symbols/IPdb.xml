@@ -1,0 +1,98 @@
+<Type Name="IPdb" FullName="Microsoft.Windows.EventTracing.Symbols.IPdb">
+  <TypeSignature Language="C#" Value="public interface IPdb" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPdb" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IPdb" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPdb" />
+  <TypeSignature Language="F#" Value="type IPdb = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Age">
+      <MemberSignature Language="C#" Value="public int Age { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Age" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IPdb.Age" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Age As Integer" />
+      <MemberSignature Language="F#" Value="member this.Age : int" Usage="Microsoft.Windows.EventTracing.Symbols.IPdb.Age" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Guid Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IPdb.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Guid" />
+      <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Microsoft.Windows.EventTracing.Symbols.IPdb.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLoaded">
+      <MemberSignature Language="C#" Value="public bool IsLoaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLoaded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IPdb.IsLoaded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLoaded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLoaded : bool" Usage="Microsoft.Windows.EventTracing.Symbols.IPdb.IsLoaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IPdb.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.Symbols.IPdb.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

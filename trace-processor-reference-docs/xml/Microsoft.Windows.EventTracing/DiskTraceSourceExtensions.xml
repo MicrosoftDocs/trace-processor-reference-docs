@@ -1,0 +1,73 @@
+<Type Name="DiskTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.DiskTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class DiskTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DiskTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.DiskTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module DiskTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type DiskTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseDiskIOData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IDiskActivityDataSource&gt; UseDiskIOData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Disk.IDiskActivityDataSource&gt; UseDiskIOData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DiskTraceSourceExtensions.UseDiskIOData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseDiskIOData (trace As ITraceSource) As IPendingResult(Of IDiskActivityDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseDiskIOData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IDiskActivityDataSource&gt;" Usage="Microsoft.Windows.EventTracing.DiskTraceSourceExtensions.UseDiskIOData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IDiskActivityDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about Disk I/O activity.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about Disk I/O activity.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Disk Usage table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseFileIOData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource&gt; UseFileIOData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource&gt; UseFileIOData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DiskTraceSourceExtensions.UseFileIOData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseFileIOData (trace As ITraceSource) As IPendingResult(Of IFileActivityDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseFileIOData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource&gt;" Usage="Microsoft.Windows.EventTracing.DiskTraceSourceExtensions.UseFileIOData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about File I/O activity.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about File I/O activity.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the File I/O table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

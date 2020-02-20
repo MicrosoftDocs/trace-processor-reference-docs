@@ -1,0 +1,251 @@
+<Type Name="ContextSwitchOut" FullName="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut">
+  <TypeSignature Language="C#" Value="public struct ContextSwitchOut" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ContextSwitchOut extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ContextSwitchOut" />
+  <TypeSignature Language="F#" Value="type ContextSwitchOut = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the thread switching out during a context switch.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IdealProcessor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; IdealProcessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; IdealProcessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.IdealProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdealProcessor As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.IdealProcessor : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.IdealProcessor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the preferred processor for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is truncated to a <see cref="T:System.Byte" /> and thus is not reliable for systems with more than
+            <see cref="F:System.Byte.MaxValue" /> processors.</para>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUserMode">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsUserMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsUserMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.IsUserMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUserMode As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsUserMode : Nullable&lt;bool&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.IsUserMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value indicating whether the thread switching out is a user mode thread.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If this value is <see langword="false" />, the thread switching out is a kernel mode thread.</para>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the priority of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present when the thread switching out is the idle thread.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quantum">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Quantum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Quantum" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Quantum" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Quantum As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Quantum : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Quantum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the quantum for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is only present in the oldest version of the context switch event.</para>
+          <para>This value is not present when using compact context switch events.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rank">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Rank { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Rank" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Rank" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rank As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.Rank : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.Rank" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the rank for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>This value is not present in some older versions of the context switch event.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemainingQuantum">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; RemainingQuantum { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; RemainingQuantum" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.RemainingQuantum" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RemainingQuantum As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.RemainingQuantum : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.RemainingQuantum" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the remaining quantum for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>This value is not present in some older versions of the context switch event.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public int ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : int" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadQualityOfService">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt; ThreadQualityOfService { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt; ThreadQualityOfService" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadQualityOfService" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadQualityOfService As Nullable(Of QualityOfServiceLevel)" />
+      <MemberSignature Language="F#" Value="member this.ThreadQualityOfService : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadQualityOfService" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.QualityOfServiceLevel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the quality of service level for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is not present in some older versions of the context switch event.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadState">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt; ThreadState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.ThreadState&gt; ThreadState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadState As Nullable(Of ThreadState)" />
+      <MemberSignature Language="F#" Value="member this.ThreadState : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.ThreadState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the state of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present when the thread switching out is the idle thread.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitReason">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt; WaitReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt; WaitReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.WaitReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WaitReason As Nullable(Of KernelWaitReason)" />
+      <MemberSignature Language="F#" Value="member this.WaitReason : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ContextSwitchOut.WaitReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the reason the thread switching out is in the <see cref="F:Microsoft.Windows.EventTracing.Cpu.ThreadState.Waiting" /> state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            This value is not present unless the state of the thread switching out is <see cref="F:Microsoft.Windows.EventTracing.Cpu.ThreadState.Waiting" />.
+            </para>
+          <para>Consequently, this value is not present when the thread switching out is the idle thread.</para>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

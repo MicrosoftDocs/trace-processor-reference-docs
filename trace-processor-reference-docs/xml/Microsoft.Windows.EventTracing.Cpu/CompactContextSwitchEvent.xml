@@ -1,0 +1,296 @@
+<Type Name="CompactContextSwitchEvent" FullName="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent">
+  <TypeSignature Language="C#" Value="public struct CompactContextSwitchEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CompactContextSwitchEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure CompactContextSwitchEvent" />
+  <TypeSignature Language="F#" Value="type CompactContextSwitchEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a context switch provided in a compact form.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent Create (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int processor, int switchOutThreadId, int switchOutThreadPriority, Microsoft.Windows.EventTracing.Cpu.KernelWaitReason switchOutThreadWaitReason, TimeSpan switchInThreadWaitTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent Create(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 processor, int32 switchOutThreadId, int32 switchOutThreadPriority, valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason switchOutThreadWaitReason, valuetype System.TimeSpan switchInThreadWaitTime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Create(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32,System.Int32,System.Int32,Microsoft.Windows.EventTracing.Cpu.KernelWaitReason,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (timestamp As TraceTimestamp, processor As Integer, switchOutThreadId As Integer, switchOutThreadPriority As Integer, switchOutThreadWaitReason As KernelWaitReason, switchInThreadWaitTime As TimeSpan) As CompactContextSwitchEvent" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.TraceTimestamp * int * int * int * Microsoft.Windows.EventTracing.Cpu.KernelWaitReason * TimeSpan -&gt; Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Create (timestamp, processor, switchOutThreadId, switchOutThreadPriority, switchOutThreadWaitReason, switchInThreadWaitTime)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="processor" Type="System.Int32" />
+        <Parameter Name="switchOutThreadId" Type="System.Int32" />
+        <Parameter Name="switchOutThreadPriority" Type="System.Int32" />
+        <Parameter Name="switchOutThreadWaitReason" Type="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason" />
+        <Parameter Name="switchInThreadWaitTime" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="processor">To be added.</param>
+        <param name="switchOutThreadId">To be added.</param>
+        <param name="switchOutThreadPriority">To be added.</param>
+        <param name="switchOutThreadWaitReason">To be added.</param>
+        <param name="switchInThreadWaitTime">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent Create (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int processor, int switchOutThreadId, int switchOutThreadPriority, Microsoft.Windows.EventTracing.Cpu.ThreadState switchOutThreadState, TimeSpan switchInThreadWaitTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent Create(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 processor, int32 switchOutThreadId, int32 switchOutThreadPriority, valuetype Microsoft.Windows.EventTracing.Cpu.ThreadState switchOutThreadState, valuetype System.TimeSpan switchInThreadWaitTime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Create(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32,System.Int32,System.Int32,Microsoft.Windows.EventTracing.Cpu.ThreadState,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (timestamp As TraceTimestamp, processor As Integer, switchOutThreadId As Integer, switchOutThreadPriority As Integer, switchOutThreadState As ThreadState, switchInThreadWaitTime As TimeSpan) As CompactContextSwitchEvent" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.TraceTimestamp * int * int * int * Microsoft.Windows.EventTracing.Cpu.ThreadState * TimeSpan -&gt; Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Create (timestamp, processor, switchOutThreadId, switchOutThreadPriority, switchOutThreadState, switchInThreadWaitTime)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="processor" Type="System.Int32" />
+        <Parameter Name="switchOutThreadId" Type="System.Int32" />
+        <Parameter Name="switchOutThreadPriority" Type="System.Int32" />
+        <Parameter Name="switchOutThreadState" Type="Microsoft.Windows.EventTracing.Cpu.ThreadState" />
+        <Parameter Name="switchInThreadWaitTime" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="processor">To be added.</param>
+        <param name="switchOutThreadId">To be added.</param>
+        <param name="switchOutThreadPriority">To be added.</param>
+        <param name="switchOutThreadState">To be added.</param>
+        <param name="switchInThreadWaitTime">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateIdleSwitchOut">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent CreateIdleSwitchOut (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int processor);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent CreateIdleSwitchOut(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, int32 processor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.CreateIdleSwitchOut(Microsoft.Windows.EventTracing.TraceTimestamp,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateIdleSwitchOut (timestamp As TraceTimestamp, processor As Integer) As CompactContextSwitchEvent" />
+      <MemberSignature Language="F#" Value="static member CreateIdleSwitchOut : Microsoft.Windows.EventTracing.TraceTimestamp * int -&gt; Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.CreateIdleSwitchOut (timestamp, processor)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="processor" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">To be added.</param>
+        <param name="processor">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxSwitchInThreadWaitTime">
+      <MemberSignature Language="C#" Value="public const int MaxSwitchInThreadWaitTime = 131071;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxSwitchInThreadWaitTime = (131071)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.MaxSwitchInThreadWaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxSwitchInThreadWaitTime As Integer  = 131071" />
+      <MemberSignature Language="F#" Value="val mutable MaxSwitchInThreadWaitTime : int" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.MaxSwitchInThreadWaitTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>131071</MemberValue>
+      <Docs>
+        <summary>
+            Represents the largest possible value that a compact context switch event can provide for
+            <see cref="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchInThreadWaitTime" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the context switch is occurring.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchInThreadWaitTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; SwitchInThreadWaitTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; SwitchInThreadWaitTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchInThreadWaitTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchInThreadWaitTime As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.SwitchInThreadWaitTime : Nullable&lt;TimeSpan&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchInThreadWaitTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the wait time for the thread currently planned to be switched in.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The SwitchInThread used by this event is planned, but occasionally a last-moment change results in
+            another thread actually switching in instead, in which case this property is not accurate.</para>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>This value is always zero when when the thread currently planned to be switched in is the idle thread.
+            </para>
+          <para>This value cannot be larger than <see cref="F:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.MaxSwitchInThreadWaitTime" /> times
+            <see cref="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorUsageTimerFrequency" /> ticks due to the the compact
+            context switch event format. If this value is <see cref="F:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.MaxSwitchInThreadWaitTime" /> times
+            <see cref="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorUsageTimerFrequency" /> ticks , it was likely a larger value capped to
+            that constant.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchOutThreadId">
+      <MemberSignature Language="C#" Value="public int SwitchOutThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SwitchOutThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchOutThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.SwitchOutThreadId : int" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchOutThreadPriority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; SwitchOutThreadPriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SwitchOutThreadPriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadPriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchOutThreadPriority As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.SwitchOutThreadPriority : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadPriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the priority of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present when the thread switching out is the idle thread.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchOutThreadState">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt; SwitchOutThreadState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.ThreadState&gt; SwitchOutThreadState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchOutThreadState As Nullable(Of ThreadState)" />
+      <MemberSignature Language="F#" Value="member this.SwitchOutThreadState : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.ThreadState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the state of the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present when the thread switching out is the idle thread.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchOutThreadWaitReason">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt; SwitchOutThreadWaitReason { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt; SwitchOutThreadWaitReason" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadWaitReason" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchOutThreadWaitReason As Nullable(Of KernelWaitReason)" />
+      <MemberSignature Language="F#" Value="member this.SwitchOutThreadWaitReason : Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.SwitchOutThreadWaitReason" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Cpu.KernelWaitReason&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the reason the thread switching out is in the <see cref="F:Microsoft.Windows.EventTracing.Cpu.ThreadState.Waiting" /> state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is not present when the thread switching out is the idle thread.</para>
+          <para>
+            This value is not present unless the state of the thread switching out is <see cref="F:Microsoft.Windows.EventTracing.Cpu.ThreadState.Waiting" />.
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.CompactContextSwitchEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the syscall enter event was logged in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

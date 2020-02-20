@@ -1,0 +1,25 @@
+<Type Name="ThreadRundownStartEventCallback" FullName="Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void ThreadRundownStartEventCallback(ThreadRundownStartEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ThreadRundownStartEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ThreadRundownStartEventCallback(eventContext As ThreadRundownStartEventContext)" />
+  <TypeSignature Language="F#" Value="type ThreadRundownStartEventCallback = delegate of ThreadRundownStartEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The thread rundown start event to process.</param>
+    <summary>Processes a thread rundown start event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

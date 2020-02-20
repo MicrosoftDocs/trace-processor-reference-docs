@@ -1,0 +1,48 @@
+<Type Name="ScheduledTaskTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.ScheduledTaskTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class ScheduledTaskTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ScheduledTaskTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTaskTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ScheduledTaskTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type ScheduledTaskTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseScheduledTasks">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskDataSource&gt; UseScheduledTasks (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskDataSource&gt; UseScheduledTasks(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTaskTraceSourceExtensions.UseScheduledTasks(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseScheduledTasks (trace As ITraceSource) As IPendingResult(Of IScheduledTaskDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseScheduledTasks : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskDataSource&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTaskTraceSourceExtensions.UseScheduledTasks trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data about scheduled tasks that ran during a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about scheduled tasks that ran during
+            the trace.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Scheduled Tasks table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,85 @@
+<Type Name="IGenericUtcTrigger" FullName="Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger">
+  <TypeSignature Language="C#" Value="public interface IGenericUtcTrigger : Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericUtcTrigger implements class Microsoft.Windows.EventTracing.Utc.IUtcActivity, class Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericUtcTrigger&#xA;Implements IUtcTrigger" />
+  <TypeSignature Language="F#" Value="type IGenericUtcTrigger = interface&#xA;    interface IUtcTrigger&#xA;    interface IUtcActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcActivity</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcTrigger</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsEventTrigger">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger AsEventTrigger { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger AsEventTrigger" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.AsEventTrigger" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsEventTrigger As IUtcEventTrigger" />
+      <MemberSignature Language="F#" Value="member this.AsEventTrigger : Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger" Usage="Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.AsEventTrigger" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsTimeTrigger">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger AsTimeTrigger { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger AsTimeTrigger" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.AsTimeTrigger" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AsTimeTrigger As IUtcTimeTrigger" />
+      <MemberSignature Language="F#" Value="member this.AsTimeTrigger : Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger" Usage="Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.AsTimeTrigger" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.UtcTriggerType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Utc.UtcTriggerType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As UtcTriggerType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Windows.EventTracing.Utc.UtcTriggerType" Usage="Microsoft.Windows.EventTracing.Utc.IGenericUtcTrigger.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcTriggerType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+<Type Name="ResidentSetSnapshotListType" FullName="Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType">
+  <TypeSignature Language="C#" Value="public enum ResidentSetSnapshotListType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResidentSetSnapshotListType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResidentSetSnapshotListType" />
+  <TypeSignature Language="F#" Value="type ResidentSetSnapshotListType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="F#" Value="Active = 0" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PerPage">
+      <MemberSignature Language="C#" Value="PerPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType PerPage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.PerPage" />
+      <MemberSignature Language="VB.NET" Value="PerPage" />
+      <MemberSignature Language="F#" Value="PerPage = 2" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.PerPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standby">
+      <MemberSignature Language="C#" Value="Standby" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType Standby = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.Standby" />
+      <MemberSignature Language="VB.NET" Value="Standby" />
+      <MemberSignature Language="F#" Value="Standby = 1" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType.Standby" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetSnapshotListType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

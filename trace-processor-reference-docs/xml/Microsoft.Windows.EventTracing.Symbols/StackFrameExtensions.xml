@@ -1,0 +1,69 @@
+<Type Name="StackFrameExtensions" FullName="Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions">
+  <TypeSignature Language="C#" Value="public static class StackFrameExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StackFrameExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module StackFrameExtensions" />
+  <TypeSignature Language="F#" Value="type StackFrameExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAnalyzerString">
+      <MemberSignature Language="C#" Value="public static string GetAnalyzerString (this Microsoft.Windows.EventTracing.Symbols.StackFrame frame);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAnalyzerString(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame frame) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions.GetAnalyzerString(Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAnalyzerString (frame As StackFrame) As String" />
+      <MemberSignature Language="F#" Value="static member GetAnalyzerString : Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; string" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions.GetAnalyzerString frame" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="frame" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="frame">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDebuggerString">
+      <MemberSignature Language="C#" Value="public static string GetDebuggerString (this Microsoft.Windows.EventTracing.Symbols.StackFrame frame);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetDebuggerString(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame frame) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions.GetDebuggerString(Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDebuggerString (frame As StackFrame) As String" />
+      <MemberSignature Language="F#" Value="static member GetDebuggerString : Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; string" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrameExtensions.GetDebuggerString frame" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="frame" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="frame">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

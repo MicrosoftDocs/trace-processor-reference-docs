@@ -1,0 +1,456 @@
+<Type Name="ScheduledTask" FullName="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask">
+  <TypeSignature Language="C#" Value="public struct ScheduledTask" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ScheduledTask extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ScheduledTask" />
+  <TypeSignature Language="F#" Value="type ScheduledTask = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a scheduled task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddStart">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask AddStart (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent startEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask AddStart(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent startEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.AddStart(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddStart (startEvent As ScheduledTaskStartEvent) As ScheduledTask" />
+      <MemberSignature Language="F#" Value="member this.AddStart : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent -&gt; Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" Usage="scheduledTask.AddStart startEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startEvent" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent" />
+      </Parameters>
+      <Docs>
+        <param name="startEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddStop">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask AddStop (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent stopEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask AddStop(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent stopEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.AddStop(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddStop (stopEvent As ScheduledTaskStopEvent) As ScheduledTask" />
+      <MemberSignature Language="F#" Value="member this.AddStop : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent -&gt; Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" Usage="scheduledTask.AddStop stopEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stopEvent" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent" />
+      </Parameters>
+      <Docs>
+        <param name="stopEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent startEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent startEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (startEvent As ScheduledTaskStartEvent) As ScheduledTask" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent -&gt; Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create startEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startEvent" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStartEvent" />
+      </Parameters>
+      <Docs>
+        <param name="startEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent stopEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent stopEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (stopEvent As ScheduledTaskStopEvent) As ScheduledTask" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent -&gt; Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create stopEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stopEvent" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent" />
+      </Parameters>
+      <Docs>
+        <param name="stopEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEvent triggerEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask Create(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEvent triggerEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (triggerEvent As ScheduledTaskTriggerEvent) As ScheduledTask" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEvent -&gt; Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Create triggerEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triggerEvent" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEvent" />
+      </Parameters>
+      <Docs>
+        <param name="triggerEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ExitCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the exit code HResult provided by a task that failed, if avaliable.</summary>
+        <value>To be added.</value>
+        <remarks>The exit code of a successful task is not preserved and is always 0.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString FullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString FullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.FullName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.FullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the fully-qualified name of the task, including the path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Guid Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Guid" />
+      <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the unique identifier for this instance of the scheduled task.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Name : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the relative name of the task, not including the path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp at which the scheduled task start event was logged in the trace, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp at which the scheduled task stop event was logged in the trace, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Succeeded">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Succeeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Succeeded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Succeeded As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Succeeded : Nullable&lt;bool&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.Succeeded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates where the task completed succesfully, if avaliable.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; TriggerTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; TriggerTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TriggerTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.TriggerTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp at which the scheduled task trigger event was logged in the trace, if any.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType&gt; TriggerType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType&gt; TriggerType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TriggerType As Nullable(Of ScheduledTaskTriggerType)" />
+      <MemberSignature Language="F#" Value="member this.TriggerType : Nullable&lt;Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType&gt;" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of trigger that is causing the scheduled task to run, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerUserDomainName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TriggerUserDomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString TriggerUserDomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserDomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TriggerUserDomainName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TriggerUserDomainName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserDomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the domain name, if any, for the user identity triggering the task, if available.</summary>
+        <value>To be added.</value>
+        <remarks>Only some types of triggers are user-specific and include a user name.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerUserFullName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TriggerUserFullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString TriggerUserFullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserFullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TriggerUserFullName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TriggerUserFullName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserFullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets fully-qualified name of the user identity triggering the task, if available, including the domain name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Only some types of triggers are user-specific and include a user name.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerUserName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString TriggerUserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString TriggerUserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TriggerUserName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.TriggerUserName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.TriggerUserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the name of the user identity triggering the task, if available, not including the domain name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Only some types of triggers are user-specific and include a user name.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDomainName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserDomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserDomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserDomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserDomainName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserDomainName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserDomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the domain name, if any, for the user identity used to run the task, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserFullName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserFullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserFullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserFullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserFullName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserFullName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserFullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets fully-qualified name of the user identity used to run the task, if available, including the domain
+            name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTask.UserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the name of the user identity used to run the task, if available, not including the domain name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

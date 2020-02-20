@@ -1,0 +1,77 @@
+<Type Name="UtcProviderType" FullName="Microsoft.Windows.EventTracing.Utc.UtcProviderType">
+  <TypeSignature Language="C#" Value="public enum UtcProviderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UtcProviderType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.UtcProviderType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UtcProviderType" />
+  <TypeSignature Language="F#" Value="type UtcProviderType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EventLog">
+      <MemberSignature Language="C#" Value="EventLog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcProviderType EventLog = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcProviderType.EventLog" />
+      <MemberSignature Language="VB.NET" Value="EventLog" />
+      <MemberSignature Language="F#" Value="EventLog = 2" Usage="Microsoft.Windows.EventTracing.Utc.UtcProviderType.EventLog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcProviderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Manifested">
+      <MemberSignature Language="C#" Value="Manifested" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcProviderType Manifested = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcProviderType.Manifested" />
+      <MemberSignature Language="VB.NET" Value="Manifested" />
+      <MemberSignature Language="F#" Value="Manifested = 0" Usage="Microsoft.Windows.EventTracing.Utc.UtcProviderType.Manifested" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcProviderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceLogging">
+      <MemberSignature Language="C#" Value="TraceLogging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Utc.UtcProviderType TraceLogging = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Utc.UtcProviderType.TraceLogging" />
+      <MemberSignature Language="VB.NET" Value="TraceLogging" />
+      <MemberSignature Language="F#" Value="TraceLogging = 1" Usage="Microsoft.Windows.EventTracing.Utc.UtcProviderType.TraceLogging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcProviderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

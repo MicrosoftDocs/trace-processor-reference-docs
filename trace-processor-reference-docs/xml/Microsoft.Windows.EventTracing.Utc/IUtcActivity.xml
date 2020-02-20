@@ -1,0 +1,178 @@
+<Type Name="IUtcActivity" FullName="Microsoft.Windows.EventTracing.Utc.IUtcActivity">
+  <TypeSignature Language="C#" Value="public interface IUtcActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUtcActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.IUtcActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUtcActivity" />
+  <TypeSignature Language="F#" Value="type IUtcActivity = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsSnapshotScenario">
+      <MemberSignature Language="C#" Value="public bool IsSnapshotScenario { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSnapshotScenario" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.IsSnapshotScenario" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSnapshotScenario As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSnapshotScenario : bool" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.IsSnapshotScenario" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PerfTrackScenarioName">
+      <MemberSignature Language="C#" Value="public string PerfTrackScenarioName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PerfTrackScenarioName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.PerfTrackScenarioName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PerfTrackScenarioName As String" />
+      <MemberSignature Language="F#" Value="member this.PerfTrackScenarioName : string" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.PerfTrackScenarioName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderId">
+      <MemberSignature Language="C#" Value="public Guid ProviderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid ProviderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.ProviderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderId As Guid" />
+      <MemberSignature Language="F#" Value="member this.ProviderId : Guid" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.ProviderId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderName">
+      <MemberSignature Language="C#" Value="public string ProviderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProviderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.ProviderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderName As String" />
+      <MemberSignature Language="F#" Value="member this.ProviderName : string" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.ProviderName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScenarioId">
+      <MemberSignature Language="C#" Value="public Guid ScenarioId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid ScenarioId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScenarioId As Guid" />
+      <MemberSignature Language="F#" Value="member this.ScenarioId : Guid" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScenarioInstanceId">
+      <MemberSignature Language="C#" Value="public Guid ScenarioInstanceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid ScenarioInstanceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioInstanceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScenarioInstanceId As Guid" />
+      <MemberSignature Language="F#" Value="member this.ScenarioInstanceId : Guid" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioInstanceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScenarioName">
+      <MemberSignature Language="C#" Value="public string ScenarioName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ScenarioName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScenarioName As String" />
+      <MemberSignature Language="F#" Value="member this.ScenarioName : string" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.ScenarioName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.ScenarioState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Utc.ScenarioState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcActivity.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ScenarioState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Windows.EventTracing.Utc.ScenarioState" Usage="Microsoft.Windows.EventTracing.Utc.IUtcActivity.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.ScenarioState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

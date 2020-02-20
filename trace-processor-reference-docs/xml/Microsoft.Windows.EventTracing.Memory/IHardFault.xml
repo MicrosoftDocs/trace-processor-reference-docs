@@ -1,0 +1,218 @@
+<Type Name="IHardFault" FullName="Microsoft.Windows.EventTracing.Memory.IHardFault">
+  <TypeSignature Language="C#" Value="public interface IHardFault" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHardFault" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IHardFault" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHardFault" />
+  <TypeSignature Language="F#" Value="type IHardFault = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a hard page fault.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FaultingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess FaultingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess FaultingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.FaultingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FaultingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.FaultingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.FaultingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process whose execution was suspended due to the page fault.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FaultingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread FaultingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread FaultingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.FaultingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FaultingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.FaultingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.FaultingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread whose execution was suspended due to the page fault.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the file in which the page fault occurred.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileObject">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FileObject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FileObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.FileObject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileObject As Address" />
+      <MemberSignature Language="F#" Value="member this.FileObject : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.FileObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the kernel file object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileOffset">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FileOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FileOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.FileOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileOffset As Address" />
+      <MemberSignature Language="F#" Value="member this.FileOffset : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.FileOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the file byte offset where the page fault occurred.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IODuration">
+      <MemberSignature Language="C#" Value="public TimeSpan IODuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan IODuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.IODuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IODuration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.IODuration : TimeSpan" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.IODuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the duration that I/O took to resolve the page fault.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the full path of the file in which the page fault occurred.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of bytes read to resolve the page fault.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time at which the page fault occurred.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address VirtualAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address VirtualAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHardFault.VirtualAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VirtualAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.VirtualAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Memory.IHardFault.VirtualAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address at which the page fault occurred.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

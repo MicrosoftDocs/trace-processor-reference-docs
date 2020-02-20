@@ -1,0 +1,258 @@
+<Type Name="SyscallStreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class SyscallStreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SyscallStreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SyscallStreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type SyscallStreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseSyscallEnterEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallEnterEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallEnterEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallEnterEvents (streamingTrace As IStreamingTraceSource, consumer As ISyscallEnterEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallEnterEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Syscalls.ISyscallEnterEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed syscall enter events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscallEnterEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallEnterEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallEnterEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallEnterEvents (streamingTrace As IStreamingTraceSource, process As SyscallEnterEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallEnterEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed syscall enter events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscallEnterEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallEnterEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallEnterEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallEnterEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As SyscallEnterEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallEnterEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallEnterEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed syscall enter events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscallExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.ISyscallExitEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.ISyscallExitEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.ISyscallExitEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallExitEvents (streamingTrace As IStreamingTraceSource, consumer As ISyscallExitEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.ISyscallExitEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Syscalls.ISyscallExitEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed syscall exit events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscallExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallExitEvents (streamingTrace As IStreamingTraceSource, process As SyscallExitEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed syscall exit events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscallExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseSyscallExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscallExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscallExitEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As SyscallExitEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscallExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscallExitEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallExitEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed syscall exit events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscalls">
+      <MemberSignature Language="C#" Value="public static void UseSyscalls (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscalls(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscalls (streamingTrace As IStreamingTraceSource, consumer As ISyscallConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseSyscalls : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the result.</param>
+        <summary>Registers a consumer to receive system call data when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscalls">
+      <MemberSignature Language="C#" Value="public static void UseSyscalls (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Syscalls.SyscallCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscalls(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Syscalls.SyscallCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Syscalls.SyscallCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscalls (streamingTrace As IStreamingTraceSource, process As SyscallCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscalls : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Syscalls.SyscallCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive system call data when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSyscalls">
+      <MemberSignature Language="C#" Value="public static void UseSyscalls (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Syscalls.SyscallCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseSyscalls(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Syscalls.SyscallCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Syscalls.SyscallCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseSyscalls (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As SyscallCallback)" />
+      <MemberSignature Language="F#" Value="static member UseSyscalls : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Syscalls.SyscallCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.SyscallStreamingTraceSourceExtensions.UseSyscalls (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive system call data when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

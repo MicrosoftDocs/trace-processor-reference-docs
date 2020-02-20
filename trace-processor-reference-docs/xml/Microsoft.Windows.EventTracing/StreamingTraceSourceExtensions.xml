@@ -1,0 +1,179 @@
+<Type Name="StreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class StreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module StreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type StreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseUnparsedEvents">
+      <MemberSignature Language="C#" Value="public static void UseUnparsedEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.IEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseUnparsedEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.IEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.IEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseUnparsedEvents (streamingTrace As IStreamingTraceSource, consumer As IEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseUnparsedEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.IEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.IEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The event consumer to register.</param>
+        <summary>Registers a consumer to receive events when the trace is processed.</summary>
+        <remarks>
+          <para>
+            Event consumers that do not need to receive events from all providers should inherit from
+            <see cref="T:Microsoft.Windows.EventTracing.IFilteredEventConsumer" /> for better performance.
+            </para>
+          <para>
+            Event consumers that need to run across two passes through the trace can inherit from
+            <see cref="T:Microsoft.Windows.EventTracing.ITwoPassEventConsumer" /> (or the related <see cref="T:Microsoft.Windows.EventTracing.IFilteredTwoPassEventConsumer" /> and/or
+            <see cref="T:Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer" />).
+            </para>
+          <para>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseUnparsedEvents">
+      <MemberSignature Language="C#" Value="public static void UseUnparsedEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseUnparsedEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseUnparsedEvents (streamingTrace As IStreamingTraceSource, process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseUnparsedEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive events when the trace is processed.</summary>
+        <remarks>
+            Callbacks that do not need to receive events from all providers should use
+            <see cref="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.TraceEventCallback)" />
+            for better performance.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseUnparsedEvents">
+      <MemberSignature Language="C#" Value="public static void UseUnparsedEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseUnparsedEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseUnparsedEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseUnparsedEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive events when the trace is processed.</summary>
+        <remarks>
+            Callbacks that do not need to receive events from all providers should use
+            <see cref="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.TraceEventCallback)" />
+            for better performance.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseUnparsedEvents">
+      <MemberSignature Language="C#" Value="public static void UseUnparsedEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, System.Collections.Generic.IReadOnlyList&lt;Guid&gt; providerIds, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseUnparsedEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Guid&gt; providerIds, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseUnparsedEvents (streamingTrace As IStreamingTraceSource, providerIds As IReadOnlyList(Of Guid), process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseUnparsedEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * System.Collections.Generic.IReadOnlyList&lt;Guid&gt; * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents (streamingTrace, providerIds, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="providerIds" Type="System.Collections.Generic.IReadOnlyList&lt;System.Guid&gt;" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="providerIds">A list of provider IDs that filters the events the callback will receive.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive events from specified providers when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseUnparsedEvents">
+      <MemberSignature Language="C#" Value="public static void UseUnparsedEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, System.Collections.Generic.IReadOnlyList&lt;Guid&gt; providerIds, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseUnparsedEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Guid&gt; providerIds, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseUnparsedEvents (streamingTrace As IStreamingTraceSource, providerIds As IReadOnlyList(Of Guid), schedule As ConsumerSchedule, process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseUnparsedEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * System.Collections.Generic.IReadOnlyList&lt;Guid&gt; * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.StreamingTraceSourceExtensions.UseUnparsedEvents (streamingTrace, providerIds, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="providerIds" Type="System.Collections.Generic.IReadOnlyList&lt;System.Guid&gt;" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="providerIds">A list of provider IDs that filters the events the callback will receive.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive events from specified providers when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,220 @@
+<Type Name="IPageFileSectionLifetime" FullName="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime">
+  <TypeSignature Language="C#" Value="public interface IPageFileSectionLifetime" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPageFileSectionLifetime" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPageFileSectionLifetime" />
+  <TypeSignature Language="F#" Value="type IPageFileSectionLifetime = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot CreateStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot CreateStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreateStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.CreateStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreateStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp CreateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreateTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.CreateTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess CreatingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess CreatingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreatingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.CreatingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreatingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread CreatingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread CreatingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreatingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.CreatingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.CreatingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot DeleteStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot DeleteStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeleteStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeleteStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.DeleteStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeleteStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp DeleteTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp DeleteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeleteTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeleteTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.DeleteTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeleteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess DeletingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess DeletingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeletingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeletingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.DeletingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeletingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread DeletingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread DeletingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeletingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeletingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.DeletingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.DeletingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageTableEntryAddressRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange PageTableEntryAddressRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange PageTableEntryAddressRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.PageTableEntryAddressRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageTableEntryAddressRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.PageTableEntryAddressRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.PageTableEntryAddressRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This range contains the addresses of the page table entries, not the virtual address range they represent.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Memory.IPageFileSectionLifetime.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,347 @@
+<Type Name="TraceTimestampContextExtensions" FullName="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions">
+  <TypeSignature Language="C#" Value="public static class TraceTimestampContextExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TraceTimestampContextExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TraceTimestampContextExtensions" />
+  <TypeSignature Language="F#" Value="type TraceTimestampContextExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp Create (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, Microsoft.Windows.EventTracing.TraceTimestampValue value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp Create(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype Microsoft.Windows.EventTracing.TraceTimestampValue value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.Create(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.TraceTimestampValue)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (context As ITraceTimestampContext, value As TraceTimestampValue) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member Create : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.TraceTimestampValue -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.Create (context, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApproximate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, Microsoft.Windows.EventTracing.Timestamp value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype Microsoft.Windows.EventTracing.Timestamp value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.Timestamp)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateApproximate (context As ITraceTimestampContext, value As Timestamp) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateApproximate : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.Timestamp -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate (context, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.Timestamp" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApproximate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, DateTimeOffset value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype System.DateTimeOffset value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate(Microsoft.Windows.EventTracing.ITraceTimestampContext,System.DateTimeOffset)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateApproximate (context As ITraceTimestampContext, value As DateTimeOffset) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateApproximate : Microsoft.Windows.EventTracing.ITraceTimestampContext * DateTimeOffset -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate (context, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="value" Type="System.DateTimeOffset" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApproximate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, long nanoseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateApproximate(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, int64 nanoseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate(Microsoft.Windows.EventTracing.ITraceTimestampContext,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateApproximate (context As ITraceTimestampContext, nanoseconds As Long) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateApproximate : Microsoft.Windows.EventTracing.ITraceTimestampContext * int64 -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximate (context, nanoseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="nanoseconds" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="nanoseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApproximateTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration CreateApproximateTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, Microsoft.Windows.EventTracing.Duration value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceDuration CreateApproximateTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype Microsoft.Windows.EventTracing.Duration value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximateTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.Duration)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateApproximateTraceDuration (context As ITraceTimestampContext, value As Duration) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member CreateApproximateTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.Duration -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximateTraceDuration (context, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.Duration" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateApproximateTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration CreateApproximateTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, long nanoseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceDuration CreateApproximateTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, int64 nanoseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximateTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateApproximateTraceDuration (context As ITraceTimestampContext, nanoseconds As Long) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member CreateApproximateTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext * int64 -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateApproximateTraceDuration (context, nanoseconds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="nanoseconds" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="nanoseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMaxTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration CreateMaxTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceDuration CreateMaxTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMaxTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateMaxTraceDuration (context As ITraceTimestampContext) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member CreateMaxTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMaxTraceDuration context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMaxValue">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateMaxValue (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateMaxValue(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMaxValue(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateMaxValue (context As ITraceTimestampContext) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateMaxValue : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMaxValue context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMinTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration CreateMinTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceDuration CreateMinTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMinTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateMinTraceDuration (context As ITraceTimestampContext) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member CreateMinTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMinTraceDuration context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMinValue">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateMinValue (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateMinValue(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMinValue(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateMinValue (context As ITraceTimestampContext) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateMinValue : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateMinValue context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context, Microsoft.Windows.EventTracing.TraceTimestampValue value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context, valuetype Microsoft.Windows.EventTracing.TraceTimestampValue value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.TraceTimestampValue)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateTraceDuration (context As ITraceTimestampContext, value As TraceTimestampValue) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.TraceTimestampValue -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateTraceDuration (context, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+        <Parameter Name="value" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateZero">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceTimestamp CreateZero (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceTimestamp CreateZero(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateZero(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateZero (context As ITraceTimestampContext) As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="static member CreateZero : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateZero context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateZeroTraceDuration">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.TraceDuration CreateZeroTraceDuration (this Microsoft.Windows.EventTracing.ITraceTimestampContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.TraceDuration CreateZeroTraceDuration(class Microsoft.Windows.EventTracing.ITraceTimestampContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateZeroTraceDuration(Microsoft.Windows.EventTracing.ITraceTimestampContext)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateZeroTraceDuration (context As ITraceTimestampContext) As TraceDuration" />
+      <MemberSignature Language="F#" Value="static member CreateZeroTraceDuration : Microsoft.Windows.EventTracing.ITraceTimestampContext -&gt; Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.TraceTimestampContextExtensions.CreateZeroTraceDuration context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="context">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

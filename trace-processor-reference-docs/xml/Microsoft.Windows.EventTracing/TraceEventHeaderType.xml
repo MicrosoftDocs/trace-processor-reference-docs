@@ -1,0 +1,171 @@
+<Type Name="TraceEventHeaderType" FullName="Microsoft.Windows.EventTracing.TraceEventHeaderType">
+  <TypeSignature Language="C#" Value="public enum TraceEventHeaderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TraceEventHeaderType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceEventHeaderType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TraceEventHeaderType" />
+  <TypeSignature Language="F#" Value="type TraceEventHeaderType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the types of event headers.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClassicCompact">
+      <MemberSignature Language="C#" Value="ClassicCompact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType ClassicCompact = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicCompact" />
+      <MemberSignature Language="VB.NET" Value="ClassicCompact" />
+      <MemberSignature Language="F#" Value="ClassicCompact = 2" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicCompact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Represents an event header created by a compact system event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassicFull">
+      <MemberSignature Language="C#" Value="ClassicFull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType ClassicFull = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicFull" />
+      <MemberSignature Language="VB.NET" Value="ClassicFull" />
+      <MemberSignature Language="F#" Value="ClassicFull = 4" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicFull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Represents an event header created by
+            <a href="https://docs.microsoft.com/en-us/windows/win32/etw/traceevent">TraceEvent</a>.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassicInstance">
+      <MemberSignature Language="C#" Value="ClassicInstance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType ClassicInstance = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicInstance" />
+      <MemberSignature Language="VB.NET" Value="ClassicInstance" />
+      <MemberSignature Language="F#" Value="ClassicInstance = 5" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicInstance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Represents an event header created by
+            <a href="https://docs.microsoft.com/en-us/windows/win32/etw/traceeventinstance">TraceEventInstance</a>.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassicPerformance">
+      <MemberSignature Language="C#" Value="ClassicPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType ClassicPerformance = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicPerformance" />
+      <MemberSignature Language="VB.NET" Value="ClassicPerformance" />
+      <MemberSignature Language="F#" Value="ClassicPerformance = 1" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Represents an event header created by a system peformance event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassicSystem">
+      <MemberSignature Language="C#" Value="ClassicSystem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType ClassicSystem = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicSystem" />
+      <MemberSignature Language="VB.NET" Value="ClassicSystem" />
+      <MemberSignature Language="F#" Value="ClassicSystem = 3" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.ClassicSystem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Represents an event header created by a system event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic">
+      <MemberSignature Language="C#" Value="Generic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType Generic = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />
+      <MemberSignature Language="VB.NET" Value="Generic" />
+      <MemberSignature Language="F#" Value="Generic = 6" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.Generic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Represents an event header created by
+            <a href="https://docs.microsoft.com/en-us/windows/win32/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+            or <a href="https://docs.microsoft.com/en-us/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite">TraceLoggingWrite</a>.
+            </summary>
+        <remarks>This header is used by both Manifested and TraceLogging events.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceMessage">
+      <MemberSignature Language="C#" Value="TraceMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.TraceEventHeaderType TraceMessage = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />
+      <MemberSignature Language="VB.NET" Value="TraceMessage" />
+      <MemberSignature Language="F#" Value="TraceMessage = 0" Usage="Microsoft.Windows.EventTracing.TraceEventHeaderType.TraceMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceEventHeaderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Represents an event header created by
+            <a href="https://docs.microsoft.com/en-us/windows/win32/etw/tracemessage">TraceMessage</a> or
+            <a href="https://docs.microsoft.com/en-us/windows/win32/etw/tracemessageva">TraceMessageVa</a>.
+            </summary>
+        <remarks>
+            This header is most commonly (but not exclusively) used by Windows Trace Preprocessor (WPP).
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,159 @@
+<Type Name="IServiceSnapshot" FullName="Microsoft.Windows.EventTracing.Services.IServiceSnapshot">
+  <TypeSignature Language="C#" Value="public interface IServiceSnapshot" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceSnapshot" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Services.IServiceSnapshot" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServiceSnapshot" />
+  <TypeSignature Language="F#" Value="type IServiceSnapshot = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupName">
+      <MemberSignature Language="C#" Value="public string GroupName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.GroupName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupName As String" />
+      <MemberSignature Language="F#" Value="member this.GroupName : string" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.GroupName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a unique numeric ID assigned to the running instance of this service.</summary>
+        <value>To be added.</value>
+        <remarks>This value is also known as the sub-process tag. This value is not the load order tag used
+            at registration time to control ordering of services within a group.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessName">
+      <MemberSignature Language="C#" Value="public string ProcessName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProcessName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.ProcessName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessName As String" />
+      <MemberSignature Language="F#" Value="member this.ProcessName : string" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.ProcessName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Services.ServiceState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Services.ServiceState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Services.IServiceSnapshot.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As ServiceState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Windows.EventTracing.Services.ServiceState" Usage="Microsoft.Windows.EventTracing.Services.IServiceSnapshot.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Services</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Services.ServiceState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

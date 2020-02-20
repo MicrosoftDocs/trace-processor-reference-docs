@@ -1,0 +1,58 @@
+<Type Name="ProcessorThrottlingType" FullName="Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType">
+  <TypeSignature Language="C#" Value="public enum ProcessorThrottlingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProcessorThrottlingType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProcessorThrottlingType" />
+  <TypeSignature Language="F#" Value="type ProcessorThrottlingType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Firmware">
+      <MemberSignature Language="C#" Value="Firmware" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType Firmware = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType.Firmware" />
+      <MemberSignature Language="VB.NET" Value="Firmware" />
+      <MemberSignature Language="F#" Value="Firmware = 1" Usage="Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType.Firmware" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Thermal">
+      <MemberSignature Language="C#" Value="Thermal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType Thermal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType.Thermal" />
+      <MemberSignature Language="VB.NET" Value="Thermal" />
+      <MemberSignature Language="F#" Value="Thermal = 0" Usage="Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType.Thermal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

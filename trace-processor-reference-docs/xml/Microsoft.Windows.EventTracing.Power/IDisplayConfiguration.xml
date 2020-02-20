@@ -1,0 +1,154 @@
+<Type Name="IDisplayConfiguration" FullName="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration">
+  <TypeSignature Language="C#" Value="public interface IDisplayConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDisplayConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDisplayConfiguration" />
+  <TypeSignature Language="F#" Value="type IDisplayConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdaptiveBrightnessEnabled">
+      <MemberSignature Language="C#" Value="public bool AdaptiveBrightnessEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AdaptiveBrightnessEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.AdaptiveBrightnessEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdaptiveBrightnessEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AdaptiveBrightnessEnabled : bool" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.AdaptiveBrightnessEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates if the operating system should use an ambient light sensor to adaptively
+            change the display's brightness.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DimmedBrightness">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage DimmedBrightness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage DimmedBrightness" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.DimmedBrightness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DimmedBrightness As Percentage" />
+      <MemberSignature Language="F#" Value="member this.DimmedBrightness : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.DimmedBrightness" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the display brightness percentage in the dimmed state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DimTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan DimTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan DimTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.DimTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DimTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.DimTimeout : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.DimTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the time to wait after the last user input has been received before
+            dimming the display.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalBrightness">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage NormalBrightness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage NormalBrightness" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.NormalBrightness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalBrightness As Percentage" />
+      <MemberSignature Language="F#" Value="member this.NormalBrightness : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.NormalBrightness" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the display brightness (%) in the normal state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionLockedPowerdownTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan SessionLockedPowerdownTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan SessionLockedPowerdownTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.SessionLockedPowerdownTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionLockedPowerdownTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.SessionLockedPowerdownTimeout : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.SessionLockedPowerdownTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the time to wait after the interactive session is locked (and sensors
+            indicate the user is not present) before powering off the display.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Value 0 effectively disables this feature.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionUnlockedPowerdownTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan SessionUnlockedPowerdownTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan SessionUnlockedPowerdownTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.SessionUnlockedPowerdownTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionUnlockedPowerdownTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.SessionUnlockedPowerdownTimeout : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IDisplayConfiguration.SessionUnlockedPowerdownTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the time to wait after the last user input has been received before
+            powering off the display.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

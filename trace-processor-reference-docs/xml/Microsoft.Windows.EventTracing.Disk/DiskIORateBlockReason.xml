@@ -1,0 +1,154 @@
+<Type Name="DiskIORateBlockReason" FullName="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason">
+  <TypeSignature Language="C#" Value="public enum DiskIORateBlockReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskIORateBlockReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskIORateBlockReason" />
+  <TypeSignature Language="F#" Value="type DiskIORateBlockReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the reasons that IORate.sys does blocks IO for some period of time.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DepletedCap">
+      <MemberSignature Language="C#" Value="DepletedCap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason DepletedCap = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.DepletedCap" />
+      <MemberSignature Language="VB.NET" Value="DepletedCap" />
+      <MemberSignature Language="F#" Value="DepletedCap = 0" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.DepletedCap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is pended because cap on the originating EJOB has been depleted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DepletedSoftCap">
+      <MemberSignature Language="C#" Value="DepletedSoftCap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason DepletedSoftCap = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.DepletedSoftCap" />
+      <MemberSignature Language="VB.NET" Value="DepletedSoftCap" />
+      <MemberSignature Language="F#" Value="DepletedSoftCap = 5" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.DepletedSoftCap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is throttled due to soft cap being depleted and volume not being idle.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutstandingIOs">
+      <MemberSignature Language="C#" Value="OutstandingIOs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason OutstandingIOs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.OutstandingIOs" />
+      <MemberSignature Language="VB.NET" Value="OutstandingIOs" />
+      <MemberSignature Language="F#" Value="OutstandingIOs = 2" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.OutstandingIOs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is pended due to too many IOs outstanding on the volume.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutstandingReservationIOs">
+      <MemberSignature Language="C#" Value="OutstandingReservationIOs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason OutstandingReservationIOs = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.OutstandingReservationIOs" />
+      <MemberSignature Language="VB.NET" Value="OutstandingReservationIOs" />
+      <MemberSignature Language="F#" Value="OutstandingReservationIOs = 1" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.OutstandingReservationIOs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is pended because there is a reservation IO currently outstanding.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PartialIssue">
+      <MemberSignature Language="C#" Value="PartialIssue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason PartialIssue = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.PartialIssue" />
+      <MemberSignature Language="VB.NET" Value="PartialIssue" />
+      <MemberSignature Language="F#" Value="PartialIssue = 6" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.PartialIssue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is issued partially because it would put the originating EJOB over the
+            set cap.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PickedUpByOtherThread">
+      <MemberSignature Language="C#" Value="PickedUpByOtherThread" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason PickedUpByOtherThread = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.PickedUpByOtherThread" />
+      <MemberSignature Language="VB.NET" Value="PickedUpByOtherThread" />
+      <MemberSignature Language="F#" Value="PickedUpByOtherThread = 3" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.PickedUpByOtherThread" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>While processing the IO on one thread, it got picked up by another thread.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RandomTest">
+      <MemberSignature Language="C#" Value="RandomTest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason RandomTest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.RandomTest" />
+      <MemberSignature Language="VB.NET" Value="RandomTest" />
+      <MemberSignature Language="F#" Value="RandomTest = 4" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason.RandomTest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Only used in testing.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

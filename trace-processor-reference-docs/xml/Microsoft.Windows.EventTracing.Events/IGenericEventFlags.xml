@@ -1,0 +1,164 @@
+<Type Name="IGenericEventFlags" FullName="Microsoft.Windows.EventTracing.Events.IGenericEventFlags">
+  <TypeSignature Language="C#" Value="public interface IGenericEventFlags : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;int,string&gt;&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;int,string&gt;&gt;, System.Collections.Generic.IReadOnlyDictionary&lt;int,string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IGenericEventFlags implements class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, string&gt;&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, string&gt;&gt;, class System.Collections.Generic.IReadOnlyDictionary`2&lt;int32, string&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IGenericEventFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IGenericEventFlags&#xA;Implements IEnumerable(Of KeyValuePair(Of Integer, String)), IReadOnlyCollection(Of KeyValuePair(Of Integer, String)), IReadOnlyDictionary(Of Integer, String)" />
+  <TypeSignature Language="F#" Value="type IGenericEventFlags = interface&#xA;    interface IReadOnlyDictionary&lt;int, string&gt;&#xA;    interface seq&lt;KeyValuePair&lt;int, string&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;int, string&gt;&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.String&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyDictionary&lt;System.Int32,System.String&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public string Format (int key, string separator = &quot;, &quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Format(int32 key, string separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventFlags.Format(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Format (key As Integer, Optional separator As String = &quot;, &quot;) As String" />
+      <MemberSignature Language="F#" Value="abstract member Format : int * string -&gt; string" Usage="iGenericEventFlags.Format (key, separator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Int32" />
+        <Parameter Name="separator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMatches">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; GetMatches (int key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; GetMatches(int32 key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventFlags.GetMatches(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetMatches (key As Integer) As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetMatches : int -&gt; System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="iGenericEventFlags.GetMatches key" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Events.IGenericEventFlags.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Events.IGenericEventFlags.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryFormat">
+      <MemberSignature Language="C#" Value="public bool TryFormat (int key, out string value, string separator = &quot;, &quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryFormat(int32 key, [out] string&amp; value, string separator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventFlags.TryFormat(System.Int32,System.String@,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryFormat (key As Integer, ByRef value As String, Optional separator As String = &quot;, &quot;) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TryFormat : int * string * string -&gt; bool" Usage="iGenericEventFlags.TryFormat (key, value, separator)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Int32" />
+        <Parameter Name="value" Type="System.String" RefType="out" />
+        <Parameter Name="separator" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetMatches">
+      <MemberSignature Language="C#" Value="public bool TryGetMatches (int key, out System.Collections.Generic.IReadOnlyList&lt;string&gt; matches);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryGetMatches(int32 key, [out] class System.Collections.Generic.IReadOnlyList`1&lt;string&gt;&amp; matches) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IGenericEventFlags.TryGetMatches(System.Int32,System.Collections.Generic.IReadOnlyList{System.String}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetMatches (key As Integer, ByRef matches As IReadOnlyList(Of String)) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member TryGetMatches : int * IReadOnlyList -&gt; bool" Usage="iGenericEventFlags.TryGetMatches (key, matches)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Int32" />
+        <Parameter Name="matches" Type="System.Collections.Generic.IReadOnlyList&lt;System.String&gt;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="matches">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

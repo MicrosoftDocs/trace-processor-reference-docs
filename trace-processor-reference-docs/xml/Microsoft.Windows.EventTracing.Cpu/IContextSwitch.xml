@@ -1,0 +1,122 @@
+<Type Name="IContextSwitch" FullName="Microsoft.Windows.EventTracing.Cpu.IContextSwitch">
+  <TypeSignature Language="C#" Value="public interface IContextSwitch" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IContextSwitch" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IContextSwitch" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IContextSwitch" />
+  <TypeSignature Language="F#" Value="type IContextSwitch = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a context switch.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PreviousCState">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; PreviousCState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; PreviousCState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IContextSwitch.PreviousCState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousCState As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.PreviousCState : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IContextSwitch.PreviousCState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the last C-State the processor went into when it was in the idle loop.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is only present when the thread switching out is the idle thread.</para>
+          <para>This value is not present when using compact context switch events.</para>
+          <para>This value is not present in some older versions of the context switch event.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IContextSwitch.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Cpu.IContextSwitch.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the context switch is occurring.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchIn">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.IContextSwitchIn SwitchIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Cpu.IContextSwitchIn SwitchIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IContextSwitch.SwitchIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchIn As IContextSwitchIn" />
+      <MemberSignature Language="F#" Value="member this.SwitchIn : Microsoft.Windows.EventTracing.Cpu.IContextSwitchIn" Usage="Microsoft.Windows.EventTracing.Cpu.IContextSwitch.SwitchIn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.IContextSwitchIn</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets data for the thread switching in.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchOut">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.IContextSwitchOut SwitchOut { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Cpu.IContextSwitchOut SwitchOut" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IContextSwitch.SwitchOut" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SwitchOut As IContextSwitchOut" />
+      <MemberSignature Language="F#" Value="member this.SwitchOut : Microsoft.Windows.EventTracing.Cpu.IContextSwitchOut" Usage="Microsoft.Windows.EventTracing.Cpu.IContextSwitch.SwitchOut" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.IContextSwitchOut</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets data for the thread switching out.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IContextSwitch.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.IContextSwitch.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the context switch event was logged in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

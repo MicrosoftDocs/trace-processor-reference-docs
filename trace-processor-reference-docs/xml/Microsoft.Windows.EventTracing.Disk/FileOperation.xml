@@ -1,0 +1,381 @@
+<Type Name="FileOperation" FullName="Microsoft.Windows.EventTracing.Disk.FileOperation">
+  <TypeSignature Language="C#" Value="public enum FileOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FileOperation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.FileOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FileOperation" />
+  <TypeSignature Language="F#" Value="type FileOperation = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangeCapacity">
+      <MemberSignature Language="C#" Value="ChangeCapacity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation ChangeCapacity = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.ChangeCapacity" />
+      <MemberSignature Language="VB.NET" Value="ChangeCapacity" />
+      <MemberSignature Language="F#" Value="ChangeCapacity = 14" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.ChangeCapacity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cleanup">
+      <MemberSignature Language="C#" Value="Cleanup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Cleanup = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Cleanup" />
+      <MemberSignature Language="VB.NET" Value="Cleanup" />
+      <MemberSignature Language="F#" Value="Cleanup = 1" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Cleanup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="Close" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Close = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Close" />
+      <MemberSignature Language="VB.NET" Value="Close" />
+      <MemberSignature Language="F#" Value="Close = 2" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Close" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateObject">
+      <MemberSignature Language="C#" Value="CreateObject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation CreateObject = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.CreateObject" />
+      <MemberSignature Language="VB.NET" Value="CreateObject" />
+      <MemberSignature Language="F#" Value="CreateObject = 0" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.CreateObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOnClose">
+      <MemberSignature Language="C#" Value="DeleteOnClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation DeleteOnClose = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.DeleteOnClose" />
+      <MemberSignature Language="VB.NET" Value="DeleteOnClose" />
+      <MemberSignature Language="F#" Value="DeleteOnClose = 9" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.DeleteOnClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryChangeNotification">
+      <MemberSignature Language="C#" Value="DirectoryChangeNotification" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation DirectoryChangeNotification = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.DirectoryChangeNotification" />
+      <MemberSignature Language="VB.NET" Value="DirectoryChangeNotification" />
+      <MemberSignature Language="F#" Value="DirectoryChangeNotification = 12" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.DirectoryChangeNotification" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumerateDirectory">
+      <MemberSignature Language="C#" Value="EnumerateDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation EnumerateDirectory = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.EnumerateDirectory" />
+      <MemberSignature Language="VB.NET" Value="EnumerateDirectory" />
+      <MemberSignature Language="F#" Value="EnumerateDirectory = 11" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.EnumerateDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystemControl">
+      <MemberSignature Language="C#" Value="FileSystemControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation FileSystemControl = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.FileSystemControl" />
+      <MemberSignature Language="VB.NET" Value="FileSystemControl" />
+      <MemberSignature Language="F#" Value="FileSystemControl = 8" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.FileSystemControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="Flush" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Flush = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Flush" />
+      <MemberSignature Language="VB.NET" Value="Flush" />
+      <MemberSignature Language="F#" Value="Flush = 3" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Flush" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryExtendedAttributes">
+      <MemberSignature Language="C#" Value="QueryExtendedAttributes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation QueryExtendedAttributes = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.QueryExtendedAttributes" />
+      <MemberSignature Language="VB.NET" Value="QueryExtendedAttributes" />
+      <MemberSignature Language="F#" Value="QueryExtendedAttributes = 18" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.QueryExtendedAttributes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryInformation">
+      <MemberSignature Language="C#" Value="QueryInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation QueryInformation = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.QueryInformation" />
+      <MemberSignature Language="VB.NET" Value="QueryInformation" />
+      <MemberSignature Language="F#" Value="QueryInformation = 7" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.QueryInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="QuerySecurity">
+      <MemberSignature Language="C#" Value="QuerySecurity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation QuerySecurity = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.QuerySecurity" />
+      <MemberSignature Language="VB.NET" Value="QuerySecurity" />
+      <MemberSignature Language="F#" Value="QuerySecurity = 16" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.QuerySecurity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Read = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="F#" Value="Read = 4" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rename">
+      <MemberSignature Language="C#" Value="Rename" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Rename = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Rename" />
+      <MemberSignature Language="VB.NET" Value="Rename" />
+      <MemberSignature Language="F#" Value="Rename = 10" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Rename" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="Resize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Resize = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Resize" />
+      <MemberSignature Language="VB.NET" Value="Resize" />
+      <MemberSignature Language="F#" Value="Resize = 13" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Resize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedAttributes">
+      <MemberSignature Language="C#" Value="SetExtendedAttributes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation SetExtendedAttributes = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.SetExtendedAttributes" />
+      <MemberSignature Language="VB.NET" Value="SetExtendedAttributes" />
+      <MemberSignature Language="F#" Value="SetExtendedAttributes = 17" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.SetExtendedAttributes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetInformation">
+      <MemberSignature Language="C#" Value="SetInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation SetInformation = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.SetInformation" />
+      <MemberSignature Language="VB.NET" Value="SetInformation" />
+      <MemberSignature Language="F#" Value="SetInformation = 6" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.SetInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSecurity">
+      <MemberSignature Language="C#" Value="SetSecurity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation SetSecurity = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.SetSecurity" />
+      <MemberSignature Language="VB.NET" Value="SetSecurity" />
+      <MemberSignature Language="F#" Value="SetSecurity = 15" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.SetSecurity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="Write" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileOperation Write = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileOperation.Write" />
+      <MemberSignature Language="VB.NET" Value="Write" />
+      <MemberSignature Language="F#" Value="Write = 5" Usage="Microsoft.Windows.EventTracing.Disk.FileOperation.Write" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

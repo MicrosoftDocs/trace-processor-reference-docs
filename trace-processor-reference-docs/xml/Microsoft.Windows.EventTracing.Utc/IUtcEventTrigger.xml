@@ -1,0 +1,185 @@
+<Type Name="IUtcEventTrigger" FullName="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger">
+  <TypeSignature Language="C#" Value="public interface IUtcEventTrigger : Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUtcEventTrigger implements class Microsoft.Windows.EventTracing.Utc.IUtcActivity, class Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUtcEventTrigger&#xA;Implements IUtcTrigger" />
+  <TypeSignature Language="F#" Value="type IUtcEventTrigger = interface&#xA;    interface IUtcTrigger&#xA;    interface IUtcActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcActivity</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcTrigger</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fields">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.IUtcFieldList Fields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Utc.IUtcFieldList Fields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Fields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fields As IUtcFieldList" />
+      <MemberSignature Language="F#" Value="member this.Fields : Microsoft.Windows.EventTracing.Utc.IUtcFieldList" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Fields" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.IUtcFieldList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProviderType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Utc.UtcProviderType ProviderType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Utc.UtcProviderType ProviderType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ProviderType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProviderType As UtcProviderType" />
+      <MemberSignature Language="F#" Value="member this.ProviderType : Microsoft.Windows.EventTracing.Utc.UtcProviderType" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ProviderType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Utc.UtcProviderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskName">
+      <MemberSignature Language="C#" Value="public string TaskName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaskName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.TaskName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskName As String" />
+      <MemberSignature Language="F#" Value="member this.TaskName : string" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.TaskName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread Thread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread Thread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Thread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Thread As IThread" />
+      <MemberSignature Language="F#" Value="member this.Thread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.Thread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public int ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : int" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WasMatchFound">
+      <MemberSignature Language="C#" Value="public bool WasMatchFound { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WasMatchFound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.WasMatchFound" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WasMatchFound As Boolean" />
+      <MemberSignature Language="F#" Value="member this.WasMatchFound : bool" Usage="Microsoft.Windows.EventTracing.Utc.IUtcEventTrigger.WasMatchFound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,42 @@
+<Type Name="IStackFramePattern" FullName="Microsoft.Windows.EventTracing.Symbols.IStackFramePattern">
+  <TypeSignature Language="C#" Value="public interface IStackFramePattern" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackFramePattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackFramePattern" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackFramePattern" />
+  <TypeSignature Language="F#" Value="type IStackFramePattern = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Matches">
+      <MemberSignature Language="C#" Value="public bool Matches (Microsoft.Windows.EventTracing.Symbols.StackFrame frame);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Matches(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame frame) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackFramePattern.Matches(Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Matches (frame As StackFrame) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Matches : Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; bool" Usage="iStackFramePattern.Matches frame" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="frame" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+      </Parameters>
+      <Docs>
+        <param name="frame">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

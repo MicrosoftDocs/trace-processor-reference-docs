@@ -1,0 +1,118 @@
+<Type Name="ISleepStateSupport" FullName="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport">
+  <TypeSignature Language="C#" Value="public interface ISleepStateSupport" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISleepStateSupport" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISleepStateSupport" />
+  <TypeSignature Language="F#" Value="type ISleepStateSupport = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SupportsS1">
+      <MemberSignature Language="C#" Value="public bool SupportsS1 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsS1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportsS1 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsS1 : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS1" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsS2">
+      <MemberSignature Language="C#" Value="public bool SupportsS2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsS2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportsS2 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsS2 : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS2" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsS3">
+      <MemberSignature Language="C#" Value="public bool SupportsS3 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsS3" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS3" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportsS3 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsS3 : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsS4">
+      <MemberSignature Language="C#" Value="public bool SupportsS4 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsS4" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS4" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportsS4 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsS4 : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS4" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsS5">
+      <MemberSignature Language="C#" Value="public bool SupportsS5 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsS5" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS5" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportsS5 As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SupportsS5 : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ISleepStateSupport.SupportsS5" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

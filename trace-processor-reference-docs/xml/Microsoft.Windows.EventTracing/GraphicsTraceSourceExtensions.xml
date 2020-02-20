@@ -1,0 +1,47 @@
+<Type Name="GraphicsTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.GraphicsTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class GraphicsTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GraphicsTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.GraphicsTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module GraphicsTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type GraphicsTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseDirectXData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource&gt; UseDirectXData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource&gt; UseDirectXData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.GraphicsTraceSourceExtensions.UseDirectXData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseDirectXData (trace As ITraceSource) As IPendingResult(Of IDirectXDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseDirectXData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource&gt;" Usage="Microsoft.Windows.EventTracing.GraphicsTraceSourceExtensions.UseDirectXData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about DirectX activity.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about DirectX activity.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the GPU Utilization table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

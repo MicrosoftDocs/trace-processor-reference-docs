@@ -1,0 +1,169 @@
+<Type Name="ICpuThreadActivity" FullName="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity">
+  <TypeSignature Language="C#" Value="public interface ICpuThreadActivity : Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICpuThreadActivity implements class Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICpuThreadActivity&#xA;Implements ICpuTimeSlice" />
+  <TypeSignature Language="F#" Value="type ICpuThreadActivity = interface&#xA;    interface ICpuTimeSlice" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Cpu.ICpuTimeSlice</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Defines the activity of a thread while switched in on a processor.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PreviousActivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity PreviousActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity PreviousActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.PreviousActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousActivity As ICpuThreadActivity" />
+      <MemberSignature Language="F#" Value="member this.PreviousActivity : Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.PreviousActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the previous activity on the processor.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyDuration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; ReadyDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; ReadyDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyDuration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.ReadyDuration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the duration that the thread associated with this activity was in the ready state before switching in.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyingProcess">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess ReadyingProcess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess ReadyingProcess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyingProcess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyingProcess As IProcess" />
+      <MemberSignature Language="F#" Value="member this.ReadyingProcess : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyingProcess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process that made this thread become eligible to be switched in, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyingThread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread ReadyingThread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread ReadyingThread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyingThread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyingThread As IThread" />
+      <MemberSignature Language="F#" Value="member this.ReadyingThread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyingThread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the thread that made this thread become eligible to be switched in, if available.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyThreadEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent ReadyThreadEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent ReadyThreadEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyThreadEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyThreadEvent As IReadyThreadEvent" />
+      <MemberSignature Language="F#" Value="member this.ReadyThreadEvent : Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyThreadEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.IReadyThreadEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ready thread event that made this thread become eligible to be switched in.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadyThreadStack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ReadyThreadStack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot ReadyThreadStack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyThreadStack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadyThreadStack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.ReadyThreadStack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.ReadyThreadStack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the thread call stack that made this thread become eligible to be switched in, if available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitingDuration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; WaitingDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; WaitingDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.WaitingDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WaitingDuration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.WaitingDuration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.ICpuThreadActivity.WaitingDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the duration that the thread associated with this activity was in the waiting state before being
+            readied.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

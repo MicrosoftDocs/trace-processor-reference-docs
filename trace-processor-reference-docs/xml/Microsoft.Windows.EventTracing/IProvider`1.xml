@@ -1,0 +1,47 @@
+<Type Name="IProvider&lt;T&gt;" FullName="Microsoft.Windows.EventTracing.IProvider&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IProvider&lt;out T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProvider`1&lt;+ T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.IProvider`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProvider(Of Out T)" />
+  <TypeSignature Language="F#" Value="type IProvider&lt;'T&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <ParameterAttribute>Covariant</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Provide">
+      <MemberSignature Language="C#" Value="public T Provide ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !T Provide() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.IProvider`1.Provide" />
+      <MemberSignature Language="VB.NET" Value="Public Function Provide () As T" />
+      <MemberSignature Language="F#" Value="abstract member Provide : unit -&gt; 'T" Usage="iProvider.Provide " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

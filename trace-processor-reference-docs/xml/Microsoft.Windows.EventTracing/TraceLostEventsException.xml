@@ -1,0 +1,41 @@
+<Type Name="TraceLostEventsException" FullName="Microsoft.Windows.EventTracing.TraceLostEventsException">
+  <TypeSignature Language="C#" Value="public class TraceLostEventsException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TraceLostEventsException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceLostEventsException" />
+  <TypeSignature Language="VB.NET" Value="Public Class TraceLostEventsException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type TraceLostEventsException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TraceLostEventsException (long lostEventCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 lostEventCount) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceLostEventsException.#ctor(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (lostEventCount As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.TraceLostEventsException : int64 -&gt; Microsoft.Windows.EventTracing.TraceLostEventsException" Usage="new Microsoft.Windows.EventTracing.TraceLostEventsException lostEventCount" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="lostEventCount" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="lostEventCount">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

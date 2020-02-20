@@ -1,0 +1,203 @@
+<Type Name="ScheduledTaskStopEvent" FullName="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent">
+  <TypeSignature Language="C#" Value="public struct ScheduledTaskStopEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ScheduledTaskStopEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ScheduledTaskStopEvent" />
+  <TypeSignature Language="F#" Value="type ScheduledTaskStopEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the completion of a scheduled task.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExitCode">
+      <MemberSignature Language="C#" Value="public int ExitCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExitCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ExitCode : int" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.ExitCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the exit code HResult provided by a task that failed.</summary>
+        <value>To be added.</value>
+        <remarks>The exit code of a successful task is not preserved and is always 0.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString FullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString FullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.FullName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.FullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the fully-qualified name of the task, including the path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Guid Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Guid" />
+      <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the unique identifier for this instance of the scheduled task.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Name : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the relative name of the task, not including the path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Succeeded">
+      <MemberSignature Language="C#" Value="public bool Succeeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Succeeded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Succeeded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Succeeded : bool" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Succeeded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates where the task completed succesfully.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the scheduled task stop event was logged in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDomainName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserDomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserDomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserDomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserDomainName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserDomainName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserDomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the domain name for the user identity used to run the task, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserFullName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserFullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserFullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserFullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserFullName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserFullName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserFullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets fully-qualified name of the user identity used to run the task, including the domain name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserName As ValueString" />
+      <MemberSignature Language="F#" Value="member this.UserName : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskStopEvent.UserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the user identity used to run the task, not including the domain name.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

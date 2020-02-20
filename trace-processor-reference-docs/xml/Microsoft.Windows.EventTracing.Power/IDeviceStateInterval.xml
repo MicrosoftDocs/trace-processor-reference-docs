@@ -1,0 +1,140 @@
+<Type Name="IDeviceStateInterval" FullName="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval">
+  <TypeSignature Language="C#" Value="public interface IDeviceStateInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeviceStateInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDeviceStateInterval" />
+  <TypeSignature Language="F#" Value="type IDeviceStateInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an interval during which a device had a single DState.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeviceId">
+      <MemberSignature Language="C#" Value="public long DeviceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 DeviceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeviceId As Long" />
+      <MemberSignature Language="F#" Value="member this.DeviceId : int64" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.DeviceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IrpAddress">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Address&gt; IrpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; IrpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.IrpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IrpAddress As Nullable(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.IrpAddress : Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.IrpAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IrpDuration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; IrpDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; IrpDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.IrpDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IrpDuration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.IrpDuration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.IrpDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.DeviceState State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.DeviceState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As DeviceState" />
+      <MemberSignature Language="F#" Value="member this.State : Microsoft.Windows.EventTracing.Power.DeviceState" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.DeviceState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.IDeviceStateInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

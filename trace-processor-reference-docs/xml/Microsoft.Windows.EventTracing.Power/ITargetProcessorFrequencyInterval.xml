@@ -1,0 +1,118 @@
+<Type Name="ITargetProcessorFrequencyInterval" FullName="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval">
+  <TypeSignature Language="C#" Value="public interface ITargetProcessorFrequencyInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITargetProcessorFrequencyInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITargetProcessorFrequencyInterval" />
+  <TypeSignature Language="F#" Value="type ITargetProcessorFrequencyInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt; Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceDuration&gt; Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As Nullable(Of TraceDuration)" />
+      <MemberSignature Language="F#" Value="member this.Duration : Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;" Usage="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceDuration&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Frequency">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue Frequency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue Frequency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Frequency" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Frequency As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.Frequency : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Frequency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Power.ITargetProcessorFrequencyInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

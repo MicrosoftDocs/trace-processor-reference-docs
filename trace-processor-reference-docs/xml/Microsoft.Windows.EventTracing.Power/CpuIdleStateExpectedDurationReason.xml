@@ -1,0 +1,191 @@
+<Type Name="CpuIdleStateExpectedDurationReason" FullName="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason">
+  <TypeSignature Language="C#" Value="public enum CpuIdleStateExpectedDurationReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CpuIdleStateExpectedDurationReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CpuIdleStateExpectedDurationReason" />
+  <TypeSignature Language="F#" Value="type CpuIdleStateExpectedDurationReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClockInterruptScheduled">
+      <MemberSignature Language="C#" Value="ClockInterruptScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason ClockInterruptScheduled = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.ClockInterruptScheduled" />
+      <MemberSignature Language="VB.NET" Value="ClockInterruptScheduled" />
+      <MemberSignature Language="F#" Value="ClockInterruptScheduled = 2" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.ClockInterruptScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedIdleResilientTimerScheduled">
+      <MemberSignature Language="C#" Value="EnhancedIdleResilientTimerScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason EnhancedIdleResilientTimerScheduled = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.EnhancedIdleResilientTimerScheduled" />
+      <MemberSignature Language="VB.NET" Value="EnhancedIdleResilientTimerScheduled" />
+      <MemberSignature Language="F#" Value="EnhancedIdleResilientTimerScheduled = 6" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.EnhancedIdleResilientTimerScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedTimerScheduled">
+      <MemberSignature Language="C#" Value="EnhancedTimerScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason EnhancedTimerScheduled = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.EnhancedTimerScheduled" />
+      <MemberSignature Language="VB.NET" Value="EnhancedTimerScheduled" />
+      <MemberSignature Language="F#" Value="EnhancedTimerScheduled = 5" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.EnhancedTimerScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupSwitchScheduled">
+      <MemberSignature Language="C#" Value="GroupSwitchScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason GroupSwitchScheduled = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.GroupSwitchScheduled" />
+      <MemberSignature Language="VB.NET" Value="GroupSwitchScheduled" />
+      <MemberSignature Language="F#" Value="GroupSwitchScheduled = 4" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.GroupSwitchScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareInterrupt">
+      <MemberSignature Language="C#" Value="HardwareInterrupt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason HardwareInterrupt = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.HardwareInterrupt" />
+      <MemberSignature Language="VB.NET" Value="HardwareInterrupt" />
+      <MemberSignature Language="F#" Value="HardwareInterrupt = 0" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.HardwareInterrupt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NextScheduledKernelDebuggerPollTime">
+      <MemberSignature Language="C#" Value="NextScheduledKernelDebuggerPollTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason NextScheduledKernelDebuggerPollTime = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.NextScheduledKernelDebuggerPollTime" />
+      <MemberSignature Language="VB.NET" Value="NextScheduledKernelDebuggerPollTime" />
+      <MemberSignature Language="F#" Value="NextScheduledKernelDebuggerPollTime = 7" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.NextScheduledKernelDebuggerPollTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftwareTimerScheduled">
+      <MemberSignature Language="C#" Value="SoftwareTimerScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason SoftwareTimerScheduled = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.SoftwareTimerScheduled" />
+      <MemberSignature Language="VB.NET" Value="SoftwareTimerScheduled" />
+      <MemberSignature Language="F#" Value="SoftwareTimerScheduled = 3" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.SoftwareTimerScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadReadied">
+      <MemberSignature Language="C#" Value="ThreadReadied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason ThreadReadied = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.ThreadReadied" />
+      <MemberSignature Language="VB.NET" Value="ThreadReadied" />
+      <MemberSignature Language="F#" Value="ThreadReadied = 1" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.ThreadReadied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WatchdogTimerExtensionScheduled">
+      <MemberSignature Language="C#" Value="WatchdogTimerExtensionScheduled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason WatchdogTimerExtensionScheduled = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.WatchdogTimerExtensionScheduled" />
+      <MemberSignature Language="VB.NET" Value="WatchdogTimerExtensionScheduled" />
+      <MemberSignature Language="F#" Value="WatchdogTimerExtensionScheduled = 8" Usage="Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason.WatchdogTimerExtensionScheduled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.CpuIdleStateExpectedDurationReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

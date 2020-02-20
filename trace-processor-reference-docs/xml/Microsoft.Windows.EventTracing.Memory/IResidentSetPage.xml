@@ -1,0 +1,358 @@
+<Type Name="IResidentSetPage" FullName="Microsoft.Windows.EventTracing.Memory.IResidentSetPage">
+  <TypeSignature Language="C#" Value="public interface IResidentSetPage" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IResidentSetPage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IResidentSetPage" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IResidentSetPage" />
+  <TypeSignature Language="F#" Value="type IResidentSetPage = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address Address { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Address" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Address As Address" />
+      <MemberSignature Language="F#" Value="member this.Address : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Address" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Category { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Category" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Category As ResidentSetPageCategory" />
+      <MemberSignature Language="F#" Value="member this.Category : Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Category" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; FileOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; FileOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.FileOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileOffset As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.FileOffset : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.FileOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IImage Image { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IImage Image" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Image" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Image As IImage" />
+      <MemberSignature Language="F#" Value="member this.Image : Microsoft.Windows.EventTracing.Processes.IImage" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Image" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCombinedPage">
+      <MemberSignature Language="C#" Value="public bool IsCombinedPage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCombinedPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsCombinedPage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCombinedPage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCombinedPage : bool" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsCombinedPage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInUse">
+      <MemberSignature Language="C#" Value="public bool IsInUse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInUse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsInUse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInUse As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInUse : bool" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsInUse" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPinned">
+      <MemberSignature Language="C#" Value="public bool IsPinned { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPinned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsPinned" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPinned As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPinned : bool" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsPinned" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSessionPage">
+      <MemberSignature Language="C#" Value="public bool IsSessionPage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSessionPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsSessionPage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSessionPage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSessionPage : bool" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.IsSessionPage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemoryManagerListType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Memory.MemoryManagerListType MemoryManagerListType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Memory.MemoryManagerListType MemoryManagerListType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.MemoryManagerListType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemoryManagerListType As MemoryManagerListType" />
+      <MemberSignature Language="F#" Value="member this.MemoryManagerListType : Microsoft.Windows.EventTracing.Memory.MemoryManagerListType" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.MemoryManagerListType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.MemoryManagerListType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFrameNumber">
+      <MemberSignature Language="C#" Value="public int PageFrameNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageFrameNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.PageFrameNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageFrameNumber As Integer" />
+      <MemberSignature Language="F#" Value="member this.PageFrameNumber : int" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.PageFrameNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As Integer" />
+      <MemberSignature Language="F#" Value="member this.Priority : int" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionKey">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; SessionKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; SessionKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.SessionKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionKey As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.SessionKey : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.SessionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="F#" Value="member this.Tag : string" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Tag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread Thread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread Thread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Thread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Thread As IThread" />
+      <MemberSignature Language="F#" Value="member this.Thread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Memory.IResidentSetPage.Thread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

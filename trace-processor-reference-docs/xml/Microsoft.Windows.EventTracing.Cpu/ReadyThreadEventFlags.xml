@@ -1,0 +1,120 @@
+<Type Name="ReadyThreadEventFlags" FullName="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags">
+  <TypeSignature Language="C#" Value="public enum ReadyThreadEventFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReadyThreadEventFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReadyThreadEventFlags" />
+  <TypeSignature Language="F#" Value="type ReadyThreadEventFlags = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DirectSwitchAttempt">
+      <MemberSignature Language="C#" Value="DirectSwitchAttempt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags DirectSwitchAttempt = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.DirectSwitchAttempt" />
+      <MemberSignature Language="VB.NET" Value="DirectSwitchAttempt" />
+      <MemberSignature Language="F#" Value="DirectSwitchAttempt = 8" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.DirectSwitchAttempt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutingDeferredProcedureCall">
+      <MemberSignature Language="C#" Value="ExecutingDeferredProcedureCall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags ExecutingDeferredProcedureCall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.ExecutingDeferredProcedureCall" />
+      <MemberSignature Language="VB.NET" Value="ExecutingDeferredProcedureCall" />
+      <MemberSignature Language="F#" Value="ExecutingDeferredProcedureCall = 1" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.ExecutingDeferredProcedureCall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelStackResident">
+      <MemberSignature Language="C#" Value="KernelStackResident" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags KernelStackResident = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.KernelStackResident" />
+      <MemberSignature Language="VB.NET" Value="KernelStackResident" />
+      <MemberSignature Language="F#" Value="KernelStackResident = 2" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.KernelStackResident" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessResident">
+      <MemberSignature Language="C#" Value="ProcessResident" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags ProcessResident = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.ProcessResident" />
+      <MemberSignature Language="VB.NET" Value="ProcessResident" />
+      <MemberSignature Language="F#" Value="ProcessResident = 4" Usage="Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags.ProcessResident" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.ReadyThreadEventFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

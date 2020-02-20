@@ -1,0 +1,446 @@
+<Type Name="Address" FullName="Microsoft.Windows.EventTracing.Address">
+  <TypeSignature Language="C#" Value="public struct Address : IComparable, IComparable&lt;Microsoft.Windows.EventTracing.Address&gt;, IEquatable&lt;Microsoft.Windows.EventTracing.Address&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Address extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt;, class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Address" />
+  <TypeSignature Language="VB.NET" Value="Public Structure Address&#xA;Implements IComparable, IComparable(Of Address), IEquatable(Of Address)" />
+  <TypeSignature Language="F#" Value="type Address = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Windows.EventTracing.Address&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.Address&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Address (long value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.#ctor(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Address : int64 -&gt; Microsoft.Windows.EventTracing.Address" Usage="new Microsoft.Windows.EventTracing.Address value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Address (ulong value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int64 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.#ctor(System.UInt64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As ULong)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Address : uint64 -&gt; Microsoft.Windows.EventTracing.Address" Usage="new Microsoft.Windows.EventTracing.Address value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.UInt64" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.Address other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.Address other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.CompareTo(Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Address) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Windows.EventTracing.Address -&gt; int&#xA;override this.CompareTo : Microsoft.Windows.EventTracing.Address -&gt; int" Usage="address.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.CompareTo(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="address.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.Address other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.Address other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.Equals(Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="address.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="address.Equals other" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="address.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Address operator + (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.Address op_Addition(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_Addition(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As Address, right As DataSize) As Address" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.Address" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_Equality(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThan">
+      <MemberSignature Language="C#" Value="public static bool operator &gt; (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThan(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_GreaterThan(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt; (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt; ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="left &gt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &gt;= (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThanOrEqual(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_GreaterThanOrEqual(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt;= (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt;= ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="left &gt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_Inequality(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="Microsoft.Windows.EventTracing.Address.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThan">
+      <MemberSignature Language="C#" Value="public static bool operator &lt; (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThan(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_LessThan(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt; (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt; ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="left &lt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &lt;= (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.Address right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThanOrEqual(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.Address right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_LessThanOrEqual(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt;= (left As Address, right As Address) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt;= ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; bool" Usage="left &lt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Address operator - (Microsoft.Windows.EventTracing.Address left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.Address op_Subtraction(valuetype Microsoft.Windows.EventTracing.Address left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.op_Subtraction(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As Address, right As DataSize) As Address" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.Address" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Address.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="address.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public long Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Address.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Long" />
+      <MemberSignature Language="F#" Value="member this.Value : int64" Usage="Microsoft.Windows.EventTracing.Address.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

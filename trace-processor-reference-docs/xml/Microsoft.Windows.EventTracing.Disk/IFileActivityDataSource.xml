@@ -1,0 +1,398 @@
+<Type Name="IFileActivityDataSource" FullName="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource">
+  <TypeSignature Language="C#" Value="public interface IFileActivityDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileActivityDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileActivityDataSource" />
+  <TypeSignature Language="F#" Value="type IFileActivityDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangeFileCapacityActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IChangeFileCapacityActivity&gt; ChangeFileCapacityActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IChangeFileCapacityActivity&gt; ChangeFileCapacityActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ChangeFileCapacityActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeFileCapacityActivity As IReadOnlyList(Of IChangeFileCapacityActivity)" />
+      <MemberSignature Language="F#" Value="member this.ChangeFileCapacityActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IChangeFileCapacityActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ChangeFileCapacityActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IChangeFileCapacityActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CleanupFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICleanupFileActivity&gt; CleanupFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ICleanupFileActivity&gt; CleanupFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CleanupFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CleanupFileActivity As IReadOnlyList(Of ICleanupFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.CleanupFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICleanupFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CleanupFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICleanupFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICloseFileActivity&gt; CloseFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ICloseFileActivity&gt; CloseFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CloseFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CloseFileActivity As IReadOnlyList(Of ICloseFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.CloseFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICloseFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CloseFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICloseFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFileObjectActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity&gt; CreateFileObjectActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity&gt; CreateFileObjectActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CreateFileObjectActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreateFileObjectActivity As IReadOnlyList(Of ICreateFileObjectActivity)" />
+      <MemberSignature Language="F#" Value="member this.CreateFileObjectActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.CreateFileObjectActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ICreateFileObjectActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOnCloseFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDeleteOnCloseFileActivity&gt; DeleteOnCloseFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IDeleteOnCloseFileActivity&gt; DeleteOnCloseFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.DeleteOnCloseFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeleteOnCloseFileActivity As IReadOnlyList(Of IDeleteOnCloseFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.DeleteOnCloseFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDeleteOnCloseFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.DeleteOnCloseFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDeleteOnCloseFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryChangeNotificationActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity&gt; DirectoryChangeNotificationActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity&gt; DirectoryChangeNotificationActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.DirectoryChangeNotificationActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectoryChangeNotificationActivity As IReadOnlyList(Of IDirectoryChangeNotificationActivity)" />
+      <MemberSignature Language="F#" Value="member this.DirectoryChangeNotificationActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.DirectoryChangeNotificationActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumerateDirectoryActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IEnumerateDirectoryActivity&gt; EnumerateDirectoryActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IEnumerateDirectoryActivity&gt; EnumerateDirectoryActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.EnumerateDirectoryActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnumerateDirectoryActivity As IReadOnlyList(Of IEnumerateDirectoryActivity)" />
+      <MemberSignature Language="F#" Value="member this.EnumerateDirectoryActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IEnumerateDirectoryActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.EnumerateDirectoryActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IEnumerateDirectoryActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystemControlActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFileSystemControlActivity&gt; FileSystemControlActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IFileSystemControlActivity&gt; FileSystemControlActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.FileSystemControlActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileSystemControlActivity As IReadOnlyList(Of IFileSystemControlActivity)" />
+      <MemberSignature Language="F#" Value="member this.FileSystemControlActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFileSystemControlActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.FileSystemControlActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFileSystemControlActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlushFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFlushFileActivity&gt; FlushFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IFlushFileActivity&gt; FlushFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.FlushFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlushFileActivity As IReadOnlyList(Of IFlushFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.FlushFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFlushFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.FlushFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IFlushFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryFileExtendedAttributesActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileExtendedAttributesActivity&gt; QueryFileExtendedAttributesActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IQueryFileExtendedAttributesActivity&gt; QueryFileExtendedAttributesActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileExtendedAttributesActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryFileExtendedAttributesActivity As IReadOnlyList(Of IQueryFileExtendedAttributesActivity)" />
+      <MemberSignature Language="F#" Value="member this.QueryFileExtendedAttributesActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileExtendedAttributesActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileExtendedAttributesActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileExtendedAttributesActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryFileInformationActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity&gt; QueryFileInformationActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity&gt; QueryFileInformationActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileInformationActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryFileInformationActivity As IReadOnlyList(Of IQueryFileInformationActivity)" />
+      <MemberSignature Language="F#" Value="member this.QueryFileInformationActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileInformationActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileInformationActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryFileSecurityActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileSecurityActivity&gt; QueryFileSecurityActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IQueryFileSecurityActivity&gt; QueryFileSecurityActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileSecurityActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryFileSecurityActivity As IReadOnlyList(Of IQueryFileSecurityActivity)" />
+      <MemberSignature Language="F#" Value="member this.QueryFileSecurityActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileSecurityActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.QueryFileSecurityActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IQueryFileSecurityActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IReadFileActivity&gt; ReadFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IReadFileActivity&gt; ReadFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ReadFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadFileActivity As IReadOnlyList(Of IReadFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.ReadFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IReadFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ReadFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IReadFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenameFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IRenameFileActivity&gt; RenameFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IRenameFileActivity&gt; RenameFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.RenameFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RenameFileActivity As IReadOnlyList(Of IRenameFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.RenameFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IRenameFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.RenameFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IRenameFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResizeFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IResizeFileActivity&gt; ResizeFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IResizeFileActivity&gt; ResizeFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ResizeFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResizeFileActivity As IReadOnlyList(Of IResizeFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.ResizeFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IResizeFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.ResizeFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IResizeFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFileExtendedAttributesActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileExtendedAttributesActivity&gt; SetFileExtendedAttributesActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ISetFileExtendedAttributesActivity&gt; SetFileExtendedAttributesActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileExtendedAttributesActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SetFileExtendedAttributesActivity As IReadOnlyList(Of ISetFileExtendedAttributesActivity)" />
+      <MemberSignature Language="F#" Value="member this.SetFileExtendedAttributesActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileExtendedAttributesActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileExtendedAttributesActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileExtendedAttributesActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFileInformationActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileInformationActivity&gt; SetFileInformationActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ISetFileInformationActivity&gt; SetFileInformationActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileInformationActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SetFileInformationActivity As IReadOnlyList(Of ISetFileInformationActivity)" />
+      <MemberSignature Language="F#" Value="member this.SetFileInformationActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileInformationActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileInformationActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileInformationActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFileSecurityActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity&gt; SetFileSecurityActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity&gt; SetFileSecurityActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileSecurityActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SetFileSecurityActivity As IReadOnlyList(Of ISetFileSecurityActivity)" />
+      <MemberSignature Language="F#" Value="member this.SetFileSecurityActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.SetFileSecurityActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteFileActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IWriteFileActivity&gt; WriteFileActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Disk.IWriteFileActivity&gt; WriteFileActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.WriteFileActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WriteFileActivity As IReadOnlyList(Of IWriteFileActivity)" />
+      <MemberSignature Language="F#" Value="member this.WriteFileActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IWriteFileActivity&gt;" Usage="Microsoft.Windows.EventTracing.Disk.IFileActivityDataSource.WriteFileActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Disk.IWriteFileActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,21 @@
+<Type Name="IFlushFileActivity" FullName="Microsoft.Windows.EventTracing.Disk.IFlushFileActivity">
+  <TypeSignature Language="C#" Value="public interface IFlushFileActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFlushFileActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IFlushFileActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFlushFileActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type IFlushFileActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,118 @@
+<Type Name="IProcessorCounterDataSource" FullName="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource">
+  <TypeSignature Language="C#" Value="public interface IProcessorCounterDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProcessorCounterDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProcessorCounterDataSource" />
+  <TypeSignature Language="F#" Value="type IProcessorCounterDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContextSwitchCounterDeltas">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitchDelta&gt; ContextSwitchCounterDeltas { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitchDelta&gt; ContextSwitchCounterDeltas" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.ContextSwitchCounterDeltas" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextSwitchCounterDeltas As IReadOnlyList(Of IProcessorCounterContextSwitchDelta)" />
+      <MemberSignature Language="F#" Value="member this.ContextSwitchCounterDeltas : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitchDelta&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.ContextSwitchCounterDeltas" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitchDelta&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextSwitchCounters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitch&gt; ContextSwitchCounters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitch&gt; ContextSwitchCounters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.ContextSwitchCounters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContextSwitchCounters As IReadOnlyList(Of IProcessorCounterContextSwitch)" />
+      <MemberSignature Language="F#" Value="member this.ContextSwitchCounters : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitch&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.ContextSwitchCounters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterContextSwitch&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CounterNames">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; CounterNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; CounterNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.CounterNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CounterNames As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.CounterNames : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.CounterNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasCycleCount">
+      <MemberSignature Language="C#" Value="public bool HasCycleCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasCycleCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.HasCycleCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasCycleCount As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasCycleCount : bool" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.HasCycleCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasInstructionCount">
+      <MemberSignature Language="C#" Value="public bool HasInstructionCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasInstructionCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.HasInstructionCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasInstructionCount As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasInstructionCount : bool" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource.HasInstructionCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

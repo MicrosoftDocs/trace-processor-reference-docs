@@ -1,0 +1,77 @@
+<Type Name="FileModeResult" FullName="Microsoft.Windows.EventTracing.Disk.FileModeResult">
+  <TypeSignature Language="C#" Value="public enum FileModeResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FileModeResult extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.FileModeResult" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FileModeResult" />
+  <TypeSignature Language="F#" Value="type FileModeResult = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreatedNew">
+      <MemberSignature Language="C#" Value="CreatedNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileModeResult CreatedNew = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileModeResult.CreatedNew" />
+      <MemberSignature Language="VB.NET" Value="CreatedNew" />
+      <MemberSignature Language="F#" Value="CreatedNew = 1" Usage="Microsoft.Windows.EventTracing.Disk.FileModeResult.CreatedNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileModeResult</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenedExisting">
+      <MemberSignature Language="C#" Value="OpenedExisting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileModeResult OpenedExisting = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileModeResult.OpenedExisting" />
+      <MemberSignature Language="VB.NET" Value="OpenedExisting" />
+      <MemberSignature Language="F#" Value="OpenedExisting = 0" Usage="Microsoft.Windows.EventTracing.Disk.FileModeResult.OpenedExisting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileModeResult</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Truncated">
+      <MemberSignature Language="C#" Value="Truncated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.FileModeResult Truncated = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.FileModeResult.Truncated" />
+      <MemberSignature Language="VB.NET" Value="Truncated" />
+      <MemberSignature Language="F#" Value="Truncated = 2" Usage="Microsoft.Windows.EventTracing.Disk.FileModeResult.Truncated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.FileModeResult</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

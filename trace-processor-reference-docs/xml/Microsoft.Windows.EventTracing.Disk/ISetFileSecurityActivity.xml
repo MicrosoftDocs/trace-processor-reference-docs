@@ -1,0 +1,21 @@
+<Type Name="ISetFileSecurityActivity" FullName="Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity">
+  <TypeSignature Language="C#" Value="public interface ISetFileSecurityActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISetFileSecurityActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.ISetFileSecurityActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISetFileSecurityActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type ISetFileSecurityActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

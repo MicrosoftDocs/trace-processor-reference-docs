@@ -1,0 +1,298 @@
+<Type Name="IBootPrefetchActivityItem" FullName="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem">
+  <TypeSignature Language="C#" Value="public interface IBootPrefetchActivityItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBootPrefetchActivityItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBootPrefetchActivityItem" />
+  <TypeSignature Language="F#" Value="type IBootPrefetchActivityItem = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivityType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ActivityType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType ActivityType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.ActivityType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityType As BootPrefetchActivityType" />
+      <MemberSignature Language="F#" Value="member this.ActivityType : Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.ActivityType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ByteOffset">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address ByteOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address ByteOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.ByteOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ByteOffset As Address" />
+      <MemberSignature Language="F#" Value="member this.ByteOffset : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.ByteOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp CompleteTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp CompleteTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.CompleteTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompleteTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.CompleteTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.CompleteTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disk">
+      <MemberSignature Language="C#" Value="public int Disk { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Disk" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Disk" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Disk As Integer" />
+      <MemberSignature Language="F#" Value="member this.Disk : int" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Disk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskServiceDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration DiskServiceDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration DiskServiceDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.DiskServiceDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiskServiceDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.DiskServiceDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.DiskServiceDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Earliness">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration Earliness { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration Earliness" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Earliness" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Earliness As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.Earliness : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Earliness" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileObject">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FileObject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FileObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.FileObject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileObject As Address" />
+      <MemberSignature Language="F#" Value="member this.FileObject : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.FileObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flags">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityFlags Flags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityFlags Flags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Flags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Flags As BootPrefetchActivityFlags" />
+      <MemberSignature Language="F#" Value="member this.Flags : Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityFlags" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Flags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp InitializeTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp InitializeTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.InitializeTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializeTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.InitializeTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.InitializeTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityPriority Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityPriority Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As BootPrefetchActivityPriority" />
+      <MemberSignature Language="F#" Value="member this.Priority : Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityPriority" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.BootPrefetch.BootPrefetchActivityPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As DataSize" />
+      <MemberSignature Language="F#" Value="member this.Size : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread Thread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread Thread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Thread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Thread As IThread" />
+      <MemberSignature Language="F#" Value="member this.Thread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchActivityItem.Thread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

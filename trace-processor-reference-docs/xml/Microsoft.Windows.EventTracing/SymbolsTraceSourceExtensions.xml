@@ -1,0 +1,107 @@
+<Type Name="SymbolsTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class SymbolsTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SymbolsTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SymbolsTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type SymbolsTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseStacks">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackDataSource&gt; UseStacks (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Symbols.IStackDataSource&gt; UseStacks(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseStacks(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseStacks (trace As ITraceSource) As IPendingResult(Of IStackDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseStacks : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackDataSource&gt;" Usage="Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseStacks trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data about stacks recorded during a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about stacks recorded during the trace.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Stacks table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseStackTags">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource&gt; UseStackTags (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource&gt; UseStackTags(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseStackTags(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseStackTags (trace As ITraceSource) As IPendingResult(Of IStackTagDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseStackTags : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource&gt;" Usage="Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseStackTags trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides a mapper that groups stacks from a trace into stack tags as specified in an XML configuration file.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides a mapper that groups stacks from a trace into
+            stack tags as specified in an XML configuration file.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this data in multiple tables via columns such as Stack Tag and Stack
+            (Frame Tags).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSymbols">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource&gt; UseSymbols (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource&gt; UseSymbols(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseSymbols(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseSymbols (trace As ITraceSource) As IPendingResult(Of ISymbolDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseSymbols : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource&gt;" Usage="Microsoft.Windows.EventTracing.SymbolsTraceSourceExtensions.UseSymbols trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides the ability to load symbols for a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides the ability to load symbols for a trace.
+            </returns>
+        <remarks>
+            Windows Performance Analyzer provides this capability via Configure Symbol Paths and Load Symbols.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

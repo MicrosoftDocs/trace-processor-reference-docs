@@ -1,0 +1,58 @@
+<Type Name="FirmwareType" FullName="Microsoft.Windows.EventTracing.Metadata.FirmwareType">
+  <TypeSignature Language="C#" Value="public enum FirmwareType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FirmwareType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.FirmwareType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FirmwareType" />
+  <TypeSignature Language="F#" Value="type FirmwareType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bios">
+      <MemberSignature Language="C#" Value="Bios" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.FirmwareType Bios = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.FirmwareType.Bios" />
+      <MemberSignature Language="VB.NET" Value="Bios" />
+      <MemberSignature Language="F#" Value="Bios = 0" Usage="Microsoft.Windows.EventTracing.Metadata.FirmwareType.Bios" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.FirmwareType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uefi">
+      <MemberSignature Language="C#" Value="Uefi" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.FirmwareType Uefi = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.FirmwareType.Uefi" />
+      <MemberSignature Language="VB.NET" Value="Uefi" />
+      <MemberSignature Language="F#" Value="Uefi = 1" Usage="Microsoft.Windows.EventTracing.Metadata.FirmwareType.Uefi" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.FirmwareType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,98 @@
+<Type Name="IInterruptHandlingActivity" FullName="Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity">
+  <TypeSignature Language="C#" Value="public interface IInterruptHandlingActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInterruptHandlingActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IInterruptHandlingActivity" />
+  <TypeSignature Language="F#" Value="type IInterruptHandlingActivity = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.Duration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fragments">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingFragment&gt; Fragments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingFragment&gt; Fragments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Fragments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fragments As IReadOnlyList(Of IInterruptHandlingFragment)" />
+      <MemberSignature Language="F#" Value="member this.Fragments : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingFragment&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Fragments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingFragment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval Interval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval Interval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interval As IInterruptHandlingInterval" />
+      <MemberSignature Language="F#" Value="member this.Interval : Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.Interval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingInterval</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFragmented">
+      <MemberSignature Language="C#" Value="public bool IsFragmented { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFragmented" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.IsFragmented" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFragmented As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFragmented : bool" Usage="Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingActivity.IsFragmented" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

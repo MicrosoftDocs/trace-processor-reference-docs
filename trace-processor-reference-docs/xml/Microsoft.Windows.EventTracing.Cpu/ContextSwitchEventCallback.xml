@@ -1,0 +1,25 @@
+<Type Name="ContextSwitchEventCallback" FullName="Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void ContextSwitchEventCallback(ContextSwitchEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContextSwitchEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ContextSwitchEventCallback(eventContext As ContextSwitchEventContext)" />
+  <TypeSignature Language="F#" Value="type ContextSwitchEventCallback = delegate of ContextSwitchEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Cpu.ContextSwitchEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The context switch event to process.</param>
+    <summary>Processes a context switch event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

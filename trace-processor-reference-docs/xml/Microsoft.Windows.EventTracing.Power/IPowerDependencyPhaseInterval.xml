@@ -1,0 +1,78 @@
+<Type Name="IPowerDependencyPhaseInterval" FullName="Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval">
+  <TypeSignature Language="C#" Value="public interface IPowerDependencyPhaseInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPowerDependencyPhaseInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPowerDependencyPhaseInterval" />
+  <TypeSignature Language="F#" Value="type IPowerDependencyPhaseInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Phase">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerDependencyPhase Phase { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerDependencyPhase Phase" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.Phase" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Phase As PowerDependencyPhase" />
+      <MemberSignature Language="F#" Value="member this.Phase : Microsoft.Windows.EventTracing.Power.PowerDependencyPhase" Usage="Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.Phase" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerDependencyPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.IPowerDependencyPhaseInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

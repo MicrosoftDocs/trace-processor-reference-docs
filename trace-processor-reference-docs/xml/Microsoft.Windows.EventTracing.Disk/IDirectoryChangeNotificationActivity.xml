@@ -1,0 +1,82 @@
+<Type Name="IDirectoryChangeNotificationActivity" FullName="Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity">
+  <TypeSignature Language="C#" Value="public interface IDirectoryChangeNotificationActivity : Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDirectoryChangeNotificationActivity implements class Microsoft.Windows.EventTracing.Disk.IFileActivity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDirectoryChangeNotificationActivity&#xA;Implements IFileActivity" />
+  <TypeSignature Language="F#" Value="type IDirectoryChangeNotificationActivity = interface&#xA;    interface IFileActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Disk.IFileActivity</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OutputBufferLength">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize OutputBufferLength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize OutputBufferLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.OutputBufferLength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputBufferLength As DataSize" />
+      <MemberSignature Language="F#" Value="member this.OutputBufferLength : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.OutputBufferLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputBytesWritten">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize OutputBytesWritten { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize OutputBytesWritten" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.OutputBytesWritten" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputBytesWritten As DataSize" />
+      <MemberSignature Language="F#" Value="member this.OutputBytesWritten : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.OutputBytesWritten" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNotifications">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters RequestedNotifications { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters RequestedNotifications" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.RequestedNotifications" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedNotifications As DirectoryChangeNotificationFilters" />
+      <MemberSignature Language="F#" Value="member this.RequestedNotifications : Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters" Usage="Microsoft.Windows.EventTracing.Disk.IDirectoryChangeNotificationActivity.RequestedNotifications" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DirectoryChangeNotificationFilters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

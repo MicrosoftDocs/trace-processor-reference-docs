@@ -1,0 +1,130 @@
+<Type Name="TraceProcessingProgress" FullName="Microsoft.Windows.EventTracing.TraceProcessingProgress">
+  <TypeSignature Language="C#" Value="public struct TraceProcessingProgress" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit TraceProcessingProgress extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceProcessingProgress" />
+  <TypeSignature Language="VB.NET" Value="Public Structure TraceProcessingProgress" />
+  <TypeSignature Language="F#" Value="type TraceProcessingProgress = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TraceProcessingProgress (int totalPasses, int currentPass, Microsoft.Windows.EventTracing.TraceTimestamp currentEventTimestamp, Microsoft.Windows.EventTracing.TraceTimestamp lastEventTimestamp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 totalPasses, int32 currentPass, valuetype Microsoft.Windows.EventTracing.TraceTimestamp currentEventTimestamp, valuetype Microsoft.Windows.EventTracing.TraceTimestamp lastEventTimestamp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessingProgress.#ctor(System.Int32,System.Int32,Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.TraceTimestamp)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (totalPasses As Integer, currentPass As Integer, currentEventTimestamp As TraceTimestamp, lastEventTimestamp As TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.TraceProcessingProgress : int * int * Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.TraceTimestamp -&gt; Microsoft.Windows.EventTracing.TraceProcessingProgress" Usage="new Microsoft.Windows.EventTracing.TraceProcessingProgress (totalPasses, currentPass, currentEventTimestamp, lastEventTimestamp)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="totalPasses" Type="System.Int32" />
+        <Parameter Name="currentPass" Type="System.Int32" />
+        <Parameter Name="currentEventTimestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="lastEventTimestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+      </Parameters>
+      <Docs>
+        <param name="totalPasses">To be added.</param>
+        <param name="currentPass">To be added.</param>
+        <param name="currentEventTimestamp">To be added.</param>
+        <param name="lastEventTimestamp">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentEventTimestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp CurrentEventTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp CurrentEventTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessingProgress.CurrentEventTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentEventTimestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.CurrentEventTimestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceProcessingProgress.CurrentEventTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp of the event about to be processed.</summary>
+        <value>To be added.</value>
+        <remarks>
+            Processing events may include a level of internal buffering, so an <see cref="T:Microsoft.Windows.EventTracing.IEventConsumer" /> may not see
+            this event timestamp until the internal buffer of events is full.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPass">
+      <MemberSignature Language="C#" Value="public int CurrentPass { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentPass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessingProgress.CurrentPass" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentPass As Integer" />
+      <MemberSignature Language="F#" Value="member this.CurrentPass : int" Usage="Microsoft.Windows.EventTracing.TraceProcessingProgress.CurrentPass" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the current pass through the file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastEventTimestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp LastEventTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp LastEventTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessingProgress.LastEventTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastEventTimestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.LastEventTimestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.TraceProcessingProgress.LastEventTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp of the last event to process.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalPasses">
+      <MemberSignature Language="C#" Value="public int TotalPasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalPasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessingProgress.TotalPasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalPasses As Integer" />
+      <MemberSignature Language="F#" Value="member this.TotalPasses : int" Usage="Microsoft.Windows.EventTracing.TraceProcessingProgress.TotalPasses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the total number of passes through the file that the processor plans to make.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

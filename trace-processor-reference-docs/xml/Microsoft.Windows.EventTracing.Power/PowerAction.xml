@@ -1,0 +1,156 @@
+<Type Name="PowerAction" FullName="Microsoft.Windows.EventTracing.Power.PowerAction">
+  <TypeSignature Language="C#" Value="public enum PowerAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PowerAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.PowerAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PowerAction" />
+  <TypeSignature Language="F#" Value="type PowerAction = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the computer power action.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Hibernate">
+      <MemberSignature Language="C#" Value="Hibernate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction Hibernate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.Hibernate" />
+      <MemberSignature Language="VB.NET" Value="Hibernate" />
+      <MemberSignature Language="F#" Value="Hibernate = 2" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.Hibernate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the computer is to hibernate.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Nothing">
+      <MemberSignature Language="C#" Value="Nothing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction Nothing = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.Nothing" />
+      <MemberSignature Language="VB.NET" Value="Nothing" />
+      <MemberSignature Language="F#" Value="Nothing = 0" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.Nothing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            No action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reboot">
+      <MemberSignature Language="C#" Value="Reboot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction Reboot = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.Reboot" />
+      <MemberSignature Language="VB.NET" Value="Reboot" />
+      <MemberSignature Language="F#" Value="Reboot = 4" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.Reboot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the computer is to reboot.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shutdown">
+      <MemberSignature Language="C#" Value="Shutdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction Shutdown = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.Shutdown" />
+      <MemberSignature Language="VB.NET" Value="Shutdown" />
+      <MemberSignature Language="F#" Value="Shutdown = 3" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.Shutdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the computer is to shut down but leave the system power on.
+            </summary>
+        <remarks>
+            The computer is entering shutdown (S5) state. After all devices have entered their off (D3) state,
+            the computer remains powered on until an administrator presses the power button.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShutdownOff">
+      <MemberSignature Language="C#" Value="ShutdownOff" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction ShutdownOff = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.ShutdownOff" />
+      <MemberSignature Language="VB.NET" Value="ShutdownOff" />
+      <MemberSignature Language="F#" Value="ShutdownOff = 5" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.ShutdownOff" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the computer is to shut down and power off.
+            </summary>
+        <remarks>
+            The computer is entering its shutdown (S5) state. After all devices have entered their off (D3)
+            state, the computer automatically powers off.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sleep">
+      <MemberSignature Language="C#" Value="Sleep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.PowerAction Sleep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.PowerAction.Sleep" />
+      <MemberSignature Language="VB.NET" Value="Sleep" />
+      <MemberSignature Language="F#" Value="Sleep = 1" Usage="Microsoft.Windows.EventTracing.Power.PowerAction.Sleep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Indicates that the computer is to be in standby state.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,96 @@
+<Type Name="IdeTransferMode" FullName="Microsoft.Windows.EventTracing.Metadata.IdeTransferMode">
+  <TypeSignature Language="C#" Value="public enum IdeTransferMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IdeTransferMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IdeTransferMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IdeTransferMode" />
+  <TypeSignature Language="F#" Value="type IdeTransferMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MultiWordDma">
+      <MemberSignature Language="C#" Value="MultiWordDma" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferMode MultiWordDma = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.MultiWordDma" />
+      <MemberSignature Language="VB.NET" Value="MultiWordDma" />
+      <MemberSignature Language="F#" Value="MultiWordDma = 2" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.MultiWordDma" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgrammedIO">
+      <MemberSignature Language="C#" Value="ProgrammedIO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferMode ProgrammedIO = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.ProgrammedIO" />
+      <MemberSignature Language="VB.NET" Value="ProgrammedIO" />
+      <MemberSignature Language="F#" Value="ProgrammedIO = 0" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.ProgrammedIO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SingleWordDma">
+      <MemberSignature Language="C#" Value="SingleWordDma" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferMode SingleWordDma = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.SingleWordDma" />
+      <MemberSignature Language="VB.NET" Value="SingleWordDma" />
+      <MemberSignature Language="F#" Value="SingleWordDma = 1" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.SingleWordDma" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UltraDma">
+      <MemberSignature Language="C#" Value="UltraDma" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.IdeTransferMode UltraDma = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.UltraDma" />
+      <MemberSignature Language="VB.NET" Value="UltraDma" />
+      <MemberSignature Language="F#" Value="UltraDma = 3" Usage="Microsoft.Windows.EventTracing.Metadata.IdeTransferMode.UltraDma" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.IdeTransferMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

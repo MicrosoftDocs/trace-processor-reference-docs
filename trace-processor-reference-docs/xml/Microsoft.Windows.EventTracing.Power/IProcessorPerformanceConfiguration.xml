@@ -1,0 +1,381 @@
+<Type Name="IProcessorPerformanceConfiguration" FullName="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration">
+  <TypeSignature Language="C#" Value="public interface IProcessorPerformanceConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProcessorPerformanceConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProcessorPerformanceConfiguration" />
+  <TypeSignature Language="F#" Value="type IProcessorPerformanceConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BoostMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode BoostMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode BoostMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.BoostMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoostMode As ProcessorPerformanceBoostMode" />
+      <MemberSignature Language="F#" Value="member this.BoostMode : Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.BoostMode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceBoostMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how a processor opportunistically increases frequency above the maximum
+            when operating contitions allow it to do so safely.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoostPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage BoostPolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage BoostPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.BoostPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoostPolicy As Percentage" />
+      <MemberSignature Language="F#" Value="member this.BoostPolicy : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.BoostPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the bias in percentage used in managing performance and efficiency tradeoffs
+            when boosting frequency above the maximum.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Greater value biases more toward performance.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecreasePolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy DecreasePolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy DecreasePolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreasePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DecreasePolicy As ProcessorPerformanceChangePolicy" />
+      <MemberSignature Language="F#" Value="member this.DecreasePolicy : Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreasePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how aggressive the performance states should be changed when decreasing the
+            processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecreaseStabilizationInterval">
+      <MemberSignature Language="C#" Value="public TimeSpan DecreaseStabilizationInterval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan DecreaseStabilizationInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreaseStabilizationInterval" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DecreaseStabilizationInterval As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.DecreaseStabilizationInterval : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreaseStabilizationInterval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the amount of time that must elapse after the last processor performance
+            state changes before decreasing the processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecreaseThreshold">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage DecreaseThreshold { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage DecreaseThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreaseThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DecreaseThreshold As Percentage" />
+      <MemberSignature Language="F#" Value="member this.DecreaseThreshold : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.DecreaseThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the busy percentage threshold that must be met before
+            decreasing the processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncreasePolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy IncreasePolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy IncreasePolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreasePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncreasePolicy As ProcessorPerformanceChangePolicy" />
+      <MemberSignature Language="F#" Value="member this.IncreasePolicy : Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreasePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how aggressive the performance states should be changed when increasing the
+            processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncreaseStabilizationInterval">
+      <MemberSignature Language="C#" Value="public TimeSpan IncreaseStabilizationInterval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan IncreaseStabilizationInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreaseStabilizationInterval" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncreaseStabilizationInterval As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.IncreaseStabilizationInterval : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreaseStabilizationInterval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the amount of time that must elapse after the last processor performance
+            state changes before increasing the processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncreaseThreshold">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage IncreaseThreshold { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage IncreaseThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreaseThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncreaseThreshold As Percentage" />
+      <MemberSignature Language="F#" Value="member this.IncreaseThreshold : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.IncreaseThreshold" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the busy percentage threshold that must be met before
+            increasing the processor performance state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LatencySensitivityPerformance">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage LatencySensitivityPerformance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage LatencySensitivityPerformance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.LatencySensitivityPerformance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LatencySensitivityPerformance As Percentage" />
+      <MemberSignature Language="F#" Value="member this.LatencySensitivityPerformance : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.LatencySensitivityPerformance" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how to set the processor frequency when the system detects a sensitivity to
+            latency, as a percentage of the processor's maximum frequency.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            Latency sensitivity hints are generated when an event preceding an expected latency-sensitive
+            operation is detected. Examples include mouse button up events (for all mouse buttons), touch gesture
+            start and gesture stop (finger down and finger up), and keyboard enter key down.</para>
+          <para>
+            When set to 0, the processor performance engine does not take latency sensitivity hints into account when
+            selecting a performance state. Otherwise, the performance is raised system-wide to the specified performance
+            level.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxThrottlingFrequency">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage MaxThrottlingFrequency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage MaxThrottlingFrequency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.MaxThrottlingFrequency" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxThrottlingFrequency As Percentage" />
+      <MemberSignature Language="F#" Value="member this.MaxThrottlingFrequency : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.MaxThrottlingFrequency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the maximum percentage of the processor frequency.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            For example, if this value is set to 80, then the processor frequency will never be throttled above 80
+            percent of its maximum frequency by the system.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinThrottlingFrequency">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage MinThrottlingFrequency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage MinThrottlingFrequency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.MinThrottlingFrequency" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinThrottlingFrequency As Percentage" />
+      <MemberSignature Language="F#" Value="member this.MinThrottlingFrequency : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.MinThrottlingFrequency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the minimum percentage of the processor frequency.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            For example, if this value is set to 50, then the processor frequency will never be throttled below 50
+            percent of its maximum frequency by the system.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StabilizationInterval">
+      <MemberSignature Language="C#" Value="public TimeSpan StabilizationInterval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan StabilizationInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.StabilizationInterval" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StabilizationInterval As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.StabilizationInterval : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.StabilizationInterval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the time that must expire before considering a change in
+            the processor performance states or parked core set.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemCoolingPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy SystemCoolingPolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy SystemCoolingPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.SystemCoolingPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemCoolingPolicy As SystemCoolingPolicy" />
+      <MemberSignature Language="F#" Value="member this.SystemCoolingPolicy : Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.SystemCoolingPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.SystemCoolingPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the system cooling policy (active or passive cooling).
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Although this is not directly related to processor settings, passive cooling results in slowing down the
+            processor speed, which is controlled by throttling processor frequency as-needed, so it is fairly strongly
+            related.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThrottlePolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy ThrottlePolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy ThrottlePolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.ThrottlePolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThrottlePolicy As ProcessorThrottlePolicy" />
+      <MemberSignature Language="F#" Value="member this.ThrottlePolicy : Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.ThrottlePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorThrottlePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether throttle states are allowed to be used even when performance states
+            are available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeWindowSize">
+      <MemberSignature Language="C#" Value="public int TimeWindowSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TimeWindowSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.TimeWindowSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeWindowSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.TimeWindowSize : int" Usage="Microsoft.Windows.EventTracing.Power.IProcessorPerformanceConfiguration.TimeWindowSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the number of perf time check intervals to include when calculating a
+            processor's busy percentage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

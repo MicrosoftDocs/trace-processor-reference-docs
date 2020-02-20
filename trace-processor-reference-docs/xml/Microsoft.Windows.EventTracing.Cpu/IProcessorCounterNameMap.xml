@@ -1,0 +1,58 @@
+<Type Name="IProcessorCounterNameMap" FullName="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap">
+  <TypeSignature Language="C#" Value="public interface IProcessorCounterNameMap" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProcessorCounterNameMap" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProcessorCounterNameMap" />
+  <TypeSignature Language="F#" Value="type IProcessorCounterNameMap = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CycleCountIndex">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; CycleCountIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; CycleCountIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap.CycleCountIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CycleCountIndex As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.CycleCountIndex : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap.CycleCountIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstructionCountIndex">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; InstructionCountIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; InstructionCountIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap.InstructionCountIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstructionCountIndex As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.InstructionCountIndex : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Cpu.IProcessorCounterNameMap.InstructionCountIndex" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

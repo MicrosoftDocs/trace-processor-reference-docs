@@ -1,0 +1,106 @@
+<Type Name="ProcessorPerformanceChangePolicy" FullName="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy">
+  <TypeSignature Language="C#" Value="public enum ProcessorPerformanceChangePolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProcessorPerformanceChangePolicy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ProcessorPerformanceChangePolicy" />
+  <TypeSignature Language="F#" Value="type ProcessorPerformanceChangePolicy = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines a policy the system follows when making changes to processor frequency.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Ideal">
+      <MemberSignature Language="C#" Value="Ideal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy Ideal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Ideal" />
+      <MemberSignature Language="VB.NET" Value="Ideal" />
+      <MemberSignature Language="F#" Value="Ideal = 0" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Ideal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Try to achieve the midpoint busy-ness between the the increase and the decrease thresholds.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IdealAggressive">
+      <MemberSignature Language="C#" Value="IdealAggressive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy IdealAggressive = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.IdealAggressive" />
+      <MemberSignature Language="VB.NET" Value="IdealAggressive" />
+      <MemberSignature Language="F#" Value="IdealAggressive = 3" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.IdealAggressive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Change more aggresively than ideal.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rocket">
+      <MemberSignature Language="C#" Value="Rocket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy Rocket = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Rocket" />
+      <MemberSignature Language="VB.NET" Value="Rocket" />
+      <MemberSignature Language="F#" Value="Rocket = 2" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Rocket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Jump directly to the extreme frequency.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Single">
+      <MemberSignature Language="C#" Value="Single" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy Single = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Single" />
+      <MemberSignature Language="VB.NET" Value="Single" />
+      <MemberSignature Language="F#" Value="Single = 1" Usage="Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy.Single" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.ProcessorPerformanceChangePolicy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Change by a fixed frequency step.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

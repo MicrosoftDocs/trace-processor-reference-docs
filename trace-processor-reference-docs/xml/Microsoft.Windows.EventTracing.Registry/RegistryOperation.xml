@@ -1,0 +1,267 @@
+<Type Name="RegistryOperation" FullName="Microsoft.Windows.EventTracing.Registry.RegistryOperation">
+  <TypeSignature Language="C#" Value="public enum RegistryOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RegistryOperation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Registry.RegistryOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RegistryOperation" />
+  <TypeSignature Language="F#" Value="type RegistryOperation = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NtClose">
+      <MemberSignature Language="C#" Value="NtClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtClose = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtClose" />
+      <MemberSignature Language="VB.NET" Value="NtClose" />
+      <MemberSignature Language="F#" Value="NtClose = 12" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtCreateKey">
+      <MemberSignature Language="C#" Value="NtCreateKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtCreateKey = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtCreateKey" />
+      <MemberSignature Language="VB.NET" Value="NtCreateKey" />
+      <MemberSignature Language="F#" Value="NtCreateKey = 0" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtCreateKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtDeleteKey">
+      <MemberSignature Language="C#" Value="NtDeleteKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtDeleteKey = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtDeleteKey" />
+      <MemberSignature Language="VB.NET" Value="NtDeleteKey" />
+      <MemberSignature Language="F#" Value="NtDeleteKey = 2" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtDeleteKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtDeleteValueKey">
+      <MemberSignature Language="C#" Value="NtDeleteValueKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtDeleteValueKey = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtDeleteValueKey" />
+      <MemberSignature Language="VB.NET" Value="NtDeleteValueKey" />
+      <MemberSignature Language="F#" Value="NtDeleteValueKey = 5" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtDeleteValueKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtEnumerateKey">
+      <MemberSignature Language="C#" Value="NtEnumerateKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtEnumerateKey = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtEnumerateKey" />
+      <MemberSignature Language="VB.NET" Value="NtEnumerateKey" />
+      <MemberSignature Language="F#" Value="NtEnumerateKey = 7" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtEnumerateKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtEnumerateValueKey">
+      <MemberSignature Language="C#" Value="NtEnumerateValueKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtEnumerateValueKey = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtEnumerateValueKey" />
+      <MemberSignature Language="VB.NET" Value="NtEnumerateValueKey" />
+      <MemberSignature Language="F#" Value="NtEnumerateValueKey = 8" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtEnumerateValueKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtFlushKey">
+      <MemberSignature Language="C#" Value="NtFlushKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtFlushKey = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtFlushKey" />
+      <MemberSignature Language="VB.NET" Value="NtFlushKey" />
+      <MemberSignature Language="F#" Value="NtFlushKey = 11" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtFlushKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtOpenKey">
+      <MemberSignature Language="C#" Value="NtOpenKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtOpenKey = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtOpenKey" />
+      <MemberSignature Language="VB.NET" Value="NtOpenKey" />
+      <MemberSignature Language="F#" Value="NtOpenKey = 1" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtOpenKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtQueryKey">
+      <MemberSignature Language="C#" Value="NtQueryKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtQueryKey = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryKey" />
+      <MemberSignature Language="VB.NET" Value="NtQueryKey" />
+      <MemberSignature Language="F#" Value="NtQueryKey = 3" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtQueryMultipleValueKey">
+      <MemberSignature Language="C#" Value="NtQueryMultipleValueKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtQueryMultipleValueKey = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryMultipleValueKey" />
+      <MemberSignature Language="VB.NET" Value="NtQueryMultipleValueKey" />
+      <MemberSignature Language="F#" Value="NtQueryMultipleValueKey = 9" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryMultipleValueKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtQueryValueKey">
+      <MemberSignature Language="C#" Value="NtQueryValueKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtQueryValueKey = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryValueKey" />
+      <MemberSignature Language="VB.NET" Value="NtQueryValueKey" />
+      <MemberSignature Language="F#" Value="NtQueryValueKey = 6" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtQueryValueKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtSetInformationKey">
+      <MemberSignature Language="C#" Value="NtSetInformationKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtSetInformationKey = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtSetInformationKey" />
+      <MemberSignature Language="VB.NET" Value="NtSetInformationKey" />
+      <MemberSignature Language="F#" Value="NtSetInformationKey = 10" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtSetInformationKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NtSetValueKey">
+      <MemberSignature Language="C#" Value="NtSetValueKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Registry.RegistryOperation NtSetValueKey = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtSetValueKey" />
+      <MemberSignature Language="VB.NET" Value="NtSetValueKey" />
+      <MemberSignature Language="F#" Value="NtSetValueKey = 4" Usage="Microsoft.Windows.EventTracing.Registry.RegistryOperation.NtSetValueKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Registry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Registry.RegistryOperation</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

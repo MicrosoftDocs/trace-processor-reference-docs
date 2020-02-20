@@ -1,0 +1,292 @@
+<Type Name="TraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.TraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class TraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type TraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Use">
+      <MemberSignature Language="C#" Value="public static void Use (this Microsoft.Windows.EventTracing.ITraceSource trace, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Use(class Microsoft.Windows.EventTracing.ITraceSource trace, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.Use(Microsoft.Windows.EventTracing.ITraceSource,Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Use (trace As ITraceSource, process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member Use : Microsoft.Windows.EventTracing.ITraceSource * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.Use (trace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive events when the trace is processed.</summary>
+        <remarks>
+          <para>
+            Callbacks that do not need to receive events from all providers should use
+            <see cref="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.Use(Microsoft.Windows.EventTracing.ITraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.TraceEventCallback)" /> for better performance.
+            </para>
+          <para>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Use">
+      <MemberSignature Language="C#" Value="public static void Use (this Microsoft.Windows.EventTracing.ITraceSource trace, System.Collections.Generic.IReadOnlyList&lt;Guid&gt; providerIds, Microsoft.Windows.EventTracing.TraceEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Use(class Microsoft.Windows.EventTracing.ITraceSource trace, class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Guid&gt; providerIds, class Microsoft.Windows.EventTracing.TraceEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.Use(Microsoft.Windows.EventTracing.ITraceSource,System.Collections.Generic.IReadOnlyList{System.Guid},Microsoft.Windows.EventTracing.TraceEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Use (trace As ITraceSource, providerIds As IReadOnlyList(Of Guid), process As TraceEventCallback)" />
+      <MemberSignature Language="F#" Value="static member Use : Microsoft.Windows.EventTracing.ITraceSource * System.Collections.Generic.IReadOnlyList&lt;Guid&gt; * Microsoft.Windows.EventTracing.TraceEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.Use (trace, providerIds, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="providerIds" Type="System.Collections.Generic.IReadOnlyList&lt;System.Guid&gt;" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.TraceEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="providerIds">A list of provider IDs that filters the events the callback will receive.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive events from specified providers when the trace is processed.
+            </summary>
+        <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseMetadata">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.Metadata.ITraceMetadata UseMetadata (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.Metadata.ITraceMetadata UseMetadata(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UseMetadata(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseMetadata (trace As ITraceSource) As ITraceMetadata" />
+      <MemberSignature Language="F#" Value="static member UseMetadata : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.Metadata.ITraceMetadata" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UseMetadata trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.ITraceMetadata</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides trace metadata available without further processing.</summary>
+        <returns>Trace metadata available without further processing.</returns>
+        <remarks>
+            Windows Performance Analyzer provides this data via System Configuration, Traces and General.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePending&lt;TDataSource&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;TDataSource&gt; UsePending&lt;TDataSource&gt; (this Microsoft.Windows.EventTracing.ITraceSource trace, Microsoft.Windows.EventTracing.IProvider&lt;TDataSource&gt; provider, Microsoft.Windows.EventTracing.ConsumerSchedule availability);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;!!TDataSource&gt; UsePending&lt;TDataSource&gt;(class Microsoft.Windows.EventTracing.ITraceSource trace, class Microsoft.Windows.EventTracing.IProvider`1&lt;!!TDataSource&gt; provider, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule availability) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePending``1(Microsoft.Windows.EventTracing.ITraceSource,Microsoft.Windows.EventTracing.IProvider{``0},Microsoft.Windows.EventTracing.ConsumerSchedule)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePending(Of TDataSource) (trace As ITraceSource, provider As IProvider(Of TDataSource), availability As ConsumerSchedule) As IPendingResult(Of TDataSource)" />
+      <MemberSignature Language="F#" Value="static member UsePending : Microsoft.Windows.EventTracing.ITraceSource * Microsoft.Windows.EventTracing.IProvider&lt;'DataSource&gt; * Microsoft.Windows.EventTracing.ConsumerSchedule -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;'DataSource&gt;" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePending (trace, provider, availability)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;TDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TDataSource" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="provider" Type="Microsoft.Windows.EventTracing.IProvider&lt;TDataSource&gt;" />
+        <Parameter Name="availability" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TDataSource">The data source type.</typeparam>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="provider">The data source provider.</param>
+        <param name="availability">A value indicating when to make the pending result available.</param>
+        <summary>
+            Registers a data source provider to make its data source available at a later point in trace processing.
+            </summary>
+        <returns>
+            A pending result that will be available at the point indicated by <paramref name="availability" />.
+            </returns>
+        <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePendingPerTrace&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;T&gt; UsePendingPerTrace&lt;T&gt; (this Microsoft.Windows.EventTracing.ITraceSource trace, object perTraceKey, Microsoft.Windows.EventTracing.IProvider&lt;Microsoft.Windows.EventTracing.IProvider&lt;T&gt;&gt; providerOfProvider, Microsoft.Windows.EventTracing.ConsumerSchedule availability);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;!!T&gt; UsePendingPerTrace&lt;T&gt;(class Microsoft.Windows.EventTracing.ITraceSource trace, object perTraceKey, class Microsoft.Windows.EventTracing.IProvider`1&lt;class Microsoft.Windows.EventTracing.IProvider`1&lt;!!T&gt;&gt; providerOfProvider, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule availability) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePendingPerTrace``1(Microsoft.Windows.EventTracing.ITraceSource,System.Object,Microsoft.Windows.EventTracing.IProvider{Microsoft.Windows.EventTracing.IProvider{``0}},Microsoft.Windows.EventTracing.ConsumerSchedule)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePendingPerTrace(Of T) (trace As ITraceSource, perTraceKey As Object, providerOfProvider As IProvider(Of IProvider(Of T)), availability As ConsumerSchedule) As IPendingResult(Of T)" />
+      <MemberSignature Language="F#" Value="static member UsePendingPerTrace : Microsoft.Windows.EventTracing.ITraceSource * obj * Microsoft.Windows.EventTracing.IProvider&lt;Microsoft.Windows.EventTracing.IProvider&lt;'T&gt;&gt; * Microsoft.Windows.EventTracing.ConsumerSchedule -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;'T&gt;" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePendingPerTrace (trace, perTraceKey, providerOfProvider, availability)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="perTraceKey" Type="System.Object" />
+        <Parameter Name="providerOfProvider" Type="Microsoft.Windows.EventTracing.IProvider&lt;Microsoft.Windows.EventTracing.IProvider&lt;T&gt;&gt;" />
+        <Parameter Name="availability" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="trace">To be added.</param>
+        <param name="perTraceKey">To be added.</param>
+        <param name="providerOfProvider">To be added.</param>
+        <param name="availability">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsePendingPerTrace&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;T&gt; UsePendingPerTrace&lt;T&gt; (this Microsoft.Windows.EventTracing.ITraceSource trace, object perTraceKey, Func&lt;Microsoft.Windows.EventTracing.IProvider&lt;T&gt;&gt; createProvider, Microsoft.Windows.EventTracing.ConsumerSchedule availability);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;!!T&gt; UsePendingPerTrace&lt;T&gt;(class Microsoft.Windows.EventTracing.ITraceSource trace, object perTraceKey, class System.Func`1&lt;class Microsoft.Windows.EventTracing.IProvider`1&lt;!!T&gt;&gt; createProvider, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule availability) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePendingPerTrace``1(Microsoft.Windows.EventTracing.ITraceSource,System.Object,System.Func{Microsoft.Windows.EventTracing.IProvider{``0}},Microsoft.Windows.EventTracing.ConsumerSchedule)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UsePendingPerTrace(Of T) (trace As ITraceSource, perTraceKey As Object, createProvider As Func(Of IProvider(Of T)), availability As ConsumerSchedule) As IPendingResult(Of T)" />
+      <MemberSignature Language="F#" Value="static member UsePendingPerTrace : Microsoft.Windows.EventTracing.ITraceSource * obj * Func&lt;Microsoft.Windows.EventTracing.IProvider&lt;'T&gt;&gt; * Microsoft.Windows.EventTracing.ConsumerSchedule -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;'T&gt;" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UsePendingPerTrace (trace, perTraceKey, createProvider, availability)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="perTraceKey" Type="System.Object" />
+        <Parameter Name="createProvider" Type="System.Func&lt;Microsoft.Windows.EventTracing.IProvider&lt;T&gt;&gt;" />
+        <Parameter Name="availability" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="trace">To be added.</param>
+        <param name="perTraceKey">To be added.</param>
+        <param name="createProvider">To be added.</param>
+        <param name="availability">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseStreaming">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IStreamingTraceSource UseStreaming (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IStreamingTraceSource UseStreaming(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UseStreaming(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseStreaming (trace As ITraceSource) As IStreamingTraceSource" />
+      <MemberSignature Language="F#" Value="static member UseStreaming : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IStreamingTraceSource" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UseStreaming trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IStreamingTraceSource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to stream the data.</param>
+        <summary>Provides streaming (non-buffered) data from the trace.</summary>
+        <returns>A provider for streaming data in the trace.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTraceTimestampContext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ITraceTimestampContext UseTraceTimestampContext (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.ITraceTimestampContext UseTraceTimestampContext(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UseTraceTimestampContext(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseTraceTimestampContext (trace As ITraceSource) As ITraceTimestampContext" />
+      <MemberSignature Language="F#" Value="static member UseTraceTimestampContext : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.ITraceTimestampContext" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UseTraceTimestampContext trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceTimestampContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides a context to interpret a <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />.</summary>
+        <returns>A context to interpret a <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTwoPassCompletion">
+      <MemberSignature Language="C#" Value="public static void UseTwoPassCompletion (this Microsoft.Windows.EventTracing.ITraceSource trace, Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseTwoPassCompletion(class Microsoft.Windows.EventTracing.ITraceSource trace, class Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceSourceExtensions.UseTwoPassCompletion(Microsoft.Windows.EventTracing.ITraceSource,Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseTwoPassCompletion (trace As ITraceSource, consumer As ICompletableTwoPassEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseTwoPassCompletion : Microsoft.Windows.EventTracing.ITraceSource * Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.TraceSourceExtensions.UseTwoPassCompletion (trace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.ICompletableTwoPassEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="consumer">The event consumer to register.</param>
+        <summary>Registers a consumer to receive events when the trace is processed across two passes.</summary>
+        <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

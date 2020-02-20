@@ -1,0 +1,24 @@
+<Type Name="IUtcTimeTrigger" FullName="Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger">
+  <TypeSignature Language="C#" Value="public interface IUtcTimeTrigger : Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUtcTimeTrigger implements class Microsoft.Windows.EventTracing.Utc.IUtcActivity, class Microsoft.Windows.EventTracing.Utc.IUtcTrigger" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Utc.IUtcTimeTrigger" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUtcTimeTrigger&#xA;Implements IUtcTrigger" />
+  <TypeSignature Language="F#" Value="type IUtcTimeTrigger = interface&#xA;    interface IUtcTrigger&#xA;    interface IUtcActivity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Utc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcActivity</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Utc.IUtcTrigger</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

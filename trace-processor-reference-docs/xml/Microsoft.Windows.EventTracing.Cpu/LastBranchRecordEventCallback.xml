@@ -1,0 +1,25 @@
+<Type Name="LastBranchRecordEventCallback" FullName="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback">
+  <TypeSignature Language="C#" Value="public delegate void LastBranchRecordEventCallback(LastBranchRecordEventContext eventContext);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LastBranchRecordEventCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub LastBranchRecordEventCallback(eventContext As LastBranchRecordEventContext)" />
+  <TypeSignature Language="F#" Value="type LastBranchRecordEventCallback = delegate of LastBranchRecordEventContext -&gt; unit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEventContext" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="eventContext">The last branch record event to process.</param>
+    <summary>Processes a last branch record event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

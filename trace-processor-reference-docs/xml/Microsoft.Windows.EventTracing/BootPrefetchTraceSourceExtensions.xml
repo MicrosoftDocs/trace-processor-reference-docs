@@ -1,0 +1,48 @@
+<Type Name="BootPrefetchTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.BootPrefetchTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class BootPrefetchTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BootPrefetchTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.BootPrefetchTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module BootPrefetchTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type BootPrefetchTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseReadyBootData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchDataSource&gt; UseReadyBootData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchDataSource&gt; UseReadyBootData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.BootPrefetchTraceSourceExtensions.UseReadyBootData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseReadyBootData (trace As ITraceSource) As IPendingResult(Of IBootPrefetchDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseReadyBootData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchDataSource&gt;" Usage="Microsoft.Windows.EventTracing.BootPrefetchTraceSourceExtensions.UseReadyBootData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.BootPrefetch</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.BootPrefetch.IBootPrefetchDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about boot prefetching activity from Ready Boot.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about boot prefetching
+            activity from ReadyBoot.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Ready Boot Events table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

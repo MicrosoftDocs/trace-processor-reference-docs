@@ -1,0 +1,47 @@
+<Type Name="ProcessDataSourceExtensions" FullName="Microsoft.Windows.EventTracing.Processes.ProcessDataSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class ProcessDataSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProcessDataSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.ProcessDataSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ProcessDataSourceExtensions" />
+  <TypeSignature Language="F#" Value="type ProcessDataSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCrashedProcesses">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IProcess&gt; GetCrashedProcesses (this Microsoft.Windows.EventTracing.Processes.IProcessDataSource processDataSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Processes.IProcess&gt; GetCrashedProcesses(class Microsoft.Windows.EventTracing.Processes.IProcessDataSource processDataSource) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.ProcessDataSourceExtensions.GetCrashedProcesses(Microsoft.Windows.EventTracing.Processes.IProcessDataSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCrashedProcesses (processDataSource As IProcessDataSource) As IReadOnlyList(Of IProcess)" />
+      <MemberSignature Language="F#" Value="static member GetCrashedProcesses : Microsoft.Windows.EventTracing.Processes.IProcessDataSource -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IProcess&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ProcessDataSourceExtensions.GetCrashedProcesses processDataSource" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing.Community</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Processes.IProcess&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processDataSource" Type="Microsoft.Windows.EventTracing.Processes.IProcessDataSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="processDataSource">Process data source for this trace.</param>
+        <summary>
+            Gets the list of crashed processes in this trace.
+            </summary>
+        <returns>List of crashed processes.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,277 @@
+<Type Name="TraceProcessor" FullName="Microsoft.Windows.EventTracing.TraceProcessor">
+  <TypeSignature Language="C#" Value="public sealed class TraceProcessor : IDisposable, Microsoft.Windows.EventTracing.IStreamingTraceSource, Microsoft.Windows.EventTracing.ITraceProcessor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TraceProcessor extends System.Object implements class Microsoft.Windows.EventTracing.IStreamingTraceSource, class Microsoft.Windows.EventTracing.ITraceProcessor, class Microsoft.Windows.EventTracing.ITraceSource, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.TraceProcessor" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TraceProcessor&#xA;Implements IDisposable, IStreamingTraceSource, ITraceProcessor" />
+  <TypeSignature Language="F#" Value="type TraceProcessor = class&#xA;    interface ITraceProcessor&#xA;    interface ITraceSource&#xA;    interface IDisposable&#xA;    interface IStreamingTraceSource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.IStreamingTraceSource</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ITraceProcessor</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.ITraceSource</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ITraceProcessor Create (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.ITraceProcessor Create(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Create(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (path As String) As ITraceProcessor" />
+      <MemberSignature Language="F#" Value="static member Create : string -&gt; Microsoft.Windows.EventTracing.ITraceProcessor" Usage="Microsoft.Windows.EventTracing.TraceProcessor.Create path" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceProcessor</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.ITraceProcessor Create (string path, Microsoft.Windows.EventTracing.ITraceProcessorSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.ITraceProcessor Create(string path, class Microsoft.Windows.EventTracing.ITraceProcessorSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Create(System.String,Microsoft.Windows.EventTracing.ITraceProcessorSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (path As String, settings As ITraceProcessorSettings) As ITraceProcessor" />
+      <MemberSignature Language="F#" Value="static member Create : string * Microsoft.Windows.EventTracing.ITraceProcessorSettings -&gt; Microsoft.Windows.EventTracing.ITraceProcessor" Usage="Microsoft.Windows.EventTracing.TraceProcessor.Create (path, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceProcessor</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="settings" Type="Microsoft.Windows.EventTracing.ITraceProcessorSettings" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="settings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="traceProcessor.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace">
+      <MemberSignature Language="C#" Value="Microsoft.Windows.EventTracing.ITraceSource Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.ITraceSource Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessor.Microsoft#Windows#EventTracing#IStreamingTraceSource#Trace" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Trace As ITraceSource Implements IStreamingTraceSource.Trace" />
+      <MemberSignature Language="F#" Usage="Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Windows.EventTracing.IStreamingTraceSource.Trace</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Process" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process ()" />
+      <MemberSignature Language="F#" Value="abstract member Process : unit -&gt; unit&#xA;override this.Process : unit -&gt; unit" Usage="traceProcessor.Process " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Windows.EventTracing.ITraceProcessor.Process</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(class System.IProgress`1&lt;valuetype Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; progressCallback) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Process(System.IProgress{Microsoft.Windows.EventTracing.TraceProcessingProgress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (progressCallback As IProgress(Of TraceProcessingProgress))" />
+      <MemberSignature Language="F#" Value="abstract member Process : IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; -&gt; unit&#xA;override this.Process : IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt; -&gt; unit" Usage="traceProcessor.Process progressCallback" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Windows.EventTracing.ITraceProcessor.Process(System.IProgress{Microsoft.Windows.EventTracing.TraceProcessingProgress})</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="progressCallback" Type="System.IProgress&lt;Microsoft.Windows.EventTracing.TraceProcessingProgress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="progressCallback">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;object,object&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;object, object&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessor.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of Object, Object)" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;obj, obj&gt;" Usage="Microsoft.Windows.EventTracing.TraceProcessor.Properties" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Windows.EventTracing.ITraceSource.Properties</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ITraceProcessorSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.ITraceProcessorSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.TraceProcessor.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As ITraceProcessorSettings" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.Windows.EventTracing.ITraceProcessorSettings" Usage="Microsoft.Windows.EventTracing.TraceProcessor.Settings" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Windows.EventTracing.ITraceSource.Settings</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ITraceProcessorSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Use">
+      <MemberSignature Language="C#" Value="public void Use (Microsoft.Windows.EventTracing.IEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Use(class Microsoft.Windows.EventTracing.IEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.Use(Microsoft.Windows.EventTracing.IEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Use (consumer As IEventConsumer)" />
+      <MemberSignature Language="F#" Value="abstract member Use : Microsoft.Windows.EventTracing.IEventConsumer -&gt; unit&#xA;override this.Use : Microsoft.Windows.EventTracing.IEventConsumer -&gt; unit" Usage="traceProcessor.Use consumer" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Windows.EventTracing.ITraceSource.Use(Microsoft.Windows.EventTracing.IEventConsumer)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.IEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="consumer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCompletion">
+      <MemberSignature Language="C#" Value="public void UseCompletion (Microsoft.Windows.EventTracing.ICompletable completable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseCompletion(class Microsoft.Windows.EventTracing.ICompletable completable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.TraceProcessor.UseCompletion(Microsoft.Windows.EventTracing.ICompletable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UseCompletion (completable As ICompletable)" />
+      <MemberSignature Language="F#" Value="abstract member UseCompletion : Microsoft.Windows.EventTracing.ICompletable -&gt; unit&#xA;override this.UseCompletion : Microsoft.Windows.EventTracing.ICompletable -&gt; unit" Usage="traceProcessor.UseCompletion completable" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Windows.EventTracing.ITraceSource.UseCompletion(Microsoft.Windows.EventTracing.ICompletable)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="completable" Type="Microsoft.Windows.EventTracing.ICompletable" />
+      </Parameters>
+      <Docs>
+        <param name="completable">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

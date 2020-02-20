@@ -1,0 +1,21 @@
+<Type Name="IWinINetHttpCacheHit" FullName="Microsoft.Windows.EventTracing.Network.IWinINetHttpCacheHit">
+  <TypeSignature Language="C#" Value="public interface IWinINetHttpCacheHit : Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWinINetHttpCacheHit implements class Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Network.IWinINetHttpCacheHit" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWinINetHttpCacheHit&#xA;Implements IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="F#" Value="type IWinINetHttpCacheHit = interface&#xA;    interface IWinINetHttpRequestResponsePair" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

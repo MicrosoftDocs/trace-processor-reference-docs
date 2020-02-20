@@ -1,0 +1,258 @@
+<Type Name="ICpuIdleStateTransition" FullName="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition">
+  <TypeSignature Language="C#" Value="public interface ICpuIdleStateTransition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICpuIdleStateTransition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICpuIdleStateTransition" />
+  <TypeSignature Language="F#" Value="type ICpuIdleStateTransition = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsCoordinatedStateChange">
+      <MemberSignature Language="C#" Value="public bool IsCoordinatedStateChange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCoordinatedStateChange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsCoordinatedStateChange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCoordinatedStateChange As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCoordinatedStateChange : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsCoordinatedStateChange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCoordinatedStateChangePossible">
+      <MemberSignature Language="C#" Value="public bool IsCoordinatedStateChangePossible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCoordinatedStateChangePossible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsCoordinatedStateChangePossible" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCoordinatedStateChangePossible As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsCoordinatedStateChangePossible : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsCoordinatedStateChangePossible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeepSleepState">
+      <MemberSignature Language="C#" Value="public bool IsDeepSleepState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeepSleepState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsDeepSleepState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDeepSleepState As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDeepSleepState : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsDeepSleepState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExitLatencyMeasurementEnabled">
+      <MemberSignature Language="C#" Value="public bool IsExitLatencyMeasurementEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExitLatencyMeasurementEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsExitLatencyMeasurementEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExitLatencyMeasurementEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsExitLatencyMeasurementEnabled : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsExitLatencyMeasurementEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLockingOtherProcessor">
+      <MemberSignature Language="C#" Value="public bool IsLockingOtherProcessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLockingOtherProcessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsLockingOtherProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLockingOtherProcessor As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLockingOtherProcessor : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsLockingOtherProcessor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNonInterruptibleState">
+      <MemberSignature Language="C#" Value="public bool IsNonInterruptibleState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNonInterruptibleState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsNonInterruptibleState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNonInterruptibleState As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNonInterruptibleState : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsNonInterruptibleState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProcessorClockOwner">
+      <MemberSignature Language="C#" Value="public bool IsProcessorClockOwner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsProcessorClockOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsProcessorClockOwner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsProcessorClockOwner As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsProcessorClockOwner : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsProcessorClockOwner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTestForcingStateChange">
+      <MemberSignature Language="C#" Value="public bool IsTestForcingStateChange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTestForcingStateChange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsTestForcingStateChange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTestForcingStateChange As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTestForcingStateChange : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsTestForcingStateChange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWakingClockOwner">
+      <MemberSignature Language="C#" Value="public bool IsWakingClockOwner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWakingClockOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsWakingClockOwner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWakingClockOwner As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsWakingClockOwner : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.IsWakingClockOwner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFailedEnteringDeepSleep">
+      <MemberSignature Language="C#" Value="public bool LegacyFailedEnteringDeepSleep { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LegacyFailedEnteringDeepSleep" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyFailedEnteringDeepSleep" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyFailedEnteringDeepSleep As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LegacyFailedEnteringDeepSleep : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyFailedEnteringDeepSleep" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyIsAlteredForCoordination">
+      <MemberSignature Language="C#" Value="public bool LegacyIsAlteredForCoordination { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LegacyIsAlteredForCoordination" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyIsAlteredForCoordination" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyIsAlteredForCoordination As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LegacyIsAlteredForCoordination : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyIsAlteredForCoordination" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyIsWakingOtherProcessor">
+      <MemberSignature Language="C#" Value="public bool LegacyIsWakingOtherProcessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LegacyIsWakingOtherProcessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyIsWakingOtherProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyIsWakingOtherProcessor As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LegacyIsWakingOtherProcessor : bool" Usage="Microsoft.Windows.EventTracing.Power.ICpuIdleStateTransition.LegacyIsWakingOtherProcessor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

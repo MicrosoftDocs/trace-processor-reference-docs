@@ -1,0 +1,38 @@
+<Type Name="IProcessorProfileDataSource" FullName="Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource">
+  <TypeSignature Language="C#" Value="public interface IProcessorProfileDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProcessorProfileDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProcessorProfileDataSource" />
+  <TypeSignature Language="F#" Value="type IProcessorProfileDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Intervals">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileInterval&gt; Intervals { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Power.IProcessorProfileInterval&gt; Intervals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource.Intervals" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Intervals As IReadOnlyList(Of IProcessorProfileInterval)" />
+      <MemberSignature Language="F#" Value="member this.Intervals : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileInterval&gt;" Usage="Microsoft.Windows.EventTracing.Power.IProcessorProfileDataSource.Intervals" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Power.IProcessorProfileInterval&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

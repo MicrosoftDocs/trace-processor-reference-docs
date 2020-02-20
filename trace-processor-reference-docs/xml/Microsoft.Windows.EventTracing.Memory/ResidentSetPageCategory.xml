@@ -1,0 +1,571 @@
+<Type Name="ResidentSetPageCategory" FullName="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory">
+  <TypeSignature Language="C#" Value="public enum ResidentSetPageCategory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResidentSetPageCategory extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResidentSetPageCategory" />
+  <TypeSignature Language="F#" Value="type ResidentSetPageCategory = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddressingWindowExtensionsPage">
+      <MemberSignature Language="C#" Value="AddressingWindowExtensionsPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory AddressingWindowExtensionsPage = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.AddressingWindowExtensionsPage" />
+      <MemberSignature Language="VB.NET" Value="AddressingWindowExtensionsPage" />
+      <MemberSignature Language="F#" Value="AddressingWindowExtensionsPage = 25" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.AddressingWindowExtensionsPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyOnWriteImage">
+      <MemberSignature Language="C#" Value="CopyOnWriteImage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory CopyOnWriteImage = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWriteImage" />
+      <MemberSignature Language="VB.NET" Value="CopyOnWriteImage" />
+      <MemberSignature Language="F#" Value="CopyOnWriteImage = 4" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWriteImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyOnWriteMapFile">
+      <MemberSignature Language="C#" Value="CopyOnWriteMapFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory CopyOnWriteMapFile = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWriteMapFile" />
+      <MemberSignature Language="VB.NET" Value="CopyOnWriteMapFile" />
+      <MemberSignature Language="F#" Value="CopyOnWriteMapFile = 10" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWriteMapFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyOnWritePageFileMappedSection">
+      <MemberSignature Language="C#" Value="CopyOnWritePageFileMappedSection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory CopyOnWritePageFileMappedSection = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWritePageFileMappedSection" />
+      <MemberSignature Language="VB.NET" Value="CopyOnWritePageFileMappedSection" />
+      <MemberSignature Language="F#" Value="CopyOnWritePageFileMappedSection = 11" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.CopyOnWritePageFileMappedSection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Driver">
+      <MemberSignature Language="C#" Value="Driver" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Driver = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Driver" />
+      <MemberSignature Language="VB.NET" Value="Driver" />
+      <MemberSignature Language="F#" Value="Driver = 18" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Driver" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DriverFile">
+      <MemberSignature Language="C#" Value="DriverFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory DriverFile = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.DriverFile" />
+      <MemberSignature Language="VB.NET" Value="DriverFile" />
+      <MemberSignature Language="F#" Value="DriverFile = 6" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.DriverFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DriverLockedSystemPage">
+      <MemberSignature Language="C#" Value="DriverLockedSystemPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory DriverLockedSystemPage = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.DriverLockedSystemPage" />
+      <MemberSignature Language="VB.NET" Value="DriverLockedSystemPage" />
+      <MemberSignature Language="F#" Value="DriverLockedSystemPage = 26" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.DriverLockedSystemPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HyperSpace">
+      <MemberSignature Language="C#" Value="HyperSpace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory HyperSpace = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.HyperSpace" />
+      <MemberSignature Language="VB.NET" Value="HyperSpace" />
+      <MemberSignature Language="F#" Value="HyperSpace = 13" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.HyperSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="Image" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Image = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Image" />
+      <MemberSignature Language="VB.NET" Value="Image" />
+      <MemberSignature Language="F#" Value="Image = 7" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Image" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelStack">
+      <MemberSignature Language="C#" Value="KernelStack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory KernelStack = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.KernelStack" />
+      <MemberSignature Language="VB.NET" Value="KernelStack" />
+      <MemberSignature Language="F#" Value="KernelStack = 17" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.KernelStack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LargePage">
+      <MemberSignature Language="C#" Value="LargePage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory LargePage = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.LargePage" />
+      <MemberSignature Language="VB.NET" Value="LargePage" />
+      <MemberSignature Language="F#" Value="LargePage = 28" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.LargePage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MapFile">
+      <MemberSignature Language="C#" Value="MapFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory MapFile = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.MapFile" />
+      <MemberSignature Language="VB.NET" Value="MapFile" />
+      <MemberSignature Language="F#" Value="MapFile = 3" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.MapFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MetaFile">
+      <MemberSignature Language="C#" Value="MetaFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory MetaFile = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.MetaFile" />
+      <MemberSignature Language="VB.NET" Value="MetaFile" />
+      <MemberSignature Language="F#" Value="MetaFile = 23" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.MetaFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonPagedPool">
+      <MemberSignature Language="C#" Value="NonPagedPool" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory NonPagedPool = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.NonPagedPool" />
+      <MemberSignature Language="VB.NET" Value="NonPagedPool" />
+      <MemberSignature Language="F#" Value="NonPagedPool = 20" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.NonPagedPool" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PagedPool">
+      <MemberSignature Language="C#" Value="PagedPool" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory PagedPool = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PagedPool" />
+      <MemberSignature Language="VB.NET" Value="PagedPool" />
+      <MemberSignature Language="F#" Value="PagedPool = 15" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PagedPool" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFileMappedSection">
+      <MemberSignature Language="C#" Value="PageFileMappedSection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory PageFileMappedSection = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PageFileMappedSection" />
+      <MemberSignature Language="VB.NET" Value="PageFileMappedSection" />
+      <MemberSignature Language="F#" Value="PageFileMappedSection = 5" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PageFileMappedSection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageTable">
+      <MemberSignature Language="C#" Value="PageTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory PageTable = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PageTable" />
+      <MemberSignature Language="VB.NET" Value="PageTable" />
+      <MemberSignature Language="F#" Value="PageTable = 12" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.PageTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Prefetcher">
+      <MemberSignature Language="C#" Value="Prefetcher" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Prefetcher = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Prefetcher" />
+      <MemberSignature Language="VB.NET" Value="Prefetcher" />
+      <MemberSignature Language="F#" Value="Prefetcher = 16" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Prefetcher" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistryFile">
+      <MemberSignature Language="C#" Value="RegistryFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory RegistryFile = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.RegistryFile" />
+      <MemberSignature Language="VB.NET" Value="RegistryFile" />
+      <MemberSignature Language="F#" Value="RegistryFile = 24" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.RegistryFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionCopyOnWriteImage">
+      <MemberSignature Language="C#" Value="SessionCopyOnWriteImage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory SessionCopyOnWriteImage = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SessionCopyOnWriteImage" />
+      <MemberSignature Language="VB.NET" Value="SessionCopyOnWriteImage" />
+      <MemberSignature Language="F#" Value="SessionCopyOnWriteImage = 22" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SessionCopyOnWriteImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionPrivate">
+      <MemberSignature Language="C#" Value="SessionPrivate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory SessionPrivate = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SessionPrivate" />
+      <MemberSignature Language="VB.NET" Value="SessionPrivate" />
+      <MemberSignature Language="F#" Value="SessionPrivate = 21" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SessionPrivate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StraggleIOPage">
+      <MemberSignature Language="C#" Value="StraggleIOPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory StraggleIOPage = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.StraggleIOPage" />
+      <MemberSignature Language="VB.NET" Value="StraggleIOPage" />
+      <MemberSignature Language="F#" Value="StraggleIOPage = 9" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.StraggleIOPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemCache">
+      <MemberSignature Language="C#" Value="SystemCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory SystemCache = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SystemCache" />
+      <MemberSignature Language="VB.NET" Value="SystemCache" />
+      <MemberSignature Language="F#" Value="SystemCache = 14" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SystemCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemPage">
+      <MemberSignature Language="C#" Value="SystemPage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory SystemPage = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SystemPage" />
+      <MemberSignature Language="VB.NET" Value="SystemPage" />
+      <MemberSignature Language="F#" Value="SystemPage = 19" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.SystemPage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserStack">
+      <MemberSignature Language="C#" Value="UserStack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory UserStack = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.UserStack" />
+      <MemberSignature Language="VB.NET" Value="UserStack" />
+      <MemberSignature Language="F#" Value="UserStack = 2" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.UserStack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualAlloc">
+      <MemberSignature Language="C#" Value="VirtualAlloc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory VirtualAlloc = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.VirtualAlloc" />
+      <MemberSignature Language="VB.NET" Value="VirtualAlloc" />
+      <MemberSignature Language="F#" Value="VirtualAlloc = 1" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.VirtualAlloc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualAllocPreTrace">
+      <MemberSignature Language="C#" Value="VirtualAllocPreTrace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory VirtualAllocPreTrace = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.VirtualAllocPreTrace" />
+      <MemberSignature Language="VB.NET" Value="VirtualAllocPreTrace" />
+      <MemberSignature Language="F#" Value="VirtualAllocPreTrace = 0" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.VirtualAllocPreTrace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Win32Heap">
+      <MemberSignature Language="C#" Value="Win32Heap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory Win32Heap = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Win32Heap" />
+      <MemberSignature Language="VB.NET" Value="Win32Heap" />
+      <MemberSignature Language="F#" Value="Win32Heap = 8" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.Win32Heap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingSetMetadata">
+      <MemberSignature Language="C#" Value="WorkingSetMetadata" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory WorkingSetMetadata = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.WorkingSetMetadata" />
+      <MemberSignature Language="VB.NET" Value="WorkingSetMetadata" />
+      <MemberSignature Language="F#" Value="WorkingSetMetadata = 27" Usage="Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory.WorkingSetMetadata" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.ResidentSetPageCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

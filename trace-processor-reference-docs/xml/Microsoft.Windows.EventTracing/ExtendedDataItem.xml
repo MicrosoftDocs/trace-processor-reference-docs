@@ -1,0 +1,243 @@
+<Type Name="ExtendedDataItem" FullName="Microsoft.Windows.EventTracing.ExtendedDataItem">
+  <TypeSignature Language="C#" Value="public struct ExtendedDataItem" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ExtendedDataItem extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ExtendedDataItem" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ExtendedDataItem" />
+  <TypeSignature Language="F#" Value="type ExtendedDataItem = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an extended data item for a raw (unparsed) event in an ETW trace.</summary>
+    <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;byte&gt; Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; Data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.Data" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As ReadOnlySpan(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.Data : ReadOnlySpan&lt;byte&gt;" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ReadOnlySpan&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the raw, binary data for the extended item item.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventKey">
+      <MemberSignature Language="C#" Value="public long EventKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 EventKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.EventKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventKey As Long" />
+      <MemberSignature Language="F#" Value="member this.EventKey : int64" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.EventKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasEventKey">
+      <MemberSignature Language="C#" Value="public bool HasEventKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasEventKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.HasEventKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasEventKey As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasEventKey : bool" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.HasEventKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasRelatedActivityId">
+      <MemberSignature Language="C#" Value="public bool HasRelatedActivityId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasRelatedActivityId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.HasRelatedActivityId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasRelatedActivityId As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasRelatedActivityId : bool" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.HasRelatedActivityId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasSessionId">
+      <MemberSignature Language="C#" Value="public bool HasSessionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasSessionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.HasSessionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasSessionId As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasSessionId : bool" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.HasSessionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasUserSecurityIdentifier">
+      <MemberSignature Language="C#" Value="public bool HasUserSecurityIdentifier { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasUserSecurityIdentifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.HasUserSecurityIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasUserSecurityIdentifier As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasUserSecurityIdentifier : bool" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.HasUserSecurityIdentifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasValue">
+      <MemberSignature Language="C#" Value="public bool HasValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.HasValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasValue : bool" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.HasValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelatedActivityId">
+      <MemberSignature Language="C#" Value="public Guid RelatedActivityId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid RelatedActivityId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.RelatedActivityId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelatedActivityId As Guid" />
+      <MemberSignature Language="F#" Value="member this.RelatedActivityId : Guid" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.RelatedActivityId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionId">
+      <MemberSignature Language="C#" Value="public int SessionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SessionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.SessionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionId As Integer" />
+      <MemberSignature Language="F#" Value="member this.SessionId : int" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.SessionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ExtendedDataType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ExtendedDataType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As ExtendedDataType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.Windows.EventTracing.ExtendedDataType" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ExtendedDataType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSecurityIdentifier">
+      <MemberSignature Language="C#" Value="public System.Security.Principal.SecurityIdentifier UserSecurityIdentifier { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Principal.SecurityIdentifier UserSecurityIdentifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ExtendedDataItem.UserSecurityIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserSecurityIdentifier As SecurityIdentifier" />
+      <MemberSignature Language="F#" Value="member this.UserSecurityIdentifier : System.Security.Principal.SecurityIdentifier" Usage="Microsoft.Windows.EventTracing.ExtendedDataItem.UserSecurityIdentifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

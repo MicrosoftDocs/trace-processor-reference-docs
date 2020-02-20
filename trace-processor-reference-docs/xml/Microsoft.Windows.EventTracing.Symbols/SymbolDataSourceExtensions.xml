@@ -1,0 +1,82 @@
+<Type Name="SymbolDataSourceExtensions" FullName="Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class SymbolDataSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SymbolDataSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SymbolDataSourceExtensions" />
+  <TypeSignature Language="F#" Value="type SymbolDataSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LoadSymbolsForConsoleAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task LoadSymbolsForConsoleAsync (this Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource dataSource, Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task LoadSymbolsForConsoleAsync(class Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource dataSource, class Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions.LoadSymbolsForConsoleAsync(Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource,Microsoft.Windows.EventTracing.Symbols.ISymCachePath)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LoadSymbolsForConsoleAsync (dataSource As ISymbolDataSource, symCachePath As ISymCachePath) As Task" />
+      <MemberSignature Language="F#" Value="static member LoadSymbolsForConsoleAsync : Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource * Microsoft.Windows.EventTracing.Symbols.ISymCachePath -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions.LoadSymbolsForConsoleAsync (dataSource, symCachePath)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataSource" Type="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource" RefType="this" />
+        <Parameter Name="symCachePath" Type="Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+      </Parameters>
+      <Docs>
+        <param name="dataSource">To be added.</param>
+        <param name="symCachePath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Common SymCache paths can be obtained using the helpers on <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymCachePath" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadSymbolsForConsoleAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task LoadSymbolsForConsoleAsync (this Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource dataSource, Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath, Microsoft.Windows.EventTracing.Symbols.ISymbolPath symbolPath = default, string[] includedProcesses = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task LoadSymbolsForConsoleAsync(class Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource dataSource, class Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath, class Microsoft.Windows.EventTracing.Symbols.ISymbolPath symbolPath, string[] includedProcesses) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions.LoadSymbolsForConsoleAsync(Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource,Microsoft.Windows.EventTracing.Symbols.ISymCachePath,Microsoft.Windows.EventTracing.Symbols.ISymbolPath,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LoadSymbolsForConsoleAsync (dataSource As ISymbolDataSource, symCachePath As ISymCachePath, Optional symbolPath As ISymbolPath = null, Optional includedProcesses As String() = null) As Task" />
+      <MemberSignature Language="F#" Value="static member LoadSymbolsForConsoleAsync : Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource * Microsoft.Windows.EventTracing.Symbols.ISymCachePath * Microsoft.Windows.EventTracing.Symbols.ISymbolPath * string[] -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Windows.EventTracing.Symbols.SymbolDataSourceExtensions.LoadSymbolsForConsoleAsync (dataSource, symCachePath, symbolPath, includedProcesses)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dataSource" Type="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource" RefType="this" />
+        <Parameter Name="symCachePath" Type="Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+        <Parameter Name="symbolPath" Type="Microsoft.Windows.EventTracing.Symbols.ISymbolPath" />
+        <Parameter Name="includedProcesses" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="dataSource">To be added.</param>
+        <param name="symCachePath">To be added.</param>
+        <param name="symbolPath">To be added.</param>
+        <param name="includedProcesses">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Common SymCache and symbol paths can be obtained using the helpers on <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymCachePath" /> and
+            <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymbolPath" /> respectively.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

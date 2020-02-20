@@ -1,0 +1,96 @@
+<Type Name="Architecture" FullName="Microsoft.Windows.EventTracing.Metadata.Architecture">
+  <TypeSignature Language="C#" Value="public enum Architecture" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Architecture extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.Architecture" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Architecture" />
+  <TypeSignature Language="F#" Value="type Architecture = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Amd64">
+      <MemberSignature Language="C#" Value="Amd64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.Architecture Amd64 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.Architecture.Amd64" />
+      <MemberSignature Language="VB.NET" Value="Amd64" />
+      <MemberSignature Language="F#" Value="Amd64 = 1" Usage="Microsoft.Windows.EventTracing.Metadata.Architecture.Amd64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.Architecture</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Arm">
+      <MemberSignature Language="C#" Value="Arm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.Architecture Arm = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.Architecture.Arm" />
+      <MemberSignature Language="VB.NET" Value="Arm" />
+      <MemberSignature Language="F#" Value="Arm = 2" Usage="Microsoft.Windows.EventTracing.Metadata.Architecture.Arm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.Architecture</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Arm64">
+      <MemberSignature Language="C#" Value="Arm64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.Architecture Arm64 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.Architecture.Arm64" />
+      <MemberSignature Language="VB.NET" Value="Arm64" />
+      <MemberSignature Language="F#" Value="Arm64 = 3" Usage="Microsoft.Windows.EventTracing.Metadata.Architecture.Arm64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.Architecture</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="X86">
+      <MemberSignature Language="C#" Value="X86" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Metadata.Architecture X86 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Metadata.Architecture.X86" />
+      <MemberSignature Language="VB.NET" Value="X86" />
+      <MemberSignature Language="F#" Value="X86 = 0" Usage="Microsoft.Windows.EventTracing.Metadata.Architecture.X86" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Metadata.Architecture</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

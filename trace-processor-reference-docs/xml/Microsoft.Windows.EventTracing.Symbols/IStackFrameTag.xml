@@ -1,0 +1,98 @@
+<Type Name="IStackFrameTag" FullName="Microsoft.Windows.EventTracing.Symbols.IStackFrameTag">
+  <TypeSignature Language="C#" Value="public interface IStackFrameTag" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackFrameTag" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackFrameTag" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackFrameTag" />
+  <TypeSignature Language="F#" Value="type IStackFrameTag = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Priority As Integer" />
+      <MemberSignature Language="F#" Value="member this.Priority : int" Usage="Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Priority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Symbol">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSymbol Symbol { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSymbol Symbol" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Symbol" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Symbol As IStackSymbol" />
+      <MemberSignature Language="F#" Value="member this.Symbol : Microsoft.Windows.EventTracing.Symbols.IStackSymbol" Usage="Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Symbol" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSymbol</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="F#" Value="member this.Tag : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.Tag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagPath">
+      <MemberSignature Language="C#" Value="public string TagPath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TagPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.TagPath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TagPath As String" />
+      <MemberSignature Language="F#" Value="member this.TagPath : string" Usage="Microsoft.Windows.EventTracing.Symbols.IStackFrameTag.TagPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

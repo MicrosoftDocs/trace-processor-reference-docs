@@ -1,0 +1,41 @@
+<Type Name="IThreadCreateEventConsumer" FullName="Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IThreadCreateEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IThreadCreateEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IThreadCreateEventConsumer" />
+  <TypeSignature Language="F#" Value="type IThreadCreateEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a thread create event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Processes.ThreadCreateEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Processes.ThreadCreateEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer.Process(Microsoft.Windows.EventTracing.Processes.ThreadCreateEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As ThreadCreateEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Processes.ThreadCreateEventContext -&gt; unit" Usage="iThreadCreateEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Processes.ThreadCreateEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The thread create event to process.</param>
+        <summary>Processes a thread create event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

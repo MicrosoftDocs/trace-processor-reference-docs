@@ -1,0 +1,338 @@
+<Type Name="IPhoneInfo" FullName="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo">
+  <TypeSignature Language="C#" Value="public interface IPhoneInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPhoneInfo" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPhoneInfo" />
+  <TypeSignature Language="F#" Value="type IPhoneInfo = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BootLoaderVersion">
+      <MemberSignature Language="C#" Value="public string BootLoaderVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BootLoaderVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.BootLoaderVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BootLoaderVersion As String" />
+      <MemberSignature Language="F#" Value="member this.BootLoaderVersion : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.BootLoaderVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirmwareRevision">
+      <MemberSignature Language="C#" Value="public string FirmwareRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirmwareRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.FirmwareRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirmwareRevision As String" />
+      <MemberSignature Language="F#" Value="member this.FirmwareRevision : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.FirmwareRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FriendlyName">
+      <MemberSignature Language="C#" Value="public string FriendlyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.FriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FriendlyName As String" />
+      <MemberSignature Language="F#" Value="member this.FriendlyName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.FriendlyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareRevision">
+      <MemberSignature Language="C#" Value="public string HardwareRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HardwareRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.HardwareRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareRevision As String" />
+      <MemberSignature Language="F#" Value="member this.HardwareRevision : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.HardwareRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HardwareVariant">
+      <MemberSignature Language="C#" Value="public string HardwareVariant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HardwareVariant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.HardwareVariant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareVariant As String" />
+      <MemberSignature Language="F#" Value="member this.HardwareVariant : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.HardwareVariant" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manufacturer">
+      <MemberSignature Language="C#" Value="public string Manufacturer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Manufacturer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.Manufacturer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Manufacturer As String" />
+      <MemberSignature Language="F#" Value="member this.Manufacturer : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.Manufacturer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManufacturerDisplayName">
+      <MemberSignature Language="C#" Value="public string ManufacturerDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManufacturerDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ManufacturerDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManufacturerDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.ManufacturerDisplayName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ManufacturerDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManufacturerModelName">
+      <MemberSignature Language="C#" Value="public string ManufacturerModelName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManufacturerModelName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ManufacturerModelName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManufacturerModelName As String" />
+      <MemberSignature Language="F#" Value="member this.ManufacturerModelName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ManufacturerModelName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileOperatorDisplayName">
+      <MemberSignature Language="C#" Value="public string MobileOperatorDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MobileOperatorDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.MobileOperatorDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MobileOperatorDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.MobileOperatorDisplayName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.MobileOperatorDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileOperatorName">
+      <MemberSignature Language="C#" Value="public string MobileOperatorName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MobileOperatorName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.MobileOperatorName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MobileOperatorName As String" />
+      <MemberSignature Language="F#" Value="member this.MobileOperatorName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.MobileOperatorName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModelName">
+      <MemberSignature Language="C#" Value="public string ModelName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ModelName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ModelName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModelName As String" />
+      <MemberSignature Language="F#" Value="member this.ModelName : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.ModelName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioHardwareRevision">
+      <MemberSignature Language="C#" Value="public string RadioHardwareRevision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RadioHardwareRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RadioHardwareRevision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RadioHardwareRevision As String" />
+      <MemberSignature Language="F#" Value="member this.RadioHardwareRevision : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RadioHardwareRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioSoftwareVersion">
+      <MemberSignature Language="C#" Value="public string RadioSoftwareVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RadioSoftwareVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RadioSoftwareVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RadioSoftwareVersion As String" />
+      <MemberSignature Language="F#" Value="member this.RadioSoftwareVersion : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RadioSoftwareVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RomVersion">
+      <MemberSignature Language="C#" Value="public string RomVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RomVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RomVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RomVersion As String" />
+      <MemberSignature Language="F#" Value="member this.RomVersion : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.RomVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportPhoneNumber">
+      <MemberSignature Language="C#" Value="public string SupportPhoneNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SupportPhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.SupportPhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportPhoneNumber As String" />
+      <MemberSignature Language="F#" Value="member this.SupportPhoneNumber : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.SupportPhoneNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemOnChipVersion">
+      <MemberSignature Language="C#" Value="public string SystemOnChipVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SystemOnChipVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.SystemOnChipVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemOnChipVersion As String" />
+      <MemberSignature Language="F#" Value="member this.SystemOnChipVersion : string" Usage="Microsoft.Windows.EventTracing.Metadata.IPhoneInfo.SystemOnChipVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

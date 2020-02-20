@@ -1,0 +1,69 @@
+<Type Name="IStackTagDataSource" FullName="Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource">
+  <TypeSignature Language="C#" Value="public interface IStackTagDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackTagDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackTagDataSource" />
+  <TypeSignature Language="F#" Value="type IStackTagDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateDefaultMapper">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackTagMapper CreateDefaultMapper ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Symbols.IStackTagMapper CreateDefaultMapper() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource.CreateDefaultMapper" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateDefaultMapper () As IStackTagMapper" />
+      <MemberSignature Language="F#" Value="abstract member CreateDefaultMapper : unit -&gt; Microsoft.Windows.EventTracing.Symbols.IStackTagMapper" Usage="iStackTagDataSource.CreateDefaultMapper " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackTagMapper</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMapper">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackTagMapper CreateMapper (params string[] stackTagFilePaths);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Symbols.IStackTagMapper CreateMapper(string[] stackTagFilePaths) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackTagDataSource.CreateMapper(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMapper (ParamArray stackTagFilePaths As String()) As IStackTagMapper" />
+      <MemberSignature Language="F#" Value="abstract member CreateMapper : string[] -&gt; Microsoft.Windows.EventTracing.Symbols.IStackTagMapper" Usage="iStackTagDataSource.CreateMapper stackTagFilePaths" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackTagMapper</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stackTagFilePaths" Type="System.String[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="stackTagFilePaths">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

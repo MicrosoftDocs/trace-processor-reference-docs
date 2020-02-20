@@ -1,0 +1,478 @@
+<Type Name="IEnergyEstimationInterval" FullName="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval">
+  <TypeSignature Language="C#" Value="public interface IEnergyEstimationInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEnergyEstimationInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEnergyEstimationInterval" />
+  <TypeSignature Language="F#" Value="type IEnergyEstimationInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConsumerId">
+      <MemberSignature Language="C#" Value="public string ConsumerId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConsumerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ConsumerId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConsumerId As String" />
+      <MemberSignature Language="F#" Value="member this.ConsumerId : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ConsumerId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CpuEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue CpuEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue CpuEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.CpuEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CpuEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.CpuEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.CpuEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue DiskEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue DiskEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.DiskEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiskEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.DiskEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.DiskEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue DisplayEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue DisplayEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.DisplayEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.DisplayEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.DisplayEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageDevicePath">
+      <MemberSignature Language="C#" Value="public string ImageDevicePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImageDevicePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ImageDevicePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImageDevicePath As String" />
+      <MemberSignature Language="F#" Value="member this.ImageDevicePath : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ImageDevicePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageName">
+      <MemberSignature Language="C#" Value="public string ImageName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImageName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ImageName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImageName As String" />
+      <MemberSignature Language="F#" Value="member this.ImageName : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ImageName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsApplicationInForeground">
+      <MemberSignature Language="C#" Value="public bool IsApplicationInForeground { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsApplicationInForeground" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsApplicationInForeground" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsApplicationInForeground As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsApplicationInForeground : bool" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsApplicationInForeground" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsBatterySaverActive">
+      <MemberSignature Language="C#" Value="public bool IsBatterySaverActive { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsBatterySaverActive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsBatterySaverActive" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsBatterySaverActive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsBatterySaverActive : bool" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsBatterySaverActive" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsScreenOn">
+      <MemberSignature Language="C#" Value="public bool IsScreenOn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsScreenOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsScreenOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsScreenOn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsScreenOn : bool" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.IsScreenOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LossEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue LossEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue LossEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.LossEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LossEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.LossEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.LossEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileBroadbandEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue MobileBroadbandEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue MobileBroadbandEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.MobileBroadbandEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MobileBroadbandEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.MobileBroadbandEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.MobileBroadbandEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetworkEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue NetworkEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue NetworkEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.NetworkEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NetworkEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.NetworkEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.NetworkEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherConsumerName">
+      <MemberSignature Language="C#" Value="public string OtherConsumerName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OtherConsumerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.OtherConsumerName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OtherConsumerName As String" />
+      <MemberSignature Language="F#" Value="member this.OtherConsumerName : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.OtherConsumerName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue OtherEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue OtherEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.OtherEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OtherEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.OtherEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.OtherEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceGroup">
+      <MemberSignature Language="C#" Value="public string ServiceGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ServiceGroup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceGroup As String" />
+      <MemberSignature Language="F#" Value="member this.ServiceGroup : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ServiceGroup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceName">
+      <MemberSignature Language="C#" Value="public string ServiceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceName As String" />
+      <MemberSignature Language="F#" Value="member this.ServiceName : string" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.ServiceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerSourceType SourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerSourceType SourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.SourceType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceType As PowerSourceType" />
+      <MemberSignature Language="F#" Value="member this.SourceType : Microsoft.Windows.EventTracing.Power.PowerSourceType" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.SourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerSourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemOnChipEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue SystemOnChipEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue SystemOnChipEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.SystemOnChipEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemOnChipEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.SystemOnChipEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.SystemOnChipEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalEnergy">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.EnergyValue TotalEnergy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.EnergyValue TotalEnergy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.TotalEnergy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalEnergy As EnergyValue" />
+      <MemberSignature Language="F#" Value="member this.TotalEnergy : Microsoft.Windows.EventTracing.EnergyValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.TotalEnergy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.EnergyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalPower">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.PowerValue TotalPower { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.PowerValue TotalPower" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.TotalPower" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalPower As PowerValue" />
+      <MemberSignature Language="F#" Value="member this.TotalPower : Microsoft.Windows.EventTracing.PowerValue" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.TotalPower" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.PowerValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public int UserId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserId As Integer" />
+      <MemberSignature Language="F#" Value="member this.UserId : int" Usage="Microsoft.Windows.EventTracing.Power.IEnergyEstimationInterval.UserId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

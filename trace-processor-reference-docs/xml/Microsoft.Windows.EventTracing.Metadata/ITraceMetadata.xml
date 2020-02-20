@@ -1,0 +1,372 @@
+<Type Name="ITraceMetadata" FullName="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata">
+  <TypeSignature Language="C#" Value="public interface ITraceMetadata" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITraceMetadata" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITraceMetadata" />
+  <TypeSignature Language="F#" Value="type ITraceMetadata = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnalyzerDisplayedDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceDuration AnalyzerDisplayedDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceDuration AnalyzerDisplayedDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.AnalyzerDisplayedDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnalyzerDisplayedDuration As TraceDuration" />
+      <MemberSignature Language="F#" Value="member this.AnalyzerDisplayedDuration : Microsoft.Windows.EventTracing.TraceDuration" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.AnalyzerDisplayedDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the duration of time that will be displayed by Windows Performance Analyzer (WPA). This
+            may not be the actual length of the trace. See <see cref="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.FirstAnalyzerDisplayedEventTime" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClockType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceClockType ClockType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceClockType ClockType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ClockType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClockType As TraceClockType" />
+      <MemberSignature Language="F#" Value="member this.ClockType : Microsoft.Windows.EventTracing.TraceClockType" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ClockType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceClockType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstAnalyzerDisplayedEventTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp FirstAnalyzerDisplayedEventTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp FirstAnalyzerDisplayedEventTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.FirstAnalyzerDisplayedEventTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstAnalyzerDisplayedEventTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.FirstAnalyzerDisplayedEventTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.FirstAnalyzerDisplayedEventTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp of the first event that will be displayed by Windows Performance Analyzer (WPA). This
+            may not be the actual first event in the trace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Is32Bit">
+      <MemberSignature Language="C#" Value="public bool Is32Bit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Is32Bit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.Is32Bit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Is32Bit As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Is32Bit : bool" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.Is32Bit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelEventVersion">
+      <MemberSignature Language="C#" Value="public int KernelEventVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 KernelEventVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.KernelEventVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KernelEventVersion As Integer" />
+      <MemberSignature Language="F#" Value="member this.KernelEventVersion : int" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.KernelEventVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastEventTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp LastEventTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp LastEventTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LastEventTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastEventTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.LastEventTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LastEventTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LostBufferCount">
+      <MemberSignature Language="C#" Value="public long LostBufferCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LostBufferCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LostBufferCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LostBufferCount As Long" />
+      <MemberSignature Language="F#" Value="member this.LostBufferCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LostBufferCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LostEventCount">
+      <MemberSignature Language="C#" Value="public long LostEventCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 LostEventCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LostEventCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LostEventCount As Long" />
+      <MemberSignature Language="F#" Value="member this.LostEventCount : int64" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.LostEventCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OSVersion">
+      <MemberSignature Language="C#" Value="public Version OSVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Version OSVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.OSVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSVersion As Version" />
+      <MemberSignature Language="F#" Value="member this.OSVersion : Version" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.OSVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Version</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformanceCounterFrequency">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue PerformanceCounterFrequency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue PerformanceCounterFrequency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.PerformanceCounterFrequency" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PerformanceCounterFrequency As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.PerformanceCounterFrequency : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.PerformanceCounterFrequency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorCount">
+      <MemberSignature Language="C#" Value="public int ProcessorCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessorCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessorCount : int" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorSpeed">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue ProcessorSpeed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue ProcessorSpeed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorSpeed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorSpeed As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.ProcessorSpeed : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorSpeed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            This data may be inaccurate. If available, use ISystemMetadata.ProcessorSpeed instead, and only fallback to
+            this value when necessary.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorUsageTimerFrequency">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue ProcessorUsageTimerFrequency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue ProcessorUsageTimerFrequency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorUsageTimerFrequency" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorUsageTimerFrequency As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.ProcessorUsageTimerFrequency : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ProcessorUsageTimerFrequency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceTimestampValue">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestampValue&gt; ReferenceTimestampValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestampValue&gt; ReferenceTimestampValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ReferenceTimestampValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReferenceTimestampValue As Nullable(Of TraceTimestampValue)" />
+      <MemberSignature Language="F#" Value="member this.ReferenceTimestampValue : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestampValue&gt;" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.ReferenceTimestampValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestampValue&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the value of the trace timestamp used as a reference time (the start of the trace).</summary>
+        <value>To be added.</value>
+        <remarks>
+            Different clock types use different types of trace timestamp values, but generally they need to pair a
+            specific reference value with an exact matching reference time (the start of the trace), and then track time
+            relatively (and at high precision) from that point. For more details, the ClientContext section on the
+            <a href="https://docs.microsoft.com/en-us/windows/desktop/ETW/wnode-header">WNODE_HEADER documentation</a>.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTimeOffset" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.StopTime : DateTimeOffset" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TracePath">
+      <MemberSignature Language="C#" Value="public string TracePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TracePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.TracePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TracePath As String" />
+      <MemberSignature Language="F#" Value="member this.TracePath : string" Usage="Microsoft.Windows.EventTracing.Metadata.ITraceMetadata.TracePath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,150 @@
+<Type Name="WindowInFocusIntervalContext" FullName="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext">
+  <TypeSignature Language="C#" Value="public struct WindowInFocusIntervalContext" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit WindowInFocusIntervalContext extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext" />
+  <TypeSignature Language="VB.NET" Value="Public Structure WindowInFocusIntervalContext" />
+  <TypeSignature Language="F#" Value="type WindowInFocusIntervalContext = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the context for a consumer that processes window-in-focus data.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WindowInFocusIntervalContext (Microsoft.Windows.EventTracing.EventContextState state, Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval data, System.Runtime.ExceptionServices.ExceptionDispatchInfo exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Windows.EventTracing.EventContextState state, valuetype Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval data, class System.Runtime.ExceptionServices.ExceptionDispatchInfo exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.#ctor(Microsoft.Windows.EventTracing.EventContextState,Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval,System.Runtime.ExceptionServices.ExceptionDispatchInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (state As EventContextState, data As WindowInFocusInterval, exception As ExceptionDispatchInfo)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext : Microsoft.Windows.EventTracing.EventContextState * Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval * System.Runtime.ExceptionServices.ExceptionDispatchInfo -&gt; Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext" Usage="new Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext (state, data, exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.Windows.EventTracing.EventContextState" />
+        <Parameter Name="data" Type="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval" />
+        <Parameter Name="exception" Type="System.Runtime.ExceptionServices.ExceptionDispatchInfo" />
+      </Parameters>
+      <Docs>
+        <param name="state">The mutable state associated with this event context.</param>
+        <param name="data">The data from the event that was parsed, if successful.</param>
+        <param name="exception">The exception that occured attempting to parse the event, if any.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public void Cancel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Cancel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel ()" />
+      <MemberSignature Language="F#" Value="member this.Cancel : unit -&gt; unit" Usage="windowInFocusIntervalContext.Cancel " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cancels delivery of future data to the matching consumer.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="public bool Canceled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Canceled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Canceled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Canceled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Canceled : bool" Usage="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Canceled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the consumer receiving this event context is cancelling delivery of future
+            events.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval Data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Data" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As WindowInFocusInterval" />
+      <MemberSignature Language="F#" Value="member this.Data : Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval" Usage="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusInterval</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the data that was parsed and correlated, if successful.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="P:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Succeeded" /> is <see langword="false" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public System.Runtime.ExceptionServices.ExceptionDispatchInfo Exception { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Runtime.ExceptionServices.ExceptionDispatchInfo Exception" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As ExceptionDispatchInfo" />
+      <MemberSignature Language="F#" Value="member this.Exception : System.Runtime.ExceptionServices.ExceptionDispatchInfo" Usage="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Exception" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.ExceptionServices.ExceptionDispatchInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the exception that occured attempting to parse an event or correlate data, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Succeeded">
+      <MemberSignature Language="C#" Value="public bool Succeeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Succeeded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Succeeded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Succeeded : bool" Usage="Microsoft.Windows.EventTracing.WindowInFocus.WindowInFocusIntervalContext.Succeeded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.WindowInFocus</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value indicating whether the event was successfully parsed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

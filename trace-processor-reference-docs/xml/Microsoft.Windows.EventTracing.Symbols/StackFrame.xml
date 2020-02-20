@@ -1,0 +1,270 @@
+<Type Name="StackFrame" FullName="Microsoft.Windows.EventTracing.Symbols.StackFrame">
+  <TypeSignature Language="C#" Value="public struct StackFrame : IEquatable&lt;Microsoft.Windows.EventTracing.Symbols.StackFrame&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit StackFrame extends System.ValueType implements class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+  <TypeSignature Language="VB.NET" Value="Public Structure StackFrame&#xA;Implements IEquatable(Of StackFrame)" />
+  <TypeSignature Language="F#" Value="type StackFrame = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.Symbols.StackFrame&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Represents an address within an image.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StackFrame (Microsoft.Windows.EventTracing.Processes.IImage image, Microsoft.Windows.EventTracing.Address address);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Windows.EventTracing.Processes.IImage image, valuetype Microsoft.Windows.EventTracing.Address address) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.#ctor(Microsoft.Windows.EventTracing.Processes.IImage,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Symbols.StackFrame : Microsoft.Windows.EventTracing.Processes.IImage * Microsoft.Windows.EventTracing.Address -&gt; Microsoft.Windows.EventTracing.Symbols.StackFrame" Usage="new Microsoft.Windows.EventTracing.Symbols.StackFrame (image, address)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="image" Type="Microsoft.Windows.EventTracing.Processes.IImage" />
+        <Parameter Name="address" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="image">The image.</param>
+        <param name="address">The process virtual address within the image (not relative to the image).</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Symbols.StackFrame" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address Address { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.StackFrame.Address" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Address As Address" />
+      <MemberSignature Language="F#" Value="member this.Address : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.Address" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the process virtual address (not relative to the image).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.Symbols.StackFrame other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.Equals(Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As StackFrame) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; bool" Usage="stackFrame.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="stackFrame.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="stackFrame.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasValue">
+      <MemberSignature Language="C#" Value="public bool HasValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.StackFrame.HasValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasValue As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasValue : bool" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.HasValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IImage Image { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IImage Image" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.StackFrame.Image" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Image As IImage" />
+      <MemberSignature Language="F#" Value="member this.Image : Microsoft.Windows.EventTracing.Processes.IImage" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.Image" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IImage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the image in which the address occurs.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.Symbols.StackFrame left, Microsoft.Windows.EventTracing.Symbols.StackFrame right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame left, valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.op_Equality(Microsoft.Windows.EventTracing.Symbols.StackFrame,Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As StackFrame, right As StackFrame) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.Symbols.StackFrame * Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.Symbols.StackFrame left, Microsoft.Windows.EventTracing.Symbols.StackFrame right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame left, valuetype Microsoft.Windows.EventTracing.Symbols.StackFrame right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.StackFrame.op_Inequality(Microsoft.Windows.EventTracing.Symbols.StackFrame,Microsoft.Windows.EventTracing.Symbols.StackFrame)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As StackFrame, right As StackFrame) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.Symbols.StackFrame * Microsoft.Windows.EventTracing.Symbols.StackFrame -&gt; bool" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.Symbols.StackFrame" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeVirtualAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address RelativeVirtualAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address RelativeVirtualAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.StackFrame.RelativeVirtualAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelativeVirtualAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.RelativeVirtualAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.RelativeVirtualAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the relative virtual address within the image file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Symbol">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSymbol Symbol { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSymbol Symbol" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.StackFrame.Symbol" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Symbol As IStackSymbol" />
+      <MemberSignature Language="F#" Value="member this.Symbol : Microsoft.Windows.EventTracing.Symbols.IStackSymbol" Usage="Microsoft.Windows.EventTracing.Symbols.StackFrame.Symbol" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSymbol</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the symbol for the address, if any.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

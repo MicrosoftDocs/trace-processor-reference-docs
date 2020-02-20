@@ -1,0 +1,780 @@
+<Type Name="KernelWaitReason" FullName="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason">
+  <TypeSignature Language="C#" Value="public enum KernelWaitReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed KernelWaitReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum KernelWaitReason" />
+  <TypeSignature Language="F#" Value="type KernelWaitReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelayExecution">
+      <MemberSignature Language="C#" Value="DelayExecution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason DelayExecution = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.DelayExecution" />
+      <MemberSignature Language="VB.NET" Value="DelayExecution" />
+      <MemberSignature Language="F#" Value="DelayExecution = 4" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.DelayExecution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Executive">
+      <MemberSignature Language="C#" Value="Executive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason Executive = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.Executive" />
+      <MemberSignature Language="VB.NET" Value="Executive" />
+      <MemberSignature Language="F#" Value="Executive = 0" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.Executive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreePage">
+      <MemberSignature Language="C#" Value="FreePage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason FreePage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.FreePage" />
+      <MemberSignature Language="VB.NET" Value="FreePage" />
+      <MemberSignature Language="F#" Value="FreePage = 1" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.FreePage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PageIn">
+      <MemberSignature Language="C#" Value="PageIn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason PageIn = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.PageIn" />
+      <MemberSignature Language="VB.NET" Value="PageIn" />
+      <MemberSignature Language="F#" Value="PageIn = 2" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.PageIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolAllocation">
+      <MemberSignature Language="C#" Value="PoolAllocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason PoolAllocation = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.PoolAllocation" />
+      <MemberSignature Language="VB.NET" Value="PoolAllocation" />
+      <MemberSignature Language="F#" Value="PoolAllocation = 3" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.PoolAllocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Suspended">
+      <MemberSignature Language="C#" Value="Suspended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason Suspended = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.Suspended" />
+      <MemberSignature Language="VB.NET" Value="Suspended" />
+      <MemberSignature Language="F#" Value="Suspended = 5" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.Suspended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserRequest">
+      <MemberSignature Language="C#" Value="UserRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason UserRequest = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.UserRequest" />
+      <MemberSignature Language="VB.NET" Value="UserRequest" />
+      <MemberSignature Language="F#" Value="UserRequest = 6" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.UserRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrAlertByThreadId">
+      <MemberSignature Language="C#" Value="WrAlertByThreadId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrAlertByThreadId = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrAlertByThreadId" />
+      <MemberSignature Language="VB.NET" Value="WrAlertByThreadId" />
+      <MemberSignature Language="F#" Value="WrAlertByThreadId = 37" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrAlertByThreadId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrCalloutStack">
+      <MemberSignature Language="C#" Value="WrCalloutStack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrCalloutStack = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrCalloutStack" />
+      <MemberSignature Language="VB.NET" Value="WrCalloutStack" />
+      <MemberSignature Language="F#" Value="WrCalloutStack = 25" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrCalloutStack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrCpuRateControl">
+      <MemberSignature Language="C#" Value="WrCpuRateControl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrCpuRateControl = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrCpuRateControl" />
+      <MemberSignature Language="VB.NET" Value="WrCpuRateControl" />
+      <MemberSignature Language="F#" Value="WrCpuRateControl = 24" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrCpuRateControl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrDeferredPreempt">
+      <MemberSignature Language="C#" Value="WrDeferredPreempt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrDeferredPreempt = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDeferredPreempt" />
+      <MemberSignature Language="VB.NET" Value="WrDeferredPreempt" />
+      <MemberSignature Language="F#" Value="WrDeferredPreempt = 38" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDeferredPreempt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrDelayExecution">
+      <MemberSignature Language="C#" Value="WrDelayExecution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrDelayExecution = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDelayExecution" />
+      <MemberSignature Language="VB.NET" Value="WrDelayExecution" />
+      <MemberSignature Language="F#" Value="WrDelayExecution = 11" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDelayExecution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrDispatchInt">
+      <MemberSignature Language="C#" Value="WrDispatchInt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrDispatchInt = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDispatchInt" />
+      <MemberSignature Language="VB.NET" Value="WrDispatchInt" />
+      <MemberSignature Language="F#" Value="WrDispatchInt = 31" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrDispatchInt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrEventPair">
+      <MemberSignature Language="C#" Value="WrEventPair" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrEventPair = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrEventPair" />
+      <MemberSignature Language="VB.NET" Value="WrEventPair" />
+      <MemberSignature Language="F#" Value="WrEventPair = 14" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrEventPair" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrExecutive">
+      <MemberSignature Language="C#" Value="WrExecutive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrExecutive = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrExecutive" />
+      <MemberSignature Language="VB.NET" Value="WrExecutive" />
+      <MemberSignature Language="F#" Value="WrExecutive = 7" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrExecutive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrFastMutex">
+      <MemberSignature Language="C#" Value="WrFastMutex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrFastMutex = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrFastMutex" />
+      <MemberSignature Language="VB.NET" Value="WrFastMutex" />
+      <MemberSignature Language="F#" Value="WrFastMutex = 34" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrFastMutex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrFreePage">
+      <MemberSignature Language="C#" Value="WrFreePage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrFreePage = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrFreePage" />
+      <MemberSignature Language="VB.NET" Value="WrFreePage" />
+      <MemberSignature Language="F#" Value="WrFreePage = 8" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrFreePage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrGuardedMutex">
+      <MemberSignature Language="C#" Value="WrGuardedMutex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrGuardedMutex = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrGuardedMutex" />
+      <MemberSignature Language="VB.NET" Value="WrGuardedMutex" />
+      <MemberSignature Language="F#" Value="WrGuardedMutex = 35" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrGuardedMutex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrKernel">
+      <MemberSignature Language="C#" Value="WrKernel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrKernel = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrKernel" />
+      <MemberSignature Language="VB.NET" Value="WrKernel" />
+      <MemberSignature Language="F#" Value="WrKernel = 26" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrKernel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrKeyedEvent">
+      <MemberSignature Language="C#" Value="WrKeyedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrKeyedEvent = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrKeyedEvent" />
+      <MemberSignature Language="VB.NET" Value="WrKeyedEvent" />
+      <MemberSignature Language="F#" Value="WrKeyedEvent = 21" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrKeyedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrLpcReceive">
+      <MemberSignature Language="C#" Value="WrLpcReceive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrLpcReceive = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrLpcReceive" />
+      <MemberSignature Language="VB.NET" Value="WrLpcReceive" />
+      <MemberSignature Language="F#" Value="WrLpcReceive = 16" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrLpcReceive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrLpcReply">
+      <MemberSignature Language="C#" Value="WrLpcReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrLpcReply = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrLpcReply" />
+      <MemberSignature Language="VB.NET" Value="WrLpcReply" />
+      <MemberSignature Language="F#" Value="WrLpcReply = 17" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrLpcReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrMutex">
+      <MemberSignature Language="C#" Value="WrMutex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrMutex = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrMutex" />
+      <MemberSignature Language="VB.NET" Value="WrMutex" />
+      <MemberSignature Language="F#" Value="WrMutex = 29" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrMutex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPageIn">
+      <MemberSignature Language="C#" Value="WrPageIn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPageIn = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPageIn" />
+      <MemberSignature Language="VB.NET" Value="WrPageIn" />
+      <MemberSignature Language="F#" Value="WrPageIn = 9" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPageIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPageOut">
+      <MemberSignature Language="C#" Value="WrPageOut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPageOut = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPageOut" />
+      <MemberSignature Language="VB.NET" Value="WrPageOut" />
+      <MemberSignature Language="F#" Value="WrPageOut = 19" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPageOut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPhysicalFault">
+      <MemberSignature Language="C#" Value="WrPhysicalFault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPhysicalFault = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPhysicalFault" />
+      <MemberSignature Language="VB.NET" Value="WrPhysicalFault" />
+      <MemberSignature Language="F#" Value="WrPhysicalFault = 39" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPhysicalFault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPoolAllocation">
+      <MemberSignature Language="C#" Value="WrPoolAllocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPoolAllocation = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPoolAllocation" />
+      <MemberSignature Language="VB.NET" Value="WrPoolAllocation" />
+      <MemberSignature Language="F#" Value="WrPoolAllocation = 10" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPoolAllocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPreempted">
+      <MemberSignature Language="C#" Value="WrPreempted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPreempted = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPreempted" />
+      <MemberSignature Language="VB.NET" Value="WrPreempted" />
+      <MemberSignature Language="F#" Value="WrPreempted = 32" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPreempted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrProcessInSwap">
+      <MemberSignature Language="C#" Value="WrProcessInSwap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrProcessInSwap = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrProcessInSwap" />
+      <MemberSignature Language="VB.NET" Value="WrProcessInSwap" />
+      <MemberSignature Language="F#" Value="WrProcessInSwap = 23" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrProcessInSwap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrPushLock">
+      <MemberSignature Language="C#" Value="WrPushLock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrPushLock = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPushLock" />
+      <MemberSignature Language="VB.NET" Value="WrPushLock" />
+      <MemberSignature Language="F#" Value="WrPushLock = 28" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrPushLock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrQuantumEnd">
+      <MemberSignature Language="C#" Value="WrQuantumEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrQuantumEnd = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrQuantumEnd" />
+      <MemberSignature Language="VB.NET" Value="WrQuantumEnd" />
+      <MemberSignature Language="F#" Value="WrQuantumEnd = 30" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrQuantumEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrQueue">
+      <MemberSignature Language="C#" Value="WrQueue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrQueue = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrQueue" />
+      <MemberSignature Language="VB.NET" Value="WrQueue" />
+      <MemberSignature Language="F#" Value="WrQueue = 15" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrQueue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrRendezvous">
+      <MemberSignature Language="C#" Value="WrRendezvous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrRendezvous = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrRendezvous" />
+      <MemberSignature Language="VB.NET" Value="WrRendezvous" />
+      <MemberSignature Language="F#" Value="WrRendezvous = 20" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrRendezvous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrResource">
+      <MemberSignature Language="C#" Value="WrResource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrResource = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrResource" />
+      <MemberSignature Language="VB.NET" Value="WrResource" />
+      <MemberSignature Language="F#" Value="WrResource = 27" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrResource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrRundown">
+      <MemberSignature Language="C#" Value="WrRundown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrRundown = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrRundown" />
+      <MemberSignature Language="VB.NET" Value="WrRundown" />
+      <MemberSignature Language="F#" Value="WrRundown = 36" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrRundown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrSuspended">
+      <MemberSignature Language="C#" Value="WrSuspended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrSuspended = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrSuspended" />
+      <MemberSignature Language="VB.NET" Value="WrSuspended" />
+      <MemberSignature Language="F#" Value="WrSuspended = 12" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrSuspended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrTerminated">
+      <MemberSignature Language="C#" Value="WrTerminated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrTerminated = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrTerminated" />
+      <MemberSignature Language="VB.NET" Value="WrTerminated" />
+      <MemberSignature Language="F#" Value="WrTerminated = 22" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrTerminated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrUserRequest">
+      <MemberSignature Language="C#" Value="WrUserRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrUserRequest = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrUserRequest" />
+      <MemberSignature Language="VB.NET" Value="WrUserRequest" />
+      <MemberSignature Language="F#" Value="WrUserRequest = 13" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrUserRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrVirtualMemory">
+      <MemberSignature Language="C#" Value="WrVirtualMemory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrVirtualMemory = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrVirtualMemory" />
+      <MemberSignature Language="VB.NET" Value="WrVirtualMemory" />
+      <MemberSignature Language="F#" Value="WrVirtualMemory = 18" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrVirtualMemory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WrYieldExecution">
+      <MemberSignature Language="C#" Value="WrYieldExecution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.KernelWaitReason WrYieldExecution = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrYieldExecution" />
+      <MemberSignature Language="VB.NET" Value="WrYieldExecution" />
+      <MemberSignature Language="F#" Value="WrYieldExecution = 33" Usage="Microsoft.Windows.EventTracing.Cpu.KernelWaitReason.WrYieldExecution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.KernelWaitReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

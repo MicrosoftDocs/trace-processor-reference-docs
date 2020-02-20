@@ -1,0 +1,105 @@
+<Type Name="SyscallEnterEvent" FullName="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent">
+  <TypeSignature Language="C#" Value="public struct SyscallEnterEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SyscallEnterEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure SyscallEnterEvent" />
+  <TypeSignature Language="F#" Value="type SyscallEnterEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the start of a system call.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyscallEnterEvent (Microsoft.Windows.EventTracing.TraceTimestamp timestamp, Microsoft.Windows.EventTracing.Address functionAddress, int processor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Windows.EventTracing.TraceTimestamp timestamp, valuetype Microsoft.Windows.EventTracing.Address functionAddress, int32 processor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.#ctor(Microsoft.Windows.EventTracing.TraceTimestamp,Microsoft.Windows.EventTracing.Address,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (timestamp As TraceTimestamp, functionAddress As Address, processor As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent : Microsoft.Windows.EventTracing.TraceTimestamp * Microsoft.Windows.EventTracing.Address * int -&gt; Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent" Usage="new Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent (timestamp, functionAddress, processor)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestamp" />
+        <Parameter Name="functionAddress" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="processor" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">The timestamp at which the event was logged in the trace.</param>
+        <param name="functionAddress">The address of the system call being made.</param>
+        <param name="processor">The index of the processor on which the system call was made.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FunctionAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FunctionAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.FunctionAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FunctionAddress As Address" />
+      <MemberSignature Language="F#" Value="member this.FunctionAddress : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.FunctionAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the system call being invoked.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the processor on which the system call was made.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Syscalls.SyscallEnterEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the syscall enter event was logged in the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

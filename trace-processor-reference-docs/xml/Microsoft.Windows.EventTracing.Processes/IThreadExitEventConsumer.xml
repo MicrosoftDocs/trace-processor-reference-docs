@@ -1,0 +1,41 @@
+<Type Name="IThreadExitEventConsumer" FullName="Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IThreadExitEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IThreadExitEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IThreadExitEventConsumer" />
+  <TypeSignature Language="F#" Value="type IThreadExitEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a thread exit event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer.Process(Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As ThreadExitEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext -&gt; unit" Usage="iThreadExitEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.Processes.ThreadExitEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The thread exit event to process.</param>
+        <summary>Processes a thread exit event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

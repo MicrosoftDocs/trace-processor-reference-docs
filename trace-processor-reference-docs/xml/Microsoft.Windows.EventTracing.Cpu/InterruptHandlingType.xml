@@ -1,0 +1,58 @@
+<Type Name="InterruptHandlingType" FullName="Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType">
+  <TypeSignature Language="C#" Value="public enum InterruptHandlingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InterruptHandlingType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum InterruptHandlingType" />
+  <TypeSignature Language="F#" Value="type InterruptHandlingType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeferredProcedureCall">
+      <MemberSignature Language="C#" Value="DeferredProcedureCall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType DeferredProcedureCall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType.DeferredProcedureCall" />
+      <MemberSignature Language="VB.NET" Value="DeferredProcedureCall" />
+      <MemberSignature Language="F#" Value="DeferredProcedureCall = 1" Usage="Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType.DeferredProcedureCall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InterruptServiceRoutine">
+      <MemberSignature Language="C#" Value="InterruptServiceRoutine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType InterruptServiceRoutine = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType.InterruptServiceRoutine" />
+      <MemberSignature Language="VB.NET" Value="InterruptServiceRoutine" />
+      <MemberSignature Language="F#" Value="InterruptServiceRoutine = 0" Usage="Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType.InterruptServiceRoutine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.InterruptHandlingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

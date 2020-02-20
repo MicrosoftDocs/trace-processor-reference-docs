@@ -1,0 +1,106 @@
+<Type Name="IBatteryConfiguration" FullName="Microsoft.Windows.EventTracing.Power.IBatteryConfiguration">
+  <TypeSignature Language="C#" Value="public interface IBatteryConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBatteryConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.IBatteryConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBatteryConfiguration" />
+  <TypeSignature Language="F#" Value="type IBatteryConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CriticalBatteryAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerAction CriticalBatteryAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerAction CriticalBatteryAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.CriticalBatteryAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CriticalBatteryAction As PowerAction" />
+      <MemberSignature Language="F#" Value="member this.CriticalBatteryAction : Microsoft.Windows.EventTracing.Power.PowerAction" Usage="Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.CriticalBatteryAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the power action to take when the critical battery level is reached.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CriticalBatteryLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage CriticalBatteryLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage CriticalBatteryLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.CriticalBatteryLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CriticalBatteryLevel As Percentage" />
+      <MemberSignature Language="F#" Value="member this.CriticalBatteryLevel : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.CriticalBatteryLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the critical battery level.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LowBatteryAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Power.PowerAction LowBatteryAction { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Power.PowerAction LowBatteryAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.LowBatteryAction" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LowBatteryAction As PowerAction" />
+      <MemberSignature Language="F#" Value="member this.LowBatteryAction : Microsoft.Windows.EventTracing.Power.PowerAction" Usage="Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.LowBatteryAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Power.PowerAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the power action to take when the low battery level is reached.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LowBatteryLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Percentage LowBatteryLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Percentage LowBatteryLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.LowBatteryLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LowBatteryLevel As Percentage" />
+      <MemberSignature Language="F#" Value="member this.LowBatteryLevel : Microsoft.Windows.EventTracing.Percentage" Usage="Microsoft.Windows.EventTracing.Power.IBatteryConfiguration.LowBatteryLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Percentage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates the low battery level.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

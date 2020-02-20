@@ -1,0 +1,66 @@
+<Type Name="IPendingResult&lt;T&gt;" FullName="Microsoft.Windows.EventTracing.IPendingResult&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IPendingResult&lt;out T&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPendingResult`1&lt;+ T&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.IPendingResult`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPendingResult(Of Out T)" />
+  <TypeSignature Language="F#" Value="type IPendingResult&lt;'T&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T">
+      <Constraints>
+        <ParameterAttribute>Covariant</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="T">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HasResult">
+      <MemberSignature Language="C#" Value="public bool HasResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.IPendingResult`1.HasResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasResult As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasResult : bool" Usage="Microsoft.Windows.EventTracing.IPendingResult&lt;'T&gt;.HasResult" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public T Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Result" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.IPendingResult`1.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As T" />
+      <MemberSignature Language="F#" Value="member this.Result : 'T" Usage="Microsoft.Windows.EventTracing.IPendingResult&lt;'T&gt;.Result" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

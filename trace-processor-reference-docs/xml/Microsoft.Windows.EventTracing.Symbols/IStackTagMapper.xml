@@ -1,0 +1,90 @@
+<Type Name="IStackTagMapper" FullName="Microsoft.Windows.EventTracing.Symbols.IStackTagMapper">
+  <TypeSignature Language="C#" Value="public interface IStackTagMapper" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackTagMapper" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.IStackTagMapper" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackTagMapper" />
+  <TypeSignature Language="F#" Value="type IStackTagMapper = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetStackFrameTags">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackFrameTag&gt; GetStackFrameTags (Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Symbols.IStackFrameTag&gt; GetStackFrameTags(class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackTagMapper.GetStackFrameTags(Microsoft.Windows.EventTracing.Symbols.IStackSnapshot)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStackFrameTags (stack As IStackSnapshot) As IReadOnlyList(Of IStackFrameTag)" />
+      <MemberSignature Language="F#" Value="abstract member GetStackFrameTags : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackFrameTag&gt;" Usage="iStackTagMapper.GetStackFrameTags stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IStackFrameTag&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStackTag">
+      <MemberSignature Language="C#" Value="public string GetStackTag (Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetStackTag(class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackTagMapper.GetStackTag(Microsoft.Windows.EventTracing.Symbols.IStackSnapshot)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStackTag (stack As IStackSnapshot) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetStackTag : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot -&gt; string" Usage="iStackTagMapper.GetStackTag stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStackTagPath">
+      <MemberSignature Language="C#" Value="public string GetStackTagPath (Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetStackTagPath(class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.IStackTagMapper.GetStackTagPath(Microsoft.Windows.EventTracing.Symbols.IStackSnapshot)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetStackTagPath (stack As IStackSnapshot) As String" />
+      <MemberSignature Language="F#" Value="abstract member GetStackTagPath : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot -&gt; string" Usage="iStackTagMapper.GetStackTagPath stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

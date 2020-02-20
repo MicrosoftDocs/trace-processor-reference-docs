@@ -1,0 +1,38 @@
+<Type Name="IDirectXDataSource" FullName="Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource">
+  <TypeSignature Language="C#" Value="public interface IDirectXDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDirectXDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDirectXDataSource" />
+  <TypeSignature Language="F#" Value="type IDirectXDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DmaPackets">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Graphics.IDmaPacket&gt; DmaPackets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Graphics.IDmaPacket&gt; DmaPackets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource.DmaPackets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DmaPackets As IReadOnlyList(Of IDmaPacket)" />
+      <MemberSignature Language="F#" Value="member this.DmaPackets : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Graphics.IDmaPacket&gt;" Usage="Microsoft.Windows.EventTracing.Graphics.IDirectXDataSource.DmaPackets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Graphics</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Graphics.IDmaPacket&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

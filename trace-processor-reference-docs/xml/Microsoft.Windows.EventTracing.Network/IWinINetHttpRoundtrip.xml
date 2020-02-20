@@ -1,0 +1,485 @@
+<Type Name="IWinINetHttpRoundtrip" FullName="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip">
+  <TypeSignature Language="C#" Value="public interface IWinINetHttpRoundtrip : Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWinINetHttpRoundtrip implements class Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWinINetHttpRoundtrip&#xA;Implements IWinINetHttpRequestResponsePair" />
+  <TypeSignature Language="F#" Value="type IWinINetHttpRoundtrip = interface&#xA;    interface IWinINetHttpRequestResponsePair" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Windows.EventTracing.Network.IWinINetHttpRequestResponsePair</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllRequestHeaders">
+      <MemberSignature Language="C#" Value="public string AllRequestHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllRequestHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.AllRequestHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllRequestHeaders As String" />
+      <MemberSignature Language="F#" Value="member this.AllRequestHeaders : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.AllRequestHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllResponseHeaders">
+      <MemberSignature Language="C#" Value="public string AllResponseHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllResponseHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.AllResponseHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllResponseHeaders As String" />
+      <MemberSignature Language="F#" Value="member this.AllResponseHeaders : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.AllResponseHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BytesRead">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize BytesRead { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize BytesRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.BytesRead" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BytesRead As DataSize" />
+      <MemberSignature Language="F#" Value="member this.BytesRead : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.BytesRead" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BytesSent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize BytesSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize BytesSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.BytesSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BytesSent As DataSize" />
+      <MemberSignature Language="F#" Value="member this.BytesSent : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.BytesSent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheControl">
+      <MemberSignature Language="C#" Value="public string CacheControl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CacheControl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.CacheControl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CacheControl As String" />
+      <MemberSignature Language="F#" Value="member this.CacheControl : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.CacheControl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionEstablishmentTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange ConnectionEstablishmentTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange ConnectionEstablishmentTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ConnectionEstablishmentTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionEstablishmentTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.ConnectionEstablishmentTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ConnectionEstablishmentTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the time range of all activity related to creating a connection between the client and the server.
+            This includes the Host Resolve, TCP Connect and TLS Handshake phases.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentEncoding">
+      <MemberSignature Language="C#" Value="public string ContentEncoding { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentEncoding As String" />
+      <MemberSignature Language="F#" Value="member this.ContentEncoding : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentEncoding" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentLength">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.DataSize ContentLength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.DataSize ContentLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentLength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentLength As DataSize" />
+      <MemberSignature Language="F#" Value="member this.ContentLength : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentType">
+      <MemberSignature Language="C#" Value="public string ContentType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentType As String" />
+      <MemberSignature Language="F#" Value="member this.ContentType : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ContentType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Expires">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Expires { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Expires" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Expires" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Expires As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.Expires : Nullable&lt;DateTime&gt;" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Expires" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HostResolveTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange HostResolveTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange HostResolveTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.HostResolveTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HostResolveTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.HostResolveTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.HostResolveTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Protocol">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol Protocol { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol Protocol" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Protocol As WinINetHttpProtocol" />
+      <MemberSignature Language="F#" Value="member this.Protocol : Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Protocol" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Network.WinINetHttpProtocol</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reads">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpStreamRead&gt; Reads { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Network.IWinINetHttpStreamRead&gt; Reads" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Reads" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Reads As IReadOnlyList(Of IWinINetHttpStreamRead)" />
+      <MemberSignature Language="F#" Value="member this.Reads : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpStreamRead&gt;" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.Reads" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpStreamRead&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReasonPhrase">
+      <MemberSignature Language="C#" Value="public string ReasonPhrase { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReasonPhrase" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ReasonPhrase" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReasonPhrase As String" />
+      <MemberSignature Language="F#" Value="member this.ReasonPhrase : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ReasonPhrase" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveResponseTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange ReceiveResponseTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange ReceiveResponseTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ReceiveResponseTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceiveResponseTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.ReceiveResponseTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ReceiveResponseTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestSendTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange RequestSendTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange RequestSendTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.RequestSendTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestSendTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.RequestSendTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.RequestSendTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestVersion">
+      <MemberSignature Language="C#" Value="public string RequestVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequestVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.RequestVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestVersion As String" />
+      <MemberSignature Language="F#" Value="member this.RequestVersion : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.RequestVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseVersion">
+      <MemberSignature Language="C#" Value="public string ResponseVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResponseVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ResponseVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseVersion As String" />
+      <MemberSignature Language="F#" Value="member this.ResponseVersion : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.ResponseVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SocketId">
+      <MemberSignature Language="C#" Value="public int SocketId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SocketId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.SocketId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SocketId As Integer" />
+      <MemberSignature Language="F#" Value="member this.SocketId : int" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.SocketId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public System.Net.HttpStatusCode StatusCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Net.HttpStatusCode StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.StatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As HttpStatusCode" />
+      <MemberSignature Language="F#" Value="member this.StatusCode : System.Net.HttpStatusCode" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.StatusCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.HttpStatusCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusLine">
+      <MemberSignature Language="C#" Value="public string StatusLine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StatusLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.StatusLine" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusLine As String" />
+      <MemberSignature Language="F#" Value="member this.StatusLine : string" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.StatusLine" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TcpConnectTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange TcpConnectTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange TcpConnectTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.TcpConnectTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TcpConnectTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.TcpConnectTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.TcpConnectTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TlsHandshakeTimeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimeRange TlsHandshakeTimeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimeRange TlsHandshakeTimeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.TlsHandshakeTimeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TlsHandshakeTimeRange As TraceTimeRange" />
+      <MemberSignature Language="F#" Value="member this.TlsHandshakeTimeRange : Microsoft.Windows.EventTracing.TraceTimeRange" Usage="Microsoft.Windows.EventTracing.Network.IWinINetHttpRoundtrip.TlsHandshakeTimeRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

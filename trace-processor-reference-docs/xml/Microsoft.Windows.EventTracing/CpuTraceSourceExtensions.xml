@@ -1,0 +1,280 @@
+<Type Name="CpuTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class CpuTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CpuTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module CpuTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type CpuTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseContextSwitchData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt; UseContextSwitchData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt; UseContextSwitchData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseContextSwitchData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseContextSwitchData (trace As ITraceSource) As IPendingResult(Of IContextSwitchDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseContextSwitchData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about processor context switches.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about processor context
+            switches.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CPU Usage (Precise) table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseContextSwitchData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt; UseContextSwitchData (this Microsoft.Windows.EventTracing.ITraceSource trace, bool useLegacyImplementation = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt; UseContextSwitchData(class Microsoft.Windows.EventTracing.ITraceSource trace, bool useLegacyImplementation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseContextSwitchData(Microsoft.Windows.EventTracing.ITraceSource,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseContextSwitchData (trace As ITraceSource, Optional useLegacyImplementation As Boolean = false) As IPendingResult(Of IContextSwitchDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseContextSwitchData : Microsoft.Windows.EventTracing.ITraceSource * bool -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseContextSwitchData (trace, useLegacyImplementation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IContextSwitchDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="useLegacyImplementation" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="useLegacyImplementation">Whether to use a legacy implementation to retrieve this data.</param>
+        <summary>Provides data from a trace about processor context switches.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about processor context
+            switches.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CPU Usage (Precise) table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCpuSamplingData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSampleDataSource&gt; UseCpuSamplingData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.ICpuSampleDataSource&gt; UseCpuSamplingData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseCpuSamplingData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseCpuSamplingData (trace As ITraceSource) As IPendingResult(Of ICpuSampleDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseCpuSamplingData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSampleDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseCpuSamplingData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSampleDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about CPU usage based on periodic sampling of the instruction pointer.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about CPU usage based on
+            periodic sampling of the instruction pointer.
+            </returns>
+        <remarks>
+          <para>
+            Since this data is sampled, it is only as precise as the sampling interval. A sampling interval of 1
+            millisecond is common.
+            </para>
+          <para>Windows Performance Analyzer provides this data via the CPU Usage (Sampled) table.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseCpuSchedulingData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource&gt; UseCpuSchedulingData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource&gt; UseCpuSchedulingData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseCpuSchedulingData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseCpuSchedulingData (trace As ITraceSource) As IPendingResult(Of ICpuSchedulingDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseCpuSchedulingData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseCpuSchedulingData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ICpuSchedulingDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about CPU thread scheduling, including context switches and ready thread events.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about CPU thread
+            scheduling, including context switches and ready thread events.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CPU Usage (Precise) table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInterruptHandlingData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingDataSource&gt; UseInterruptHandlingData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingDataSource&gt; UseInterruptHandlingData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseInterruptHandlingData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseInterruptHandlingData (trace As ITraceSource) As IPendingResult(Of IInterruptHandlingDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseInterruptHandlingData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseInterruptHandlingData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IInterruptHandlingDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about Interrupt Service Routine (ISR) and Deferred Procedure Call (DPC) activity.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about Interrupt Service
+            Routine (ISR) and Deferred Procedure Call (DPC) activity.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the DPC/ISR table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLastBranchRecordData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordDataSource&gt; UseLastBranchRecordData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordDataSource&gt; UseLastBranchRecordData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseLastBranchRecordData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseLastBranchRecordData (trace As ITraceSource) As IPendingResult(Of ILastBranchRecordDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseLastBranchRecordData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseLastBranchRecordData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.ILastBranchRecordDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data about processor last branch record (LBR) activity during a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about processor last branch record (LBR)
+            activity during the trace.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the Latest Branch Records table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseProcessorCounters">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource&gt; UseProcessorCounters (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource&gt; UseProcessorCounters(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseProcessorCounters(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseProcessorCounters (trace As ITraceSource) As IPendingResult(Of IProcessorCounterDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseProcessorCounters : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseProcessorCounters trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IProcessorCounterDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data from a trace about processor performance counter values from Processor Counter Monitor (PCM).
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about processor performance counter
+            values from Processor Counter Monitor (PCM).
+            </returns>
+        <remarks>Windows Performance Analyzer does not currently provide this data.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReadyThreadData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt; UseReadyThreadData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt; UseReadyThreadData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseReadyThreadData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseReadyThreadData (trace As ITraceSource) As IPendingResult(Of IReadyThreadDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseReadyThreadData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseReadyThreadData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data from a trace about ready thread events.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about ready thread events.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CPU Usage (Precise) table.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseReadyThreadData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt; UseReadyThreadData (this Microsoft.Windows.EventTracing.ITraceSource trace, bool useLegacyImplementation = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt; UseReadyThreadData(class Microsoft.Windows.EventTracing.ITraceSource trace, bool useLegacyImplementation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseReadyThreadData(Microsoft.Windows.EventTracing.ITraceSource,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseReadyThreadData (trace As ITraceSource, Optional useLegacyImplementation As Boolean = false) As IPendingResult(Of IReadyThreadDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseReadyThreadData : Microsoft.Windows.EventTracing.ITraceSource * bool -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt;" Usage="Microsoft.Windows.EventTracing.CpuTraceSourceExtensions.UseReadyThreadData (trace, useLegacyImplementation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.Cpu.IReadyThreadDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+        <Parameter Name="useLegacyImplementation" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <param name="useLegacyImplementation">Whether to use a legacy implementation to retrieve this data.</param>
+        <summary>Provides data from a trace about ready thread events.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data from the trace about ready thread events.
+            </returns>
+        <remarks>Windows Performance Analyzer provides this data via the CPU Usage (Precise) table.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

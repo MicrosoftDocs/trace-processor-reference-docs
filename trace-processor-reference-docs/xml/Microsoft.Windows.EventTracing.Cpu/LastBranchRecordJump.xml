@@ -1,0 +1,153 @@
+<Type Name="LastBranchRecordJump" FullName="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump">
+  <TypeSignature Language="C#" Value="public struct LastBranchRecordJump" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit LastBranchRecordJump extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump" />
+  <TypeSignature Language="VB.NET" Value="Public Structure LastBranchRecordJump" />
+  <TypeSignature Language="F#" Value="type LastBranchRecordJump = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a jump entry in a <see cref="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LastBranchRecordJump (ReadOnlySpan&lt;byte&gt; serializedData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; serializedData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.#ctor(System.ReadOnlySpan{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (serializedData As ReadOnlySpan(Of Byte))" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump : ReadOnlySpan&lt;byte&gt; -&gt; Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump" Usage="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump serializedData" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="serializedData" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="serializedData">The serialized data to use as the contents of the structure.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump" /> structure.</summary>
+        <remarks>
+            To create <paramref name="serializedData" />, use the other constructor with <see cref="M:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.Serialize(System.Span{System.Byte}@)" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LastBranchRecordJump (Microsoft.Windows.EventTracing.Address fromInstructionPointer, Microsoft.Windows.EventTracing.Address toInstructionPointer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Windows.EventTracing.Address fromInstructionPointer, valuetype Microsoft.Windows.EventTracing.Address toInstructionPointer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.#ctor(Microsoft.Windows.EventTracing.Address,Microsoft.Windows.EventTracing.Address)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (fromInstructionPointer As Address, toInstructionPointer As Address)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump : Microsoft.Windows.EventTracing.Address * Microsoft.Windows.EventTracing.Address -&gt; Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump" Usage="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump (fromInstructionPointer, toInstructionPointer)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="fromInstructionPointer" Type="Microsoft.Windows.EventTracing.Address" />
+        <Parameter Name="toInstructionPointer" Type="Microsoft.Windows.EventTracing.Address" />
+      </Parameters>
+      <Docs>
+        <param name="fromInstructionPointer">
+            The virtual address that is the source instruction pointer of the jump.
+            </param>
+        <param name="toInstructionPointer">
+            The virtual address that is the target instruction pointer of the jump.
+            </param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromInstructionPointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address FromInstructionPointer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address FromInstructionPointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.FromInstructionPointer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromInstructionPointer As Address" />
+      <MemberSignature Language="F#" Value="member this.FromInstructionPointer : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.FromInstructionPointer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the virtual address that is the source instruction pointer of the jump.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public int Serialize (ref Span&lt;byte&gt; buffer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 Serialize(valuetype System.Span`1&lt;unsigned int8&gt;&amp; buffer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.Serialize(System.Span{System.Byte}@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Serialize (ByRef buffer As Span(Of Byte)) As Integer" />
+      <MemberSignature Language="F#" Value="member this.Serialize : Span -&gt; int" Usage="lastBranchRecordJump.Serialize buffer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buffer" Type="System.Span&lt;System.Byte&gt;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="buffer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedSize">
+      <MemberSignature Language="C#" Value="public static int SerializedSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property int32 SerializedSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.SerializedSize" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SerializedSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.SerializedSize : int" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.SerializedSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToInstructionPointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Address ToInstructionPointer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Address ToInstructionPointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.ToInstructionPointer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToInstructionPointer As Address" />
+      <MemberSignature Language="F#" Value="member this.ToInstructionPointer : Microsoft.Windows.EventTracing.Address" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJump.ToInstructionPointer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Address</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the virtual address that is the target instruction pointer of the jump.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

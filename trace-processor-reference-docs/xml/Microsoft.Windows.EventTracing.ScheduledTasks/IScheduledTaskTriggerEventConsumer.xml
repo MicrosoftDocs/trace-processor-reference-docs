@@ -1,0 +1,41 @@
+<Type Name="IScheduledTaskTriggerEventConsumer" FullName="Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer">
+  <TypeSignature Language="C#" Value="public interface IScheduledTaskTriggerEventConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IScheduledTaskTriggerEventConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IScheduledTaskTriggerEventConsumer" />
+  <TypeSignature Language="F#" Value="type IScheduledTaskTriggerEventConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a scheduled task trigger event consumer.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ScheduledTasks.IScheduledTaskTriggerEventConsumer.Process(Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (eventContext As ScheduledTaskTriggerEventContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventContext -&gt; unit" Usage="iScheduledTaskTriggerEventConsumer.Process eventContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.ScheduledTasks</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventContext" Type="Microsoft.Windows.EventTracing.ScheduledTasks.ScheduledTaskTriggerEventContext" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">The scheduled task trigger event to process.</param>
+        <summary>Processes a scheduled task trigger event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

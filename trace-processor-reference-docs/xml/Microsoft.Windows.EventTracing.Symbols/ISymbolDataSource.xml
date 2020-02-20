@@ -1,0 +1,137 @@
+<Type Name="ISymbolDataSource" FullName="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource">
+  <TypeSignature Language="C#" Value="public interface ISymbolDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISymbolDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISymbolDataSource" />
+  <TypeSignature Language="F#" Value="type ISymbolDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AreSymbolsLoaded">
+      <MemberSignature Language="C#" Value="public bool AreSymbolsLoaded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AreSymbolsLoaded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.AreSymbolsLoaded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AreSymbolsLoaded As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AreSymbolsLoaded : bool" Usage="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.AreSymbolsLoaded" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanLoadSymbols">
+      <MemberSignature Language="C#" Value="public bool CanLoadSymbols { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanLoadSymbols" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.CanLoadSymbols" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanLoadSymbols As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanLoadSymbols : bool" Usage="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.CanLoadSymbols" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadSymbolsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task LoadSymbolsAsync (Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task LoadSymbolsAsync(class Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.LoadSymbolsAsync(Microsoft.Windows.EventTracing.Symbols.ISymCachePath)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LoadSymbolsAsync (symCachePath As ISymCachePath) As Task" />
+      <MemberSignature Language="F#" Value="abstract member LoadSymbolsAsync : Microsoft.Windows.EventTracing.Symbols.ISymCachePath -&gt; System.Threading.Tasks.Task" Usage="iSymbolDataSource.LoadSymbolsAsync symCachePath" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="symCachePath" Type="Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+      </Parameters>
+      <Docs>
+        <param name="symCachePath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Common SymCache paths can be obtained using the helpers on <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymCachePath" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadSymbolsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task LoadSymbolsAsync (Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath, Microsoft.Windows.EventTracing.Symbols.ISymbolPath symbolPath = default, IProgress&lt;Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress&gt; progress = default, string[] includedProcesses = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task LoadSymbolsAsync(class Microsoft.Windows.EventTracing.Symbols.ISymCachePath symCachePath, class Microsoft.Windows.EventTracing.Symbols.ISymbolPath symbolPath, class System.IProgress`1&lt;valuetype Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress&gt; progress, string[] includedProcesses) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.LoadSymbolsAsync(Microsoft.Windows.EventTracing.Symbols.ISymCachePath,Microsoft.Windows.EventTracing.Symbols.ISymbolPath,System.IProgress{Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress},System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function LoadSymbolsAsync (symCachePath As ISymCachePath, Optional symbolPath As ISymbolPath = null, Optional progress As IProgress(Of SymbolLoadingProgress) = null, Optional includedProcesses As String() = null) As Task" />
+      <MemberSignature Language="F#" Value="abstract member LoadSymbolsAsync : Microsoft.Windows.EventTracing.Symbols.ISymCachePath * Microsoft.Windows.EventTracing.Symbols.ISymbolPath * IProgress&lt;Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress&gt; * string[] -&gt; System.Threading.Tasks.Task" Usage="iSymbolDataSource.LoadSymbolsAsync (symCachePath, symbolPath, progress, includedProcesses)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="symCachePath" Type="Microsoft.Windows.EventTracing.Symbols.ISymCachePath" />
+        <Parameter Name="symbolPath" Type="Microsoft.Windows.EventTracing.Symbols.ISymbolPath" />
+        <Parameter Name="progress" Type="System.IProgress&lt;Microsoft.Windows.EventTracing.Symbols.SymbolLoadingProgress&gt;" />
+        <Parameter Name="includedProcesses" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="symCachePath">To be added.</param>
+        <param name="symbolPath">To be added.</param>
+        <param name="progress">To be added.</param>
+        <param name="includedProcesses">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Common SymCache and symbol paths can be obtained using the helpers on <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymCachePath" /> and
+            <see cref="T:Microsoft.Windows.EventTracing.Symbols.SymbolPath" /> respectively.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pdbs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IPdb&gt; Pdbs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Symbols.IPdb&gt; Pdbs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.Pdbs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pdbs As IReadOnlyList(Of IPdb)" />
+      <MemberSignature Language="F#" Value="member this.Pdbs : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IPdb&gt;" Usage="Microsoft.Windows.EventTracing.Symbols.ISymbolDataSource.Pdbs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Symbols.IPdb&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

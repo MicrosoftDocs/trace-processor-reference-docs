@@ -1,0 +1,157 @@
+<Type Name="LastBranchRecordEvent" FullName="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent">
+  <TypeSignature Language="C#" Value="public struct LastBranchRecordEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit LastBranchRecordEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure LastBranchRecordEvent" />
+  <TypeSignature Language="F#" Value="type LastBranchRecordEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a snapshot of Last Branch Record (LBR) data from a processor.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LastBranchRecordEvent (Microsoft.Windows.EventTracing.ITraceTimestampContext timestampContext, Microsoft.Windows.EventTracing.TraceTimestampValue timestamp, Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestamp, int processId, int threadId, Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan jumps);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Windows.EventTracing.ITraceTimestampContext timestampContext, valuetype Microsoft.Windows.EventTracing.TraceTimestampValue timestamp, valuetype Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestamp, int32 processId, int32 threadId, valuetype Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan jumps) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.#ctor(Microsoft.Windows.EventTracing.ITraceTimestampContext,Microsoft.Windows.EventTracing.TraceTimestampValue,Microsoft.Windows.EventTracing.TraceTimestampValue,System.Int32,System.Int32,Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (timestampContext As ITraceTimestampContext, timestamp As TraceTimestampValue, traceTimestamp As TraceTimestampValue, processId As Integer, threadId As Integer, jumps As LastBranchRecordJumpReadOnlySpan)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent : Microsoft.Windows.EventTracing.ITraceTimestampContext * Microsoft.Windows.EventTracing.TraceTimestampValue * Microsoft.Windows.EventTracing.TraceTimestampValue * int * int * Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan -&gt; Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent" Usage="new Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent (timestampContext, timestamp, traceTimestamp, processId, threadId, jumps)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="timestampContext" Type="Microsoft.Windows.EventTracing.ITraceTimestampContext" />
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+        <Parameter Name="traceTimestamp" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+        <Parameter Name="processId" Type="System.Int32" />
+        <Parameter Name="threadId" Type="System.Int32" />
+        <Parameter Name="jumps" Type="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan" />
+      </Parameters>
+      <Docs>
+        <param name="timestampContext">The timestamp context for the trace.</param>
+        <param name="timestamp">The value of the timestamp at which the LBR data was originally captured.</param>
+        <param name="traceTimestamp">
+            The value of the timestamp at which the LBR event was logged in the trace.
+            </param>
+        <param name="processId">The ID of the process executing when the snapshot was captured.</param>
+        <param name="threadId">The ID of the thread executing when the snapshot was captured.</param>
+        <param name="jumps">The jumps captured by the event.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent" /> structure.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Jumps">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan Jumps { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan Jumps" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.Jumps" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Jumps As LastBranchRecordJumpReadOnlySpan" />
+      <MemberSignature Language="F#" Value="member this.Jumps : Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.Jumps" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Cpu.LastBranchRecordJumpReadOnlySpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the jumps captured by this snapshot.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the process executing when the snapshot was captured.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadId">
+      <MemberSignature Language="C#" Value="public int ThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.ThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ThreadId : int" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.ThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread executing when the snapshot was captured.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp at which the LBR data was originally captured (before <see cref="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.TraceTimestamp" />).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceTimestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp TraceTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp TraceTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.TraceTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TraceTimestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.TraceTimestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.TraceTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Cpu</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the timestamp at which the LBR event was logged in the trace (after <see cref="P:Microsoft.Windows.EventTracing.Cpu.LastBranchRecordEvent.Timestamp" />).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

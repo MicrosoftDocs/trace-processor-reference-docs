@@ -1,0 +1,434 @@
+<Type Name="ProcessesStreamingTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class ProcessesStreamingTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProcessesStreamingTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ProcessesStreamingTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type ProcessesStreamingTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseThreadCreateEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadCreateEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadCreateEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadCreateEvents (streamingTrace As IStreamingTraceSource, consumer As IThreadCreateEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseThreadCreateEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Processes.IThreadCreateEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed thread create events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadCreateEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadCreateEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadCreateEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadCreateEvents (streamingTrace As IStreamingTraceSource, process As ThreadCreateEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadCreateEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed thread create events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadCreateEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadCreateEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadCreateEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadCreateEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ThreadCreateEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadCreateEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadCreateEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadCreateEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed thread create events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadExitEvents (streamingTrace As IStreamingTraceSource, consumer As IThreadExitEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseThreadExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Processes.IThreadExitEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>Registers a consumer to receive parsed thread exit events when the trace is processed.</summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadExitEvents (streamingTrace As IStreamingTraceSource, process As ThreadExitEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed thread exit events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadExitEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadExitEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadExitEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadExitEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ThreadExitEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadExitEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadExitEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadExitEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>Registers a callback to receive parsed thread exit events when the trace is processed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.IThreadRundownStartEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.IThreadRundownStartEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.IThreadRundownStartEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStartEvents (streamingTrace As IStreamingTraceSource, consumer As IThreadRundownStartEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.IThreadRundownStartEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Processes.IThreadRundownStartEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed thread rundown start events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStartEvents (streamingTrace As IStreamingTraceSource, process As ThreadRundownStartEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread rundown start events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStartEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStartEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStartEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStartEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ThreadRundownStartEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStartEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStartEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread rundown start events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.IThreadRundownStopEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.IThreadRundownStopEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.IThreadRundownStopEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStopEvents (streamingTrace As IStreamingTraceSource, consumer As IThreadRundownStopEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.IThreadRundownStopEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Processes.IThreadRundownStopEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed thread rundown stop events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStopEvents (streamingTrace As IStreamingTraceSource, process As ThreadRundownStopEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread rundown stop events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadRundownStopEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadRundownStopEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadRundownStopEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadRundownStopEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ThreadRundownStopEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadRundownStopEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadRundownStopEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadRundownStopEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread rundown stop events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadSetNameEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadSetNameEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer consumer);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadSetNameEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer consumer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadSetNameEvents (streamingTrace As IStreamingTraceSource, consumer As IThreadSetNameEventConsumer)" />
+      <MemberSignature Language="F#" Value="static member UseThreadSetNameEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents (streamingTrace, consumer)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="consumer" Type="Microsoft.Windows.EventTracing.Processes.IThreadSetNameEventConsumer" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="consumer">The callback to call with the event parsing result.</param>
+        <summary>
+            Registers a consumer to receive parsed thread set name events when the trace is processed.
+            </summary>
+        <remarks>
+            Event consumers that need to run in a specific pass can inherit from <see cref="T:Microsoft.Windows.EventTracing.IScheduledConsumer" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadSetNameEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadSetNameEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadSetNameEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, class Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadSetNameEvents (streamingTrace As IStreamingTraceSource, process As ThreadSetNameEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadSetNameEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents (streamingTrace, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread set name events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseThreadSetNameEvents">
+      <MemberSignature Language="C#" Value="public static void UseThreadSetNameEvents (this Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, Microsoft.Windows.EventTracing.ConsumerSchedule schedule, Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback process);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseThreadSetNameEvents(class Microsoft.Windows.EventTracing.IStreamingTraceSource streamingTrace, valuetype Microsoft.Windows.EventTracing.ConsumerSchedule schedule, class Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback process) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents(Microsoft.Windows.EventTracing.IStreamingTraceSource,Microsoft.Windows.EventTracing.ConsumerSchedule,Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UseThreadSetNameEvents (streamingTrace As IStreamingTraceSource, schedule As ConsumerSchedule, process As ThreadSetNameEventCallback)" />
+      <MemberSignature Language="F#" Value="static member UseThreadSetNameEvents : Microsoft.Windows.EventTracing.IStreamingTraceSource * Microsoft.Windows.EventTracing.ConsumerSchedule * Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback -&gt; unit" Usage="Microsoft.Windows.EventTracing.ProcessesStreamingTraceSourceExtensions.UseThreadSetNameEvents (streamingTrace, schedule, process)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="streamingTrace" Type="Microsoft.Windows.EventTracing.IStreamingTraceSource" RefType="this" />
+        <Parameter Name="schedule" Type="Microsoft.Windows.EventTracing.ConsumerSchedule" />
+        <Parameter Name="process" Type="Microsoft.Windows.EventTracing.Processes.ThreadSetNameEventCallback" />
+      </Parameters>
+      <Docs>
+        <param name="streamingTrace">The trace from which to access the data.</param>
+        <param name="schedule">The schedule indicating when to parse the events.</param>
+        <param name="process">The callback to register.</param>
+        <summary>
+            Registers a callback to receive parsed thread set name events when the trace is processed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

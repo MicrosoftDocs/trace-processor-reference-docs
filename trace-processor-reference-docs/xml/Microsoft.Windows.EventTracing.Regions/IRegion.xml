@@ -1,0 +1,258 @@
+<Type Name="IRegion" FullName="Microsoft.Windows.EventTracing.Regions.IRegion">
+  <TypeSignature Language="C#" Value="public interface IRegion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRegion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Regions.IRegion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRegion" />
+  <TypeSignature Language="F#" Value="type IRegion = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt; Children { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegion&gt; Children" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Children" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As IReadOnlyList(Of IRegion)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt;" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Children" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Events">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionEvent&gt; Events { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionEvent&gt; Events" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Events" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Events As IReadOnlyList(Of IRegionEvent)" />
+      <MemberSignature Language="F#" Value="member this.Events : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionEvent&gt;" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Events" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FriendlyName">
+      <MemberSignature Language="C#" Value="public string FriendlyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.FriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FriendlyName As String" />
+      <MemberSignature Language="F#" Value="member this.FriendlyName : string" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.FriendlyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Guid Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Guid" />
+      <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceName">
+      <MemberSignature Language="C#" Value="public string InstanceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InstanceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.InstanceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceName As String" />
+      <MemberSignature Language="F#" Value="member this.InstanceName : string" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.InstanceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metadata">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt; Metadata { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Regions.IRegionField&gt; Metadata" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metadata As IReadOnlyList(Of IRegionField)" />
+      <MemberSignature Language="F#" Value="member this.Metadata : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Metadata" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Regions.IRegionField&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Regions.IRegion Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Regions.IRegion Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As IRegion" />
+      <MemberSignature Language="F#" Value="member this.Parent : Microsoft.Windows.EventTracing.Regions.IRegion" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Regions.IRegion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Regions.IRegionEvent StartEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Regions.IRegionEvent StartEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.StartEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartEvent As IRegionEvent" />
+      <MemberSignature Language="F#" Value="member this.StartEvent : Microsoft.Windows.EventTracing.Regions.IRegionEvent" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.StartEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Regions.IRegionEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Regions.IRegionEvent StopEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Regions.IRegionEvent StopEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.StopEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopEvent As IRegionEvent" />
+      <MemberSignature Language="F#" Value="member this.StopEvent : Microsoft.Windows.EventTracing.Regions.IRegionEvent" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.StopEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Regions.IRegionEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopTime">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp StopTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp StopTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Regions.IRegion.StopTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StopTime As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.StopTime : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Regions.IRegion.StopTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Regions</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

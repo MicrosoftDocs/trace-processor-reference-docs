@@ -1,0 +1,1151 @@
+<Type Name="DataSize" FullName="Microsoft.Windows.EventTracing.DataSize">
+  <TypeSignature Language="C#" Value="public struct DataSize : IComparable, IComparable&lt;Microsoft.Windows.EventTracing.DataSize&gt;, IEquatable&lt;Microsoft.Windows.EventTracing.DataSize&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DataSize extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype Microsoft.Windows.EventTracing.DataSize&gt;, class System.IEquatable`1&lt;valuetype Microsoft.Windows.EventTracing.DataSize&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.DataSize" />
+  <TypeSignature Language="VB.NET" Value="Public Structure DataSize&#xA;Implements IComparable, IComparable(Of DataSize), IEquatable(Of DataSize)" />
+  <TypeSignature Language="F#" Value="type DataSize = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IComparable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IComparable&lt;Microsoft.Windows.EventTracing.DataSize&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Windows.EventTracing.DataSize&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataSize (long bytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 bytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.#ctor(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (bytes As Long)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Windows.EventTracing.DataSize : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="new Microsoft.Windows.EventTracing.DataSize bytes" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="bytes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bytes">
+      <MemberSignature Language="C#" Value="public long Bytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Bytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.Bytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bytes As Long" />
+      <MemberSignature Language="F#" Value="member this.Bytes : int64" Usage="Microsoft.Windows.EventTracing.DataSize.Bytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (Microsoft.Windows.EventTracing.DataSize other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(valuetype Microsoft.Windows.EventTracing.DataSize other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.CompareTo(Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As DataSize) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : Microsoft.Windows.EventTracing.DataSize -&gt; int&#xA;override this.CompareTo : Microsoft.Windows.EventTracing.DataSize -&gt; int" Usage="dataSize.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable`1.CompareTo(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTo">
+      <MemberSignature Language="C#" Value="public int CompareTo (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.CompareTo(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As Object) As Integer" />
+      <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="dataSize.CompareTo other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Windows.EventTracing.DataSize other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Microsoft.Windows.EventTracing.DataSize other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.Equals(Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="dataSize.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="dataSize.Equals other" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromBytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromBytes (decimal bytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromBytes(valuetype System.Decimal bytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromBytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromBytes (bytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromBytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromBytes bytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="bytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromBytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromBytes (long bytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromBytes(int64 bytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromBytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromBytes (bytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromBytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromBytes bytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="bytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGibibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromGibibytes (decimal gibibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromGibibytes(valuetype System.Decimal gibibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromGibibytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGibibytes (gibibytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromGibibytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromGibibytes gibibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gibibytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="gibibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGibibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromGibibytes (long gibibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromGibibytes(int64 gibibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromGibibytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGibibytes (gibibytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromGibibytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromGibibytes gibibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gibibytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="gibibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGigabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromGigabytes (decimal gigabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromGigabytes(valuetype System.Decimal gigabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromGigabytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGigabytes (gigabytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromGigabytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromGigabytes gigabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gigabytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="gigabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromGigabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromGigabytes (long gigabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromGigabytes(int64 gigabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromGigabytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromGigabytes (gigabytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromGigabytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromGigabytes gigabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gigabytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="gigabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKibibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromKibibytes (decimal kibibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromKibibytes(valuetype System.Decimal kibibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromKibibytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKibibytes (kibibytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromKibibytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromKibibytes kibibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kibibytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="kibibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKibibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromKibibytes (long kibibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromKibibytes(int64 kibibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromKibibytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKibibytes (kibibytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromKibibytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromKibibytes kibibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kibibytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="kibibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilobytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromKilobytes (decimal kilobytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromKilobytes(valuetype System.Decimal kilobytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromKilobytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilobytes (kilobytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromKilobytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromKilobytes kilobytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilobytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="kilobytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromKilobytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromKilobytes (long kilobytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromKilobytes(int64 kilobytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromKilobytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromKilobytes (kilobytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromKilobytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromKilobytes kilobytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="kilobytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="kilobytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMebibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromMebibytes (decimal mebibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromMebibytes(valuetype System.Decimal mebibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromMebibytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMebibytes (mebibytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromMebibytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromMebibytes mebibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mebibytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="mebibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMebibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromMebibytes (long mebibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromMebibytes(int64 mebibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromMebibytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMebibytes (mebibytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromMebibytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromMebibytes mebibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mebibytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="mebibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMegabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromMegabytes (decimal megabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromMegabytes(valuetype System.Decimal megabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromMegabytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMegabytes (megabytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromMegabytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromMegabytes megabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="megabytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="megabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromMegabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromMegabytes (long megabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromMegabytes(int64 megabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromMegabytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromMegabytes (megabytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromMegabytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromMegabytes megabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="megabytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="megabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromTebibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromTebibytes (decimal tebibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromTebibytes(valuetype System.Decimal tebibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromTebibytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromTebibytes (tebibytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromTebibytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromTebibytes tebibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tebibytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="tebibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromTebibytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromTebibytes (long tebibytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromTebibytes(int64 tebibytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromTebibytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromTebibytes (tebibytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromTebibytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromTebibytes tebibytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tebibytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="tebibytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromTerabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromTerabytes (decimal terabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromTerabytes(valuetype System.Decimal terabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromTerabytes(System.Decimal)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromTerabytes (terabytes As Decimal) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromTerabytes : decimal -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromTerabytes terabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="terabytes" Type="System.Decimal" />
+      </Parameters>
+      <Docs>
+        <param name="terabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromTerabytes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize FromTerabytes (long terabytes);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize FromTerabytes(int64 terabytes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.FromTerabytes(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromTerabytes (terabytes As Long) As DataSize" />
+      <MemberSignature Language="F#" Value="static member FromTerabytes : int64 -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.FromTerabytes terabytes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="terabytes" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="terabytes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="dataSize.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize Max (Microsoft.Windows.EventTracing.DataSize first, Microsoft.Windows.EventTracing.DataSize second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize Max(valuetype Microsoft.Windows.EventTracing.DataSize first, valuetype Microsoft.Windows.EventTracing.DataSize second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.Max(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Max (first As DataSize, second As DataSize) As DataSize" />
+      <MemberSignature Language="F#" Value="static member Max : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.Max (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.DataSize MaxValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.DataSize MaxValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.DataSize.MaxValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxValue As DataSize " />
+      <MemberSignature Language="F#" Value=" staticval mutable MaxValue : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.MaxValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize Min (Microsoft.Windows.EventTracing.DataSize first, Microsoft.Windows.EventTracing.DataSize second);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Windows.EventTracing.DataSize Min(valuetype Microsoft.Windows.EventTracing.DataSize first, valuetype Microsoft.Windows.EventTracing.DataSize second) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.Min(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Min (first As DataSize, second As DataSize) As DataSize" />
+      <MemberSignature Language="F#" Value="static member Min : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.Min (first, second)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="first" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="second" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="first">To be added.</param>
+        <param name="second">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinValue">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.DataSize MinValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.DataSize MinValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.DataSize.MinValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MinValue As DataSize " />
+      <MemberSignature Language="F#" Value=" staticval mutable MinValue : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.MinValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize operator + (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.DataSize op_Addition(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_Addition(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As DataSize, right As DataSize) As DataSize" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="left + right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_Equality(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThan">
+      <MemberSignature Language="C#" Value="public static bool operator &gt; (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThan(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_GreaterThan(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt; (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt; ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="left &gt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_GreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &gt;= (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_GreaterThanOrEqual(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_GreaterThanOrEqual(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &gt;= (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &gt;= ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="left &gt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_Inequality(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="Microsoft.Windows.EventTracing.DataSize.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThan">
+      <MemberSignature Language="C#" Value="public static bool operator &lt; (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThan(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_LessThan(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt; (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt; ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="left &lt; right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_LessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static bool operator &lt;= (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_LessThanOrEqual(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_LessThanOrEqual(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator &lt;= (left As DataSize, right As DataSize) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( &lt;= ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; bool" Usage="left &lt;= right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Subtraction">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.DataSize operator - (Microsoft.Windows.EventTracing.DataSize left, Microsoft.Windows.EventTracing.DataSize right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Microsoft.Windows.EventTracing.DataSize op_Subtraction(valuetype Microsoft.Windows.EventTracing.DataSize left, valuetype Microsoft.Windows.EventTracing.DataSize right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.op_Subtraction(Microsoft.Windows.EventTracing.DataSize,Microsoft.Windows.EventTracing.DataSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As DataSize, right As DataSize) As DataSize" />
+      <MemberSignature Language="F#" Value="static member ( - ) : Microsoft.Windows.EventTracing.DataSize * Microsoft.Windows.EventTracing.DataSize -&gt; Microsoft.Windows.EventTracing.DataSize" Usage="left - right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Microsoft.Windows.EventTracing.DataSize" />
+        <Parameter Name="right" Type="Microsoft.Windows.EventTracing.DataSize" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="dataSize.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public string ToString (bool useBinaryPrefixes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(bool useBinaryPrefixes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.DataSize.ToString(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToString (useBinaryPrefixes As Boolean) As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : bool -&gt; string" Usage="dataSize.ToString useBinaryPrefixes" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="useBinaryPrefixes" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="useBinaryPrefixes">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalGibibytes">
+      <MemberSignature Language="C#" Value="public decimal TotalGibibytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalGibibytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalGibibytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalGibibytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalGibibytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalGibibytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalGigabytes">
+      <MemberSignature Language="C#" Value="public decimal TotalGigabytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalGigabytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalGigabytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalGigabytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalGigabytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalGigabytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKibibytes">
+      <MemberSignature Language="C#" Value="public decimal TotalKibibytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalKibibytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalKibibytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalKibibytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalKibibytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalKibibytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalKilobytes">
+      <MemberSignature Language="C#" Value="public decimal TotalKilobytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalKilobytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalKilobytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalKilobytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalKilobytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalKilobytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMebibytes">
+      <MemberSignature Language="C#" Value="public decimal TotalMebibytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMebibytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalMebibytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMebibytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMebibytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalMebibytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMegabytes">
+      <MemberSignature Language="C#" Value="public decimal TotalMegabytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalMegabytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalMegabytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalMegabytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalMegabytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalMegabytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalTebibytes">
+      <MemberSignature Language="C#" Value="public decimal TotalTebibytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalTebibytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalTebibytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalTebibytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalTebibytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalTebibytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalTerabytes">
+      <MemberSignature Language="C#" Value="public decimal TotalTerabytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Decimal TotalTerabytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.DataSize.TotalTerabytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalTerabytes As Decimal" />
+      <MemberSignature Language="F#" Value="member this.TotalTerabytes : decimal" Usage="Microsoft.Windows.EventTracing.DataSize.TotalTerabytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Decimal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Zero">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Windows.EventTracing.DataSize Zero;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Microsoft.Windows.EventTracing.DataSize Zero" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.DataSize.Zero" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Zero As DataSize " />
+      <MemberSignature Language="F#" Value=" staticval mutable Zero : Microsoft.Windows.EventTracing.DataSize" Usage="Microsoft.Windows.EventTracing.DataSize.Zero" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.DataSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

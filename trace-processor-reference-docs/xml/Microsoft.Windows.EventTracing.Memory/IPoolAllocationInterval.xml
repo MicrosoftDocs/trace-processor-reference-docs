@@ -1,0 +1,238 @@
+<Type Name="IPoolAllocationInterval" FullName="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval">
+  <TypeSignature Language="C#" Value="public interface IPoolAllocationInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPoolAllocationInterval" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPoolAllocationInterval" />
+  <TypeSignature Language="F#" Value="type IPoolAllocationInterval = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllocateTimestamp">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; AllocateTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; AllocateTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocateTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocateTimestamp As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.AllocateTimestamp : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocateTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationCount">
+      <MemberSignature Language="C#" Value="public long AllocationCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 AllocationCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocationCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocationCount As Long" />
+      <MemberSignature Language="F#" Value="member this.AllocationCount : int64" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocationCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.AddressRange AllocationRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.AddressRange AllocationRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocationRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllocationRange As AddressRange" />
+      <MemberSignature Language="F#" Value="member this.AllocationRange : Microsoft.Windows.EventTracing.AddressRange" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.AllocationRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.AddressRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeTimestamp">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt; FreeTimestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.TraceTimestamp&gt; FreeTimestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.FreeTimestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeTimestamp As Nullable(Of TraceTimestamp)" />
+      <MemberSignature Language="F#" Value="member this.FreeTimestamp : Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.FreeTimestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.TraceTimestamp&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PoolType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Memory.PoolType PoolType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.Memory.PoolType PoolType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.PoolType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PoolType As PoolType" />
+      <MemberSignature Language="F#" Value="member this.PoolType : Microsoft.Windows.EventTracing.Memory.PoolType" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.PoolType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.PoolType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Processor">
+      <MemberSignature Language="C#" Value="public int Processor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Processor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Processor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Processor As Integer" />
+      <MemberSignature Language="F#" Value="member this.Processor : int" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Processor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; SessionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SessionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.SessionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SessionId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.SessionId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.SessionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stack">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Symbols.IStackSnapshot Stack { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot Stack" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Stack" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stack As IStackSnapshot" />
+      <MemberSignature Language="F#" Value="member this.Stack : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Stack" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Symbols.IStackSnapshot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="F#" Value="member this.Tag : string" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Tag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thread">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IThread Thread { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IThread Thread" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Thread" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Thread As IThread" />
+      <MemberSignature Language="F#" Value="member this.Thread : Microsoft.Windows.EventTracing.Processes.IThread" Usage="Microsoft.Windows.EventTracing.Memory.IPoolAllocationInterval.Thread" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IThread</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

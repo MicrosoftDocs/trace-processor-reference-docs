@@ -1,0 +1,86 @@
+<Type Name="ISleepConfiguration" FullName="Microsoft.Windows.EventTracing.Power.ISleepConfiguration">
+  <TypeSignature Language="C#" Value="public interface ISleepConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISleepConfiguration" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Power.ISleepConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISleepConfiguration" />
+  <TypeSignature Language="F#" Value="type ISleepConfiguration = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HibernateTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan HibernateTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan HibernateTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISleepConfiguration.HibernateTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HibernateTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.HibernateTimeout : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.ISleepConfiguration.HibernateTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how long after being idle before the system will move to hibernation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeepSleepEnabled">
+      <MemberSignature Language="C#" Value="public bool IsDeepSleepEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeepSleepEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISleepConfiguration.IsDeepSleepEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDeepSleepEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDeepSleepEnabled : bool" Usage="Microsoft.Windows.EventTracing.Power.ISleepConfiguration.IsDeepSleepEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether the platform supports the deep sleep feature.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Deep sleep allows only idle resilient (IR) timers to wake up the CPU.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandbyTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan StandbyTimeout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan StandbyTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Power.ISleepConfiguration.StandbyTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandbyTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.StandbyTimeout : TimeSpan" Usage="Microsoft.Windows.EventTracing.Power.ISleepConfiguration.StandbyTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Power</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates how long after being idle the system will move to standby.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

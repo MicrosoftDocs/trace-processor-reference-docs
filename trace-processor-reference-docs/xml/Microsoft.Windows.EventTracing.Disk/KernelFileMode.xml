@@ -1,0 +1,150 @@
+<Type Name="KernelFileMode" FullName="Microsoft.Windows.EventTracing.Disk.KernelFileMode">
+  <TypeSignature Language="C#" Value="public enum KernelFileMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed KernelFileMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.KernelFileMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum KernelFileMode" />
+  <TypeSignature Language="F#" Value="type KernelFileMode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+            See the documentation on NtCreateFile's CreateDisposition parameter for more information on these values.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateNew">
+      <MemberSignature Language="C#" Value="CreateNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode CreateNew = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.CreateNew" />
+      <MemberSignature Language="VB.NET" Value="CreateNew" />
+      <MemberSignature Language="F#" Value="CreateNew = 2" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.CreateNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, fail the request and do not create or open the given file. If it does not,
+            create the given file.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="Open" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode Open = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.Open" />
+      <MemberSignature Language="VB.NET" Value="Open" />
+      <MemberSignature Language="F#" Value="Open = 1" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.Open" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, open it instead of creating a new file. If it does not, fail the request and
+            do not create a new file.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenOrCreate">
+      <MemberSignature Language="C#" Value="OpenOrCreate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode OpenOrCreate = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.OpenOrCreate" />
+      <MemberSignature Language="VB.NET" Value="OpenOrCreate" />
+      <MemberSignature Language="F#" Value="OpenOrCreate = 3" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.OpenOrCreate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, open it. If it does not, create the given file.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="Replace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode Replace = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.Replace" />
+      <MemberSignature Language="VB.NET" Value="Replace" />
+      <MemberSignature Language="F#" Value="Replace = 0" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.Replace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, replace it with the given file. If it does not, create the given file.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Truncate">
+      <MemberSignature Language="C#" Value="Truncate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode Truncate = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.Truncate" />
+      <MemberSignature Language="VB.NET" Value="Truncate" />
+      <MemberSignature Language="F#" Value="Truncate = 4" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.Truncate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, open it and overwrite it. If it does not, fail the request.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TruncateOrCreate">
+      <MemberSignature Language="C#" Value="TruncateOrCreate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.KernelFileMode TruncateOrCreate = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.KernelFileMode.TruncateOrCreate" />
+      <MemberSignature Language="VB.NET" Value="TruncateOrCreate" />
+      <MemberSignature Language="F#" Value="TruncateOrCreate = 5" Usage="Microsoft.Windows.EventTracing.Disk.KernelFileMode.TruncateOrCreate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.KernelFileMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            If the file already exists, open it and overwrite it. If it does not, create the given file.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

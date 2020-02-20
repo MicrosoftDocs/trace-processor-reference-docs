@@ -1,0 +1,42 @@
+<Type Name="IStackEventDataSource" FullName="Microsoft.Windows.EventTracing.Events.IStackEventDataSource">
+  <TypeSignature Language="C#" Value="public interface IStackEventDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStackEventDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Events.IStackEventDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStackEventDataSource" />
+  <TypeSignature Language="F#" Value="type IStackEventDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEvent">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Events.IStackEvent GetEvent (Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Windows.EventTracing.Events.IStackEvent GetEvent(class Microsoft.Windows.EventTracing.Symbols.IStackSnapshot stack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Events.IStackEventDataSource.GetEvent(Microsoft.Windows.EventTracing.Symbols.IStackSnapshot)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEvent (stack As IStackSnapshot) As IStackEvent" />
+      <MemberSignature Language="F#" Value="abstract member GetEvent : Microsoft.Windows.EventTracing.Symbols.IStackSnapshot -&gt; Microsoft.Windows.EventTracing.Events.IStackEvent" Usage="iStackEventDataSource.GetEvent stack" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Events</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Events.IStackEvent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stack" Type="Microsoft.Windows.EventTracing.Symbols.IStackSnapshot" />
+      </Parameters>
+      <Docs>
+        <param name="stack">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

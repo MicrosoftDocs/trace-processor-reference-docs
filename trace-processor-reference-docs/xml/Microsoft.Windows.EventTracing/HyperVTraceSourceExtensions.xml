@@ -1,0 +1,77 @@
+<Type Name="HyperVTraceSourceExtensions" FullName="Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions">
+  <TypeSignature Language="C#" Value="public static class HyperVTraceSourceExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HyperVTraceSourceExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module HyperVTraceSourceExtensions" />
+  <TypeSignature Language="F#" Value="type HyperVTraceSourceExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="UseHypercalls">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypercallDataSource&gt; UseHypercalls (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.HyperV.IHypercallDataSource&gt; UseHypercalls(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions.UseHypercalls(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseHypercalls (trace As ITraceSource) As IPendingResult(Of IHypercallDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseHypercalls : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypercallDataSource&gt;" Usage="Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions.UseHypercalls trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypercallDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>Provides data about Hyper-V hypercalls that occured during a trace.</summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about Hyper-V hypercalls that occured
+            during the trace.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseHypervisorPartitionData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource&gt; UseHypervisorPartitionData (this Microsoft.Windows.EventTracing.ITraceSource trace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Windows.EventTracing.IPendingResult`1&lt;class Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource&gt; UseHypervisorPartitionData(class Microsoft.Windows.EventTracing.ITraceSource trace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions.UseHypervisorPartitionData(Microsoft.Windows.EventTracing.ITraceSource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UseHypervisorPartitionData (trace As ITraceSource) As IPendingResult(Of IHypervisorPartitionDataSource)" />
+      <MemberSignature Language="F#" Value="static member UseHypervisorPartitionData : Microsoft.Windows.EventTracing.ITraceSource -&gt; Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource&gt;" Usage="Microsoft.Windows.EventTracing.HyperVTraceSourceExtensions.UseHypervisorPartitionData trace" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.HyperV</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.IPendingResult&lt;Microsoft.Windows.EventTracing.HyperV.IHypervisorPartitionDataSource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="trace" Type="Microsoft.Windows.EventTracing.ITraceSource" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="trace">The trace from which to access the data.</param>
+        <summary>
+            Provides data about the Hyper-V partition the trace was recorded in.
+            </summary>
+        <returns>
+            A pending result that, after the trace is processed, provides data about the Hyper-V partition the trace
+            was recorded in.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,120 @@
+<Type Name="IDisplay" FullName="Microsoft.Windows.EventTracing.Metadata.IDisplay">
+  <TypeSignature Language="C#" Value="public interface IDisplay" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDisplay" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Metadata.IDisplay" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDisplay" />
+  <TypeSignature Language="F#" Value="type IDisplay = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ColorDepth">
+      <MemberSignature Language="C#" Value="public int ColorDepth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ColorDepth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplay.ColorDepth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColorDepth As Integer" />
+      <MemberSignature Language="F#" Value="member this.ColorDepth : int" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplay.ColorDepth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>
+            The returned value is in units of bits per pixel (bpp).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalResolution">
+      <MemberSignature Language="C#" Value="public int HorizontalResolution { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HorizontalResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplay.HorizontalResolution" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalResolution As Integer" />
+      <MemberSignature Language="F#" Value="member this.HorizontalResolution : int" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplay.HorizontalResolution" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPrimaryDevice">
+      <MemberSignature Language="C#" Value="public bool IsPrimaryDevice { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPrimaryDevice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplay.IsPrimaryDevice" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPrimaryDevice As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPrimaryDevice : bool" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplay.IsPrimaryDevice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshRate">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.FrequencyValue RefreshRate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.FrequencyValue RefreshRate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplay.RefreshRate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshRate As FrequencyValue" />
+      <MemberSignature Language="F#" Value="member this.RefreshRate : Microsoft.Windows.EventTracing.FrequencyValue" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplay.RefreshRate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.FrequencyValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalResolution">
+      <MemberSignature Language="C#" Value="public int VerticalResolution { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 VerticalResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Metadata.IDisplay.VerticalResolution" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalResolution As Integer" />
+      <MemberSignature Language="F#" Value="member this.VerticalResolution : int" Usage="Microsoft.Windows.EventTracing.Metadata.IDisplay.VerticalResolution" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Metadata</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,151 @@
+<Type Name="IHeapSnapshot" FullName="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot">
+  <TypeSignature Language="C#" Value="public interface IHeapSnapshot" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHeapSnapshot" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHeapSnapshot" />
+  <TypeSignature Language="F#" Value="type IHeapSnapshot = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+            Each IHeapSnapshot should be uniquely identified by the combination of its <see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Index" />,
+            <see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.ProcessId" /> and pointer size (<see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Is32Bit" />).
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Allocations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IHeapAllocation&gt; Allocations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Memory.IHeapAllocation&gt; Allocations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Allocations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Allocations As IReadOnlyList(Of IHeapAllocation)" />
+      <MemberSignature Language="F#" Value="member this.Allocations : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IHeapAllocation&gt;" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Allocations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Memory.IHeapAllocation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="F#" Value="member this.Index : int" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Index" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a 1-based index describing the relative ordering of snapshots.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            There may be many IHeapSnapshots with the same index, but there should only be one with a given
+            <see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Index" />, <see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.ProcessId" /> and pointer size (<see cref="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Is32Bit" />) combination.
+            This property is referred to as the Instance column within Windows Performance Analyzer.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Is32Bit">
+      <MemberSignature Language="C#" Value="public bool Is32Bit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Is32Bit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Is32Bit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Is32Bit As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Is32Bit : bool" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Is32Bit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating the bitness of the heap this snapshot is from.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            A 64-bit process that calls into 32-bit libraries may contain both a 64-bit and a 32-bit heap.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Processes.IProcess Process { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Windows.EventTracing.Processes.IProcess Process" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Process" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Process As IProcess" />
+      <MemberSignature Language="F#" Value="member this.Process : Microsoft.Windows.EventTracing.Processes.IProcess" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Process" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Processes.IProcess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Memory.IHeapSnapshot.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

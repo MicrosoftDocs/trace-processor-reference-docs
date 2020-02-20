@@ -1,0 +1,88 @@
+<Type Name="ConsumerSchedule" FullName="Microsoft.Windows.EventTracing.ConsumerSchedule">
+  <TypeSignature Language="C#" Value="public enum ConsumerSchedule" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConsumerSchedule extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ConsumerSchedule" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConsumerSchedule" />
+  <TypeSignature Language="F#" Value="type ConsumerSchedule = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifes when a trace event or completion consumer should run.</summary>
+    <remarks>
+            This part of the API is in preview and under active development. It may change in future releases.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ConsumerSchedule Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ConsumerSchedule.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Windows.EventTracing.ConsumerSchedule.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ConsumerSchedule</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the consumer should run at the default time.</summary>
+        <remarks>The default schedule is <see cref="F:Microsoft.Windows.EventTracing.ConsumerSchedule.FirstPass" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstPass">
+      <MemberSignature Language="C#" Value="FirstPass" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ConsumerSchedule FirstPass = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ConsumerSchedule.FirstPass" />
+      <MemberSignature Language="VB.NET" Value="FirstPass" />
+      <MemberSignature Language="F#" Value="FirstPass = 0" Usage="Microsoft.Windows.EventTracing.ConsumerSchedule.FirstPass" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ConsumerSchedule</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the consumer should run during the first pass through the trace.</summary>
+        <remarks>This is the default pass and is used for a consumer that does not specify a schedule.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecondPass">
+      <MemberSignature Language="C#" Value="SecondPass" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.ConsumerSchedule SecondPass = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.ConsumerSchedule.SecondPass" />
+      <MemberSignature Language="VB.NET" Value="SecondPass" />
+      <MemberSignature Language="F#" Value="SecondPass = 1" Usage="Microsoft.Windows.EventTracing.ConsumerSchedule.SecondPass" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ConsumerSchedule</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the consumer should run during a second pass through the trace.</summary>
+        <remarks>
+          <para>A consumer is scheduled in this pass in order to allow it to use pending results from consumers that
+            ran during the first pass thorugh the trace.</para>
+          <para>There is only one pass through the trace unless at least one consumer requests running during
+            <see cref="F:Microsoft.Windows.EventTracing.ConsumerSchedule.SecondPass" />, in which case there are two passes through the trace. Even when there are multiple
+            passes through the trace, a consumer is scheduled for a specific pass and only runs during that pass.</para>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

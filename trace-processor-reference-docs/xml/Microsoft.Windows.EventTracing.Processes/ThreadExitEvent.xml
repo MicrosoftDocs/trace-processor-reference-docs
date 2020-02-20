@@ -1,0 +1,284 @@
+<Type Name="ThreadExitEvent" FullName="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent">
+  <TypeSignature Language="C#" Value="public struct ThreadExitEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ThreadExitEvent extends System.ValueType" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ThreadExitEvent" />
+  <TypeSignature Language="F#" Value="type ThreadExitEvent = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a thread exiting.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BasePriority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; BasePriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; BasePriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.BasePriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BasePriority As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.BasePriority : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.BasePriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the base priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the thread exiting.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IoPriority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Processes.IOPriority&gt; IoPriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Processes.IOPriority&gt; IoPriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.IoPriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IoPriority As Nullable(Of IOPriority)" />
+      <MemberSignature Language="F#" Value="member this.IoPriority : Nullable&lt;Microsoft.Windows.EventTracing.Processes.IOPriority&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.IoPriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Processes.IOPriority&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the IO priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelStackRange">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt; KernelStackRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.AddressRange&gt; KernelStackRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.KernelStackRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KernelStackRange As Nullable(Of AddressRange)" />
+      <MemberSignature Language="F#" Value="member this.KernelStackRange : Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.KernelStackRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address range of the kernel-mode stack for the thread.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.ValueString Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.ValueString Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As ValueString" />
+      <MemberSignature Language="F#" Value="member this.Name : Microsoft.Windows.EventTracing.ValueString" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.ValueString</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the thread exiting.</summary>
+        <value>To be added.</value>
+        <remarks>This value is always <see cref="P:Microsoft.Windows.EventTracing.ValueString.Empty" /> in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PagePriority">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Processes.MemoryPriority&gt; PagePriority { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Processes.MemoryPriority&gt; PagePriority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.PagePriority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PagePriority As Nullable(Of MemoryPriority)" />
+      <MemberSignature Language="F#" Value="member this.PagePriority : Nullable&lt;Microsoft.Windows.EventTracing.Processes.MemoryPriority&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.PagePriority" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Processes.MemoryPriority&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the memory page priority of the thread.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessId">
+      <MemberSignature Language="C#" Value="public int ProcessId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ProcessId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ProcessId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessId As Integer" />
+      <MemberSignature Language="F#" Value="member this.ProcessId : int" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ProcessId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the process that owns the thread exiting.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessorAffinity">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; ProcessorAffinity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; ProcessorAffinity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ProcessorAffinity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProcessorAffinity As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.ProcessorAffinity : Nullable&lt;int64&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ProcessorAffinity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the mask indicating on which processors the thread may run.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ServiceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ServiceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ServiceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceId As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.ServiceId : Nullable&lt;int&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ServiceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the service that owns this thread, if any.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This value is also known as SubProcessTag.</para>
+          <para>This value is not present in some older versions of the event.</para>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartAddress">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Address&gt; StartAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; StartAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.StartAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartAddress As Nullable(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.StartAddress : Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.StartAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address at which the Win32 thread starts executing.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreadEnviromentBlockAddress">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.Address&gt; ThreadEnviromentBlockAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.Address&gt; ThreadEnviromentBlockAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ThreadEnviromentBlockAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreadEnviromentBlockAddress As Nullable(Of Address)" />
+      <MemberSignature Language="F#" Value="member this.ThreadEnviromentBlockAddress : Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.ThreadEnviromentBlockAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.Address&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address of the Thread Environment Block (TEB).</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestamp Timestamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestamp Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As TraceTimestamp" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : Microsoft.Windows.EventTracing.TraceTimestamp" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestamp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the timestamp at which the thread exited.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserStackRange">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt; UserStackRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Windows.EventTracing.AddressRange&gt; UserStackRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.UserStackRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserStackRange As Nullable(Of AddressRange)" />
+      <MemberSignature Language="F#" Value="member this.UserStackRange : Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;" Usage="Microsoft.Windows.EventTracing.Processes.ThreadExitEvent.UserStackRange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processes</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Windows.EventTracing.AddressRange&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the address range of the user-mode stack for the thread.</summary>
+        <value>To be added.</value>
+        <remarks>This value is not present in some older versions of the event.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

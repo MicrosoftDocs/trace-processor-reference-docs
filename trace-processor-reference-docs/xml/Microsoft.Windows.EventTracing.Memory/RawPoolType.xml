@@ -1,0 +1,96 @@
+<Type Name="RawPoolType" FullName="Microsoft.Windows.EventTracing.Memory.RawPoolType">
+  <TypeSignature Language="C#" Value="public enum RawPoolType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RawPoolType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Memory.RawPoolType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RawPoolType" />
+  <TypeSignature Language="F#" Value="type RawPoolType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NonPagedPool">
+      <MemberSignature Language="C#" Value="NonPagedPool" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.RawPoolType NonPagedPool = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.RawPoolType.NonPagedPool" />
+      <MemberSignature Language="VB.NET" Value="NonPagedPool" />
+      <MemberSignature Language="F#" Value="NonPagedPool = 0" Usage="Microsoft.Windows.EventTracing.Memory.RawPoolType.NonPagedPool" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.RawPoolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonPagedPoolCacheAligned">
+      <MemberSignature Language="C#" Value="NonPagedPoolCacheAligned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.RawPoolType NonPagedPoolCacheAligned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.RawPoolType.NonPagedPoolCacheAligned" />
+      <MemberSignature Language="VB.NET" Value="NonPagedPoolCacheAligned" />
+      <MemberSignature Language="F#" Value="NonPagedPoolCacheAligned = 2" Usage="Microsoft.Windows.EventTracing.Memory.RawPoolType.NonPagedPoolCacheAligned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.RawPoolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PagedPool">
+      <MemberSignature Language="C#" Value="PagedPool" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.RawPoolType PagedPool = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.RawPoolType.PagedPool" />
+      <MemberSignature Language="VB.NET" Value="PagedPool" />
+      <MemberSignature Language="F#" Value="PagedPool = 1" Usage="Microsoft.Windows.EventTracing.Memory.RawPoolType.PagedPool" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.RawPoolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PagedPoolCacheAligned">
+      <MemberSignature Language="C#" Value="PagedPoolCacheAligned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Memory.RawPoolType PagedPoolCacheAligned = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Memory.RawPoolType.PagedPoolCacheAligned" />
+      <MemberSignature Language="VB.NET" Value="PagedPoolCacheAligned" />
+      <MemberSignature Language="F#" Value="PagedPoolCacheAligned = 3" Usage="Microsoft.Windows.EventTracing.Memory.RawPoolType.PagedPoolCacheAligned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Memory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Memory.RawPoolType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

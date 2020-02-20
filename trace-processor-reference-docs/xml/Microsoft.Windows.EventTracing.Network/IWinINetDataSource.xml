@@ -1,0 +1,38 @@
+<Type Name="IWinINetDataSource" FullName="Microsoft.Windows.EventTracing.Network.IWinINetDataSource">
+  <TypeSignature Language="C#" Value="public interface IWinINetDataSource" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWinINetDataSource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Network.IWinINetDataSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWinINetDataSource" />
+  <TypeSignature Language="F#" Value="type IWinINetDataSource = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HttpActivity">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpActivity&gt; HttpActivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Windows.EventTracing.Network.IWinINetHttpActivity&gt; HttpActivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.Network.IWinINetDataSource.HttpActivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpActivity As IReadOnlyList(Of IWinINetHttpActivity)" />
+      <MemberSignature Language="F#" Value="member this.HttpActivity : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpActivity&gt;" Usage="Microsoft.Windows.EventTracing.Network.IWinINetDataSource.HttpActivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Network</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Windows.EventTracing.Network.IWinINetHttpActivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

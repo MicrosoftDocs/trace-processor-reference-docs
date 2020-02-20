@@ -1,0 +1,41 @@
+<Type Name="ISyscallConsumer" FullName="Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer">
+  <TypeSignature Language="C#" Value="public interface ISyscallConsumer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISyscallConsumer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISyscallConsumer" />
+  <TypeSignature Language="F#" Value="type ISyscallConsumer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a consumer for correlated system call data.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Process">
+      <MemberSignature Language="C#" Value="public void Process (Microsoft.Windows.EventTracing.Syscalls.SyscallContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Process(valuetype Microsoft.Windows.EventTracing.Syscalls.SyscallContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.Syscalls.ISyscallConsumer.Process(Microsoft.Windows.EventTracing.Syscalls.SyscallContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Process (context As SyscallContext)" />
+      <MemberSignature Language="F#" Value="abstract member Process : Microsoft.Windows.EventTracing.Syscalls.SyscallContext -&gt; unit" Usage="iSyscallConsumer.Process context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Syscalls</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.Windows.EventTracing.Syscalls.SyscallContext" />
+      </Parameters>
+      <Docs>
+        <param name="context">The system call data to process.</param>
+        <summary>Processes correlated system call data.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,217 @@
+<Type Name="DiskIORateNotBlockReason" FullName="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason">
+  <TypeSignature Language="C#" Value="public enum DiskIORateNotBlockReason" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiskIORateNotBlockReason extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DiskIORateNotBlockReason" />
+  <TypeSignature Language="F#" Value="type DiskIORateNotBlockReason = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the reasons that IORate.sys does not block IO.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllocationFailure">
+      <MemberSignature Language="C#" Value="AllocationFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason AllocationFailure = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.AllocationFailure" />
+      <MemberSignature Language="VB.NET" Value="AllocationFailure" />
+      <MemberSignature Language="F#" Value="AllocationFailure = 5" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.AllocationFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is not pended due to an allocation failure while trying to pend it.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Boost">
+      <MemberSignature Language="C#" Value="Boost" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason Boost = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Boost" />
+      <MemberSignature Language="VB.NET" Value="Boost" />
+      <MemberSignature Language="F#" Value="Boost = 4" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Boost" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is not pended due to the outstanding thread boost.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is not pended by default.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeferredProcedureCallProcess">
+      <MemberSignature Language="C#" Value="DeferredProcedureCallProcess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason DeferredProcedureCallProcess = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.DeferredProcedureCallProcess" />
+      <MemberSignature Language="VB.NET" Value="DeferredProcedureCallProcess" />
+      <MemberSignature Language="F#" Value="DeferredProcedureCallProcess = 7" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.DeferredProcedureCallProcess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is issued in DPC.</summary>
+        <remarks>The most common reason for this situation is a lack of kernel stack space, when IO should
+            be resuming.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exempt">
+      <MemberSignature Language="C#" Value="Exempt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason Exempt = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Exempt" />
+      <MemberSignature Language="VB.NET" Value="Exempt" />
+      <MemberSignature Language="F#" Value="Exempt = 2" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Exempt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is exempted due to being issued by one of the exempted processes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forced">
+      <MemberSignature Language="C#" Value="Forced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason Forced = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Forced" />
+      <MemberSignature Language="VB.NET" Value="Forced" />
+      <MemberSignature Language="F#" Value="Forced = 1" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Forced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that internal logic has suggested to the driver not to pend the IO.</summary>
+        <remarks>This logic could be due to reasons such as thread boost, query remove of the device extension,
+            or an anti-starvation mechanism.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KernelPagingRead">
+      <MemberSignature Language="C#" Value="KernelPagingRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason KernelPagingRead = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.KernelPagingRead" />
+      <MemberSignature Language="VB.NET" Value="KernelPagingRead" />
+      <MemberSignature Language="F#" Value="KernelPagingRead = 8" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.KernelPagingRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Paging reads which originated from kernel mode are not safe to throttle as they might have
+            been issued from a driver which sits below the IORate.sys.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutstandingIOs">
+      <MemberSignature Language="C#" Value="OutstandingIOs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason OutstandingIOs = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.OutstandingIOs" />
+      <MemberSignature Language="VB.NET" Value="OutstandingIOs" />
+      <MemberSignature Language="F#" Value="OutstandingIOs = 6" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.OutstandingIOs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that IO was pended due to too many IOs outstanding on the volume.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reservation">
+      <MemberSignature Language="C#" Value="Reservation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason Reservation = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Reservation" />
+      <MemberSignature Language="VB.NET" Value="Reservation" />
+      <MemberSignature Language="F#" Value="Reservation = 9" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.Reservation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Indicates that IO is issued with a currently valid (not-depleted) reservation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemPagingWrite">
+      <MemberSignature Language="C#" Value="SystemPagingWrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason SystemPagingWrite = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.SystemPagingWrite" />
+      <MemberSignature Language="VB.NET" Value="SystemPagingWrite" />
+      <MemberSignature Language="F#" Value="SystemPagingWrite = 3" Usage="Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason.SystemPagingWrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Disk</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Disk.DiskIORateNotBlockReason</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Paging writes coming from system process are not a valid target for throttling as they might be
+            using shared resources.</summary>
+        <remarks>Lazy writer is one example of this kind of shared resource usage.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

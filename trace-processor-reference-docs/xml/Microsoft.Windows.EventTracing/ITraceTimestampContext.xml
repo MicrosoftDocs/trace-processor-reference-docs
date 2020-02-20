@@ -1,0 +1,201 @@
+<Type Name="ITraceTimestampContext" FullName="Microsoft.Windows.EventTracing.ITraceTimestampContext">
+  <TypeSignature Language="C#" Value="public interface ITraceTimestampContext" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITraceTimestampContext" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Windows.EventTracing.ITraceTimestampContext" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITraceTimestampContext" />
+  <TypeSignature Language="F#" Value="type ITraceTimestampContext = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the context needed to interpret a <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClockType">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceClockType ClockType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceClockType ClockType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ClockType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClockType As TraceClockType" />
+      <MemberSignature Language="F#" Value="member this.ClockType : Microsoft.Windows.EventTracing.TraceClockType" Usage="Microsoft.Windows.EventTracing.ITraceTimestampContext.ClockType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceClockType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the clock type used by the trace.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApproximateValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestampValue GetApproximateValue (Microsoft.Windows.EventTracing.Timestamp timestamp);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Windows.EventTracing.TraceTimestampValue GetApproximateValue(valuetype Microsoft.Windows.EventTracing.Timestamp timestamp) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITraceTimestampContext.GetApproximateValue(Microsoft.Windows.EventTracing.Timestamp)" />
+      <MemberSignature Language="F#" Value="abstract member GetApproximateValue : Microsoft.Windows.EventTracing.Timestamp -&gt; Microsoft.Windows.EventTracing.TraceTimestampValue" Usage="iTraceTimestampContext.GetApproximateValue timestamp" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestampValue</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timestamp" Type="Microsoft.Windows.EventTracing.Timestamp" />
+      </Parameters>
+      <Docs>
+        <param name="timestamp">
+            The relative timestamp for which to get an approximate <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />.
+            </param>
+        <summary>
+            Gets a <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> that approximates a <see cref="T:Microsoft.Windows.EventTracing.Timestamp" /> within the trace.
+            </summary>
+        <returns>
+            A <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> that approximates the <see cref="T:Microsoft.Windows.EventTracing.Timestamp" /> within the trace.
+            </returns>
+        <remarks>
+            Depending on <see cref="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ClockType" />, <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> may be more or less precise than
+            timestamp. If <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> is more precise than <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />, multiple
+            <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />s may correspond to a single <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />, and this method will
+            pick one of them. If <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> is less precise than <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />, this
+            method will pick the closest <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> to that <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />. It is also
+            possible that, due to the clock's frequency, no <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> will correspond to the
+            <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />, and this method will pick a <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> that corresponds to a
+            nearby <see cref="T:Microsoft.Windows.EventTracing.Timestamp" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDateTimeOffset">
+      <MemberSignature Language="C#" Value="public DateTimeOffset GetDateTimeOffset (Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestampValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTimeOffset GetDateTimeOffset(valuetype Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestampValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITraceTimestampContext.GetDateTimeOffset(Microsoft.Windows.EventTracing.TraceTimestampValue)" />
+      <MemberSignature Language="F#" Value="abstract member GetDateTimeOffset : Microsoft.Windows.EventTracing.TraceTimestampValue -&gt; DateTimeOffset" Usage="iTraceTimestampContext.GetDateTimeOffset traceTimestampValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="traceTimestampValue" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+      </Parameters>
+      <Docs>
+        <param name="traceTimestampValue">The original timestamp value from the event header or payload.</param>
+        <summary>Gets the absolute clock time for an original timestamp in an event header or payload.</summary>
+        <returns>The absolute clock time for an original timestamp in an event header or payload.</returns>
+        <remarks>
+            The precision of <see cref="T:System.DateTimeOffset" /> is only in ticks (100-nanosecond intervals), which is usually
+            less than the <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> (which is usually more precise than nanoseconds) as well as
+            <see cref="T:Microsoft.Windows.EventTracing.Timestamp" /> (which is precise to nanoseconds).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRelativeTimestamp">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.Timestamp GetRelativeTimestamp (Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestampValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Windows.EventTracing.Timestamp GetRelativeTimestamp(valuetype Microsoft.Windows.EventTracing.TraceTimestampValue traceTimestampValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Windows.EventTracing.ITraceTimestampContext.GetRelativeTimestamp(Microsoft.Windows.EventTracing.TraceTimestampValue)" />
+      <MemberSignature Language="F#" Value="abstract member GetRelativeTimestamp : Microsoft.Windows.EventTracing.TraceTimestampValue -&gt; Microsoft.Windows.EventTracing.Timestamp" Usage="iTraceTimestampContext.GetRelativeTimestamp traceTimestampValue" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.Timestamp</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="traceTimestampValue" Type="Microsoft.Windows.EventTracing.TraceTimestampValue" />
+      </Parameters>
+      <Docs>
+        <param name="traceTimestampValue">The original timestamp value from the event header or payload.</param>
+        <summary>Gets a trace-relative timestamp from an original timestamp in an event header or payload.</summary>
+        <returns>A trace-relative timestamp.</returns>
+        <remarks>
+            The precision of <see cref="T:Microsoft.Windows.EventTracing.Timestamp" /> is nanoseconds, which is usually less than a
+            <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" />.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartial">
+      <MemberSignature Language="C#" Value="public bool IsPartial { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartial" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.IsPartial" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPartial As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPartial : bool" Usage="Microsoft.Windows.EventTracing.ITraceTimestampContext.IsPartial" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value that indicates whether the context is being used with a trace timestamp that is only accurate
+            to nanoseconds, and a full <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> value is not available.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset ReferenceTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset ReferenceTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReferenceTime As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.ReferenceTime : DateTimeOffset" Usage="Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an absolute time that is know to match up exactly with the <see cref="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceValue" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Callers should not assume that the relationship between <see cref="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceValue" /> and
+            <see cref="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceTime" /> is perfectly linear in both directions. For example, there may be gaps. Instead,
+            callers should use <see cref="M:Microsoft.Windows.EventTracing.ITraceTimestampContext.GetDateTimeOffset(Microsoft.Windows.EventTracing.TraceTimestampValue)" /> or <see cref="M:Microsoft.Windows.EventTracing.ITraceTimestampContext.GetRelativeTimestamp(Microsoft.Windows.EventTracing.TraceTimestampValue)" /> to convert a
+            <see cref="T:Microsoft.Windows.EventTracing.TraceTimestampValue" /> to an absolute or relative time.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Windows.EventTracing.TraceTimestampValue ReferenceValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Windows.EventTracing.TraceTimestampValue ReferenceValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReferenceValue As TraceTimestampValue" />
+      <MemberSignature Language="F#" Value="member this.ReferenceValue : Microsoft.Windows.EventTracing.TraceTimestampValue" Usage="Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Windows.EventTracing.Processing</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Windows.EventTracing.TraceTimestampValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets an original timestamp value that is known to match up exactly with the <see cref="P:Microsoft.Windows.EventTracing.ITraceTimestampContext.ReferenceTime" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
