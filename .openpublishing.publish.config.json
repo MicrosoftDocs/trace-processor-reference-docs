@@ -62,8 +62,9 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-  "need_generate_intellisense": false,
+    }
+  ],
+    "need_generate_intellisense": false,
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
