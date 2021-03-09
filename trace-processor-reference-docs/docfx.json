@@ -44,7 +44,8 @@
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/trace-processor-reference-docs",
-      "feedback_product_url": "https://github.com/microsoft/eventtracing-processing/issues" 
+      "feedback_product_url": "https://github.com/microsoft/eventtracing-processing/issues",
+      "ms.topic:": "language-reference"
     },
     "fileMetadata": {
       "author": {
