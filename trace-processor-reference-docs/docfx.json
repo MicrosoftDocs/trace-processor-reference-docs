@@ -45,7 +45,8 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/trace-processor-reference-docs",
       "feedback_product_url": "https://github.com/microsoft/eventtracing-processing/issues",
-      "ms.topic:": "language-reference"
+      "ms.topic:": "language-reference",
+      "ms.prod": "traceprocessor"
     },
     "fileMetadata": {
       "author": {
