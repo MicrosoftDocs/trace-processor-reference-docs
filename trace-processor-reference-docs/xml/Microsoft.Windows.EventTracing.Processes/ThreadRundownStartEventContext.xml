@@ -38,7 +38,7 @@
         <param name="sourceEvent">The unparsed event used to attempt to parse this event.</param>
         <param name="state">The mutable state associated with this event context.</param>
         <param name="data">The data from the event that was parsed, if successful.</param>
-        <param name="exception">The exception that occured attempting to parse the event, if any.</param>
+        <param name="exception">The exception that occurred attempting to parse the event, if any.</param>
         <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.EventTracing.Processes.ThreadRundownStartEventContext" /> structure.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -123,7 +123,7 @@
         <ReturnType>System.Runtime.ExceptionServices.ExceptionDispatchInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the exception that occured attempting to parse the event, if any.</summary>
+        <summary>Gets the exception that occurred attempting to parse the event, if any.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
