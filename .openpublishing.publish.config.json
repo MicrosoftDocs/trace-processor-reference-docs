@@ -47,7 +47,8 @@
     }
   ],
   "notification_subscribers": [
-    "dmatson@microsoft.com"
+    "trgibeau@microsoft.com",
+    "jmaxson@microsoft.com"
   ],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
