@@ -40,7 +40,7 @@
       ]
     },
     "globalMetadata": {
-      "ms.service": "traceprocessor",
+      "ms.service": "dotnet-traceprocessing",
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "feedback_system": "GitHub",
